@@ -8,22 +8,15 @@ Hi,
 
 Please find my submission for the GenAI Exploration Lead take-home assignment.
 
-I built a hybrid product deduplication pipeline that combines deterministic rules with GPT-4o for ambiguous cases. The system processes real product data scraped from Zap.co.il across randomly sampled categories (a different mix each run), handles Hebrew/English/mixed-language titles, and outputs deduplicated product groups with the lowest price per product.
+I built a hybrid pipeline that deduplicates product listings scraped from Zap.co.il. It uses deterministic rules for the easy cases and GPT-4o for ambiguous ones (Hebrew/English mixed titles, brand transliterations, etc.). No hardcoded brand dictionaries or product-specific mappings -- all language-dependent reasoning is delegated to LLMs, so it works across categories without code changes.
 
-Key results:
-- **Average F1: 0.9866** across cross-validated runs with different random category samples
-- **95% cluster purity**, with 100% price accuracy on correctly-grouped products
-- Less than **5% of decisions** required LLM calls -- the rest were handled by deterministic rules
-- **Zero hardcoded dictionaries** -- all language-dependent reasoning (brand mapping, noise filtering, variant generation) is delegated to LLMs
-- Tested on diverse categories: electronics, appliances, perfumes, ink cartridges, trampolines, and more
+Results: **F1=0.9866** averaged across runs on randomly sampled categories (perfumes, AC units, coffee machines, monitors, dryers, and more). **95% cluster purity**, 100% price accuracy on correctly-grouped products. Less than 5% of decisions needed an LLM call.
 
-The pipeline deliberately avoids hardcoded brand dictionaries or noise phrase lists. Instead, it uses GPT-4o-mini for scraper noise filtering and synthetic data generation, and GPT-4o for ambiguous pair judgment -- making it category-agnostic and generalizable without code changes.
-
-The repository includes full source code, evaluation dataset, comprehensive debug artifacts, and a detailed README explaining design decisions.
+The repo includes cached data so you can run `python src/main.py` without an API key. The README covers design decisions, evaluation methodology, and known limitations.
 
 GitHub: https://github.com/MaximRaevsky/zap-product-dedup
 
-Happy to discuss the approach, trade-offs, or next steps for productionization.
+Happy to discuss.
 
 Best regards,
 Maxim Raevsky
