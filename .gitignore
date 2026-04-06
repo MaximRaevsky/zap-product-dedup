@@ -1,0 +1,10 @@
+.env
+__pycache__/
+*.pyc
+.DS_Store
+data/processed/llm_cache.json
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
