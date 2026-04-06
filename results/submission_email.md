@@ -12,7 +12,8 @@ I built a hybrid product deduplication pipeline that combines deterministic rule
 
 Key results:
 - **Average F1: 0.9866** across cross-validated runs with different random category samples
-- **100% price correctness** on all testable clusters
+- **95% cluster purity**, with 100% price accuracy on correctly-grouped products
+- Customers save **17.5% on average** (median 164 NIS) by seeing the grouped cheapest price
 - Less than **5% of decisions** required LLM calls -- the rest were handled by deterministic rules
 - **Zero hardcoded dictionaries** -- all language-dependent reasoning (brand mapping, noise filtering, variant generation) is delegated to LLMs
 - Tested on diverse categories: electronics, appliances, perfumes, ink cartridges, trampolines, and more

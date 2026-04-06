@@ -12,10 +12,22 @@
     "overlapping_pairs": 3262
   },
   "price": {
+    "cluster_purity": 0.9524,
+    "pure_clusters": 60,
+    "impure_clusters": 3,
     "price_accuracy": 1.0,
-    "correct": 60,
-    "total": 60,
-    "errors": []
+    "price_correct": 60,
+    "price_evaluated": 60,
+    "products_in_impure_clusters": 84,
+    "price_errors": [],
+    "savings": {
+      "products_evaluated": 60,
+      "products_with_variation": 60,
+      "avg_saving_pct": 17.5,
+      "max_saving_pct": 30.6,
+      "median_saving_abs": 164.0,
+      "avg_saving_abs": 247.1
+    }
   },
   "errors": {
     "false_positives": 7,
@@ -29,7 +41,7 @@
     "dup_predictions": 6149,
     "clusters": 63,
     "grouped_clusters": 63,
-    "elapsed_s": 6.2,
+    "elapsed_s": 5.8,
     "seed": null
   }
 }
