@@ -1,0 +1,35 @@
+{
+  "pairwise": {
+    "true_positives": 311,
+    "false_positives": 21,
+    "false_negatives": 29,
+    "true_negatives": 232,
+    "precision": 0.9367,
+    "recall": 0.9147,
+    "f1": 0.9256,
+    "total_gt_pairs": 593,
+    "total_pred_pairs": 2845,
+    "overlapping_pairs": 370
+  },
+  "price": {
+    "price_accuracy": 1.0,
+    "correct": 71,
+    "total": 71,
+    "errors": []
+  },
+  "errors": {
+    "false_positives": 23,
+    "false_negatives": 29,
+    "low_confidence": 0,
+    "llm_disagreements": 58
+  },
+  "pipeline_stats": {
+    "total_listings": 471,
+    "candidate_pairs": 3000,
+    "rule_results": 3000,
+    "final_pairs_dup": 1241,
+    "clusters_total": 102,
+    "clusters_multi": 92,
+    "elapsed_seconds": 1.8
+  }
+}

@@ -1,0 +1,272 @@
+[
+  {
+    "raw_title": "מכונת קפה Essenza Mini EN85L נספרסו Nespresso צבע ליים",
+    "brand": "Nespresso",
+    "brand_confidence": 0.95,
+    "model_number": null,
+    "series": "Essenza",
+    "storage": null,
+    "screen_size": null
+  },
+  {
+    "raw_title": "מכונת קפה Ninja Luxe Essential ES601EU",
+    "brand": null,
+    "brand_confidence": 0.0,
+    "model_number": "ES601EU",
+    "series": null,
+    "storage": null,
+    "screen_size": null
+  },
+  {
+    "raw_title": "מכונת קפה Ninja Luxe Essential ES501EU",
+    "brand": null,
+    "brand_confidence": 0.0,
+    "model_number": "ES501EU",
+    "series": null,
+    "storage": null,
+    "screen_size": null
+  },
+  {
+    "raw_title": "טלפון סלולרי (Samsung Galaxy S25 PLUS 12GB+256GB (SM-S936B/DS",
+    "brand": "Samsung",
+    "brand_confidence": 0.95,
+    "model_number": "SM-S936B/DS",
+    "series": "Galaxy S25 PLUS",
+    "storage": "256GB",
+    "screen_size": null
+  },
+  {
+    "raw_title": "טלוויזיה חכמה 65\" Samsung QLED סמסונג QE65Q60D",
+    "brand": "Samsung",
+    "brand_confidence": 0.95,
+    "model_number": null,
+    "series": null,
+    "storage": null,
+    "screen_size": null
+  },
+  {
+    "raw_title": "טלפון סלולרי Apple iPhone 15 128GB אפל",
+    "brand": "Apple",
+    "brand_confidence": 0.95,
+    "model_number": null,
+    "series": "iPhone 15",
+    "storage": "128GB",
+    "screen_size": null
+  },
+  {
+    "raw_title": "טלפון סלולרי Apple iPhone 15 256GB אפל",
+    "brand": "Apple",
+    "brand_confidence": 0.95,
+    "model_number": null,
+    "series": "iPhone 15",
+    "storage": "256GB",
+    "screen_size": null
+  },
+  {
+    "raw_title": "סמארטפון Apple iPhone 16 128GB אפל",
+    "brand": "Apple",
+    "brand_confidence": 0.95,
+    "model_number": null,
+    "series": "iPhone 16",
+    "storage": "128GB",
+    "screen_size": null
+  },
+  {
+    "raw_title": "טלפון סלולרי Galaxy S26 Ultra SM-S948B/DS 1TB 16GB RAM Samsung סמסונג",
+    "brand": "Samsung",
+    "brand_confidence": 0.95,
+    "model_number": "SM-S948B/DS",
+    "series": "Galaxy S26 Ultra",
+    "storage": "1TB",
+    "screen_size": null
+  },
+  {
+    "raw_title": "אוזניות  ‏חוטיות Logitech H390",
+    "brand": null,
+    "brand_confidence": 0.0,
+    "model_number": null,
+    "series": null,
+    "storage": null,
+    "screen_size": null
+  },
+  {
+    "raw_title": "אוזניות  ‏חוטיות Audio Technica ATH-M50x",
+    "brand": "Audio Technica",
+    "brand_confidence": 0.95,
+    "model_number": null,
+    "series": null,
+    "storage": null,
+    "screen_size": null
+  },
+  {
+    "raw_title": "טלוויזיה Samsung QE75Q7F QLED 4K  ‏75 ‏אינטש",
+    "brand": "Samsung",
+    "brand_confidence": 0.95,
+    "model_number": null,
+    "series": null,
+    "storage": null,
+    "screen_size": null
+  },
+  {
+    "raw_title": "טלוויזיה Samsung QE75Q7F QLED 4K 75 אינטש",
+    "brand": "Samsung",
+    "brand_confidence": 0.95,
+    "model_number": null,
+    "series": null,
+    "storage": null,
+    "screen_size": "75\""
+  },
+  {
+    "raw_title": "טלוויזיה Samsung QE65Q7F QLED 4K  ‏65 ‏אינטש",
+    "brand": "Samsung",
+    "brand_confidence": 0.95,
+    "model_number": null,
+    "series": null,
+    "storage": null,
+    "screen_size": null
+  },
+  {
+    "raw_title": "טלוויזיה Samsung QE55Q7F 4K  ‏55 ‏אינטש",
+    "brand": "Samsung",
+    "brand_confidence": 0.95,
+    "model_number": null,
+    "series": null,
+    "storage": null,
+    "screen_size": null
+  },
+  {
+    "raw_title": "‏מכונת אספרסו Nespresso Delonghi Essenza Mini D30 EN85",
+    "brand": "Nespresso",
+    "brand_confidence": 0.95,
+    "model_number": null,
+    "series": "Essenza",
+    "storage": null,
+    "screen_size": null
+  },
+  {
+    "raw_title": "‏מכונת אספרסו Nespresso Essenza Mini C30",
+    "brand": "Nespresso",
+    "brand_confidence": 0.95,
+    "model_number": null,
+    "series": "Essenza",
+    "storage": null,
+    "screen_size": null
+  },
+  {
+    "raw_title": "Nespresso מכונת קפה NESPRESSO CREATISTA PLUS נספרסו דגם J520-IL-ME-NE פלוס",
+    "brand": "Nespresso",
+    "brand_confidence": 0.95,
+    "model_number": null,
+    "series": "CREATISTA",
+    "storage": null,
+    "screen_size": null
+  },
+  {
+    "raw_title": "‏מכונת אספרסו Nespresso Lattissima One EN510",
+    "brand": "Nespresso",
+    "brand_confidence": 0.95,
+    "model_number": "EN510",
+    "series": null,
+    "storage": null,
+    "screen_size": null
+  },
+  {
+    "raw_title": "‏מכונת אספרסו Delonghi ECAM21.117",
+    "brand": "DeLonghi",
+    "brand_confidence": 0.95,
+    "model_number": null,
+    "series": null,
+    "storage": null,
+    "screen_size": null
+  },
+  {
+    "raw_title": "‏מכונת אספרסו Gaggia Besana",
+    "brand": "Nespresso",
+    "brand_confidence": 0.7,
+    "model_number": null,
+    "series": null,
+    "storage": null,
+    "screen_size": null
+  },
+  {
+    "raw_title": "‏מכונת אספרסו Breville BES878",
+    "brand": "Breville",
+    "brand_confidence": 0.95,
+    "model_number": "BES878",
+    "series": null,
+    "storage": null,
+    "screen_size": null
+  },
+  {
+    "raw_title": "מכונת אספרסו Breville BES878 יבואן רשמי",
+    "brand": "Breville",
+    "brand_confidence": 0.95,
+    "model_number": "BES878",
+    "series": null,
+    "storage": null,
+    "screen_size": null
+  },
+  {
+    "raw_title": "‏מכונת אספרסו Nespresso Inissia EN 80",
+    "brand": "Nespresso",
+    "brand_confidence": 0.95,
+    "model_number": null,
+    "series": "Inissia",
+    "storage": null,
+    "screen_size": null
+  },
+  {
+    "raw_title": "‏מכונת אספרסו Nespresso Inissia EN 80 נספרסו",
+    "brand": "Nespresso",
+    "brand_confidence": 0.95,
+    "model_number": null,
+    "series": "Inissia",
+    "storage": null,
+    "screen_size": null
+  },
+  {
+    "raw_title": "אוזניות  ‏חוטיות Razer BlackShark V2 X",
+    "brand": null,
+    "brand_confidence": 0.0,
+    "model_number": null,
+    "series": null,
+    "storage": null,
+    "screen_size": null
+  },
+  {
+    "raw_title": "מחשב נייד Apple MacBook Air 13 MGN63HB/A MGN93HB/A MGND3HB/A",
+    "brand": "Apple",
+    "brand_confidence": 0.95,
+    "model_number": null,
+    "series": "MacBook Air 13",
+    "storage": null,
+    "screen_size": null
+  },
+  {
+    "raw_title": "‏מכונת אספרסו Delonghi ECAM350.15.B",
+    "brand": "DeLonghi",
+    "brand_confidence": 0.95,
+    "model_number": "ECAM350",
+    "series": null,
+    "storage": null,
+    "screen_size": null
+  },
+  {
+    "raw_title": "אוזניות  ‏אלחוטיות JBL Tune 510BT",
+    "brand": "JBL",
+    "brand_confidence": 0.95,
+    "model_number": null,
+    "series": null,
+    "storage": null,
+    "screen_size": null
+  },
+  {
+    "raw_title": "‏מכונת אספרסו Breville Barista Express with Milk Jug Thermal BES875",
+    "brand": "Breville",
+    "brand_confidence": 0.95,
+    "model_number": "BES875",
+    "series": null,
+    "storage": null,
+    "screen_size": null
+  }
+]

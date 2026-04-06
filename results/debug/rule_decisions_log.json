@@ -1,0 +1,2002 @@
+[
+  {
+    "title_a": "מכונת קפה Ninja Luxe Essential ES601EU",
+    "title_b": "‏מכונת אספרסו Ninja Luxe Essential ES601EU",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": false,
+    "same_model": true,
+    "same_series": false
+  },
+  {
+    "title_a": "מכונת קפה Ninja Luxe Essential ES601EU",
+    "title_b": "מכונת קפה Ninja Luxe Essential ES601EU",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": false,
+    "same_model": true,
+    "same_series": false
+  },
+  {
+    "title_a": "מכונת קפה Ninja Luxe Essential ES601EU",
+    "title_b": "Ninja Luxe Essential ES601EU",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": false,
+    "same_model": true,
+    "same_series": false
+  },
+  {
+    "title_a": "מכונת קפה Ninja Luxe Essential ES601EU",
+    "title_b": "מכונת קפה Ninja Luxe Essential ES601EU אחריות מעבדות",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": false,
+    "same_model": true,
+    "same_series": false
+  },
+  {
+    "title_a": "מכונת קפה Ninja Luxe Essential ES601EU",
+    "title_b": "מכונת אספרסו Ninja Luxe Essential ES601EU",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": false,
+    "same_model": true,
+    "same_series": false
+  },
+  {
+    "title_a": "מכונת קפה Ninja Luxe Essential ES601EU",
+    "title_b": "‏מכונת אספרסו Ninja Luxe Essential ES601EU בצבע כחול",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": false,
+    "same_model": true,
+    "same_series": false
+  },
+  {
+    "title_a": "מכונת קפה Ninja Luxe Essential ES501EU",
+    "title_b": "‏מכונת אספרסו Ninja Luxe Essential ES501EU",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": false,
+    "same_model": true,
+    "same_series": false
+  },
+  {
+    "title_a": "מכונת קפה Ninja Luxe Essential ES501EU",
+    "title_b": "‏מכונת אספרסו Ninja Luxe Essential ES501EU משלוח חינם",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": false,
+    "same_model": true,
+    "same_series": false
+  },
+  {
+    "title_a": "מכונת קפה Ninja Luxe Essential ES501EU",
+    "title_b": "Luxe Essential ES501EU ‏מכונת אספרסו Ninja",
+    "rule_fired": "high_token_sort_no_brand",
+    "rule_confidence": 0.7,
+    "token_sort_ratio": 100.0,
+    "same_brand": false,
+    "same_model": true,
+    "same_series": false
+  },
+  {
+    "title_a": "אוזניות  ‏חוטיות Logitech H390",
+    "title_b": "‏חוטיות Logitech H390",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": false,
+    "same_model": false,
+    "same_series": false
+  },
+  {
+    "title_a": "אוזניות  ‏חוטיות Razer BlackShark V2 X",
+    "title_b": "אוזניות אלחוטיות ‏חוטיות Razer BlackShark V2 X",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": false,
+    "same_model": false,
+    "same_series": false
+  },
+  {
+    "title_a": "אוזניות  ‏חוטיות Razer BlackShark V2 X",
+    "title_b": "BlackShark V2 X אוזניות ‏חוטיות Razer",
+    "rule_fired": "high_token_sort_no_brand",
+    "rule_confidence": 0.7,
+    "token_sort_ratio": 100.0,
+    "same_brand": false,
+    "same_model": false,
+    "same_series": false
+  },
+  {
+    "title_a": "‏מקציף חלב Hemilton HEM-243",
+    "title_b": "Hemilton HEM-243 ‏מקציף חלב",
+    "rule_fired": "high_token_sort_no_brand",
+    "rule_confidence": 0.7,
+    "token_sort_ratio": 100.0,
+    "same_brand": false,
+    "same_model": false,
+    "same_series": false
+  },
+  {
+    "title_a": "‏מקציף חלב Hemilton HEM-243",
+    "title_b": "‏מקציף חלב Hemilton HEM-243 בצבע שחור",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": false,
+    "same_model": false,
+    "same_series": false
+  },
+  {
+    "title_a": "‏מקציף חלב Hemilton HEM-265/HEM-264",
+    "title_b": "Hemilton HEM-265/HEM-264 ‏מקציף חלב",
+    "rule_fired": "high_token_sort_no_brand",
+    "rule_confidence": 0.7,
+    "token_sort_ratio": 100.0,
+    "same_brand": false,
+    "same_model": false,
+    "same_series": false
+  },
+  {
+    "title_a": "‏מקציף חלב Hemilton HEM-265/HEM-264",
+    "title_b": "מכונת קפה אוטומטית ‏מקציף חלב Hemilton HEM-265/HEM-264",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": false,
+    "same_model": false,
+    "same_series": false
+  },
+  {
+    "title_a": "‏מקציף חלב Hemilton HEM-265/HEM-264",
+    "title_b": "‏מקציף חלב Hemilton HEM-265/HEM-264 Black",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": false,
+    "same_model": false,
+    "same_series": false
+  },
+  {
+    "title_a": "טלוויזיה MAG CR32E HD Ready  ‏32 ‏אינטש",
+    "title_b": "TV MAG CR32E HD Ready  ‏32 ‏אינטש",
+    "rule_fired": "high_token_sort_no_brand",
+    "rule_confidence": 0.7,
+    "token_sort_ratio": 94.54545454545455,
+    "same_brand": false,
+    "same_model": false,
+    "same_series": false
+  },
+  {
+    "title_a": "טלוויזיה MAG CR32E HD Ready  ‏32 ‏אינטש",
+    "title_b": "טלוויזיה MAG CR32E HD Ready  ‏32 ‏אינטש אחריות מעבדות",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": false,
+    "same_model": false,
+    "same_series": false
+  },
+  {
+    "title_a": "‏מכונת אספרסו Ninja Luxe Essential ES601EU",
+    "title_b": "מכונת קפה Ninja Luxe Essential ES601EU",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": false,
+    "same_model": true,
+    "same_series": false
+  },
+  {
+    "title_a": "‏מכונת אספרסו Ninja Luxe Essential ES601EU",
+    "title_b": "Ninja Luxe Essential ES601EU",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": false,
+    "same_model": true,
+    "same_series": false
+  },
+  {
+    "title_a": "‏מכונת אספרסו Ninja Luxe Essential ES601EU",
+    "title_b": "מכונת קפה Ninja Luxe Essential ES601EU אחריות מעבדות",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": false,
+    "same_model": true,
+    "same_series": false
+  },
+  {
+    "title_a": "מכונת קפה Ninja Luxe Essential ES601EU",
+    "title_b": "Ninja Luxe Essential ES601EU",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": false,
+    "same_model": true,
+    "same_series": false
+  },
+  {
+    "title_a": "מכונת קפה Ninja Luxe Essential ES601EU",
+    "title_b": "מכונת קפה Ninja Luxe Essential ES601EU אחריות מעבדות",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": false,
+    "same_model": true,
+    "same_series": false
+  },
+  {
+    "title_a": "מכונת קפה Ninja Luxe Essential ES601EU",
+    "title_b": "מכונת אספרסו Ninja Luxe Essential ES601EU",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": false,
+    "same_model": true,
+    "same_series": false
+  },
+  {
+    "title_a": "מכונת קפה Ninja Luxe Essential ES601EU",
+    "title_b": "‏מכונת אספרסו Ninja Luxe Essential ES601EU בצבע כחול",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": false,
+    "same_model": true,
+    "same_series": false
+  },
+  {
+    "title_a": "Ninja Luxe Essential ES601EU",
+    "title_b": "מכונת קפה Ninja Luxe Essential ES601EU אחריות מעבדות",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": false,
+    "same_model": true,
+    "same_series": false
+  },
+  {
+    "title_a": "Ninja Luxe Essential ES601EU",
+    "title_b": "מכונת אספרסו Ninja Luxe Essential ES601EU",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": false,
+    "same_model": true,
+    "same_series": false
+  },
+  {
+    "title_a": "Ninja Luxe Essential ES601EU",
+    "title_b": "‏מכונת אספרסו Ninja Luxe Essential ES601EU בצבע כחול",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": false,
+    "same_model": true,
+    "same_series": false
+  },
+  {
+    "title_a": "מכונת קפה Ninja Luxe Essential ES601EU אחריות מעבדות",
+    "title_b": "מכונת אספרסו Ninja Luxe Essential ES601EU",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": false,
+    "same_model": true,
+    "same_series": false
+  },
+  {
+    "title_a": "מכונת קפה Ninja Luxe Essential ES601EU אחריות מעבדות",
+    "title_b": "‏מכונת אספרסו Ninja Luxe Essential ES601EU בצבע כחול",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": false,
+    "same_model": true,
+    "same_series": false
+  },
+  {
+    "title_a": "אוזניות אלחוטיות ‏חוטיות Razer BlackShark V2 X",
+    "title_b": "BlackShark V2 X אוזניות ‏חוטיות Razer",
+    "rule_fired": "high_token_sort_no_brand",
+    "rule_confidence": 0.7,
+    "token_sort_ratio": 100.0,
+    "same_brand": false,
+    "same_model": false,
+    "same_series": false
+  },
+  {
+    "title_a": "Hemilton HEM-243 ‏מקציף חלב",
+    "title_b": "‏מקציף חלב Hemilton HEM-243 בצבע שחור",
+    "rule_fired": "high_token_sort_no_brand",
+    "rule_confidence": 0.7,
+    "token_sort_ratio": 100.0,
+    "same_brand": false,
+    "same_model": false,
+    "same_series": false
+  },
+  {
+    "title_a": "Hemilton HEM-265/HEM-264 ‏מקציף חלב",
+    "title_b": "מכונת קפה אוטומטית ‏מקציף חלב Hemilton HEM-265/HEM-264",
+    "rule_fired": "high_token_sort_no_brand",
+    "rule_confidence": 0.7,
+    "token_sort_ratio": 100.0,
+    "same_brand": false,
+    "same_model": false,
+    "same_series": false
+  },
+  {
+    "title_a": "Hemilton HEM-265/HEM-264 ‏מקציף חלב",
+    "title_b": "‏מקציף חלב Hemilton HEM-265/HEM-264 Black",
+    "rule_fired": "high_token_sort_no_brand",
+    "rule_confidence": 0.7,
+    "token_sort_ratio": 100.0,
+    "same_brand": false,
+    "same_model": false,
+    "same_series": false
+  },
+  {
+    "title_a": "מכונת קפה אוטומטית ‏מקציף חלב Hemilton HEM-265/HEM-264",
+    "title_b": "‏מקציף חלב Hemilton HEM-265/HEM-264 Black",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": false,
+    "same_model": false,
+    "same_series": false
+  },
+  {
+    "title_a": "TV MAG CR32E HD Ready  ‏32 ‏אינטש",
+    "title_b": "טלוויזיה MAG CR32E HD Ready  ‏32 ‏אינטש אחריות מעבדות",
+    "rule_fired": "high_token_sort_no_brand",
+    "rule_confidence": 0.7,
+    "token_sort_ratio": 94.54545454545455,
+    "same_brand": false,
+    "same_model": false,
+    "same_series": false
+  },
+  {
+    "title_a": "מחשב נייד HP Victus 15-fa2011nj בצבע כסף מיקה C93FLEA",
+    "title_b": "מחשב נייד אייץ' פי Victus 15-fa2011nj בצבע כסף מיקה C93FLEA",
+    "rule_fired": "medium_token_sort",
+    "rule_confidence": 0.5,
+    "token_sort_ratio": 83.78378378378379,
+    "same_brand": false,
+    "same_model": false,
+    "same_series": false
+  },
+  {
+    "title_a": "מחשב נייד אייץ' פי Victus 15-fa2011nj בצבע כסף מיקה C93FLEA",
+    "title_b": "HP Victus 15-fa2011nj בצבע כסף מיקה C93FLEA",
+    "rule_fired": "medium_token_sort",
+    "rule_confidence": 0.5,
+    "token_sort_ratio": 83.78378378378379,
+    "same_brand": false,
+    "same_model": false,
+    "same_series": false
+  },
+  {
+    "title_a": "מחשב נייד אייץ' פי Victus 15-fa2011nj בצבע כסף מיקה C93FLEA",
+    "title_b": "15-fa2011nj בצבע כסף מיקה C93FLEA מחשב נייד HP Victus",
+    "rule_fired": "medium_token_sort",
+    "rule_confidence": 0.5,
+    "token_sort_ratio": 83.78378378378379,
+    "same_brand": false,
+    "same_model": false,
+    "same_series": false
+  },
+  {
+    "title_a": "‏מקציף חלב Hemilton HEM-243",
+    "title_b": "‏מקציף חלב Hemilton HEM-265/HEM-264",
+    "rule_fired": "medium_token_sort",
+    "rule_confidence": 0.5,
+    "token_sort_ratio": 83.33333333333334,
+    "same_brand": false,
+    "same_model": false,
+    "same_series": false
+  },
+  {
+    "title_a": "‏מקציף חלב Hemilton HEM-243",
+    "title_b": "Hemilton HEM-265/HEM-264 ‏מקציף חלב",
+    "rule_fired": "medium_token_sort",
+    "rule_confidence": 0.5,
+    "token_sort_ratio": 83.33333333333334,
+    "same_brand": false,
+    "same_model": false,
+    "same_series": false
+  },
+  {
+    "title_a": "‏מקציף חלב Hemilton HEM-243",
+    "title_b": "מכונת קפה אוטומטית ‏מקציף חלב Hemilton HEM-265/HEM-264",
+    "rule_fired": "medium_token_sort",
+    "rule_confidence": 0.5,
+    "token_sort_ratio": 83.33333333333334,
+    "same_brand": false,
+    "same_model": false,
+    "same_series": false
+  },
+  {
+    "title_a": "‏מקציף חלב Hemilton HEM-243",
+    "title_b": "‏מקציף חלב Hemilton HEM-265/HEM-264 Black",
+    "rule_fired": "medium_token_sort",
+    "rule_confidence": 0.5,
+    "token_sort_ratio": 83.33333333333334,
+    "same_brand": false,
+    "same_model": false,
+    "same_series": false
+  },
+  {
+    "title_a": "‏מקציף חלב Hemilton HEM-265/HEM-264",
+    "title_b": "Hemilton HEM-243 ‏מקציף חלב",
+    "rule_fired": "medium_token_sort",
+    "rule_confidence": 0.5,
+    "token_sort_ratio": 83.33333333333334,
+    "same_brand": false,
+    "same_model": false,
+    "same_series": false
+  },
+  {
+    "title_a": "‏מקציף חלב Hemilton HEM-265/HEM-264",
+    "title_b": "‏מקציף חלב Hemilton HEM-243 בצבע שחור",
+    "rule_fired": "medium_token_sort",
+    "rule_confidence": 0.5,
+    "token_sort_ratio": 83.33333333333334,
+    "same_brand": false,
+    "same_model": false,
+    "same_series": false
+  },
+  {
+    "title_a": "Hemilton HEM-243 ‏מקציף חלב",
+    "title_b": "Hemilton HEM-265/HEM-264 ‏מקציף חלב",
+    "rule_fired": "medium_token_sort",
+    "rule_confidence": 0.5,
+    "token_sort_ratio": 83.33333333333334,
+    "same_brand": false,
+    "same_model": false,
+    "same_series": false
+  },
+  {
+    "title_a": "Hemilton HEM-243 ‏מקציף חלב",
+    "title_b": "מכונת קפה אוטומטית ‏מקציף חלב Hemilton HEM-265/HEM-264",
+    "rule_fired": "medium_token_sort",
+    "rule_confidence": 0.5,
+    "token_sort_ratio": 83.33333333333334,
+    "same_brand": false,
+    "same_model": false,
+    "same_series": false
+  },
+  {
+    "title_a": "Hemilton HEM-243 ‏מקציף חלב",
+    "title_b": "‏מקציף חלב Hemilton HEM-265/HEM-264 Black",
+    "rule_fired": "medium_token_sort",
+    "rule_confidence": 0.5,
+    "token_sort_ratio": 83.33333333333334,
+    "same_brand": false,
+    "same_model": false,
+    "same_series": false
+  },
+  {
+    "title_a": "‏מקציף חלב Hemilton HEM-243 בצבע שחור",
+    "title_b": "Hemilton HEM-265/HEM-264 ‏מקציף חלב",
+    "rule_fired": "medium_token_sort",
+    "rule_confidence": 0.5,
+    "token_sort_ratio": 83.33333333333334,
+    "same_brand": false,
+    "same_model": false,
+    "same_series": false
+  },
+  {
+    "title_a": "‏מקציף חלב Hemilton HEM-243 בצבע שחור",
+    "title_b": "מכונת קפה אוטומטית ‏מקציף חלב Hemilton HEM-265/HEM-264",
+    "rule_fired": "medium_token_sort",
+    "rule_confidence": 0.5,
+    "token_sort_ratio": 83.33333333333334,
+    "same_brand": false,
+    "same_model": false,
+    "same_series": false
+  },
+  {
+    "title_a": "‏מקציף חלב Hemilton HEM-243 בצבע שחור",
+    "title_b": "‏מקציף חלב Hemilton HEM-265/HEM-264 Black",
+    "rule_fired": "medium_token_sort",
+    "rule_confidence": 0.5,
+    "token_sort_ratio": 83.33333333333334,
+    "same_brand": false,
+    "same_model": false,
+    "same_series": false
+  },
+  {
+    "title_a": "טלוויזיה LG 75QNED93A6A יבואן רשמי",
+    "title_b": "טלוויזיה אל ג'י 75QNED93A6A 4K  ‏75 ‏אינטש",
+    "rule_fired": "brand_high_token_set",
+    "rule_confidence": 0.65,
+    "token_sort_ratio": 55.81395348837209,
+    "same_brand": true,
+    "same_model": false,
+    "same_series": false
+  },
+  {
+    "title_a": "מחשב נייד Asus VivoBook 15 X1504VA-BQ149",
+    "title_b": "Asus VivoBook 15 X1504VA-BQ149",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": true,
+    "same_series": false
+  },
+  {
+    "title_a": "מחשב נייד Asus ExpertBook P1 P1503CVA-S70709",
+    "title_b": "מחשב נייד Asus ExpertBook P1 P1503CVA-S70709 Blue",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": false,
+    "same_series": false
+  },
+  {
+    "title_a": "מחשב נייד Asus ExpertBook P1 P1503CVA-S70709",
+    "title_b": "Asus ExpertBook P1 P1503CVA-S70709",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": false,
+    "same_series": false
+  },
+  {
+    "title_a": "Asus מחשב נייד ASUS ExpertBook P1 P1403CVA-S60650 בצבע אפור מעושן",
+    "title_b": "Asus מחשב נייד ASUS ExpertBook P1 P1403CVA-S60650 בצבע אפור מעושן אחריות מעבדות",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": false,
+    "same_series": false
+  },
+  {
+    "title_a": "מחשב נייד לגיימרים Asus TUF Gaming F16 FX607VJB-RL144W בצבע שחור",
+    "title_b": "לגיימרים Asus TUF Gaming F16 FX607VJB-RL144W בצבע שחור",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": true,
+    "same_series": false
+  },
+  {
+    "title_a": "מחשב נייד לגיימרים Asus TUF Gaming F16 FX607VJB-RL144W בצבע שחור",
+    "title_b": "Gaming F16 FX607VJB-RL144W בצבע שחור מחשב נייד לגיימרים Asus TUF",
+    "rule_fired": "brand_and_model_match",
+    "rule_confidence": 0.95,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": true,
+    "same_series": false
+  },
+  {
+    "title_a": "מחשב נייד Asus TUF Gaming F16 FX607VJ-RL016",
+    "title_b": "מחשב נייד Asus TUF Gaming F16 FX607VJ-RL016 בצבע אפור",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": true,
+    "same_series": false
+  },
+  {
+    "title_a": "מחשב נייד Asus ExpertBook P1 P1503CVA-S70709 Blue",
+    "title_b": "Asus ExpertBook P1 P1503CVA-S70709",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": false,
+    "same_series": false
+  },
+  {
+    "title_a": "לגיימרים Asus TUF Gaming F16 FX607VJB-RL144W בצבע שחור",
+    "title_b": "Gaming F16 FX607VJB-RL144W בצבע שחור מחשב נייד לגיימרים Asus TUF",
+    "rule_fired": "brand_and_model_match",
+    "rule_confidence": 0.95,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": true,
+    "same_series": false
+  },
+  {
+    "title_a": "מחשב נייד Acer Nitro V15 NH.QSGEC.002",
+    "title_b": "מחשב נייד Acer Nitro V15 NH.QSGEC.002",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": false,
+    "same_series": false
+  },
+  {
+    "title_a": "מחשב נייד Acer Nitro V15 NH.QSGEC.002",
+    "title_b": "מחשב נייד Acer Nitro V15 NH.QSGEC.002 יבואן רשמי",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": false,
+    "same_series": false
+  },
+  {
+    "title_a": "מחשב נייד Acer Nitro V15 NH.QSGEC.002",
+    "title_b": "מחשב נייד Acer Nitro V15 NH.QSGEC.002 בצבע אפור",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": false,
+    "same_series": false
+  },
+  {
+    "title_a": "מחשב נייד Acer Nitro V15 NH.QSGEC.002",
+    "title_b": "מחשב נייד Acer Nitro V15 NH.QSGEC.002 יבואן רשמי",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": false,
+    "same_series": false
+  },
+  {
+    "title_a": "מחשב נייד Acer Nitro V15 NH.QSGEC.002",
+    "title_b": "מחשב נייד Acer Nitro V15 NH.QSGEC.002 בצבע אפור",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": false,
+    "same_series": false
+  },
+  {
+    "title_a": "מחשב נייד Acer Nitro V15 NH.QSGEC.002 יבואן רשמי",
+    "title_b": "מחשב נייד Acer Nitro V15 NH.QSGEC.002 בצבע אפור",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": false,
+    "same_series": false
+  },
+  {
+    "title_a": "אוזניות Anker Soundcore Space One Pro Bluetooth",
+    "title_b": "אוזניות Anker Soundcore Space One Pro Bluetooth בצבע כחול",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": false,
+    "same_series": false
+  },
+  {
+    "title_a": "אוזניות Anker Soundcore Liberty 5 Bluetooth",
+    "title_b": "אוזניות Anker Soundcore Liberty 5 Bluetooth יבואן רשמי",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": false,
+    "same_series": false
+  },
+  {
+    "title_a": "אוזניות Anker Soundcore Liberty 5 Bluetooth",
+    "title_b": "Liberty 5 Bluetooth אוזניות Anker Soundcore",
+    "rule_fired": "brand_high_token_sort",
+    "rule_confidence": 0.8,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": false,
+    "same_series": false
+  },
+  {
+    "title_a": "אוזניות Anker Soundcore Liberty 5 Bluetooth",
+    "title_b": "אוזניות בלוטות' Anker Soundcore Liberty 5 Bluetooth",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": false,
+    "same_series": false
+  },
+  {
+    "title_a": "אוזניות Anker Soundcore Liberty 5 Bluetooth",
+    "title_b": "Anker Soundcore Liberty 5 Bluetooth",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": false,
+    "same_series": false
+  },
+  {
+    "title_a": "אוזניות Anker Soundcore Liberty 5 Bluetooth יבואן רשמי",
+    "title_b": "Liberty 5 Bluetooth אוזניות Anker Soundcore",
+    "rule_fired": "brand_high_token_sort",
+    "rule_confidence": 0.8,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": false,
+    "same_series": false
+  },
+  {
+    "title_a": "אוזניות Anker Soundcore Liberty 5 Bluetooth יבואן רשמי",
+    "title_b": "אוזניות בלוטות' Anker Soundcore Liberty 5 Bluetooth",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": false,
+    "same_series": false
+  },
+  {
+    "title_a": "אוזניות Anker Soundcore Liberty 5 Bluetooth יבואן רשמי",
+    "title_b": "Anker Soundcore Liberty 5 Bluetooth",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": false,
+    "same_series": false
+  },
+  {
+    "title_a": "Liberty 5 Bluetooth אוזניות Anker Soundcore",
+    "title_b": "אוזניות בלוטות' Anker Soundcore Liberty 5 Bluetooth",
+    "rule_fired": "brand_high_token_sort",
+    "rule_confidence": 0.8,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": false,
+    "same_series": false
+  },
+  {
+    "title_a": "Liberty 5 Bluetooth אוזניות Anker Soundcore",
+    "title_b": "Anker Soundcore Liberty 5 Bluetooth",
+    "rule_fired": "brand_high_token_sort",
+    "rule_confidence": 0.8,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": false,
+    "same_series": false
+  },
+  {
+    "title_a": "אוזניות בלוטות' Anker Soundcore Liberty 5 Bluetooth",
+    "title_b": "Anker Soundcore Liberty 5 Bluetooth",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": false,
+    "same_series": false
+  },
+  {
+    "title_a": "טלפון סלולרי Apple iPhone 15 128GB אפל",
+    "title_b": "טלפון סלולרי Apple iPhone 15 128GB אפל אחריות יבואן רשמי",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": false,
+    "same_series": true
+  },
+  {
+    "title_a": "טלפון סלולרי Apple iPhone 15 128GB אפל",
+    "title_b": "טלפון סלולרי Apple iPhone 15 128GB אפל בצבע שחור",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": false,
+    "same_series": true
+  },
+  {
+    "title_a": "מחשב נייד Apple MacBook Air 13 MGN63HB/A MGN93HB/A MGND3HB/A",
+    "title_b": "Apple MacBook Air 13 MGN63HB/A MGN93HB/A MGND3HB/A",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": false,
+    "same_series": true
+  },
+  {
+    "title_a": "טלפון סלולרי Apple iPhone 15 128GB",
+    "title_b": "טלפון חכם Apple iPhone 15 128GB",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": false,
+    "same_series": true
+  },
+  {
+    "title_a": "טלפון סלולרי Apple iPhone 15 128GB",
+    "title_b": "Apple iPhone 15 128GB",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": false,
+    "same_series": true
+  },
+  {
+    "title_a": "טלפון סלולרי Apple iPhone 15 128GB",
+    "title_b": "iPhone 15 128GB טלפון סלולרי Apple",
+    "rule_fired": "brand_series_storage_match",
+    "rule_confidence": 0.9,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": false,
+    "same_series": true
+  },
+  {
+    "title_a": "טלפון סלולרי Apple iPhone 15 128GB",
+    "title_b": "טלפון סלולרי Apple iPhone 15 128GB אחריות יבואן רשמי",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": false,
+    "same_series": true
+  },
+  {
+    "title_a": "טלפון סלולרי Apple iPhone 15 256GB",
+    "title_b": "טלפון סלולרי Apple iPhone 15 256GB DCS",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": false,
+    "same_series": true
+  },
+  {
+    "title_a": "טלפון סלולרי Apple iPhone 15 256GB",
+    "title_b": "iPhone 15 256GB טלפון סלולרי Apple",
+    "rule_fired": "brand_series_storage_match",
+    "rule_confidence": 0.9,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": false,
+    "same_series": true
+  },
+  {
+    "title_a": "אוזניות Apple AirPods Pro 2 MagSafe USB-C True Wireless",
+    "title_b": "אוזניות Apple AirPods Pro 2 MagSafe USB-C True Wireless",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": false,
+    "same_series": true
+  },
+  {
+    "title_a": "אוזניות Apple AirPods Pro 2 MagSafe USB-C True Wireless",
+    "title_b": "Apple AirPods Pro 2 MagSafe USB-C True Wireless",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": false,
+    "same_series": true
+  },
+  {
+    "title_a": "אוזניות Apple AirPods Pro 2 MagSafe USB-C True Wireless",
+    "title_b": "Apple AirPods Pro 2 MagSafe USB-C True Wireless",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": false,
+    "same_series": true
+  },
+  {
+    "title_a": "טלפון סלולרי Apple iPhone 16 Pro Max 256GB",
+    "title_b": "טלפון סלולרי Apple iPhone 16 Pro Max 256GB DCS",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": false,
+    "same_series": true
+  },
+  {
+    "title_a": "טלפון סלולרי Apple iPhone 16 Pro Max 256GB",
+    "title_b": "Apple iPhone 16 Pro Max 256GB",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": false,
+    "same_series": true
+  },
+  {
+    "title_a": "טלפון סלולרי Apple iPhone 16 Pro Max 256GB",
+    "title_b": "מכשיר סלולרי Apple iPhone 16 Pro Max 256GB",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": false,
+    "same_series": true
+  },
+  {
+    "title_a": "טלפון סלולרי Apple iPhone 16 128GB",
+    "title_b": "טלפון סלולרי Apple iPhone 16 128GB DCS",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": false,
+    "same_series": true
+  },
+  {
+    "title_a": "טלפון סלולרי Apple iPhone 16 128GB",
+    "title_b": "טלפון סלולרי Apple iPhone 16 128GB בצבע שחור",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": false,
+    "same_series": true
+  },
+  {
+    "title_a": "אוזניות  ‏אלחוטיות Apple AirPods 4 MXP63ZM/A MXP63LL/A MXP63HN/A",
+    "title_b": "‏אלחוטיות Apple AirPods 4 MXP63ZM/A MXP63LL/A MXP63HN/A",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": true,
+    "same_series": true
+  },
+  {
+    "title_a": "אוזניות  ‏אלחוטיות Apple AirPods 4 MXP63ZM/A MXP63LL/A MXP63HN/A",
+    "title_b": "אוזניות בלוטות' ‏אלחוטיות Apple AirPods 4 MXP63ZM/A MXP63LL/A MXP63HN/A",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": true,
+    "same_series": true
+  },
+  {
+    "title_a": "אוזניות Apple AirPods 4 with Active Noise Cancellation MXP93ZM/A True Wireless",
+    "title_b": "אוזניות בלוטות' Apple AirPods 4 with Active Noise Cancellation MXP93ZM/A True Wi",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": true,
+    "same_series": true
+  },
+  {
+    "title_a": "אוזניות Apple AirPods 4 with Active Noise Cancellation MXP93ZM/A True Wireless",
+    "title_b": "אוזניות Apple AirPods 4 with Active Noise Cancellation MXP93ZM/A True Wireless S",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": true,
+    "same_series": true
+  },
+  {
+    "title_a": "אוזניות  ‏אלחוטיות Apple AirPods Max USB-C",
+    "title_b": "‏אלחוטיות Apple AirPods Max USB-C",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": false,
+    "same_series": true
+  },
+  {
+    "title_a": "אוזניות  ‏אלחוטיות Apple AirPods Max USB-C",
+    "title_b": "אוזניות  ‏אלחוטיות Apple AirPods Max USB-C משלוח חינם",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": false,
+    "same_series": true
+  },
+  {
+    "title_a": "מחשב נייד Apple MacBook Air 13 M2 MC7U4HB/A MC7V4HB/A MC7W4HB/A MC7X4HB/A",
+    "title_b": "מחשב נייד Apple MacBook Air 13 M2 MC7U4HB/A MC7V4HB/A MC7W4HB/A MC7X4HB/A Black",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": false,
+    "same_series": true
+  },
+  {
+    "title_a": "מחשב נייד Apple MacBook Air 13 M4 MW123HB/A MW0Y3HB/A MW0W3HB/A MC6T4HB/A",
+    "title_b": "מחשב נייד Apple MacBook Air 13 M4 MW123HB/A MW0Y3HB/A MW0W3HB/A MC6T4HB/A DCS",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": true,
+    "same_series": true
+  },
+  {
+    "title_a": "מחשב נייד Apple MacBook Air 13 M4 MW123HB/A MW0Y3HB/A MW0W3HB/A MC6T4HB/A",
+    "title_b": "13 M4 MW123HB/A MW0Y3HB/A MW0W3HB/A MC6T4HB/A מחשב נייד Apple MacBook Air",
+    "rule_fired": "brand_and_model_match",
+    "rule_confidence": 0.95,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": true,
+    "same_series": false
+  },
+  {
+    "title_a": "מחשב נייד Apple MacBook Air 13 M4 MW133HB/A MW103HB/A MW0X3HB/A MC6U4HB/A",
+    "title_b": "13 M4 MW133HB/A MW103HB/A MW0X3HB/A MC6U4HB/A מחשב נייד Apple MacBook Air",
+    "rule_fired": "brand_and_model_match",
+    "rule_confidence": 0.95,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": true,
+    "same_series": false
+  },
+  {
+    "title_a": "מחשב נייד Apple MacBook Air 13 M4 MW133HB/A MW103HB/A MW0X3HB/A MC6U4HB/A",
+    "title_b": "מחשב נייד Apple MacBook Air 13 M4 MW133HB/A MW103HB/A MW0X3HB/A MC6U4HB/A בצבע ש",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": true,
+    "same_series": true
+  },
+  {
+    "title_a": "מחשב נייד Apple MacBook Air 15 M4 MW1G3HB/A MC7A4HB/A MW1J3HB/A MW1L3HB/A",
+    "title_b": "מחשב נייד Apple MacBook Air 15 M4 MW1G3HB/A MC7A4HB/A MW1J3HB/A MW1L3HB/A אחריות",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": false,
+    "same_series": true
+  },
+  {
+    "title_a": "מחשב נייד Apple MacBook Air 15 M4 MW1G3HB/A MC7A4HB/A MW1J3HB/A MW1L3HB/A",
+    "title_b": "מחשב נייד Apple MacBook Air 15 M4 MW1G3HB/A MC7A4HB/A MW1J3HB/A MW1L3HB/A White",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": false,
+    "same_series": true
+  },
+  {
+    "title_a": "טלפון סלולרי Apple iPhone 17 256GB",
+    "title_b": "טלפון סלולרי Apple iPhone 17 256GB Silver",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": false,
+    "same_series": true
+  },
+  {
+    "title_a": "טלפון סלולרי Apple iPhone 17 Pro Max 256GB",
+    "title_b": "טלפון סלולרי Apple iPhone 17 Pro Max 256GB משלוח חינם",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": false,
+    "same_series": true
+  },
+  {
+    "title_a": "טלפון סלולרי Apple iPhone 17 Pro Max 256GB",
+    "title_b": "טלפון חכם Apple iPhone 17 Pro Max 256GB",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": false,
+    "same_series": true
+  },
+  {
+    "title_a": "טלפון סלולרי Apple iPhone 17 Pro 512GB",
+    "title_b": "סלולרי Apple iPhone 17 Pro 512GB",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": false,
+    "same_series": true
+  },
+  {
+    "title_a": "טלפון סלולרי Apple iPhone 17 Pro Max 512GB",
+    "title_b": "Apple iPhone 17 Pro Max 512GB",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": false,
+    "same_series": true
+  },
+  {
+    "title_a": "טלפון סלולרי Apple iPhone 17 Pro Max 512GB",
+    "title_b": "טלפון סלולרי Apple iPhone 17 Pro Max 512GB Blue",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": false,
+    "same_series": true
+  },
+  {
+    "title_a": "טלפון סלולרי Apple iPhone 17 Pro 256GB",
+    "title_b": "סלולרי Apple iPhone 17 Pro 256GB",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": false,
+    "same_series": true
+  },
+  {
+    "title_a": "אוזניות  ‏אלחוטיות Apple AirPods Pro 3 MagSafe USB-C MFHP4ZM/A",
+    "title_b": "אוזניות  ‏אלחוטיות Apple AirPods Pro 3 MagSafe USB-C MFHP4ZM/A בצבע שחור",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": true,
+    "same_series": true
+  },
+  {
+    "title_a": "אוזניות  ‏אלחוטיות Apple AirPods Pro 3 MagSafe USB-C MFHP4ZM/A",
+    "title_b": "אוזניות  ‏אלחוטיות Apple AirPods Pro 3 MagSafe USB-C MFHP4ZM/A יבואן מורשה",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": true,
+    "same_series": true
+  },
+  {
+    "title_a": "מחשב נייד Apple MacBook Air 13″ M5 ‎16GB 512GB Midnight (MDHE4HB/A)",
+    "title_b": "לפטופ Apple MacBook Air 13″ M5 ‎16GB 512GB Midnight (MDHE4HB/A)",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": false,
+    "same_series": true
+  },
+  {
+    "title_a": "מחשב נייד Apple MacBook Air 13″ M5 ‎16GB 512GB Midnight (MDHE4HB/A)",
+    "title_b": "Apple MacBook Air 13″ M5 ‎16GB 512GB Midnight (MDHE4HB/A)",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": false,
+    "same_series": true
+  },
+  {
+    "title_a": "מחשב נייד Apple MacBook Neo 13 A18 Pro MHFC4HB/A MHFE4HB/A MHFG4HB/A MHFJ4HB/A",
+    "title_b": "מחשב נייד Apple MacBook Neo 13 A18 Pro MHFC4HB/A MHFE4HB/A MHFG4HB/A MHFJ4HB/A B",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": false,
+    "same_series": false
+  },
+  {
+    "title_a": "מחשב נייד Apple MacBook Neo 13 A18 Pro MHFA4HB/A MHFD4HB/A MHFF4HB/A MHFH4HB/A",
+    "title_b": "מחשב נייד Apple MacBook Neo 13 A18 Pro MHFA4HB/A MHFD4HB/A MHFF4HB/A MHFH4HB/A ב",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": false,
+    "same_series": false
+  },
+  {
+    "title_a": "טלפון סלולרי Apple iPhone 15 128GB אפל אחריות יבואן רשמי",
+    "title_b": "טלפון סלולרי Apple iPhone 15 128GB אפל בצבע שחור",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": false,
+    "same_series": true
+  },
+  {
+    "title_a": "טלפון חכם Apple iPhone 15 128GB",
+    "title_b": "Apple iPhone 15 128GB",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": false,
+    "same_series": true
+  },
+  {
+    "title_a": "טלפון חכם Apple iPhone 15 128GB",
+    "title_b": "iPhone 15 128GB טלפון סלולרי Apple",
+    "rule_fired": "brand_series_storage_match",
+    "rule_confidence": 0.9,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": false,
+    "same_series": true
+  },
+  {
+    "title_a": "טלפון חכם Apple iPhone 15 128GB",
+    "title_b": "טלפון סלולרי Apple iPhone 15 128GB אחריות יבואן רשמי",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": false,
+    "same_series": true
+  },
+  {
+    "title_a": "Apple iPhone 15 128GB",
+    "title_b": "iPhone 15 128GB טלפון סלולרי Apple",
+    "rule_fired": "brand_series_storage_match",
+    "rule_confidence": 0.9,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": false,
+    "same_series": true
+  },
+  {
+    "title_a": "Apple iPhone 15 128GB",
+    "title_b": "טלפון סלולרי Apple iPhone 15 128GB אחריות יבואן רשמי",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": false,
+    "same_series": true
+  },
+  {
+    "title_a": "iPhone 15 128GB טלפון סלולרי Apple",
+    "title_b": "טלפון סלולרי Apple iPhone 15 128GB אחריות יבואן רשמי",
+    "rule_fired": "brand_series_storage_match",
+    "rule_confidence": 0.9,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": false,
+    "same_series": true
+  },
+  {
+    "title_a": "טלפון סלולרי Apple iPhone 15 256GB DCS",
+    "title_b": "iPhone 15 256GB טלפון סלולרי Apple",
+    "rule_fired": "brand_series_storage_match",
+    "rule_confidence": 0.9,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": false,
+    "same_series": true
+  },
+  {
+    "title_a": "טלפון סלולרי Apple iPhone 16 Pro Max 256GB DCS",
+    "title_b": "Apple iPhone 16 Pro Max 256GB",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": false,
+    "same_series": true
+  },
+  {
+    "title_a": "טלפון סלולרי Apple iPhone 16 Pro Max 256GB DCS",
+    "title_b": "מכשיר סלולרי Apple iPhone 16 Pro Max 256GB",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": false,
+    "same_series": true
+  },
+  {
+    "title_a": "Apple iPhone 16 Pro Max 256GB",
+    "title_b": "מכשיר סלולרי Apple iPhone 16 Pro Max 256GB",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": false,
+    "same_series": true
+  },
+  {
+    "title_a": "טלפון סלולרי Apple iPhone 16 128GB DCS",
+    "title_b": "טלפון סלולרי Apple iPhone 16 128GB בצבע שחור",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": false,
+    "same_series": true
+  },
+  {
+    "title_a": "‏אלחוטיות Apple AirPods 4 MXP63ZM/A MXP63LL/A MXP63HN/A",
+    "title_b": "אוזניות בלוטות' ‏אלחוטיות Apple AirPods 4 MXP63ZM/A MXP63LL/A MXP63HN/A",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": true,
+    "same_series": true
+  },
+  {
+    "title_a": "אוזניות בלוטות' Apple AirPods 4 with Active Noise Cancellation MXP93ZM/A True Wi",
+    "title_b": "אוזניות Apple AirPods 4 with Active Noise Cancellation MXP93ZM/A True Wireless S",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": true,
+    "same_series": true
+  },
+  {
+    "title_a": "‏אלחוטיות Apple AirPods Max USB-C",
+    "title_b": "אוזניות  ‏אלחוטיות Apple AirPods Max USB-C משלוח חינם",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": false,
+    "same_series": true
+  },
+  {
+    "title_a": "מחשב נייד Apple MacBook Air 13 M4 MW123HB/A MW0Y3HB/A MW0W3HB/A MC6T4HB/A DCS",
+    "title_b": "13 M4 MW123HB/A MW0Y3HB/A MW0W3HB/A MC6T4HB/A מחשב נייד Apple MacBook Air",
+    "rule_fired": "brand_and_model_match",
+    "rule_confidence": 0.95,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": true,
+    "same_series": false
+  },
+  {
+    "title_a": "13 M4 MW133HB/A MW103HB/A MW0X3HB/A MC6U4HB/A מחשב נייד Apple MacBook Air",
+    "title_b": "מחשב נייד Apple MacBook Air 13 M4 MW133HB/A MW103HB/A MW0X3HB/A MC6U4HB/A בצבע ש",
+    "rule_fired": "brand_and_model_match",
+    "rule_confidence": 0.95,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": true,
+    "same_series": false
+  },
+  {
+    "title_a": "מחשב נייד Apple MacBook Air 15 M4 MW1G3HB/A MC7A4HB/A MW1J3HB/A MW1L3HB/A אחריות",
+    "title_b": "מחשב נייד Apple MacBook Air 15 M4 MW1G3HB/A MC7A4HB/A MW1J3HB/A MW1L3HB/A White",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": false,
+    "same_series": true
+  },
+  {
+    "title_a": "טלפון סלולרי Apple iPhone 17 Pro Max 256GB משלוח חינם",
+    "title_b": "טלפון חכם Apple iPhone 17 Pro Max 256GB",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": false,
+    "same_series": true
+  },
+  {
+    "title_a": "Apple iPhone 17 Pro Max 512GB",
+    "title_b": "טלפון סלולרי Apple iPhone 17 Pro Max 512GB Blue",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": false,
+    "same_series": true
+  },
+  {
+    "title_a": "אוזניות  ‏אלחוטיות Apple AirPods Pro 3 MagSafe USB-C MFHP4ZM/A בצבע שחור",
+    "title_b": "אוזניות  ‏אלחוטיות Apple AirPods Pro 3 MagSafe USB-C MFHP4ZM/A יבואן מורשה",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": true,
+    "same_series": true
+  },
+  {
+    "title_a": "לפטופ Apple MacBook Air 13″ M5 ‎16GB 512GB Midnight (MDHE4HB/A)",
+    "title_b": "Apple MacBook Air 13″ M5 ‎16GB 512GB Midnight (MDHE4HB/A)",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": false,
+    "same_series": true
+  },
+  {
+    "title_a": "אוזניות  ‏חוטיות Audio Technica ATH-M50x",
+    "title_b": "אוזניות  ‏חוטיות Audio Technica ATH-M50x בצבע אפור",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": false,
+    "same_series": false
+  },
+  {
+    "title_a": "אוזניות  ‏חוטיות Audio Technica ATH-M50x",
+    "title_b": "אוזניות בלוטות' ‏חוטיות Audio Technica ATH-M50x",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": false,
+    "same_series": false
+  },
+  {
+    "title_a": "אוזניות  ‏חוטיות Audio Technica ATH-M50x בצבע אפור",
+    "title_b": "אוזניות בלוטות' ‏חוטיות Audio Technica ATH-M50x",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": false,
+    "same_series": false
+  },
+  {
+    "title_a": "אוזניות  ‏אלחוטיות Bose QuietComfort Ultra",
+    "title_b": "אוזניות  ‏אלחוטיות Bose QuietComfort Ultra",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": false,
+    "same_series": false
+  },
+  {
+    "title_a": "אוזניות  ‏אלחוטיות Bose QuietComfort Ultra",
+    "title_b": "אוזניות בלוטות' ‏אלחוטיות Bose QuietComfort Ultra",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": false,
+    "same_series": false
+  },
+  {
+    "title_a": "אוזניות  ‏אלחוטיות Bose QuietComfort Ultra",
+    "title_b": "אוזניות בלוטות' ‏אלחוטיות Bose QuietComfort Ultra",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": false,
+    "same_series": false
+  },
+  {
+    "title_a": "‏מכונת אספרסו Breville BES878",
+    "title_b": "מכונת אספרסו Breville BES878 יבואן רשמי",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": true,
+    "same_series": false
+  },
+  {
+    "title_a": "‏מכונת אספרסו Breville BES878",
+    "title_b": "‏מכונת אספרסו Breville BES878 בצבע כחול",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": true,
+    "same_series": false
+  },
+  {
+    "title_a": "‏מכונת אספרסו Breville BES878",
+    "title_b": "מכונת קפה אוטומטית ‏מכונת אספרסו Breville BES878",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": true,
+    "same_series": false
+  },
+  {
+    "title_a": "‏מכונת אספרסו Breville BES878",
+    "title_b": "‏מכונת אספרסו Breville BES878 אחריות יבואן רשמי",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": true,
+    "same_series": false
+  },
+  {
+    "title_a": "מכונת אספרסו Breville BES878 יבואן רשמי",
+    "title_b": "‏מכונת אספרסו Breville BES878 בצבע כחול",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": true,
+    "same_series": false
+  },
+  {
+    "title_a": "מכונת אספרסו Breville BES878 יבואן רשמי",
+    "title_b": "מכונת קפה אוטומטית ‏מכונת אספרסו Breville BES878",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": true,
+    "same_series": false
+  },
+  {
+    "title_a": "מכונת אספרסו Breville BES878 יבואן רשמי",
+    "title_b": "‏מכונת אספרסו Breville BES878 אחריות יבואן רשמי",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": true,
+    "same_series": false
+  },
+  {
+    "title_a": "‏מכונת אספרסו Breville Barista Express with Milk Jug Thermal BES875",
+    "title_b": "‏מכונת אספרסו Breville Barista Express with Milk Jug Thermal BES875 יבואן מורשה",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": true,
+    "same_series": false
+  },
+  {
+    "title_a": "‏מכונת אספרסו Breville BES875BSS",
+    "title_b": "Breville BES875BSS ‏מכונת אספרסו",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": true,
+    "same_series": false
+  },
+  {
+    "title_a": "‏מכונת אספרסו Breville BES875BSS",
+    "title_b": "‏מכונת אספרסו Breville BES875BSS Blue",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": true,
+    "same_series": false
+  },
+  {
+    "title_a": "‏מכונת אספרסו Breville BES875BSS",
+    "title_b": "מכונת קפה אוטומטית ‏מכונת אספרסו Breville BES875BSS",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": true,
+    "same_series": false
+  },
+  {
+    "title_a": "‏מכונת אספרסו Breville BES878 בצבע כחול",
+    "title_b": "מכונת קפה אוטומטית ‏מכונת אספרסו Breville BES878",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": true,
+    "same_series": false
+  },
+  {
+    "title_a": "‏מכונת אספרסו Breville BES878 בצבע כחול",
+    "title_b": "‏מכונת אספרסו Breville BES878 אחריות יבואן רשמי",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": true,
+    "same_series": false
+  },
+  {
+    "title_a": "מכונת קפה אוטומטית ‏מכונת אספרסו Breville BES878",
+    "title_b": "‏מכונת אספרסו Breville BES878 אחריות יבואן רשמי",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": true,
+    "same_series": false
+  },
+  {
+    "title_a": "Breville BES875BSS ‏מכונת אספרסו",
+    "title_b": "‏מכונת אספרסו Breville BES875BSS Blue",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": true,
+    "same_series": false
+  },
+  {
+    "title_a": "Breville BES875BSS ‏מכונת אספרסו",
+    "title_b": "מכונת קפה אוטומטית ‏מכונת אספרסו Breville BES875BSS",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": true,
+    "same_series": false
+  },
+  {
+    "title_a": "‏מכונת אספרסו Breville BES875BSS Blue",
+    "title_b": "מכונת קפה אוטומטית ‏מכונת אספרסו Breville BES875BSS",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": true,
+    "same_series": false
+  },
+  {
+    "title_a": "‏מכונת אספרסו Delonghi ECAM21.117",
+    "title_b": "‏מכונת אספרסו Delonghi ECAM21.117 אחריות יבואן רשמי",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": false,
+    "same_series": false
+  },
+  {
+    "title_a": "‏מכונת אספרסו Delonghi ECAM21.117",
+    "title_b": "Delonghi ECAM21.117 ‏מכונת אספרסו",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": false,
+    "same_series": false
+  },
+  {
+    "title_a": "‏מכונת אספרסו Delonghi ECAM350.15.B",
+    "title_b": "‏מכונת אספרסו Delonghi ECAM350.15.B בצבע כחול",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": true,
+    "same_series": false
+  },
+  {
+    "title_a": "‏מכונת אספרסו Delonghi Specialista Prestigio EC 9355.M",
+    "title_b": "‏מכונת אספרסו Delonghi Specialista Prestigio EC 9355.M Black",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": false,
+    "same_series": false
+  },
+  {
+    "title_a": "‏מכונת אספרסו Delonghi La Specialista Arte EC9155",
+    "title_b": "‏מכונת אספרסו Delonghi La Specialista Arte EC9155",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": true,
+    "same_series": false
+  },
+  {
+    "title_a": "‏מכונת אספרסו Delonghi La Specialista Arte EC9155",
+    "title_b": "מכונת אספרסו ‏מכונת אספרסו Delonghi La Specialista Arte EC9155",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": true,
+    "same_series": false
+  },
+  {
+    "title_a": "‏מכונת אספרסו Delonghi La Specialista Arte EC9155",
+    "title_b": "מכונת אספרסו ‏מכונת אספרסו Delonghi La Specialista Arte EC9155",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": true,
+    "same_series": false
+  },
+  {
+    "title_a": "‏מכונת אספרסו Delonghi Dedica Arte EC885",
+    "title_b": "Dedica Arte EC885 ‏מכונת אספרסו Delonghi",
+    "rule_fired": "brand_and_model_match",
+    "rule_confidence": 0.95,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": true,
+    "same_series": false
+  },
+  {
+    "title_a": "‏מכונת אספרסו Delonghi Magnifica Start ECAM220.60.B",
+    "title_b": "Magnifica Start ECAM220.60.B ‏מכונת אספרסו Delonghi",
+    "rule_fired": "brand_and_model_match",
+    "rule_confidence": 0.95,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": true,
+    "same_series": false
+  },
+  {
+    "title_a": "‏מכונת אספרסו Delonghi Rivelia EXAM440.55",
+    "title_b": "Delonghi Rivelia EXAM440.55 ‏מכונת אספרסו",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": true,
+    "same_series": false
+  },
+  {
+    "title_a": "מכונת אספרסו Delonghi ECAM21.117.B",
+    "title_b": "מכונת אספרסו Delonghi ECAM21.117.B בצבע כסף",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": false,
+    "same_series": false
+  },
+  {
+    "title_a": "מכונת אספרסו Delonghi ECAM21.117.B",
+    "title_b": "Delonghi ECAM21.117.B",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": false,
+    "same_series": false
+  },
+  {
+    "title_a": "‏מכונת אספרסו Delonghi ECAM21.117 אחריות יבואן רשמי",
+    "title_b": "Delonghi ECAM21.117 ‏מכונת אספרסו",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": false,
+    "same_series": false
+  },
+  {
+    "title_a": "מכונת אספרסו Delonghi ECAM21.117.B בצבע כסף",
+    "title_b": "Delonghi ECAM21.117.B",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": false,
+    "same_series": false
+  },
+  {
+    "title_a": "מחשב נייד Dell Pro 15 Essential PV15250 PV15250-5005",
+    "title_b": "מחשב נייד Dell Pro 15 Essential PV15250 PV15250-5005 אחריות יבואן רשמי",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": true,
+    "same_series": false
+  },
+  {
+    "title_a": "מחשב נייד Dell Pro 15 Essential PV15250 PV15250-5005",
+    "title_b": "Dell Pro 15 Essential PV15250 PV15250-5005",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": true,
+    "same_series": false
+  },
+  {
+    "title_a": "מחשב נייד Dell Pro 15 Essential PV15250-5118",
+    "title_b": "מחשב נייד Dell Pro 15 Essential PV15250-5118",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": true,
+    "same_series": false
+  },
+  {
+    "title_a": "מחשב נייד Dell Pro 15 Essential PV15250-5118",
+    "title_b": "לפטופ Dell Pro 15 Essential PV15250-5118",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": true,
+    "same_series": false
+  },
+  {
+    "title_a": "מחשב נייד Dell Pro 15 Essential PV15250-5118",
+    "title_b": "Dell Pro 15 Essential PV15250-5118",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": true,
+    "same_series": false
+  },
+  {
+    "title_a": "מחשב נייד Dell Pro 15 Essential PV15250-5118",
+    "title_b": "לפטופ Dell Pro 15 Essential PV15250-5118",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": true,
+    "same_series": false
+  },
+  {
+    "title_a": "מחשב נייד Dell Pro 15 Essential PV15250-5118",
+    "title_b": "Dell Pro 15 Essential PV15250-5118",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": true,
+    "same_series": false
+  },
+  {
+    "title_a": "מחשב נייד Dell Pro 15 Essential PV15250 PV15250-5005 אחריות יבואן רשמי",
+    "title_b": "Dell Pro 15 Essential PV15250 PV15250-5005",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": true,
+    "same_series": false
+  },
+  {
+    "title_a": "לפטופ Dell Pro 15 Essential PV15250-5118",
+    "title_b": "Dell Pro 15 Essential PV15250-5118",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": true,
+    "same_series": false
+  },
+  {
+    "title_a": "מחשב נייד HP ProBook 4 G1i AD2M0ET",
+    "title_b": "ProBook 4 G1i AD2M0ET מחשב נייד HP",
+    "rule_fired": "brand_high_token_sort",
+    "rule_confidence": 0.8,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": false,
+    "same_series": false
+  },
+  {
+    "title_a": "מחשב נייד HP ProBook 4 G1i AD2L3ET",
+    "title_b": "מחשב נייד HP ProBook 4 G1i AD2L3ET אחריות מעבדות",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": false,
+    "same_series": false
+  },
+  {
+    "title_a": "מחשב נייד HP ProBook 4 G1i AD2M3ET",
+    "title_b": "מחשב נייד HP ProBook 4 G1i AD2M3ET יבואן רשמי",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": false,
+    "same_series": false
+  },
+  {
+    "title_a": "מחשב נייד HP ProBook 4 G1i AD2M1ET",
+    "title_b": "HP ProBook 4 G1i AD2M1ET",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": false,
+    "same_series": false
+  },
+  {
+    "title_a": "מחשב נייד HP ProBook 4 G1i AD2M1ET",
+    "title_b": "מחשב נייד HP ProBook 4 G1i AD2M1ET אחריות מעבדות",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": false,
+    "same_series": false
+  },
+  {
+    "title_a": "מחשב נייד HP ProBook 4 G1i AD2M1ET",
+    "title_b": "ProBook 4 G1i AD2M1ET מחשב נייד HP",
+    "rule_fired": "brand_high_token_sort",
+    "rule_confidence": 0.8,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": false,
+    "same_series": false
+  },
+  {
+    "title_a": "מחשב נייד HP OMEN MAX 16-ah0013nj C2PY3EA",
+    "title_b": "מחשב נייד HP OMEN MAX 16-ah0013nj C2PY3EA בצבע לבן",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": false,
+    "same_series": false
+  },
+  {
+    "title_a": "מחשב נייד HP OMEN MAX 16-ah0013nj C2PY3EA",
+    "title_b": "HP OMEN MAX 16-ah0013nj C2PY3EA",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": false,
+    "same_series": false
+  },
+  {
+    "title_a": "מחשב נייד HP Victus 15-fa2011nj בצבע כסף מיקה C93FLEA",
+    "title_b": "HP Victus 15-fa2011nj בצבע כסף מיקה C93FLEA",
+    "rule_fired": "exact_normalized_match",
+    "rule_confidence": 0.99,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": false,
+    "same_series": false
+  },
+  {
+    "title_a": "מחשב נייד HP Victus 15-fa2011nj בצבע כסף מיקה C93FLEA",
+    "title_b": "15-fa2011nj בצבע כסף מיקה C93FLEA מחשב נייד HP Victus",
+    "rule_fired": "brand_high_token_sort",
+    "rule_confidence": 0.8,
+    "token_sort_ratio": 100.0,
+    "same_brand": true,
+    "same_model": false,
+    "same_series": false
+  }
+]

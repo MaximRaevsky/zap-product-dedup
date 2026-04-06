@@ -1,0 +1,594 @@
+﻿title_a,price_a,title_b,price_b,model_id_a,model_id_b,category,is_duplicate,difficulty
+מכונת קפה Essenza Mini EN85L נספרסו Nespresso צבע ליים,320.0,Essenza Mini EN85L נספרסו Nespresso צבע ליים,320.0,2309,2309,coffee_machines,True,drop_prefix
+מכונת קפה Essenza Mini EN85L נספרסו Nespresso צבע ליים,433.0,מכונת קפה אוטומטית Essenza Mini EN85L נספרסו Nespresso צבע ליים,433.0,2309,2309,coffee_machines,True,add_prefix
+מכונת קפה Essenza Mini EN85L נספרסו Nespresso צבע ליים,390.0,מכונת קפה Essenza Mini EN85L נספרסו Nespresso צבע ליים בצבע לבן,390.0,2309,2309,coffee_machines,True,color_noise
+מכונת קפה Ninja Luxe Essential ES601EU,1292.0,Ninja Luxe Essential ES601EU,1292.0,2541,2541,coffee_machines,True,drop_prefix
+מכונת קפה Ninja Luxe Essential ES601EU,1571.0,מכונת קפה Ninja Luxe Essential ES601EU אחריות מעבדות,1571.0,2541,2541,coffee_machines,True,seller_noise
+מכונת קפה Ninja Luxe Essential ES601EU,1304.0,מכונת אספרסו Ninja Luxe Essential ES601EU,1304.0,2541,2541,coffee_machines,True,add_prefix
+טלפון סלולרי (Samsung Galaxy S25 PLUS 12GB+256GB (SM-S936B/DS,3747.0,טלפון סלולרי (Samsung Galaxy S25 PLUS 12GB+256GB (SM-S936B/DS אחריות יבואן רשמי,3747.0,2547,2547,smartphones,True,seller_noise
+טלפון סלולרי (Samsung Galaxy S25 PLUS 12GB+256GB (SM-S936B/DS,2992.0,טלפון סלולרי (Samsung Galaxy S25 PLUS 12GB+256GB (/DS,2992.0,2547,2547,smartphones,True,drop_part
+"טלוויזיה חכמה 65"" Samsung QLED סמסונג QE65Q60D",3617.0,"טלוויזיה חכמה 65"" Samsung QLED סמסונג QE65Q60D אחריות מעבדות",3617.0,3838,3838,tvs,True,seller_noise
+טלפון סלולרי Apple iPhone 15 128GB אפל,3111.0,טלפון סלולרי Apple iPhone 15 128GB אפל אחריות יבואן רשמי,3111.0,3926,3926,smartphones,True,seller_noise
+טלפון סלולרי Apple iPhone 15 128GB אפל,3064.0,טלפון סלולרי Apple iPhone 15 128GB אפל בצבע שחור,3064.0,3926,3926,smartphones,True,color_noise
+טלפון סלולרי Galaxy S26 Ultra SM-S948B/DS 1TB 16GB RAM Samsung סמסונג,7101.0,טלפון סלולרי Galaxy S26 U SM-S948B/DS 1TB 16GB RAM Samsung סמסונג,7101.0,6034,6034,smartphones,True,abbreviate
+טלפון סלולרי Galaxy S26 Ultra SM-S948B/DS 1TB 16GB RAM Samsung סמסונג,5489.0,טלפון סלולרי Galaxy S26 Ultra /DS 1TB 16GB RAM Samsung סמסונג,5489.0,6034,6034,smartphones,True,drop_part
+טלפון סלולרי Galaxy S26 Ultra SM-S948B/DS 1TB 16GB RAM Samsung סמסונג,5602.0,טלפון סלולרי Galaxy S26 Ultra SM-S948B/DS 1TB 16GB RAM Samsung סמסונג משלוח חינם,5602.0,6034,6034,smartphones,True,seller_noise
+טלפון סלולרי Galaxy S26 Ultra SM-S948B/DS 1TB 16GB RAM Samsung סמסונג,5740.0,Galaxy S26 Ultra SM-S948B/DS 1TB 16GB RAM Samsung סמסונג,5740.0,6034,6034,smartphones,True,drop_prefix
+אוזניות  ‏חוטיות Logitech H390,90.0,‏חוטיות Logitech H390,90.0,798961,798961,headphones,True,drop_prefix
+אוזניות  ‏חוטיות Audio Technica ATH-M50x,551.0,אוזניות  ‏חוטיות Audio Technica ATH-M50x בצבע אפור,551.0,883392,883392,headphones,True,color_noise
+אוזניות  ‏חוטיות Audio Technica ATH-M50x,755.0,אוזניות בלוטות' ‏חוטיות Audio Technica ATH-M50x,755.0,883392,883392,headphones,True,add_prefix
+טלוויזיה Samsung QE75Q7F QLED 4K  ‏75 ‏אינטש,2901.0,טלוויזיה סמסונג QE75Q7F QLED 4K  ‏75 ‏אינטש,2901.0,940986,940986,tvs,True,brand_swap
+טלוויזיה Samsung QE75Q7F QLED 4K  ‏75 ‏אינטש,3484.0,טלוויזיה Samsung QE75Q7F QLED 4K  ‏75 ‏אינטש בצבע כחול,3484.0,940986,940986,tvs,True,color_noise
+טלוויזיה Samsung QE65Q7F QLED 4K  ‏65 ‏אינטש,2287.0,טלוויזיה סמסונג QE65Q7F QLED 4K  ‏65 ‏אינטש,2287.0,940990,940990,tvs,True,brand_swap
+טלוויזיה Samsung QE55Q7F 4K  ‏55 ‏אינטש,1920.0,Samsung QE55Q7F 4K  ‏55 ‏אינטש,1920.0,940993,940993,tvs,True,drop_prefix
+טלוויזיה Samsung QE55Q7F 4K  ‏55 ‏אינטש,1891.0,"טלוויזיה Samsung QE55Q7F 4K  ‏55 ‏""",1891.0,940993,940993,tvs,True,abbreviate
+‏מכונת אספרסו Nespresso Delonghi Essenza Mini D30 EN85,426.0,Essenza Mini D30 EN85 ‏מכונת אספרסו Nespresso Delonghi,426.0,951399,951399,coffee_machines,True,reorder
+‏מכונת אספרסו Nespresso Delonghi Essenza Mini D30 EN85,410.0,‏מכונת אספרסו Nespresso Delonghi Essenza Mini D30 EN85 משלוח חינם,410.0,951399,951399,coffee_machines,True,seller_noise
+‏מכונת אספרסו Nespresso Delonghi Essenza Mini D30 EN85,349.0,‏מכונת אספרסו נספרסו Delonghi Essenza Mini D30 EN85,349.0,951399,951399,coffee_machines,True,brand_swap
+‏מכונת אספרסו Nespresso Essenza Mini C30,537.0,‏מכונת אספרסו Nespresso Essenza Mini C30 אחריות יבואן רשמי,537.0,951669,951669,coffee_machines,True,seller_noise
+‏מכונת אספרסו Nespresso Essenza Mini C30,455.0,‏מכונת אספרסו נספרסו Essenza Mini C30,455.0,951669,951669,coffee_machines,True,brand_swap
+‏מכונת אספרסו Nespresso Lattissima One EN510,707.0,‏מכונת אספרסו Nespresso Lattissima One EN510 אחריות יבואן רשמי,707.0,976624,976624,coffee_machines,True,seller_noise
+‏מכונת אספרסו Nespresso Lattissima One EN510,973.0,Lattissima One EN510 ‏מכונת אספרסו Nespresso,973.0,976624,976624,coffee_machines,True,reorder
+‏מכונת אספרסו Nespresso Lattissima One EN510,716.0,‏מכונת אספרסו Nespresso Lattissima One EN510 בצבע לבן,716.0,976624,976624,coffee_machines,True,color_noise
+‏מכונת אספרסו Delonghi ECAM21.117,1314.0,‏מכונת אספרסו Delonghi ECAM21.117 אחריות יבואן רשמי,1314.0,992748,992748,coffee_machines,True,seller_noise
+‏מכונת אספרסו Delonghi ECAM21.117,1647.0,Delonghi ECAM21.117 ‏מכונת אספרסו,1647.0,992748,992748,coffee_machines,True,reorder
+‏מכונת אספרסו Gaggia Besana,1113.0,‏מכונת אספרסו Gaggia Besana DCS,1113.0,1030241,1030241,coffee_machines,True,seller_noise
+‏מכונת אספרסו Breville BES878,2519.0,‏מכונת אספרסו Breville BES878 בצבע כחול,2519.0,1068710,1068710,coffee_machines,True,color_noise
+‏מכונת אספרסו Breville BES878,3256.0,מכונת קפה אוטומטית ‏מכונת אספרסו Breville BES878,3256.0,1068710,1068710,coffee_machines,True,add_prefix
+‏מכונת אספרסו Breville BES878,2590.0,‏מכונת אספרסו Breville BES878 אחריות יבואן רשמי,2590.0,1068710,1068710,coffee_machines,True,seller_noise
+‏מכונת אספרסו Nespresso Inissia EN 80,310.0,מכונת קפה אוטומטית ‏מכונת אספרסו Nespresso Inissia EN 80,310.0,1087191,1087191,coffee_machines,True,add_prefix
+‏מכונת אספרסו Nespresso Inissia EN 80,371.0,‏מכונת אספרסו Nespresso Inissia EN 80 DCS,371.0,1087191,1087191,coffee_machines,True,seller_noise
+אוזניות  ‏חוטיות Razer BlackShark V2 X,156.0,אוזניות אלחוטיות ‏חוטיות Razer BlackShark V2 X,156.0,1090131,1090131,headphones,True,add_prefix
+אוזניות  ‏חוטיות Razer BlackShark V2 X,159.0,BlackShark V2 X אוזניות ‏חוטיות Razer,159.0,1090131,1090131,headphones,True,reorder
+מחשב נייד Apple MacBook Air 13 MGN63HB/A MGN93HB/A MGND3HB/A,2525.0,Apple MacBook Air 13 MGN63HB/A MGN93HB/A MGND3HB/A,2525.0,1099482,1099482,laptops,True,drop_prefix
+‏מכונת אספרסו Delonghi ECAM350.15.B,2142.0,‏מכונת אספרסו Delonghi ECAM350.15.B בצבע כחול,2142.0,1105069,1105069,coffee_machines,True,color_noise
+אוזניות  ‏אלחוטיות JBL Tune 510BT,140.0,אוזניות  ‏אלחוטי JBL Tune 510BT,140.0,1113020,1113020,headphones,True,abbreviate
+אוזניות  ‏אלחוטיות JBL Tune 510BT,105.0,אוזניות  ‏אלחוטיות JBL Tune 510BT בצבע כחול,105.0,1113020,1113020,headphones,True,color_noise
+‏מכונת אספרסו Breville Barista Express with Milk Jug Thermal BES875,2373.0,‏מכונת אספרסו Breville Barista Express with Milk Jug Thermal BES875 יבואן מורשה,2373.0,1114609,1114609,coffee_machines,True,seller_noise
+‏מקציף חלב Hemilton HEM-243,141.0,Hemilton HEM-243 ‏מקציף חלב,141.0,1121265,1121265,coffee_machines,True,reorder
+‏מקציף חלב Hemilton HEM-243,163.0,‏מקציף חלב Hemilton HEM-243 בצבע שחור,163.0,1121265,1121265,coffee_machines,True,color_noise
+‏מכונת אספרסו Breville BES875BSS,2914.0,Breville BES875BSS ‏מכונת אספרסו,2914.0,1126869,1126869,coffee_machines,True,reorder
+‏מכונת אספרסו Breville BES875BSS,2185.0,‏מכונת אספרסו Breville BES875BSS Blue,2185.0,1126869,1126869,coffee_machines,True,color_noise
+‏מכונת אספרסו Breville BES875BSS,2111.0,מכונת קפה אוטומטית ‏מכונת אספרסו Breville BES875BSS,2111.0,1126869,1126869,coffee_machines,True,add_prefix
+‏מכונת אספרסו Nespresso Citiz&Milk EN267,839.0,‏מכונת אספרסו Nespresso Citiz&Milk EN267 אחריות יבואן רשמי,839.0,1127066,1127066,coffee_machines,True,seller_noise
+‏מכונת אספרסו Nespresso Citiz&Milk EN267,672.0,Nespresso Citiz&Milk EN267 ‏מכונת אספרסו,672.0,1127066,1127066,coffee_machines,True,reorder
+‏מכונת אספרסו Delonghi Specialista Prestigio EC 9355.M,3043.0,‏מכונת אספרסו Delonghi Specialista Prestigio EC 9355.M Black,3043.0,1154861,1154861,coffee_machines,True,color_noise
+‏מכונת אספרסו Delonghi La Specialista Arte EC9155,2201.0,מכונת אספרסו ‏מכונת אספרסו Delonghi La Specialista Arte EC9155,2201.0,1155620,1155620,coffee_machines,True,add_prefix
+אוזניות Samsung Galaxy Buds2 Pro SM-R510 True Wireless,437.0,Samsung Galaxy Buds2 Pro SM-R510 True Wireless,437.0,1167384,1167384,headphones,True,drop_prefix
+אוזניות Samsung Galaxy Buds2 Pro SM-R510 True Wireless,351.0,אוזניות Samsung Galaxy Buds2 Pro SM-R510 True Wireless משלוח חינם,351.0,1167384,1167384,headphones,True,seller_noise
+אוזניות JBL Tune 720BT Bluetooth,177.0,JBL Tune 720BT Bluetooth,177.0,1187828,1187828,headphones,True,drop_prefix
+אוזניות JBL Tune 720BT Bluetooth,238.0,Tune 720BT Bluetooth אוזניות JBL,238.0,1187828,1187828,headphones,True,reorder
+אוזניות JBL Tune 720BT Bluetooth,177.0,אוזניות JBL Tune 720BT Bluetooth משלוח חינם,177.0,1187828,1187828,headphones,True,seller_noise
+אוזניות JBL Tune 720BT Bluetooth,177.0,אוזניות ג'יי בי אל Tune 720BT Bluetooth,177.0,1187828,1187828,headphones,True,brand_swap
+מחשב נייד Asus VivoBook 15 X1504VA-BQ149,2873.0,מחשב נייד אסוס VivoBook 15 X1504VA-BQ149,2873.0,1191538,1191538,laptops,True,brand_swap
+מחשב נייד Asus VivoBook 15 X1504VA-BQ149,3042.0,Asus VivoBook 15 X1504VA-BQ149,3042.0,1191538,1191538,laptops,True,drop_prefix
+מחשב נייד Lenovo V15 G4 AMN 82YU0044IV,1192.0,מחשב נייד Lenovo V15 G4 AMN 82YU0044IV Black,1192.0,1194008,1194008,laptops,True,color_noise
+מחשב נייד Lenovo V15 G4 AMN 82YU0044IV,1278.0,נייד Lenovo V15 G4 AMN 82YU0044IV,1278.0,1194008,1194008,laptops,True,add_prefix
+‏מכונת אספרסו Delonghi Dedica Arte EC885,789.0,Dedica Arte EC885 ‏מכונת אספרסו Delonghi,789.0,1200012,1200012,coffee_machines,True,reorder
+אוזניות JBL Wave Beam True Wireless,174.0,אוזניות JBL Wave Beam True Wireless בצבע אפור,174.0,1200216,1200216,headphones,True,color_noise
+אוזניות JBL Wave Beam True Wireless,212.0,אוזניות JBL Wave Beam True Wireless יבואן רשמי,212.0,1200216,1200216,headphones,True,seller_noise
+אוזניות JBL Tune 770NC Bluetooth,209.0,אוזניות בלוטות' JBL Tune 770NC Bluetooth,209.0,1201031,1201031,headphones,True,add_prefix
+אוזניות JBL Tune 770NC Bluetooth,274.0,אוזניות JBL Tune 770NC Bluetooth בצבע כחול,274.0,1201031,1201031,headphones,True,color_noise
+אוזניות JBL Tune 770NC Bluetooth,284.0,אוזניות JBL Tune 770NC BT,284.0,1201031,1201031,headphones,True,abbreviate
+מחשב נייד Lenovo IdeaPad Slim 3 15IAH8 83ER003UIV,2202.0,מחשב נייד Lenovo IdeaPad Slim 3 15IAH8 83ER003UIV בצבע כסף,2202.0,1203016,1203016,laptops,True,color_noise
+מחשב נייד Lenovo IdeaPad Slim 3 15IAH8 83ER003UIV,1896.0,מחשב נייד Lenovo IdeaPad Slim 3 15IAH8 83ER003UIV יבואן רשמי,1896.0,1203016,1203016,laptops,True,seller_noise
+אוזניות Sony WF-1000XM5 True Wireless,877.0,אוזניות סוני WF-1000XM5 True Wireless,877.0,1203553,1203553,headphones,True,brand_swap
+טלפון סלולרי Apple iPhone 15 128GB,2471.0,טלפון חכם Apple iPhone 15 128GB,2471.0,1207018,1207018,smartphones,True,add_prefix
+טלפון סלולרי Apple iPhone 15 128GB,1807.0,Apple iPhone 15 128GB,1807.0,1207018,1207018,smartphones,True,drop_prefix
+טלפון סלולרי Apple iPhone 15 128GB,2496.0,iPhone 15 128GB טלפון סלולרי Apple,2496.0,1207018,1207018,smartphones,True,reorder
+טלפון סלולרי Apple iPhone 15 128GB,2182.0,טלפון סלולרי Apple iPhone 15 128GB אחריות יבואן רשמי,2182.0,1207018,1207018,smartphones,True,seller_noise
+טלפון סלולרי Apple iPhone 15 256GB,3107.0,טלפון סלולרי Apple iPhone 15 256GB DCS,3107.0,1207020,1207020,smartphones,True,seller_noise
+טלפון סלולרי Apple iPhone 15 256GB,2239.0,iPhone 15 256GB טלפון סלולרי Apple,2239.0,1207020,1207020,smartphones,True,reorder
+‏מקציף חלב Hemilton HEM-265/HEM-264,199.0,Hemilton HEM-265/HEM-264 ‏מקציף חלב,199.0,1207103,1207103,coffee_machines,True,reorder
+‏מקציף חלב Hemilton HEM-265/HEM-264,238.0,מכונת קפה אוטומטית ‏מקציף חלב Hemilton HEM-265/HEM-264,238.0,1207103,1207103,coffee_machines,True,add_prefix
+‏מקציף חלב Hemilton HEM-265/HEM-264,217.0,‏מקציף חלב Hemilton HEM-265/HEM-264 Black,217.0,1207103,1207103,coffee_machines,True,color_noise
+אוזניות Apple AirPods Pro 2 MagSafe USB-C True Wireless,646.0,אוזניות אפל AirPods Pro 2 MagSafe USB-C True Wireless,646.0,1208575,1208575,headphones,True,brand_swap
+אוזניות Apple AirPods Pro 2 MagSafe USB-C True Wireless,619.0,אוזניות Apple AirPods Pro 2 MagSafe USB-C TW,619.0,1208575,1208575,headphones,True,abbreviate
+אוזניות Apple AirPods Pro 2 MagSafe USB-C True Wireless,576.0,Apple AirPods Pro 2 MagSafe USB-C True Wireless,576.0,1208575,1208575,headphones,True,drop_prefix
+אוזניות  ‏אלחוטיות Bose QuietComfort Ultra,952.0,אוזניות  ‏אלחוטי Bose QuietComfort Ultra,952.0,1210045,1210045,headphones,True,abbreviate
+אוזניות  ‏אלחוטיות Bose QuietComfort Ultra,1009.0,אוזניות  ‏אלחוטיות בוז QuietComfort Ultra,1009.0,1210045,1210045,headphones,True,brand_swap
+אוזניות  ‏אלחוטיות Bose QuietComfort Ultra,1078.0,אוזניות בלוטות' ‏אלחוטיות Bose QuietComfort Ultra,1078.0,1210045,1210045,headphones,True,add_prefix
+אוזניות Samsung Galaxy Buds FE SM-R400 True Wireless,197.0,אוזניות סמסונג Galaxy Buds FE SM-R400 True Wireless,197.0,1211517,1211517,headphones,True,brand_swap
+אוזניות Samsung Galaxy Buds FE SM-R400 True Wireless,207.0,אוזניות Samsung Galaxy Buds FE  True Wireless,207.0,1211517,1211517,headphones,True,drop_part
+אוזניות Samsung Galaxy Buds FE SM-R400 True Wireless,240.0,FE SM-R400 True Wireless אוזניות Samsung Galaxy Buds,240.0,1211517,1211517,headphones,True,reorder
+טלפון סלולרי Samsung Galaxy S24 SM-S921B/DS 256GB 8GB RAM,1606.0,Samsung Galaxy S24 SM-S921B/DS 256GB 8GB RAM,1606.0,1215643,1215643,smartphones,True,drop_prefix
+טלפון סלולרי Samsung Galaxy S24 SM-S921B/DS 256GB 8GB RAM,2024.0,מכשיר סלולרי Samsung Galaxy S24 SM-S921B/DS 256GB 8GB RAM,2024.0,1215643,1215643,smartphones,True,add_prefix
+טלוויזיה Xiaomi A Pro L32M8-A2ME  ‏32 ‏אינטש,554.0,טלוויזיה שיאומי A Pro L32M8-A2ME  ‏32 ‏אינטש,554.0,1216736,1216736,tvs,True,brand_swap
+טלוויזיה Xiaomi A Pro L32M8-A2ME  ‏32 ‏אינטש,611.0,טלוויזיה Xiaomi A Pro L32M8-A2ME  ‏32 ‏אינטש אחריות יבואן רשמי,611.0,1216736,1216736,tvs,True,seller_noise
+‏מכונת אספרסו Smeg ECF02,1566.0,מכונת קפה אוטומטית ‏מכונת אספרסו Smeg ECF02,1566.0,1218026,1218026,coffee_machines,True,add_prefix
+טלוויזיה MAG CR32E HD Ready  ‏32 ‏אינטש,417.0,TV MAG CR32E HD Ready  ‏32 ‏אינטש,417.0,1219131,1219131,tvs,True,add_prefix
+טלוויזיה MAG CR32E HD Ready  ‏32 ‏אינטש,412.0,טלוויזיה MAG CR32E HD Ready  ‏32 ‏אינטש אחריות מעבדות,412.0,1219131,1219131,tvs,True,seller_noise
+‏מכונת אספרסו Gaggia EG2109,695.0,‏מכונת אספרסו Gaggia EG2109 יבואן מורשה,695.0,1224100,1224100,coffee_machines,True,seller_noise
+‏מכונת אספרסו Gaggia EG2109,745.0,מכונת אספרסו ‏מכונת אספרסו Gaggia EG2109,745.0,1224100,1224100,coffee_machines,True,add_prefix
+מחשב נייד Lenovo IdeaPad Slim 3 15IRH8 83EM00AXIV,3156.0,Lenovo IdeaPad Slim 3 15IRH8 83EM00AXIV,3156.0,1225445,1225445,laptops,True,drop_prefix
+מחשב נייד Lenovo IdeaPad Slim 3 15IRH8 83EM00AXIV,2451.0,מחשב נייד Lenovo IdeaPad Slim 3 15IRH8 83EM00AXIV בצבע כחול,2451.0,1225445,1225445,laptops,True,color_noise
+‏מכונת אספרסו Delonghi Magnifica Start ECAM220.60.B,1959.0,Magnifica Start ECAM220.60.B ‏מכונת אספרסו Delonghi,1959.0,1225992,1225992,coffee_machines,True,reorder
+‏מכונת אספרסו Delonghi Rivelia EXAM440.55,4028.0,Delonghi Rivelia EXAM440.55 ‏מכונת אספרסו,4028.0,1226172,1226172,coffee_machines,True,reorder
+"טלוויזיה 55"" Samsung NEO QLED דגם QE55QN85D",4353.0,"טלוויזיה 55"" סמסונג NEO QLED דגם QE55QN85D",4353.0,1226223,1226223,tvs,True,brand_swap
+"טלוויזיה 55"" Samsung NEO QLED דגם QE55QN85D",3662.0,"55"" Samsung NEO QLED דגם QE55QN85D",3662.0,1226223,1226223,tvs,True,drop_prefix
+טלוויזיה Samsung QE65Q80D 4K  ‏65 ‏אינטש,2856.0,טלוויזיה סמסונג QE65Q80D 4K  ‏65 ‏אינטש,2856.0,1226333,1226333,tvs,True,brand_swap
+טלוויזיה Samsung QE65Q80D 4K  ‏65 ‏אינטש,2918.0,TV Samsung QE65Q80D 4K  ‏65 ‏אינטש,2918.0,1226333,1226333,tvs,True,add_prefix
+טלוויזיה Samsung QE65Q80D 4K  ‏65 ‏אינטש,2994.0,4K ‏65 ‏אינטש טלוויזיה Samsung QE65Q80D,2994.0,1226333,1226333,tvs,True,reorder
+אוזניות Sennheiser Momentum True Wireless 4 True Wireless,686.0,אוזניות אלחוטיות Sennheiser Momentum True Wireless 4 True Wireless,686.0,1227130,1227130,headphones,True,add_prefix
+טלוויזיה Samsung UE98DU9000 4K  ‏98 ‏אינטש,5590.0,טלוויזיה סמסונג UE98DU9000 4K  ‏98 ‏אינטש,5590.0,1227963,1227963,tvs,True,brand_swap
+אוזניות Samsung Galaxy Buds3 Pro SM-R630 True Wireless,544.0,אוזניות Samsung Galaxy Buds3 Pro SM-R630 True Wireless בצבע שחור,544.0,1228604,1228604,headphones,True,color_noise
+אוזניות Samsung Galaxy Buds3 Pro SM-R630 True Wireless,468.0,אוזניות Samsung Galaxy Buds3 Pro  True Wireless,468.0,1228604,1228604,headphones,True,drop_part
+מכונת אספרסו Delonghi ECAM21.117.B,1506.0,מכונת אספרסו Delonghi ECAM21.117.B בצבע כסף,1506.0,1232360,1232360,coffee_machines,True,color_noise
+מכונת אספרסו Delonghi ECAM21.117.B,1704.0,Delonghi ECAM21.117.B,1704.0,1232360,1232360,coffee_machines,True,drop_prefix
+טלפון סלולרי Apple iPhone 16 Pro Max 256GB,4371.0,טלפון סלולרי Apple iPhone 16 Pro Max 256GB DCS,4371.0,1233992,1233992,smartphones,True,seller_noise
+טלפון סלולרי Apple iPhone 16 Pro Max 256GB,4809.0,Apple iPhone 16 Pro Max 256GB,4809.0,1233992,1233992,smartphones,True,drop_prefix
+טלפון סלולרי Apple iPhone 16 Pro Max 256GB,4782.0,מכשיר סלולרי Apple iPhone 16 Pro Max 256GB,4782.0,1233992,1233992,smartphones,True,add_prefix
+טלפון סלולרי Apple iPhone 16 128GB,2779.0,טלפון סלולרי Apple iPhone 16 128GB DCS,2779.0,1234002,1234002,smartphones,True,seller_noise
+טלפון סלולרי Apple iPhone 16 128GB,2345.0,טלפון סלולרי Apple iPhone 16 128GB בצבע שחור,2345.0,1234002,1234002,smartphones,True,color_noise
+אוזניות  ‏אלחוטיות Apple AirPods 4 MXP63ZM/A MXP63LL/A MXP63HN/A,366.0,‏אלחוטיות Apple AirPods 4 MXP63ZM/A MXP63LL/A MXP63HN/A,366.0,1234891,1234891,headphones,True,drop_prefix
+אוזניות  ‏אלחוטיות Apple AirPods 4 MXP63ZM/A MXP63LL/A MXP63HN/A,506.0,4 MXP63ZM/A MXP63LL/A MXP63HN/A אוזניות ‏אלחוטיות Apple AirPods,506.0,1234891,1234891,headphones,True,reorder
+אוזניות  ‏אלחוטיות Apple AirPods 4 MXP63ZM/A MXP63LL/A MXP63HN/A,495.0,אוזניות בלוטות' ‏אלחוטיות Apple AirPods 4 MXP63ZM/A MXP63LL/A MXP63HN/A,495.0,1234891,1234891,headphones,True,add_prefix
+אוזניות Apple AirPods 4 with Active Noise Cancellation MXP93ZM/A True Wireless,646.0,אוזניות אפל AirPods 4 with Active Noise Cancellation MXP93ZM/A True Wireless,646.0,1234892,1234892,headphones,True,brand_swap
+אוזניות Apple AirPods 4 with Active Noise Cancellation MXP93ZM/A True Wireless,639.0,אוזניות בלוטות' Apple AirPods 4 with Active Noise Cancellation MXP93ZM/A True Wireless,639.0,1234892,1234892,headphones,True,add_prefix
+אוזניות Apple AirPods 4 with Active Noise Cancellation MXP93ZM/A True Wireless,564.0,אוזניות Apple AirPods 4 with Active Noise Cancellation MXP93ZM/A True Wireless Silver,564.0,1234892,1234892,headphones,True,color_noise
+אוזניות  ‏אלחוטיות Apple AirPods Max USB-C,1912.0,‏אלחוטיות Apple AirPods Max USB-C,1912.0,1234904,1234904,headphones,True,drop_prefix
+אוזניות  ‏אלחוטיות Apple AirPods Max USB-C,1982.0,אוזניות  ‏אלחוטי Apple AirPods Max USB-C,1982.0,1234904,1234904,headphones,True,abbreviate
+אוזניות  ‏אלחוטיות Apple AirPods Max USB-C,1528.0,אוזניות  ‏אלחוטיות Apple AirPods Max USB-C משלוח חינם,1528.0,1234904,1234904,headphones,True,seller_noise
+אוזניות Xiaomi Redmi Buds 6 Play True Wireless,77.0,אוזניות שיאומי Redmi Buds 6 Play True Wireless,77.0,1236640,1236640,headphones,True,brand_swap
+אוזניות Xiaomi Redmi Buds 6 Play True Wireless,72.0,אוזניות Xiaomi Redmi Buds 6 Play TW,72.0,1236640,1236640,headphones,True,abbreviate
+אוזניות Xiaomi Redmi Buds 6 Play True Wireless,69.0,אוזניות אלחוטיות Xiaomi Redmi Buds 6 Play True Wireless,69.0,1236640,1236640,headphones,True,add_prefix
+מחשב נייד Lenovo V14 G4 IRU 83A0007VIV,1347.0,מחשב נייד Lenovo V14 G4 IRU 83A0007VIV יבואן מורשה,1347.0,1237484,1237484,laptops,True,seller_noise
+מחשב נייד Lenovo V14 G4 IRU 83A0007VIV,1251.0,מחשב נייד Lenovo V14 G4 IRU 83A0007VIV Silver,1251.0,1237484,1237484,laptops,True,color_noise
+מחשב נייד Apple MacBook Air 13 M2 MC7U4HB/A MC7V4HB/A MC7W4HB/A MC7X4HB/A,3481.0,מחשב נייד אפל MacBook Air 13 M2 MC7U4HB/A MC7V4HB/A MC7W4HB/A MC7X4HB/A,3481.0,1237766,1237766,laptops,True,brand_swap
+מחשב נייד Apple MacBook Air 13 M2 MC7U4HB/A MC7V4HB/A MC7W4HB/A MC7X4HB/A,3315.0,מחשב נייד Apple MacBook Air 13 M2 MC7U4HB/A MC7V4HB/A MC7W4HB/A MC7X4HB/A Black,3315.0,1237766,1237766,laptops,True,color_noise
+מחשב נייד Apple MacBook Air 13 M2 MC7U4HB/A MC7V4HB/A MC7W4HB/A MC7X4HB/A,3477.0,נייד Apple MacBook Air 13 M2 MC7U4HB/A MC7V4HB/A MC7W4HB/A MC7X4HB/A,3477.0,1237766,1237766,laptops,True,add_prefix
+אוזניות Anker Soundcore Space One Pro Bluetooth,507.0,אוזניות Anker Soundcore Space One Pro Bluetooth בצבע כחול,507.0,1240770,1240770,headphones,True,color_noise
+טלפון סלולרי Xiaomi Poco X7 Pro 512GB 12GB RAM,1387.0,טלפון סלולרי שיאומי Poco X7 Pro 512GB 12GB RAM,1387.0,1240775,1240775,smartphones,True,brand_swap
+טלפון סלולרי Xiaomi Poco X7 Pro 512GB 12GB RAM,1103.0,טלפון סלולרי Xiaomi Poco X7 Pro 512GB 12GB RAM משלוח חינם,1103.0,1240775,1240775,smartphones,True,seller_noise
+טלפון סלולרי Samsung Galaxy S25 Plus SM-S936B/DS 256GB 12GB RAM,2538.0,טלפון סלולרי Samsung Galaxy S25 Plus SM-S936B/DS 256GB 12GB RAM Blue,2538.0,1241793,1241793,smartphones,True,color_noise
+טלפון סלולרי Samsung Galaxy S25 Plus SM-S936B/DS 256GB 12GB RAM,2901.0,טלפון סלולרי Samsung Galaxy S25 Plus SM-S936B/DS 256GB 12GB RAM אחריות יבואן רשמי,2901.0,1241793,1241793,smartphones,True,seller_noise
+‏מכונת אספרסו Ninja Luxe Essential ES501EU,1265.0,‏מכונת אספרסו Ninja Luxe Essential ES501EU משלוח חינם,1265.0,1241809,1241809,coffee_machines,True,seller_noise
+‏מכונת אספרסו Ninja Luxe Essential ES501EU,1192.0,Luxe Essential ES501EU ‏מכונת אספרסו Ninja,1192.0,1241809,1241809,coffee_machines,True,reorder
+טלפון סלולרי Samsung Galaxy S25 SM-S931B/DS 256GB 12GB RAM,2126.0,S25 SM-S931B/DS 256GB 12GB RAM טלפון סלולרי Samsung Galaxy,2126.0,1242015,1242015,smartphones,True,reorder
+טלפון סלולרי Samsung Galaxy S25 SM-S931B/DS 256GB 12GB RAM,2513.0,טלפון סלולרי Samsung Galaxy S25 /DS 256GB 12GB RAM,2513.0,1242015,1242015,smartphones,True,drop_part
+טלפון סלולרי Samsung Galaxy S25 Ultra SM-S938B/DS 512GB 12GB RAM,3639.0,טלפון סלולרי Samsung Galaxy S25 Ultra SM-S938B/DS 512GB 12GB RAM יבואן מורשה,3639.0,1242276,1242276,smartphones,True,seller_noise
+טלפון סלולרי Samsung Galaxy S25 Ultra SM-S938B/DS 512GB 12GB RAM,3628.0,טלפון סלולרי Samsung Galaxy S25 U SM-S938B/DS 512GB 12GB RAM,3628.0,1242276,1242276,smartphones,True,abbreviate
+טלפון סלולרי Samsung Galaxy S25 Ultra SM-S938B/DS 512GB 12GB RAM,4217.0,טלפון סלולרי Samsung Galaxy S25 Ultra /DS 512GB 12GB RAM,4217.0,1242276,1242276,smartphones,True,drop_part
+טלפון סלולרי Samsung Galaxy S25 Ultra SM-S938B/DS 512GB 12GB RAM,4401.0,Samsung Galaxy S25 Ultra SM-S938B/DS 512GB 12GB RAM,4401.0,1242276,1242276,smartphones,True,drop_prefix
+טלפון סלולרי Samsung Galaxy S25 Ultra SM-S938B/DS 256GB 12GB RAM,3554.0,Ultra SM-S938B/DS 256GB 12GB RAM טלפון סלולרי Samsung Galaxy S25,3554.0,1242277,1242277,smartphones,True,reorder
+טלפון סלולרי Samsung Galaxy S25 Ultra SM-S938B/DS 256GB 12GB RAM,2912.0,טלפון סלולרי Samsung Galaxy S25 Ultra /DS 256GB 12GB RAM,2912.0,1242277,1242277,smartphones,True,drop_part
+טלפון סלולרי Samsung Galaxy S25 Ultra SM-S938B/DS 256GB 12GB RAM,2933.0,Samsung Galaxy S25 Ultra SM-S938B/DS 256GB 12GB RAM,2933.0,1242277,1242277,smartphones,True,drop_prefix
+מחשב נייד Acer Nitro V15 NH.QSGEC.002,3754.0,מחשב נייד Acer Nitro V15 NH.QSGEC.002 יבואן רשמי,3754.0,1242460,1242460,laptops,True,seller_noise
+מחשב נייד Acer Nitro V15 NH.QSGEC.002,4506.0,מחשב נייד Acer Nitro V15 NH.QSGEC.002 בצבע אפור,4506.0,1242460,1242460,laptops,True,color_noise
+מחשב נייד Asus ExpertBook P1 P1503CVA-S70709,1625.0,מחשב נייד Asus ExpertBook P1 P1503CVA-S70709 Blue,1625.0,1243789,1243789,laptops,True,color_noise
+מחשב נייד Asus ExpertBook P1 P1503CVA-S70709,1573.0,Asus ExpertBook P1 P1503CVA-S70709,1573.0,1243789,1243789,laptops,True,drop_prefix
+Asus מחשב נייד ASUS ExpertBook P1 P1403CVA-S60650 בצבע אפור מעושן,2777.0,Asus מחשב נייד ASUS ExpertBook P1 P1403CVA-S60650 בצבע אפור מעושן אחריות מעבדות,2777.0,1243790,1243790,laptops,True,seller_noise
+מחשב נייד Apple MacBook Air 13 M4 MW123HB/A MW0Y3HB/A MW0W3HB/A MC6T4HB/A,3677.0,מחשב נייד Apple MacBook Air 13 M4 MW123HB/A MW0Y3HB/A MW0W3HB/A MC6T4HB/A DCS,3677.0,1244076,1244076,laptops,True,seller_noise
+מחשב נייד Apple MacBook Air 13 M4 MW123HB/A MW0Y3HB/A MW0W3HB/A MC6T4HB/A,3536.0,13 M4 MW123HB/A MW0Y3HB/A MW0W3HB/A MC6T4HB/A מחשב נייד Apple MacBook Air,3536.0,1244076,1244076,laptops,True,reorder
+מחשב נייד Apple MacBook Air 13 M4 MW133HB/A MW103HB/A MW0X3HB/A MC6U4HB/A,4319.0,13 M4 MW133HB/A MW103HB/A MW0X3HB/A MC6U4HB/A מחשב נייד Apple MacBook Air,4319.0,1244077,1244077,laptops,True,reorder
+מחשב נייד Apple MacBook Air 13 M4 MW133HB/A MW103HB/A MW0X3HB/A MC6U4HB/A,4372.0,מחשב נייד Apple MacBook Air 13 M4 MW133HB/A MW103HB/A MW0X3HB/A MC6U4HB/A בצבע שחור,4372.0,1244077,1244077,laptops,True,color_noise
+מחשב נייד Apple MacBook Air 15 M4 MW1G3HB/A MC7A4HB/A MW1J3HB/A MW1L3HB/A,5482.0,מחשב נייד Apple MacBook Air 15 M4 MW1G3HB/A MC7A4HB/A MW1J3HB/A MW1L3HB/A אחריות יבואן רשמי,5482.0,1244078,1244078,laptops,True,seller_noise
+מחשב נייד Apple MacBook Air 15 M4 MW1G3HB/A MC7A4HB/A MW1J3HB/A MW1L3HB/A,4846.0,מחשב נייד Apple MacBook Air 15 M4 MW1G3HB/A MC7A4HB/A MW1J3HB/A MW1L3HB/A White,4846.0,1244078,1244078,laptops,True,color_noise
+טלפון סלולרי Samsung Galaxy A56 SM-A566B/DS 256GB 8GB RAM,1392.0,טלפון סלולרי Samsung Galaxy A56 SM-A566B/DS 256GB 8GB RAM בצבע לבן,1392.0,1244496,1244496,smartphones,True,color_noise
+טלפון סלולרי Samsung Galaxy A56 SM-A566B/DS 256GB 8GB RAM,1184.0,טלפון חכם Samsung Galaxy A56 SM-A566B/DS 256GB 8GB RAM,1184.0,1244496,1244496,smartphones,True,add_prefix
+טלפון סלולרי Samsung Galaxy A56 SM-A566B/DS 256GB 8GB RAM,1223.0,A56 SM-A566B/DS 256GB 8GB RAM טלפון סלולרי Samsung Galaxy,1223.0,1244496,1244496,smartphones,True,reorder
+טלפון סלולרי Samsung Galaxy A56 SM-A566B/DS 256GB 8GB RAM,1433.0,טלפון סלולרי Samsung Galaxy A56 SM-A566B/DS 256GB 8GB RAM אחריות מעבדות,1433.0,1244496,1244496,smartphones,True,seller_noise
+מחשב נייד Lenovo Yoga 7 2-in-1 14ILL10 83JQ004SIV,5830.0,מחשב נייד Lenovo Yoga 7 2-in-1 14ILL10 83JQ004SIV Blue,5830.0,1245785,1245785,laptops,True,color_noise
+מחשב נייד Lenovo Yoga 7 2-in-1 14ILL10 83JQ004SIV,5500.0,מחשב נייד Lenovo Yoga 7 2-in-1 14ILL10 83JQ004SIV יבואן רשמי,5500.0,1245785,1245785,laptops,True,seller_noise
+מחשב נייד Lenovo Yoga 7 2-in-1 14ILL10 83JQ004SIV,5272.0,7 2-in-1 14ILL10 83JQ004SIV מחשב נייד Lenovo Yoga,5272.0,1245785,1245785,laptops,True,reorder
+טלוויזיה TCL C6K 65C6K 4K  ‏65 ‏אינטש,2595.0,"טלוויזיה TCL C6K 65C6K 4K  ‏65 ‏""",2595.0,1247491,1247491,tvs,True,abbreviate
+טלוויזיה TCL C6K 65C6K 4K  ‏65 ‏אינטש,2354.0,טלוויזיה TCL C6K 65C6K 4K  ‏65 ‏אינטש יבואן רשמי,2354.0,1247491,1247491,tvs,True,seller_noise
+טלוויזיה TCL C6K 65C6K 4K  ‏65 ‏אינטש,2703.0,TCL C6K 65C6K 4K  ‏65 ‏אינטש,2703.0,1247491,1247491,tvs,True,drop_prefix
+מחשב נייד HP ProBook 4 G1i AD2M0ET,2666.0,ProBook 4 G1i AD2M0ET מחשב נייד HP,2666.0,1247863,1247863,laptops,True,reorder
+מחשב נייד HP ProBook 4 G1i AD2M0ET,3124.0,מחשב נייד אייץ' פי ProBook 4 G1i AD2M0ET,3124.0,1247863,1247863,laptops,True,brand_swap
+מחשב נייד HP ProBook 4 G1i AD2L3ET,3234.0,מחשב נייד HP ProBook 4 G1i AD2L3ET אחריות מעבדות,3234.0,1247869,1247869,laptops,True,seller_noise
+מחשב נייד HP ProBook 4 G1i AD2L3ET,3209.0,נייד HP ProBook 4 G1i AD2L3ET,3209.0,1247869,1247869,laptops,True,add_prefix
+מחשב נייד HP ProBook 4 G1i AD2M3ET,3632.0,מחשב נייד אייץ' פי ProBook 4 G1i AD2M3ET,3632.0,1247872,1247872,laptops,True,brand_swap
+מחשב נייד HP ProBook 4 G1i AD2M3ET,3312.0,מחשב נייד HP ProBook 4 G1i AD2M3ET יבואן רשמי,3312.0,1247872,1247872,laptops,True,seller_noise
+מחשב נייד HP ProBook 4 G1i AD2M1ET,3631.0,HP ProBook 4 G1i AD2M1ET,3631.0,1247873,1247873,laptops,True,drop_prefix
+מחשב נייד HP ProBook 4 G1i AD2M1ET,3510.0,מחשב נייד HP ProBook 4 G1i AD2M1ET אחריות מעבדות,3510.0,1247873,1247873,laptops,True,seller_noise
+מחשב נייד HP ProBook 4 G1i AD2M1ET,3052.0,ProBook 4 G1i AD2M1ET מחשב נייד HP,3052.0,1247873,1247873,laptops,True,reorder
+מחשב נייד HP ProBook 4 G1i AD2M1ET,3576.0,מחשב נייד אייץ' פי ProBook 4 G1i AD2M1ET,3576.0,1247873,1247873,laptops,True,brand_swap
+‏מכונת אספרסו Ninja Luxe Essential ES601EU,1628.0,‏מכונת אספרסו Ninja Luxe Essential ES601EU בצבע כחול,1628.0,1248076,1248076,coffee_machines,True,color_noise
+מחשב נייד Lenovo IdeaPad Slim 3 15IRH10 83K100KPIV,2318.0,לפטופ Lenovo IdeaPad Slim 3 15IRH10 83K100KPIV,2318.0,1248137,1248137,laptops,True,add_prefix
+מחשב נייד Lenovo IdeaPad Slim 3 15IRH10 83K100KPIV,2575.0,Slim 3 15IRH10 83K100KPIV מחשב נייד Lenovo IdeaPad,2575.0,1248137,1248137,laptops,True,reorder
+מחשב נייד Lenovo IdeaPad Slim 3 15IRH10 83K100KPIV,2867.0,מחשב נייד Lenovo IdeaPad Slim 3 15IRH10 83K100KPIV אחריות מעבדות,2867.0,1248137,1248137,laptops,True,seller_noise
+טלוויזיה TCL 65C7K 4K  ‏65 ‏אינטש,3572.0,TCL 65C7K 4K  ‏65 ‏אינטש,3572.0,1248992,1248992,tvs,True,drop_prefix
+טלוויזיה TCL 65C7K 4K  ‏65 ‏אינטש,2884.0,טלוויזיה TCL 65C7K 4K  ‏65 ‏אינטש יבואן מורשה,2884.0,1248992,1248992,tvs,True,seller_noise
+אוזניות  ‏אלחוטיות Sony WH-1000XM6,1417.0,אוזניות  ‏אלחוטיות Sony WH-1000XM6 White,1417.0,1249659,1249659,headphones,True,color_noise
+אוזניות  ‏אלחוטיות Sony WH-1000XM6,1521.0,אוזניות  ‏אלחוטי Sony WH-1000XM6,1521.0,1249659,1249659,headphones,True,abbreviate
+אוזניות  ‏אלחוטיות Sony WH-1000XM6,1524.0,אוזניות בלוטות' ‏אלחוטיות Sony WH-1000XM6,1524.0,1249659,1249659,headphones,True,add_prefix
+טלוויזיה LG OLED77B56LA 4K  ‏77 ‏אינטש,7510.0,4K ‏77 ‏אינטש טלוויזיה LG OLED77B56LA,7510.0,1250748,1250748,tvs,True,reorder
+טלוויזיה LG OLED77B56LA 4K  ‏77 ‏אינטש,8508.0,מסך LG OLED77B56LA 4K  ‏77 ‏אינטש,8508.0,1250748,1250748,tvs,True,add_prefix
+טלוויזיה LG OLED65G56LA 4K  ‏65 ‏אינטש,7373.0,"טלוויזיה LG OLED65G56LA 4K  ‏65 ‏""",7373.0,1251127,1251127,tvs,True,abbreviate
+אוזניות Anker Soundcore Liberty 5 Bluetooth,335.0,Liberty 5 Bluetooth אוזניות Anker Soundcore,335.0,1251814,1251814,headphones,True,reorder
+אוזניות Anker Soundcore Liberty 5 Bluetooth,385.0,אוזניות בלוטות' Anker Soundcore Liberty 5 Bluetooth,385.0,1251814,1251814,headphones,True,add_prefix
+אוזניות Anker Soundcore Liberty 5 Bluetooth,303.0,אוזניות Anker Soundcore Liberty 5 BT,303.0,1251814,1251814,headphones,True,abbreviate
+אוזניות Anker Soundcore Liberty 5 Bluetooth,291.0,Anker Soundcore Liberty 5 Bluetooth,291.0,1251814,1251814,headphones,True,drop_prefix
+אוזניות  ‏אלחוטיות Samsung Galaxy Buds Core SM-R410,149.0,אוזניות  ‏אלחוטי Samsung Galaxy Buds Core SM-R410,149.0,1252156,1252156,headphones,True,abbreviate
+אוזניות  ‏אלחוטיות Samsung Galaxy Buds Core SM-R410,137.0,אוזניות  ‏אלחוטיות סמסונג Galaxy Buds Core SM-R410,137.0,1252156,1252156,headphones,True,brand_swap
+טלוויזיה LG OLED55C56LA 4K  ‏55 ‏אינטש,5324.0,4K ‏55 ‏אינטש טלוויזיה LG OLED55C56LA,5324.0,1252317,1252317,tvs,True,reorder
+טלוויזיה LG OLED55C56LA 4K  ‏55 ‏אינטש,6457.0,טלוויזיה LG OLED55C56LA 4K  ‏55 ‏אינטש Black,6457.0,1252317,1252317,tvs,True,color_noise
+טלוויזיה LG OLED65C56LA 4K  ‏65 ‏אינטש,7374.0,"טלוויזיה LG OLED65C56LA 4K  ‏65 ‏""",7374.0,1252339,1252339,tvs,True,abbreviate
+טלוויזיה LG OLED65C56LA 4K  ‏65 ‏אינטש,5526.0,טלוויזיה אל ג'י OLED65C56LA 4K  ‏65 ‏אינטש,5526.0,1252339,1252339,tvs,True,brand_swap
+טלוויזיה LG OLED65C56LA 4K  ‏65 ‏אינטש,6206.0,4K ‏65 ‏אינטש טלוויזיה LG OLED65C56LA,6206.0,1252339,1252339,tvs,True,reorder
+טלוויזיה LG OLED77C56LA 4K  ‏77 ‏אינטש,7927.0,LG OLED77C56LA 4K  ‏77 ‏אינטש,7927.0,1252343,1252343,tvs,True,drop_prefix
+טלוויזיה LG OLED77C56LA 4K  ‏77 ‏אינטש,11111.0,4K ‏77 ‏אינטש טלוויזיה LG OLED77C56LA,11111.0,1252343,1252343,tvs,True,reorder
+טלוויזיה LG OLED77C56LA 4K  ‏77 ‏אינטש,11280.0,טלוויזיה LG OLED77C56LA 4K  ‏77 ‏אינטש בצבע שחור,11280.0,1252343,1252343,tvs,True,color_noise
+טלוויזיה Samsung UE43U8000F 4K  ‏43 ‏אינטש,1303.0,מסך Samsung UE43U8000F 4K  ‏43 ‏אינטש,1303.0,1252737,1252737,tvs,True,add_prefix
+טלוויזיה Samsung UE43U8000F 4K  ‏43 ‏אינטש,1323.0,Samsung UE43U8000F 4K  ‏43 ‏אינטש,1323.0,1252737,1252737,tvs,True,drop_prefix
+טלוויזיה Samsung UE43U8000F 4K  ‏43 ‏אינטש,1294.0,טלוויזיה סמסונג UE43U8000F 4K  ‏43 ‏אינטש,1294.0,1252737,1252737,tvs,True,brand_swap
+טלוויזיה Samsung UE43U8000F 4K  ‏43 ‏אינטש,1280.0,טלוויזיה Samsung UE43U8000F 4K  ‏43 ‏אינטש אחריות יבואן רשמי,1280.0,1252737,1252737,tvs,True,seller_noise
+טלוויזיה Samsung UE55U8000F 4K  ‏55 ‏אינטש,1790.0,4K ‏55 ‏אינטש טלוויזיה Samsung UE55U8000F,1790.0,1252739,1252739,tvs,True,reorder
+טלוויזיה Samsung UE55U8000F 4K  ‏55 ‏אינטש,1695.0,מסך Samsung UE55U8000F 4K  ‏55 ‏אינטש,1695.0,1252739,1252739,tvs,True,add_prefix
+טלוויזיה Samsung UE75U8000F 4K  ‏75 ‏אינטש,2472.0,טלוויזיה סמסונג UE75U8000F 4K  ‏75 ‏אינטש,2472.0,1252741,1252741,tvs,True,brand_swap
+טלוויזיה Samsung UE75U8000F 4K  ‏75 ‏אינטש,3209.0,טלוויזיה Samsung UE75U8000F 4K  ‏75 ‏אינטש יבואן מורשה,3209.0,1252741,1252741,tvs,True,seller_noise
+טלוויזיה Samsung QE55Q8F 4K  ‏55 ‏אינטש,2672.0,4K ‏55 ‏אינטש טלוויזיה Samsung QE55Q8F,2672.0,1252750,1252750,tvs,True,reorder
+טלוויזיה Samsung QE55Q8F 4K  ‏55 ‏אינטש,2768.0,טלוויזיה Samsung QE55Q8F 4K  ‏55 ‏אינטש White,2768.0,1252750,1252750,tvs,True,color_noise
+טלוויזיה Samsung QE65Q8F 4K  ‏65 ‏אינטש,2562.0,4K ‏65 ‏אינטש טלוויזיה Samsung QE65Q8F,2562.0,1252935,1252935,tvs,True,reorder
+טלוויזיה Samsung QE65Q8F 4K  ‏65 ‏אינטש,2784.0,מסך Samsung QE65Q8F 4K  ‏65 ‏אינטש,2784.0,1252935,1252935,tvs,True,add_prefix
+טלוויזיה Samsung QE65Q8F 4K  ‏65 ‏אינטש,3029.0,"טלוויזיה Samsung QE65Q8F 4K  ‏65 ‏""",3029.0,1252935,1252935,tvs,True,abbreviate
+מחשב נייד HP OMEN MAX 16-ah0013nj C2PY3EA,7575.0,מחשב נייד HP OMEN MAX 16-ah0013nj C2PY3EA בצבע לבן,7575.0,1253156,1253156,laptops,True,color_noise
+מחשב נייד HP OMEN MAX 16-ah0013nj C2PY3EA,7105.0,HP OMEN MAX 16-ah0013nj C2PY3EA,7105.0,1253156,1253156,laptops,True,drop_prefix
+טלפון סלולרי Apple iPhone 17 256GB,2643.0,טלפון סלולרי Apple iPhone 17 256GB Silver,2643.0,1253558,1253558,smartphones,True,color_noise
+טלוויזיה LG 75QNED93A6A 4K  ‏75 ‏אינטש,6055.0,טלוויזיה אל ג'י 75QNED93A6A 4K  ‏75 ‏אינטש,6055.0,1253612,1253612,tvs,True,brand_swap
+טלוויזיה LG 75QNED93A6A 4K  ‏75 ‏אינטש,6357.0,טלוויזיה LG 75QNED93A6A 4K  ‏75 ‏אינטש אחריות יבואן רשמי,6357.0,1253612,1253612,tvs,True,seller_noise
+טלוויזיה LG 75QNED93A6A 4K  ‏75 ‏אינטש,6248.0,טלוויזיה LG 75QNED93A6A 4K  ‏75 ‏אינטש בצבע לבן,6248.0,1253612,1253612,tvs,True,color_noise
+טלפון סלולרי Apple iPhone 17 Pro Max 256GB,4355.0,טלפון סלולרי Apple iPhone 17 Pro Max 256GB משלוח חינם,4355.0,1253615,1253615,smartphones,True,seller_noise
+טלפון סלולרי Apple iPhone 17 Pro Max 256GB,5227.0,טלפון חכם Apple iPhone 17 Pro Max 256GB,5227.0,1253615,1253615,smartphones,True,add_prefix
+טלפון סלולרי Apple iPhone 17 Pro 512GB,5705.0,סלולרי Apple iPhone 17 Pro 512GB,5705.0,1253617,1253617,smartphones,True,add_prefix
+טלפון סלולרי Apple iPhone 17 Pro Max 512GB,6885.0,Apple iPhone 17 Pro Max 512GB,6885.0,1253618,1253618,smartphones,True,drop_prefix
+טלפון סלולרי Apple iPhone 17 Pro Max 512GB,5434.0,טלפון סלולרי Apple iPhone 17 Pro Max 512GB Blue,5434.0,1253618,1253618,smartphones,True,color_noise
+טלפון סלולרי Apple iPhone 17 Pro 256GB,5363.0,טלפון סלולרי אפל iPhone 17 Pro 256GB,5363.0,1253628,1253628,smartphones,True,brand_swap
+טלפון סלולרי Apple iPhone 17 Pro 256GB,5595.0,סלולרי Apple iPhone 17 Pro 256GB,5595.0,1253628,1253628,smartphones,True,add_prefix
+טלפון סלולרי Samsung Galaxy S25 FE SM-S731B/DS 256GB 8GB RAM,1981.0,טלפון סלולרי Samsung Galaxy S25 FE SM-S731B/DS 256GB 8GB RAM אחריות יבואן רשמי,1981.0,1253631,1253631,smartphones,True,seller_noise
+טלפון סלולרי Samsung Galaxy S25 FE SM-S731B/DS 256GB 8GB RAM,1563.0,טלפון סלולרי Samsung Galaxy S25 FE /DS 256GB 8GB RAM,1563.0,1253631,1253631,smartphones,True,drop_part
+טלפון סלולרי Samsung Galaxy S25 FE SM-S731B/DS 256GB 8GB RAM,1745.0,Samsung Galaxy S25 FE SM-S731B/DS 256GB 8GB RAM,1745.0,1253631,1253631,smartphones,True,drop_prefix
+‏מכונת אספרסו Ninja Luxe Pro ES701EU,2016.0,Luxe Pro ES701EU ‏מכונת אספרסו Ninja,2016.0,1254285,1254285,coffee_machines,True,reorder
+‏מכונת אספרסו Ninja Luxe Pro ES701EU,2067.0,‏מכונת אספרסו Ninja Luxe Pro ES701EU Black,2067.0,1254285,1254285,coffee_machines,True,color_noise
+אוזניות  ‏אלחוטיות Apple AirPods Pro 3 MagSafe USB-C MFHP4ZM/A,732.0,אוזניות  ‏אלחוטיות Apple AirPods Pro 3 MagSafe USB-C MFHP4ZM/A בצבע שחור,732.0,1254417,1254417,headphones,True,color_noise
+אוזניות  ‏אלחוטיות Apple AirPods Pro 3 MagSafe USB-C MFHP4ZM/A,995.0,אוזניות  ‏אלחוטיות Apple AirPods Pro 3 MagSafe USB-C MFHP4ZM/A יבואן מורשה,995.0,1254417,1254417,headphones,True,seller_noise
+טלוויזיה Samsung QE43Q7F 4K  ‏43 ‏אינטש,1563.0,4K ‏43 ‏אינטש טלוויזיה Samsung QE43Q7F,1563.0,1254524,1254524,tvs,True,reorder
+טלוויזיה Samsung QE43Q7F 4K  ‏43 ‏אינטש,1253.0,"טלוויזיה Samsung QE43Q7F 4K  ‏43 ‏""",1253.0,1254524,1254524,tvs,True,abbreviate
+מחשב נייד HP Victus 15-fa2011nj בצבע כסף מיקה C93FLEA,2893.0,מחשב נייד אייץ' פי Victus 15-fa2011nj בצבע כסף מיקה C93FLEA,2893.0,1254725,1254725,laptops,True,brand_swap
+מחשב נייד HP Victus 15-fa2011nj בצבע כסף מיקה C93FLEA,2810.0,HP Victus 15-fa2011nj בצבע כסף מיקה C93FLEA,2810.0,1254725,1254725,laptops,True,drop_prefix
+מחשב נייד HP Victus 15-fa2011nj בצבע כסף מיקה C93FLEA,3209.0,15-fa2011nj בצבע כסף מיקה C93FLEA מחשב נייד HP Victus,3209.0,1254725,1254725,laptops,True,reorder
+טלוויזיה LG 43UA73006LA 4K  ‏43 ‏אינטש,1298.0,טלוויזיה אל ג'י 43UA73006LA 4K  ‏43 ‏אינטש,1298.0,1254945,1254945,tvs,True,brand_swap
+טלוויזיה LG 55UA73006LA 4K  ‏55 ‏אינטש,1690.0,מסך LG 55UA73006LA 4K  ‏55 ‏אינטש,1690.0,1254949,1254949,tvs,True,add_prefix
+טלוויזיה LG 55UA73006LA 4K  ‏55 ‏אינטש,1901.0,טלוויזיה LG 55UA73006LA 4K  ‏55 ‏אינטש אחריות יבואן רשמי,1901.0,1254949,1254949,tvs,True,seller_noise
+טלוויזיה LG 55UA73006LA 4K  ‏55 ‏אינטש,1757.0,4K ‏55 ‏אינטש טלוויזיה LG 55UA73006LA,1757.0,1254949,1254949,tvs,True,reorder
+טלוויזיה LG OLED65CS5VA 4K  ‏65 ‏אינטש,5523.0,"טלוויזיה LG OLED65CS5VA 4K  ‏65 ‏""",5523.0,1254951,1254951,tvs,True,abbreviate
+מחשב נייד Lenovo V14 83GU006HIV,2102.0,מחשב נייד Lenovo V14 83GU006HIV בצבע שחור,2102.0,1255712,1255712,laptops,True,color_noise
+מחשב נייד Lenovo V14 83GU006HIV,1852.0,Lenovo V14 83GU006HIV מחשב נייד,1852.0,1255712,1255712,laptops,True,reorder
+מחשב נייד Lenovo V14 83GU006HIV,1515.0,לפטופ Lenovo V14 83GU006HIV,1515.0,1255712,1255712,laptops,True,add_prefix
+טלפון סלולרי OnePlus 15 512GB 16GB RAM,2844.0,טלפון חכם OnePlus 15 512GB 16GB RAM,2844.0,1256028,1256028,smartphones,True,add_prefix
+טלפון סלולרי OnePlus 15 512GB 16GB RAM,3427.0,טלפון סלולרי OnePlus 15 512GB 16GB RAM בצבע אפור,3427.0,1256028,1256028,smartphones,True,color_noise
+מחשב נייד לגיימרים Asus TUF Gaming F16 FX607VJB-RL144W בצבע שחור,4869.0,לגיימרים Asus TUF Gaming F16 FX607VJB-RL144W בצבע שחור,4869.0,1256491,1256491,laptops,True,drop_prefix
+מחשב נייד לגיימרים Asus TUF Gaming F16 FX607VJB-RL144W בצבע שחור,5972.0,Gaming F16 FX607VJB-RL144W בצבע שחור מחשב נייד לגיימרים Asus TUF,5972.0,1256491,1256491,laptops,True,reorder
+מחשב נייד Dell Pro 15 Essential PV15250 PV15250-5005,2349.0,מחשב נייד Dell Pro 15 Essential PV15250 PV15250-5005 אחריות יבואן רשמי,2349.0,1257971,1257971,laptops,True,seller_noise
+מחשב נייד Dell Pro 15 Essential PV15250 PV15250-5005,2538.0,Dell Pro 15 Essential PV15250 PV15250-5005,2538.0,1257971,1257971,laptops,True,drop_prefix
+מחשב נייד Asus TUF Gaming F16 FX607VJ-RL016,2549.0,מחשב נייד אסוס TUF Gaming F16 FX607VJ-RL016,2549.0,1259201,1259201,laptops,True,brand_swap
+מחשב נייד Asus TUF Gaming F16 FX607VJ-RL016,3179.0,מחשב נייד Asus TUF Gaming F16 FX607VJ-RL016 בצבע אפור,3179.0,1259201,1259201,laptops,True,color_noise
+מחשב נייד Dell Pro 15 Essential PV15250-5118,2620.0,לפטופ Dell Pro 15 Essential PV15250-5118,2620.0,1260183,1260183,laptops,True,add_prefix
+מחשב נייד Dell Pro 15 Essential PV15250-5118,2454.0,Dell Pro 15 Essential PV15250-5118,2454.0,1260183,1260183,laptops,True,drop_prefix
+טלפון סלולרי Xiaomi Redmi Note 15 Pro Plus 512GB 12GB RAM,1777.0,טלפון סלולרי Xiaomi Redmi Note 15 Pro Plus 512GB 12GB RAM בצבע אפור,1777.0,1260243,1260243,smartphones,True,color_noise
+טלפון סלולרי Xiaomi Redmi Note 15 Pro Plus 512GB 12GB RAM,1656.0,טלפון סלולרי Xiaomi Redmi Note 15 Pro Plus 512GB 12GB RAM DCS,1656.0,1260243,1260243,smartphones,True,seller_noise
+טלפון סלולרי Samsung Galaxy S26 Ultra SM-S948B/DS 512GB 12GB RAM,5087.0,טלפון סלולרי Samsung Galaxy S26 Ultra SM-S948B/DS 512GB 12GB RAM אחריות יבואן רשמי,5087.0,1262747,1262747,smartphones,True,seller_noise
+טלפון סלולרי Samsung Galaxy S26 Ultra SM-S948B/DS 512GB 12GB RAM,5081.0,טלפון סלולרי Samsung Galaxy S26 Ultra /DS 512GB 12GB RAM,5081.0,1262747,1262747,smartphones,True,drop_part
+טלפון סלולרי Samsung Galaxy S26 Ultra SM-S948B/DS 512GB 12GB RAM,4247.0,טלפון סלולרי Samsung Galaxy S26 U SM-S948B/DS 512GB 12GB RAM,4247.0,1262747,1262747,smartphones,True,abbreviate
+טלפון סלולרי Samsung Galaxy S26 Ultra SM-S948B/DS 1TB 16GB RAM,6131.0,טלפון סלולרי Samsung Galaxy S26 Ultra /DS 1TB 16GB RAM,6131.0,1262748,1262748,smartphones,True,drop_part
+טלפון סלולרי Samsung Galaxy S26 Ultra SM-S948B/DS 1TB 16GB RAM,4762.0,טלפון חכם Samsung Galaxy S26 Ultra SM-S948B/DS 1TB 16GB RAM,4762.0,1262748,1262748,smartphones,True,add_prefix
+טלפון סלולרי Samsung Galaxy S26 Ultra SM-S948B/DS 1TB 16GB RAM,5552.0,טלפון סלולרי Samsung Galaxy S26 Ultra SM-S948B/DS 1TB 16GB RAM בצבע שחור,5552.0,1262748,1262748,smartphones,True,color_noise
+טלפון סלולרי Samsung Galaxy S26 Ultra SM-S948B/DS 1TB 16GB RAM,5603.0,טלפון סלולרי Samsung Galaxy S26 U SM-S948B/DS 1TB 16GB RAM,5603.0,1262748,1262748,smartphones,True,abbreviate
+טלפון סלולרי Samsung Galaxy S26 Ultra SM-S948B/DS 256GB 12GB RAM,4300.0,טלפון סלולרי סמסונג Galaxy S26 Ultra SM-S948B/DS 256GB 12GB RAM,4300.0,1262749,1262749,smartphones,True,brand_swap
+טלפון סלולרי Samsung Galaxy S26 Ultra SM-S948B/DS 256GB 12GB RAM,3755.0,טלפון סלולרי Samsung Galaxy S26 U SM-S948B/DS 256GB 12GB RAM,3755.0,1262749,1262749,smartphones,True,abbreviate
+טלפון סלולרי Samsung Galaxy S26 Ultra SM-S948B/DS 256GB 12GB RAM,3337.0,טלפון סלולרי Samsung Galaxy S26 Ultra SM-S948B/DS 256GB 12GB RAM יבואן מורשה,3337.0,1262749,1262749,smartphones,True,seller_noise
+טלפון סלולרי Samsung Galaxy S26 Ultra SM-S948B/DS 256GB 12GB RAM,3810.0,Samsung Galaxy S26 Ultra SM-S948B/DS 256GB 12GB RAM,3810.0,1262749,1262749,smartphones,True,drop_prefix
+טלפון סלולרי Samsung Galaxy S26 SM-S942B/DS 256GB 12GB RAM,2915.0,מכשיר סלולרי Samsung Galaxy S26 SM-S942B/DS 256GB 12GB RAM,2915.0,1262750,1262750,smartphones,True,add_prefix
+טלפון סלולרי Samsung Galaxy S26 SM-S942B/DS 256GB 12GB RAM,2845.0,Samsung Galaxy S26 SM-S942B/DS 256GB 12GB RAM,2845.0,1262750,1262750,smartphones,True,drop_prefix
+טלפון סלולרי Samsung Galaxy S26 Plus SM-S947B/DS 256GB 12GB RAM,3535.0,טלפון סלולרי סמסונג Galaxy S26 Plus SM-S947B/DS 256GB 12GB RAM,3535.0,1262751,1262751,smartphones,True,brand_swap
+‏מכונת אספרסו Ninja Luxe Cafe ES603,1711.0,מכונת אספרסו ‏מכונת אספרסו Ninja Luxe Cafe ES603,1711.0,1262788,1262788,coffee_machines,True,add_prefix
+אוזניות Samsung Galaxy Buds4 Pro SM-R640 True Wireless,672.0,אוזניות בלוטות' Samsung Galaxy Buds4 Pro SM-R640 True Wireless,672.0,1263110,1263110,headphones,True,add_prefix
+אוזניות Samsung Galaxy Buds4 Pro SM-R640 True Wireless,599.0,Samsung Galaxy Buds4 Pro SM-R640 True Wireless,599.0,1263110,1263110,headphones,True,drop_prefix
+אוזניות Samsung Galaxy Buds4 Pro SM-R640 True Wireless,710.0,אוזניות Samsung Galaxy Buds4 Pro SM-R640 TW,710.0,1263110,1263110,headphones,True,abbreviate
+מחשב נייד Apple MacBook Air 13″ M5 ‎16GB 512GB Midnight (MDHE4HB/A),4724.0,לפטופ Apple MacBook Air 13″ M5 ‎16GB 512GB Midnight (MDHE4HB/A),4724.0,1263226,1263226,laptops,True,add_prefix
+מחשב נייד Apple MacBook Air 13″ M5 ‎16GB 512GB Midnight (MDHE4HB/A),5007.0,מחשב נייד אפל MacBook Air 13″ M5 ‎16GB 512GB Midnight (MDHE4HB/A),5007.0,1263226,1263226,laptops,True,brand_swap
+מחשב נייד Apple MacBook Air 13″ M5 ‎16GB 512GB Midnight (MDHE4HB/A),4656.0,Apple MacBook Air 13″ M5 ‎16GB 512GB Midnight (MDHE4HB/A),4656.0,1263226,1263226,laptops,True,drop_prefix
+מחשב נייד Apple MacBook Neo 13 A18 Pro MHFC4HB/A MHFE4HB/A MHFG4HB/A MHFJ4HB/A,3251.0,מחשב נייד Apple MacBook Neo 13 A18 Pro MHFC4HB/A MHFE4HB/A MHFG4HB/A MHFJ4HB/A Black,3251.0,1263241,1263241,laptops,True,color_noise
+מחשב נייד Apple MacBook Neo 13 A18 Pro MHFA4HB/A MHFD4HB/A MHFF4HB/A MHFH4HB/A,2318.0,מחשב נייד Apple MacBook Neo 13 A18 Pro MHFA4HB/A MHFD4HB/A MHFF4HB/A MHFH4HB/A בצבע כחול,2318.0,1263242,1263242,laptops,True,color_noise
+מכונת קפה Ninja Luxe Essential ES601EU,1390.0,מכונת קפה Ninja Luxe Essential ES501EU,1390.0,2541,2541,coffee_machines,True,real_variant
+טלפון סלולרי Apple iPhone 15 128GB אפל,2749.0,טלפון סלולרי Apple iPhone 15 256GB אפל,2749.0,3926,3926,smartphones,True,real_variant
+טלפון סלולרי Apple iPhone 15 128GB אפל,2749.0,סמארטפון Apple iPhone 16 128GB אפל,2749.0,3926,3926,smartphones,True,real_variant
+טלפון סלולרי Apple iPhone 15 256GB אפל,2749.0,סמארטפון Apple iPhone 16 128GB אפל,2749.0,3926,3926,smartphones,True,real_variant
+טלוויזיה Samsung QE75Q7F QLED 4K  ‏75 ‏אינטש,3035.0,טלוויזיה Samsung QE75Q7F QLED 4K 75 אינטש,3035.0,940986,940986,tvs,True,real_variant
+‏מכונת אספרסו Breville BES878,2953.0,מכונת אספרסו Breville BES878 יבואן רשמי,2953.0,1068710,1068710,coffee_machines,True,real_variant
+‏מכונת אספרסו Nespresso Inissia EN 80,343.0,‏מכונת אספרסו Nespresso Inissia EN 80 נספרסו,343.0,1087191,1087191,coffee_machines,True,real_variant
+‏מכונת אספרסו Breville BES875BSS,2393.0,‏מכונת אספרסו Breville BES875BSS ברוויל,2393.0,1126869,1126869,coffee_machines,True,real_variant
+‏מכונת אספרסו Nespresso Citiz&Milk EN267,776.0,מכונת קפה Nespresso נספרסו +מקציף Citiz&Milk EN267 שחור,776.0,1127066,1127066,coffee_machines,True,real_variant
+מכונת קפה DeLonghi EC9155.W,2004.0,‏מכונת אספרסו Delonghi La Specialista Arte EC9155,2004.0,1155620,1155620,coffee_machines,True,real_variant
+מכונת קפה DeLonghi EC9155.W,2004.0,Delonghi מכונת קפה DeLonghi EC9155.W,2004.0,1155620,1155620,coffee_machines,True,real_variant
+‏מכונת אספרסו Delonghi La Specialista Arte EC9155,2004.0,Delonghi מכונת קפה DeLonghi EC9155.W,2004.0,1155620,1155620,coffee_machines,True,real_variant
+מחשב נייד Lenovo V15 G4 AMN 82YU0044IV,1029.0,מחשב נייד Lenovo V15 G4 AMN | מעבד AMD Athlon 7120U | זיכרון 8GB | אחסון 256GB | מסך 15.6'' FHD | ללא מערכת הפעלה | דגם 82YU0044IV | שנה אחריות,1029.0,1194008,1194008,laptops,True,real_variant
+‏מכונת אספרסו Delonghi Dedica Arte EC885,897.0,‏מכונת אספרסו Delonghi Dedica Arte EC885 דה לונגי,897.0,1200012,1200012,coffee_machines,True,real_variant
+אוזניות ‏אלחוטיות JBL Tune 770NC בצבע שחור,229.0,אוזניות JBL Tune 770NC Bluetooth,229.0,1201031,1201031,headphones,True,real_variant
+אוזניות Apple AirPods Pro 2 MagSafe USB-C True Wireless אפל,639.0,אוזניות Apple AirPods Pro 2 MagSafe USB-C True Wireless,639.0,1208575,1208575,headphones,True,real_variant
+אוזניות Bose Qc Ultra Diamond היבואן הרשמי,987.0,אוזניות  ‏אלחוטיות Bose QuietComfort Ultra,987.0,1210045,1210045,headphones,True,real_variant
+אוזניות Samsung Galaxy Buds FE SM-R400 True Wireless,215.0,אוזניות Samsung Galaxy Buds FE SM-R400 True Wireless יבואן רשמי,215.0,1211517,1211517,headphones,True,real_variant
+"Xiaomi טלוויזיה ""32 שיאומי דגם XIAOMI PRO L32M8-A2ME LED",549.0,טלוויזיה Xiaomi A Pro L32M8-A2ME  ‏32 ‏אינטש,549.0,1216736,1216736,tvs,True,real_variant
+אוזניות Sennheiser Momentum True Wireless 4 יבואן רשמי,699.0,אוזניות Sennheiser Momentum True Wireless 4 True Wireless,699.0,1227130,1227130,headphones,True,real_variant
+אוזניות  ‏אלחוטיות Apple AirPods 4 MXP63ZM/A MXP63LL/A MXP63HN/A,410.0,אוזניות ‏אלחוטיות Apple AirPods 4 MXP63ZM/A אפל,410.0,1234891,1234891,headphones,True,real_variant
+אוזניות Apple AirPods 4 with Active Noise Cancellation MXP93ZM/A True Wireless,551.0,אוזניות Apple AirPods 4 MXP93ZM/A True Wireless יבואן רשמי,551.0,1234892,1234892,headphones,True,real_variant
+אוזניות Xiaomi Redmi Buds 6 Play True Wireless,64.0,אוזניות Xiaomi Redmi Buds 6 Play True Wireless בצבע לבן,64.0,1236640,1236640,headphones,True,real_variant
+Xiaomi סמארטפון XIAOMI POCO X7 Pro 5G גרסה 12GB/512GB בצבע ירוק,1172.0,טלפון סלולרי Xiaomi Poco X7 Pro 512GB 12GB RAM,1172.0,1240775,1240775,smartphones,True,real_variant
+סמארטפון (Samsung Galaxy S25 12GB+256GB (SM-S931B/DS - צבע כחול יבואן רשמי,2337.0,טלפון סלולרי Samsung Galaxy S25 SM-S931B/DS 256GB 12GB RAM,2337.0,1242015,1242015,smartphones,True,real_variant
+טלפון סלולרי Samsung Galaxy S25 Ultra SM-S938B/DS 256GB 12GB RAM,3190.0,טלפון סלולרי Samsung Galaxy S25 Ultra SM-S938B/DS 256GB 12GB RAM בצבע אפור טיטניום,3190.0,1242277,1242277,smartphones,True,real_variant
+מחשב נייד לגיימרים Acer Nitro V15 ANV15-41-R6DF NH.QSGEC.002 בצבע שחור,3983.0,מחשב נייד Acer Nitro V15 NH.QSGEC.002,3983.0,1242460,1242460,laptops,True,real_variant
+טלפון סלולרי Samsung Galaxy A56 SM-A566B/DS 256GB 8GB RAM,1167.0,טלפון סלולרי Samsung Galaxy A56 SM-A566B/DS 256GB 8GB RAM סמסונג,1167.0,1244496,1244496,smartphones,True,real_variant
+טלוויזיה TCL C6K 65C6K 4K  ‏65 ‏אינטש,2527.0,טלוויזיה TCL C6K 65C6K 4K יבואן רשמי,2527.0,1247491,1247491,tvs,True,real_variant
+מחשב נייד HP ProBook 4 G1i AD2M0ET,2919.0,מחשב נייד HP ProBook 4 G1i 14 אינץ' AD2M0ET,2919.0,1247863,1247863,laptops,True,real_variant
+‏מכונת אספרסו Ninja Luxe Essential ES601EU,1509.0,מכונת קפה Ninja Luxe Essential ES601EU,1509.0,1248076,1248076,coffee_machines,True,real_variant
+מחשב נייד Lenovo IdeaPad Slim 3 15IRH10 83K100KPIV צבע Luna Grey,2308.0,מחשב נייד Lenovo IdeaPad Slim 3 15IRH10 83K100KPIV,2308.0,1248137,1248137,laptops,True,real_variant
+אוזניות  ‏אלחוטיות Sony WH-1000XM6,1277.0,אוזניות אלחוטיות Sony WH-1000XM6 עם ביטול רעשים – צבע שחור,1277.0,1249659,1249659,headphones,True,real_variant
+טלוויזיה ''77 LG OLED77B56LA 4K יבואן רשמי,6812.0,טלוויזיה LG OLED77B56LA 4K  ‏77 ‏אינטש,6812.0,1250748,1250748,tvs,True,real_variant
+טלוויזיה ''77 LG OLED77B56LA 4K יבואן רשמי,6812.0,"טלוויזיה ""77 חכמה LG OLED B5 ברזולוציית 4K דגם OLED77B56LA",6812.0,1250748,1250748,tvs,True,real_variant
+טלוויזיה LG OLED77B56LA 4K  ‏77 ‏אינטש,6812.0,"טלוויזיה ""77 חכמה LG OLED B5 ברזולוציית 4K דגם OLED77B56LA",6812.0,1250748,1250748,tvs,True,real_variant
+אוזניות Anker Soundcore Liberty 5 Bluetooth,330.0,אוזניות Anker Soundcore Liberty 5 Bluetooth יבואן רשמי,330.0,1251814,1251814,headphones,True,real_variant
+טלוויזיה LG OLED55C56LA 4K ‏55 ‏אינטש,5186.0,טלוויזיה LG OLED55C56LA 4K  ‏55 ‏אינטש,5186.0,1252317,1252317,tvs,True,real_variant
+מחשב נייד HP OMEN MAX 16-ah0013nj C2PY3EA,6860.0,מחשב נייד HP OMEN MAX Gaming 16-ah0013nj C2PY3EA,6860.0,1253156,1253156,laptops,True,real_variant
+טלוויזיה LG 75QNED93A6A 4K  ‏75 ‏אינטש,5279.0,טלוויזיה LG 75QNED93A6A יבואן רשמי,5279.0,1253612,1253612,tvs,True,real_variant
+אוזניות  ‏אלחוטיות Apple AirPods Pro 3 MagSafe USB-C MFHP4ZM/A,837.0,אוזניות Apple AirPods Pro 3 בצבע לבן,837.0,1254417,1254417,headphones,True,real_variant
+טלוויזיה LG 43UA73006LA 4K  ‏43 ‏אינטש,1278.0,"טלוויזיה ""43 חכמה LG UHD ברזולוציית 4K דגם 43UA73006LA",1278.0,1254945,1254945,tvs,True,real_variant
+טלוויזיה LG OLED65CS5VA 4K יבואן רשמי,5149.0,טלוויזיה LG OLED65CS5VA 4K  ‏65 ‏אינטש,5149.0,1254951,1254951,tvs,True,real_variant
+מחשב נייד Lenovo V14 83GU006HIV,1699.0,מחשב נייד Lenovo V14 G5 83GU006HIV בצבע שחור,1699.0,1255712,1255712,laptops,True,real_variant
+מחשב נייד Dell Pro 15 ESSENTIAL PV15250 PV15250-5118,2350.0,מחשב נייד Dell Pro 15 Essential PV15250-5118,2350.0,1260183,1260183,laptops,True,real_variant
+טלפון סלולרי Samsung Galaxy S26 Ultra SM-S948B/DS 512GB 12GB RAM,4397.0,טלפון סלולרי Samsung Galaxy S26 Ultra 12GB+512GB SM-S948B/DS צבע שחור יבואן רשמי,4397.0,1262747,1262747,smartphones,True,real_variant
+טלפון סלולרי Samsung Galaxy S26 Ultra SM-S948B/DS 256GB 12GB RAM,3888.0,טלפון סלולרי Samsung Galaxy S26 Ultra 12GB+256GB (SM-S948B/DS) בצבע כחול,3888.0,1262749,1262749,smartphones,True,real_variant
+טלפון סלולרי Samsung Galaxy S26 SM-S942B/DS 256GB 12GB RAM,2685.0,טלפון סלולרי Galaxy S26 SM-S942B/DS 256GB 12GB RAM Samsung בצבע שחור יבואן רשמי,2685.0,1262750,1262750,smartphones,True,real_variant
+מכונת קפה Essenza Mini EN85L נספרסו Nespresso צבע ליים,359.0,מכונת קפה Ninja Luxe Essential ES601EU,1390.0,2309,2541,coffee_machines,False,hard_negative
+מכונת קפה Essenza Mini EN85L נספרסו Nespresso צבע ליים,359.0,‏מכונת אספרסו Nespresso Delonghi Essenza Mini D30 EN85,354.0,2309,951399,coffee_machines,False,hard_negative
+מכונת קפה Ninja Luxe Essential ES601EU,1390.0,‏מכונת אספרסו Nespresso Delonghi Essenza Mini D30 EN85,354.0,2541,951399,coffee_machines,False,hard_negative
+מכונת קפה Ninja Luxe Essential ES601EU,1390.0,‏מכונת אספרסו Nespresso Essenza Mini C30,510.0,2541,951669,coffee_machines,False,hard_negative
+‏מכונת אספרסו Nespresso Delonghi Essenza Mini D30 EN85,354.0,‏מכונת אספרסו Nespresso Essenza Mini C30,510.0,951399,951669,coffee_machines,False,hard_negative
+‏מכונת אספרסו Nespresso Delonghi Essenza Mini D30 EN85,354.0,Nespresso מכונת קפה NESPRESSO CREATISTA PLUS נספרסו דגם J520-IL-ME-NE פלוס,1789.0,951399,961499,coffee_machines,False,hard_negative
+‏מכונת אספרסו Nespresso Essenza Mini C30,510.0,Nespresso מכונת קפה NESPRESSO CREATISTA PLUS נספרסו דגם J520-IL-ME-NE פלוס,1789.0,951669,961499,coffee_machines,False,hard_negative
+‏מכונת אספרסו Nespresso Essenza Mini C30,510.0,‏מכונת אספרסו Nespresso Lattissima One EN510,810.0,951669,976624,coffee_machines,False,hard_negative
+Nespresso מכונת קפה NESPRESSO CREATISTA PLUS נספרסו דגם J520-IL-ME-NE פלוס,1789.0,‏מכונת אספרסו Nespresso Lattissima One EN510,810.0,961499,976624,coffee_machines,False,hard_negative
+Nespresso מכונת קפה NESPRESSO CREATISTA PLUS נספרסו דגם J520-IL-ME-NE פלוס,1789.0,‏מכונת אספרסו Delonghi ECAM21.117,1374.0,961499,992748,coffee_machines,False,hard_negative
+‏מכונת אספרסו Nespresso Lattissima One EN510,810.0,‏מכונת אספרסו Delonghi ECAM21.117,1374.0,976624,992748,coffee_machines,False,hard_negative
+‏מכונת אספרסו Nespresso Lattissima One EN510,810.0,‏מכונת אספרסו Gaggia Besana,1080.0,976624,1030241,coffee_machines,False,hard_negative
+‏מכונת אספרסו Delonghi ECAM21.117,1374.0,‏מכונת אספרסו Gaggia Besana,1080.0,992748,1030241,coffee_machines,False,hard_negative
+‏מכונת אספרסו Delonghi ECAM21.117,1374.0,‏מכונת אספרסו Breville BES878,2953.0,992748,1068710,coffee_machines,False,hard_negative
+‏מכונת אספרסו Gaggia Besana,1080.0,‏מכונת אספרסו Breville BES878,2953.0,1030241,1068710,coffee_machines,False,hard_negative
+‏מכונת אספרסו Gaggia Besana,1080.0,‏מכונת אספרסו Nespresso Inissia EN 80,343.0,1030241,1087191,coffee_machines,False,hard_negative
+‏מכונת אספרסו Breville BES878,2953.0,‏מכונת אספרסו Nespresso Inissia EN 80,343.0,1068710,1087191,coffee_machines,False,hard_negative
+‏מכונת אספרסו Breville BES878,2953.0,‏מכונת אספרסו Delonghi ECAM350.15.B,1785.0,1068710,1105069,coffee_machines,False,hard_negative
+‏מכונת אספרסו Nespresso Inissia EN 80,343.0,‏מכונת אספרסו Delonghi ECAM350.15.B,1785.0,1087191,1105069,coffee_machines,False,hard_negative
+‏מכונת אספרסו Nespresso Inissia EN 80,343.0,‏מכונת אספרסו Breville Barista Express with Milk Jug Thermal BES875,2482.0,1087191,1114609,coffee_machines,False,hard_negative
+‏מכונת אספרסו Delonghi ECAM350.15.B,1785.0,‏מכונת אספרסו Breville Barista Express with Milk Jug Thermal BES875,2482.0,1105069,1114609,coffee_machines,False,hard_negative
+‏מכונת אספרסו Delonghi ECAM350.15.B,1785.0,‏מקציף חלב Hemilton HEM-243,151.0,1105069,1121265,coffee_machines,False,hard_negative
+‏מכונת אספרסו Breville Barista Express with Milk Jug Thermal BES875,2482.0,‏מקציף חלב Hemilton HEM-243,151.0,1114609,1121265,coffee_machines,False,hard_negative
+‏מכונת אספרסו Breville Barista Express with Milk Jug Thermal BES875,2482.0,‏מכונת אספרסו Breville BES875BSS,2393.0,1114609,1126869,coffee_machines,False,hard_negative
+‏מקציף חלב Hemilton HEM-243,151.0,‏מכונת אספרסו Breville BES875BSS,2393.0,1121265,1126869,coffee_machines,False,hard_negative
+‏מקציף חלב Hemilton HEM-243,151.0,‏מכונת אספרסו Nespresso Citiz&Milk EN267,776.0,1121265,1127066,coffee_machines,False,hard_negative
+‏מכונת אספרסו Breville BES875BSS,2393.0,‏מכונת אספרסו Nespresso Citiz&Milk EN267,776.0,1126869,1127066,coffee_machines,False,hard_negative
+‏מכונת אספרסו Breville BES875BSS,2393.0,‏מכונת אספרסו Delonghi Specialista Prestigio EC 9355.M,3218.0,1126869,1154861,coffee_machines,False,hard_negative
+‏מכונת אספרסו Nespresso Citiz&Milk EN267,776.0,‏מכונת אספרסו Delonghi Specialista Prestigio EC 9355.M,3218.0,1127066,1154861,coffee_machines,False,hard_negative
+‏מכונת אספרסו Nespresso Citiz&Milk EN267,776.0,‏מכונת אספרסו Delonghi La Specialista Arte EC9155,2004.0,1127066,1155620,coffee_machines,False,hard_negative
+‏מכונת אספרסו Delonghi Specialista Prestigio EC 9355.M,3218.0,‏מכונת אספרסו Delonghi La Specialista Arte EC9155,2004.0,1154861,1155620,coffee_machines,False,hard_negative
+‏מכונת אספרסו Delonghi Specialista Prestigio EC 9355.M,3218.0,‏מכונת אספרסו Delonghi Dedica Arte EC885,897.0,1154861,1200012,coffee_machines,False,hard_negative
+‏מכונת אספרסו Delonghi La Specialista Arte EC9155,2004.0,‏מכונת אספרסו Delonghi Dedica Arte EC885,897.0,1155620,1200012,coffee_machines,False,hard_negative
+‏מכונת אספרסו Delonghi La Specialista Arte EC9155,2004.0,‏מקציף חלב Hemilton HEM-265/HEM-264,195.0,1155620,1207103,coffee_machines,False,hard_negative
+‏מכונת אספרסו Delonghi Dedica Arte EC885,897.0,‏מקציף חלב Hemilton HEM-265/HEM-264,195.0,1200012,1207103,coffee_machines,False,hard_negative
+‏מכונת אספרסו Delonghi Dedica Arte EC885,897.0,‏מכונת אספרסו Smeg ECF02,1649.0,1200012,1218026,coffee_machines,False,hard_negative
+‏מקציף חלב Hemilton HEM-265/HEM-264,195.0,‏מכונת אספרסו Smeg ECF02,1649.0,1207103,1218026,coffee_machines,False,hard_negative
+‏מקציף חלב Hemilton HEM-265/HEM-264,195.0,‏מכונת אספרסו Gaggia EG2109,789.0,1207103,1224100,coffee_machines,False,hard_negative
+‏מכונת אספרסו Smeg ECF02,1649.0,‏מכונת אספרסו Gaggia EG2109,789.0,1218026,1224100,coffee_machines,False,hard_negative
+‏מכונת אספרסו Smeg ECF02,1649.0,‏מכונת אספרסו Delonghi Magnifica Start ECAM220.60.B,1948.0,1218026,1225992,coffee_machines,False,hard_negative
+‏מכונת אספרסו Gaggia EG2109,789.0,‏מכונת אספרסו Delonghi Magnifica Start ECAM220.60.B,1948.0,1224100,1225992,coffee_machines,False,hard_negative
+‏מכונת אספרסו Gaggia EG2109,789.0,‏מכונת אספרסו Delonghi Rivelia EXAM440.55,3498.0,1224100,1226172,coffee_machines,False,hard_negative
+‏מכונת אספרסו Delonghi Magnifica Start ECAM220.60.B,1948.0,‏מכונת אספרסו Delonghi Rivelia EXAM440.55,3498.0,1225992,1226172,coffee_machines,False,hard_negative
+‏מכונת אספרסו Delonghi Magnifica Start ECAM220.60.B,1948.0,מכונת אספרסו Delonghi ECAM21.117.B,1379.0,1225992,1232360,coffee_machines,False,hard_negative
+‏מכונת אספרסו Delonghi Rivelia EXAM440.55,3498.0,מכונת אספרסו Delonghi ECAM21.117.B,1379.0,1226172,1232360,coffee_machines,False,hard_negative
+‏מכונת אספרסו Delonghi Rivelia EXAM440.55,3498.0,‏מכונת אספרסו Ninja Luxe Essential ES501EU,1369.0,1226172,1241809,coffee_machines,False,hard_negative
+מכונת אספרסו Delonghi ECAM21.117.B,1379.0,‏מכונת אספרסו Ninja Luxe Essential ES501EU,1369.0,1232360,1241809,coffee_machines,False,hard_negative
+מכונת אספרסו Delonghi ECAM21.117.B,1379.0,‏מכונת אספרסו Ninja Luxe Essential ES601EU,1509.0,1232360,1248076,coffee_machines,False,hard_negative
+‏מכונת אספרסו Ninja Luxe Essential ES501EU,1369.0,‏מכונת אספרסו Ninja Luxe Essential ES601EU,1509.0,1241809,1248076,coffee_machines,False,hard_negative
+‏מכונת אספרסו Ninja Luxe Essential ES501EU,1369.0,‏מכונת אספרסו Ninja Luxe Pro ES701EU,1959.0,1241809,1254285,coffee_machines,False,hard_negative
+‏מכונת אספרסו Ninja Luxe Essential ES601EU,1509.0,‏מכונת אספרסו Ninja Luxe Pro ES701EU,1959.0,1248076,1254285,coffee_machines,False,hard_negative
+‏מכונת אספרסו Ninja Luxe Essential ES601EU,1509.0,‏מכונת אספרסו Ninja Luxe Cafe ES603,1842.0,1248076,1262788,coffee_machines,False,hard_negative
+‏מכונת אספרסו Ninja Luxe Pro ES701EU,1959.0,‏מכונת אספרסו Ninja Luxe Cafe ES603,1842.0,1254285,1262788,coffee_machines,False,hard_negative
+אוזניות  ‏חוטיות Logitech H390,94.0,אוזניות  ‏חוטיות Audio Technica ATH-M50x,629.0,798961,883392,headphones,False,hard_negative
+אוזניות  ‏חוטיות Logitech H390,94.0,אוזניות  ‏חוטיות Razer BlackShark V2 X,157.0,798961,1090131,headphones,False,hard_negative
+אוזניות  ‏חוטיות Audio Technica ATH-M50x,629.0,אוזניות  ‏חוטיות Razer BlackShark V2 X,157.0,883392,1090131,headphones,False,hard_negative
+אוזניות  ‏חוטיות Audio Technica ATH-M50x,629.0,אוזניות  ‏אלחוטיות JBL Tune 510BT,115.0,883392,1113020,headphones,False,hard_negative
+אוזניות  ‏חוטיות Razer BlackShark V2 X,157.0,אוזניות  ‏אלחוטיות JBL Tune 510BT,115.0,1090131,1113020,headphones,False,hard_negative
+אוזניות  ‏חוטיות Razer BlackShark V2 X,157.0,אוזניות Samsung Galaxy Buds2 Pro SM-R510 True Wireless,364.0,1090131,1167384,headphones,False,hard_negative
+אוזניות  ‏אלחוטיות JBL Tune 510BT,115.0,אוזניות Samsung Galaxy Buds2 Pro SM-R510 True Wireless,364.0,1113020,1167384,headphones,False,hard_negative
+אוזניות  ‏אלחוטיות JBL Tune 510BT,115.0,אוזניות JBL Tune 720BT Bluetooth,198.0,1113020,1187828,headphones,False,hard_negative
+אוזניות Samsung Galaxy Buds2 Pro SM-R510 True Wireless,364.0,אוזניות JBL Tune 720BT Bluetooth,198.0,1167384,1187828,headphones,False,hard_negative
+אוזניות Samsung Galaxy Buds2 Pro SM-R510 True Wireless,364.0,אוזניות JBL Wave Beam True Wireless,175.0,1167384,1200216,headphones,False,hard_negative
+אוזניות JBL Tune 720BT Bluetooth,198.0,אוזניות JBL Wave Beam True Wireless,175.0,1187828,1200216,headphones,False,hard_negative
+אוזניות JBL Tune 720BT Bluetooth,198.0,אוזניות JBL Tune 770NC Bluetooth,229.0,1187828,1201031,headphones,False,hard_negative
+אוזניות JBL Wave Beam True Wireless,175.0,אוזניות JBL Tune 770NC Bluetooth,229.0,1200216,1201031,headphones,False,hard_negative
+אוזניות JBL Wave Beam True Wireless,175.0,אוזניות Sony WF-1000XM5 True Wireless,787.0,1200216,1203553,headphones,False,hard_negative
+אוזניות JBL Tune 770NC Bluetooth,229.0,אוזניות Sony WF-1000XM5 True Wireless,787.0,1201031,1203553,headphones,False,hard_negative
+אוזניות JBL Tune 770NC Bluetooth,229.0,אוזניות Apple AirPods Pro 2 MagSafe USB-C True Wireless,639.0,1201031,1208575,headphones,False,hard_negative
+אוזניות Sony WF-1000XM5 True Wireless,787.0,אוזניות Apple AirPods Pro 2 MagSafe USB-C True Wireless,639.0,1203553,1208575,headphones,False,hard_negative
+אוזניות Sony WF-1000XM5 True Wireless,787.0,אוזניות  ‏אלחוטיות Bose QuietComfort Ultra,987.0,1203553,1210045,headphones,False,hard_negative
+אוזניות Apple AirPods Pro 2 MagSafe USB-C True Wireless,639.0,אוזניות  ‏אלחוטיות Bose QuietComfort Ultra,987.0,1208575,1210045,headphones,False,hard_negative
+אוזניות Apple AirPods Pro 2 MagSafe USB-C True Wireless,639.0,אוזניות Samsung Galaxy Buds FE SM-R400 True Wireless,215.0,1208575,1211517,headphones,False,hard_negative
+אוזניות  ‏אלחוטיות Bose QuietComfort Ultra,987.0,אוזניות Samsung Galaxy Buds FE SM-R400 True Wireless,215.0,1210045,1211517,headphones,False,hard_negative
+אוזניות  ‏אלחוטיות Bose QuietComfort Ultra,987.0,אוזניות Sennheiser Momentum True Wireless 4 True Wireless,699.0,1210045,1227130,headphones,False,hard_negative
+אוזניות Samsung Galaxy Buds FE SM-R400 True Wireless,215.0,אוזניות Sennheiser Momentum True Wireless 4 True Wireless,699.0,1211517,1227130,headphones,False,hard_negative
+אוזניות Samsung Galaxy Buds FE SM-R400 True Wireless,215.0,אוזניות Samsung Galaxy Buds3 Pro SM-R630 True Wireless,495.0,1211517,1228604,headphones,False,hard_negative
+אוזניות Sennheiser Momentum True Wireless 4 True Wireless,699.0,אוזניות Samsung Galaxy Buds3 Pro SM-R630 True Wireless,495.0,1227130,1228604,headphones,False,hard_negative
+אוזניות Sennheiser Momentum True Wireless 4 True Wireless,699.0,אוזניות  ‏אלחוטיות Apple AirPods 4 MXP63ZM/A MXP63LL/A MXP63HN/A,410.0,1227130,1234891,headphones,False,hard_negative
+אוזניות Samsung Galaxy Buds3 Pro SM-R630 True Wireless,495.0,אוזניות  ‏אלחוטיות Apple AirPods 4 MXP63ZM/A MXP63LL/A MXP63HN/A,410.0,1228604,1234891,headphones,False,hard_negative
+אוזניות Samsung Galaxy Buds3 Pro SM-R630 True Wireless,495.0,אוזניות Apple AirPods 4 with Active Noise Cancellation MXP93ZM/A True Wireless,551.0,1228604,1234892,headphones,False,hard_negative
+אוזניות  ‏אלחוטיות Apple AirPods 4 MXP63ZM/A MXP63LL/A MXP63HN/A,410.0,אוזניות Apple AirPods 4 with Active Noise Cancellation MXP93ZM/A True Wireless,551.0,1234891,1234892,headphones,False,hard_negative
+אוזניות  ‏אלחוטיות Apple AirPods 4 MXP63ZM/A MXP63LL/A MXP63HN/A,410.0,אוזניות  ‏אלחוטיות Apple AirPods Max USB-C,1774.0,1234891,1234904,headphones,False,hard_negative
+אוזניות Apple AirPods 4 with Active Noise Cancellation MXP93ZM/A True Wireless,551.0,אוזניות  ‏אלחוטיות Apple AirPods Max USB-C,1774.0,1234892,1234904,headphones,False,hard_negative
+אוזניות Apple AirPods 4 with Active Noise Cancellation MXP93ZM/A True Wireless,551.0,אוזניות Xiaomi Redmi Buds 6 Play True Wireless,64.0,1234892,1236640,headphones,False,hard_negative
+אוזניות  ‏אלחוטיות Apple AirPods Max USB-C,1774.0,אוזניות Xiaomi Redmi Buds 6 Play True Wireless,64.0,1234904,1236640,headphones,False,hard_negative
+אוזניות  ‏אלחוטיות Apple AirPods Max USB-C,1774.0,אוזניות Anker Soundcore Space One Pro Bluetooth,519.0,1234904,1240770,headphones,False,hard_negative
+אוזניות Xiaomi Redmi Buds 6 Play True Wireless,64.0,אוזניות Anker Soundcore Space One Pro Bluetooth,519.0,1236640,1240770,headphones,False,hard_negative
+אוזניות Xiaomi Redmi Buds 6 Play True Wireless,64.0,אוזניות  ‏אלחוטיות Sony WH-1000XM6,1277.0,1236640,1249659,headphones,False,hard_negative
+אוזניות Anker Soundcore Space One Pro Bluetooth,519.0,אוזניות  ‏אלחוטיות Sony WH-1000XM6,1277.0,1240770,1249659,headphones,False,hard_negative
+אוזניות Anker Soundcore Space One Pro Bluetooth,519.0,אוזניות Anker Soundcore Liberty 5 Bluetooth,330.0,1240770,1251814,headphones,False,hard_negative
+אוזניות  ‏אלחוטיות Sony WH-1000XM6,1277.0,אוזניות Anker Soundcore Liberty 5 Bluetooth,330.0,1249659,1251814,headphones,False,hard_negative
+אוזניות  ‏אלחוטיות Sony WH-1000XM6,1277.0,אוזניות  ‏אלחוטיות Samsung Galaxy Buds Core SM-R410,144.0,1249659,1252156,headphones,False,hard_negative
+אוזניות Anker Soundcore Liberty 5 Bluetooth,330.0,אוזניות  ‏אלחוטיות Samsung Galaxy Buds Core SM-R410,144.0,1251814,1252156,headphones,False,hard_negative
+אוזניות Anker Soundcore Liberty 5 Bluetooth,330.0,אוזניות  ‏אלחוטיות Apple AirPods Pro 3 MagSafe USB-C MFHP4ZM/A,837.0,1251814,1254417,headphones,False,hard_negative
+אוזניות  ‏אלחוטיות Samsung Galaxy Buds Core SM-R410,144.0,אוזניות  ‏אלחוטיות Apple AirPods Pro 3 MagSafe USB-C MFHP4ZM/A,837.0,1252156,1254417,headphones,False,hard_negative
+אוזניות  ‏אלחוטיות Samsung Galaxy Buds Core SM-R410,144.0,אוזניות Samsung Galaxy Buds4 Pro SM-R640 True Wireless,582.0,1252156,1263110,headphones,False,hard_negative
+אוזניות  ‏אלחוטיות Apple AirPods Pro 3 MagSafe USB-C MFHP4ZM/A,837.0,אוזניות Samsung Galaxy Buds4 Pro SM-R640 True Wireless,582.0,1254417,1263110,headphones,False,hard_negative
+מחשב נייד Apple MacBook Air 13 MGN63HB/A MGN93HB/A MGND3HB/A,2659.0,מחשב נייד Asus VivoBook 15 X1504VA-BQ149,2554.0,1099482,1191538,laptops,False,hard_negative
+מחשב נייד Apple MacBook Air 13 MGN63HB/A MGN93HB/A MGND3HB/A,2659.0,מחשב נייד Lenovo V15 G4 AMN 82YU0044IV,1029.0,1099482,1194008,laptops,False,hard_negative
+מחשב נייד Asus VivoBook 15 X1504VA-BQ149,2554.0,מחשב נייד Lenovo V15 G4 AMN 82YU0044IV,1029.0,1191538,1194008,laptops,False,hard_negative
+מחשב נייד Asus VivoBook 15 X1504VA-BQ149,2554.0,מחשב נייד Lenovo IdeaPad Slim 3 15IAH8 83ER003UIV,1890.0,1191538,1203016,laptops,False,hard_negative
+מחשב נייד Lenovo V15 G4 AMN 82YU0044IV,1029.0,מחשב נייד Lenovo IdeaPad Slim 3 15IAH8 83ER003UIV,1890.0,1194008,1203016,laptops,False,hard_negative
+מחשב נייד Lenovo V15 G4 AMN 82YU0044IV,1029.0,מחשב נייד Lenovo IdeaPad Slim 3 15IRH8 83EM00AXIV,2799.0,1194008,1225445,laptops,False,hard_negative
+מחשב נייד Lenovo IdeaPad Slim 3 15IAH8 83ER003UIV,1890.0,מחשב נייד Lenovo IdeaPad Slim 3 15IRH8 83EM00AXIV,2799.0,1203016,1225445,laptops,False,hard_negative
+מחשב נייד Lenovo IdeaPad Slim 3 15IAH8 83ER003UIV,1890.0,מחשב נייד Lenovo V14 G4 IRU 83A0007VIV,1215.0,1203016,1237484,laptops,False,hard_negative
+מחשב נייד Lenovo IdeaPad Slim 3 15IRH8 83EM00AXIV,2799.0,מחשב נייד Lenovo V14 G4 IRU 83A0007VIV,1215.0,1225445,1237484,laptops,False,hard_negative
+מחשב נייד Lenovo IdeaPad Slim 3 15IRH8 83EM00AXIV,2799.0,מחשב נייד Apple MacBook Air 13 M2 MC7U4HB/A MC7V4HB/A MC7W4HB/A MC7X4HB/A,3249.0,1225445,1237766,laptops,False,hard_negative
+מחשב נייד Lenovo V14 G4 IRU 83A0007VIV,1215.0,מחשב נייד Apple MacBook Air 13 M2 MC7U4HB/A MC7V4HB/A MC7W4HB/A MC7X4HB/A,3249.0,1237484,1237766,laptops,False,hard_negative
+מחשב נייד Lenovo V14 G4 IRU 83A0007VIV,1215.0,מחשב נייד Acer Nitro V15 NH.QSGEC.002,3983.0,1237484,1242460,laptops,False,hard_negative
+מחשב נייד Apple MacBook Air 13 M2 MC7U4HB/A MC7V4HB/A MC7W4HB/A MC7X4HB/A,3249.0,מחשב נייד Acer Nitro V15 NH.QSGEC.002,3983.0,1237766,1242460,laptops,False,hard_negative
+מחשב נייד Apple MacBook Air 13 M2 MC7U4HB/A MC7V4HB/A MC7W4HB/A MC7X4HB/A,3249.0,מחשב נייד Asus ExpertBook P1 P1503CVA-S70709,1729.0,1237766,1243789,laptops,False,hard_negative
+מחשב נייד Acer Nitro V15 NH.QSGEC.002,3983.0,מחשב נייד Asus ExpertBook P1 P1503CVA-S70709,1729.0,1242460,1243789,laptops,False,hard_negative
+מחשב נייד Acer Nitro V15 NH.QSGEC.002,3983.0,Asus מחשב נייד ASUS ExpertBook P1 P1403CVA-S60650 בצבע אפור מעושן,2354.0,1242460,1243790,laptops,False,hard_negative
+מחשב נייד Asus ExpertBook P1 P1503CVA-S70709,1729.0,Asus מחשב נייד ASUS ExpertBook P1 P1403CVA-S60650 בצבע אפור מעושן,2354.0,1243789,1243790,laptops,False,hard_negative
+מחשב נייד Asus ExpertBook P1 P1503CVA-S70709,1729.0,מחשב נייד Apple MacBook Air 13 M4 MW123HB/A MW0Y3HB/A MW0W3HB/A MC6T4HB/A,3449.0,1243789,1244076,laptops,False,hard_negative
+Asus מחשב נייד ASUS ExpertBook P1 P1403CVA-S60650 בצבע אפור מעושן,2354.0,מחשב נייד Apple MacBook Air 13 M4 MW123HB/A MW0Y3HB/A MW0W3HB/A MC6T4HB/A,3449.0,1243790,1244076,laptops,False,hard_negative
+Asus מחשב נייד ASUS ExpertBook P1 P1403CVA-S60650 בצבע אפור מעושן,2354.0,מחשב נייד Apple MacBook Air 13 M4 MW133HB/A MW103HB/A MW0X3HB/A MC6U4HB/A,3498.0,1243790,1244077,laptops,False,hard_negative
+מחשב נייד Apple MacBook Air 13 M4 MW123HB/A MW0Y3HB/A MW0W3HB/A MC6T4HB/A,3449.0,מחשב נייד Apple MacBook Air 13 M4 MW133HB/A MW103HB/A MW0X3HB/A MC6U4HB/A,3498.0,1244076,1244077,laptops,False,hard_negative
+מחשב נייד Apple MacBook Air 13 M4 MW123HB/A MW0Y3HB/A MW0W3HB/A MC6T4HB/A,3449.0,מחשב נייד Apple MacBook Air 15 M4 MW1G3HB/A MC7A4HB/A MW1J3HB/A MW1L3HB/A,4390.0,1244076,1244078,laptops,False,hard_negative
+מחשב נייד Apple MacBook Air 13 M4 MW133HB/A MW103HB/A MW0X3HB/A MC6U4HB/A,3498.0,מחשב נייד Apple MacBook Air 15 M4 MW1G3HB/A MC7A4HB/A MW1J3HB/A MW1L3HB/A,4390.0,1244077,1244078,laptops,False,hard_negative
+מחשב נייד Apple MacBook Air 13 M4 MW133HB/A MW103HB/A MW0X3HB/A MC6U4HB/A,3498.0,מחשב נייד Lenovo Yoga 7 2-in-1 14ILL10 83JQ004SIV,4941.0,1244077,1245785,laptops,False,hard_negative
+מחשב נייד Apple MacBook Air 15 M4 MW1G3HB/A MC7A4HB/A MW1J3HB/A MW1L3HB/A,4390.0,מחשב נייד Lenovo Yoga 7 2-in-1 14ILL10 83JQ004SIV,4941.0,1244078,1245785,laptops,False,hard_negative
+מחשב נייד Apple MacBook Air 15 M4 MW1G3HB/A MC7A4HB/A MW1J3HB/A MW1L3HB/A,4390.0,מחשב נייד HP ProBook 4 G1i AD2M0ET,2919.0,1244078,1247863,laptops,False,hard_negative
+מחשב נייד Lenovo Yoga 7 2-in-1 14ILL10 83JQ004SIV,4941.0,מחשב נייד HP ProBook 4 G1i AD2M0ET,2919.0,1245785,1247863,laptops,False,hard_negative
+מחשב נייד Lenovo Yoga 7 2-in-1 14ILL10 83JQ004SIV,4941.0,מחשב נייד HP ProBook 4 G1i AD2L3ET,3345.0,1245785,1247869,laptops,False,hard_negative
+מחשב נייד HP ProBook 4 G1i AD2M0ET,2919.0,מחשב נייד HP ProBook 4 G1i AD2L3ET,3345.0,1247863,1247869,laptops,False,hard_negative
+מחשב נייד HP ProBook 4 G1i AD2M0ET,2919.0,מחשב נייד HP ProBook 4 G1i AD2M3ET,3448.0,1247863,1247872,laptops,False,hard_negative
+מחשב נייד HP ProBook 4 G1i AD2L3ET,3345.0,מחשב נייד HP ProBook 4 G1i AD2M3ET,3448.0,1247869,1247872,laptops,False,hard_negative
+מחשב נייד HP ProBook 4 G1i AD2L3ET,3345.0,מחשב נייד HP ProBook 4 G1i AD2M1ET,3356.0,1247869,1247873,laptops,False,hard_negative
+מחשב נייד HP ProBook 4 G1i AD2M3ET,3448.0,מחשב נייד HP ProBook 4 G1i AD2M1ET,3356.0,1247872,1247873,laptops,False,hard_negative
+מחשב נייד HP ProBook 4 G1i AD2M3ET,3448.0,מחשב נייד Lenovo IdeaPad Slim 3 15IRH10 83K100KPIV,2308.0,1247872,1248137,laptops,False,hard_negative
+מחשב נייד HP ProBook 4 G1i AD2M1ET,3356.0,מחשב נייד Lenovo IdeaPad Slim 3 15IRH10 83K100KPIV,2308.0,1247873,1248137,laptops,False,hard_negative
+מחשב נייד HP ProBook 4 G1i AD2M1ET,3356.0,מחשב נייד HP OMEN MAX 16-ah0013nj C2PY3EA,6860.0,1247873,1253156,laptops,False,hard_negative
+מחשב נייד Lenovo IdeaPad Slim 3 15IRH10 83K100KPIV,2308.0,מחשב נייד HP OMEN MAX 16-ah0013nj C2PY3EA,6860.0,1248137,1253156,laptops,False,hard_negative
+מחשב נייד Lenovo IdeaPad Slim 3 15IRH10 83K100KPIV,2308.0,מחשב נייד HP Victus 15-fa2011nj בצבע כסף מיקה C93FLEA,2749.0,1248137,1254725,laptops,False,hard_negative
+מחשב נייד HP OMEN MAX 16-ah0013nj C2PY3EA,6860.0,מחשב נייד HP Victus 15-fa2011nj בצבע כסף מיקה C93FLEA,2749.0,1253156,1254725,laptops,False,hard_negative
+מחשב נייד HP OMEN MAX 16-ah0013nj C2PY3EA,6860.0,מחשב נייד Lenovo V14 83GU006HIV,1699.0,1253156,1255712,laptops,False,hard_negative
+מחשב נייד HP Victus 15-fa2011nj בצבע כסף מיקה C93FLEA,2749.0,מחשב נייד Lenovo V14 83GU006HIV,1699.0,1254725,1255712,laptops,False,hard_negative
+מחשב נייד HP Victus 15-fa2011nj בצבע כסף מיקה C93FLEA,2749.0,מחשב נייד לגיימרים Asus TUF Gaming F16 FX607VJB-RL144W בצבע שחור,5280.0,1254725,1256491,laptops,False,hard_negative
+מחשב נייד Lenovo V14 83GU006HIV,1699.0,מחשב נייד לגיימרים Asus TUF Gaming F16 FX607VJB-RL144W בצבע שחור,5280.0,1255712,1256491,laptops,False,hard_negative
+מחשב נייד Lenovo V14 83GU006HIV,1699.0,מחשב נייד Dell Pro 15 Essential PV15250 PV15250-5005,2049.0,1255712,1257971,laptops,False,hard_negative
+מחשב נייד לגיימרים Asus TUF Gaming F16 FX607VJB-RL144W בצבע שחור,5280.0,מחשב נייד Dell Pro 15 Essential PV15250 PV15250-5005,2049.0,1256491,1257971,laptops,False,hard_negative
+מחשב נייד לגיימרים Asus TUF Gaming F16 FX607VJB-RL144W בצבע שחור,5280.0,מחשב נייד Asus TUF Gaming F16 FX607VJ-RL016,2792.0,1256491,1259201,laptops,False,hard_negative
+מחשב נייד Dell Pro 15 Essential PV15250 PV15250-5005,2049.0,מחשב נייד Asus TUF Gaming F16 FX607VJ-RL016,2792.0,1257971,1259201,laptops,False,hard_negative
+מחשב נייד Dell Pro 15 Essential PV15250 PV15250-5005,2049.0,מחשב נייד Dell Pro 15 Essential PV15250-5118,2350.0,1257971,1260183,laptops,False,hard_negative
+מחשב נייד Asus TUF Gaming F16 FX607VJ-RL016,2792.0,מחשב נייד Dell Pro 15 Essential PV15250-5118,2350.0,1259201,1260183,laptops,False,hard_negative
+מחשב נייד Asus TUF Gaming F16 FX607VJ-RL016,2792.0,מחשב נייד Apple MacBook Air 13″ M5 ‎16GB 512GB Midnight (MDHE4HB/A),4285.0,1259201,1263226,laptops,False,hard_negative
+מחשב נייד Dell Pro 15 Essential PV15250-5118,2350.0,מחשב נייד Apple MacBook Air 13″ M5 ‎16GB 512GB Midnight (MDHE4HB/A),4285.0,1260183,1263226,laptops,False,hard_negative
+מחשב נייד Dell Pro 15 Essential PV15250-5118,2350.0,מחשב נייד Apple MacBook Neo 13 A18 Pro MHFC4HB/A MHFE4HB/A MHFG4HB/A MHFJ4HB/A,2749.0,1260183,1263241,laptops,False,hard_negative
+מחשב נייד Apple MacBook Air 13″ M5 ‎16GB 512GB Midnight (MDHE4HB/A),4285.0,מחשב נייד Apple MacBook Neo 13 A18 Pro MHFC4HB/A MHFE4HB/A MHFG4HB/A MHFJ4HB/A,2749.0,1263226,1263241,laptops,False,hard_negative
+מחשב נייד Apple MacBook Air 13″ M5 ‎16GB 512GB Midnight (MDHE4HB/A),4285.0,מחשב נייד Apple MacBook Neo 13 A18 Pro MHFA4HB/A MHFD4HB/A MHFF4HB/A MHFH4HB/A,2369.0,1263226,1263242,laptops,False,hard_negative
+מחשב נייד Apple MacBook Neo 13 A18 Pro MHFC4HB/A MHFE4HB/A MHFG4HB/A MHFJ4HB/A,2749.0,מחשב נייד Apple MacBook Neo 13 A18 Pro MHFA4HB/A MHFD4HB/A MHFF4HB/A MHFH4HB/A,2369.0,1263241,1263242,laptops,False,hard_negative
+טלפון סלולרי (Samsung Galaxy S25 PLUS 12GB+256GB (SM-S936B/DS,3039.0,טלפון סלולרי Apple iPhone 15 128GB אפל,2749.0,2547,3926,smartphones,False,hard_negative
+טלפון סלולרי (Samsung Galaxy S25 PLUS 12GB+256GB (SM-S936B/DS,3039.0,טלפון סלולרי Galaxy S26 Ultra SM-S948B/DS 1TB 16GB RAM Samsung סמסונג,5999.0,2547,6034,smartphones,False,hard_negative
+טלפון סלולרי Apple iPhone 15 128GB אפל,2749.0,טלפון סלולרי Galaxy S26 Ultra SM-S948B/DS 1TB 16GB RAM Samsung סמסונג,5999.0,3926,6034,smartphones,False,hard_negative
+טלפון סלולרי Apple iPhone 15 128GB אפל,2749.0,טלפון סלולרי Apple iPhone 15 128GB,2016.0,3926,1207018,smartphones,False,hard_negative
+טלפון סלולרי Galaxy S26 Ultra SM-S948B/DS 1TB 16GB RAM Samsung סמסונג,5999.0,טלפון סלולרי Apple iPhone 15 128GB,2016.0,6034,1207018,smartphones,False,hard_negative
+טלפון סלולרי Galaxy S26 Ultra SM-S948B/DS 1TB 16GB RAM Samsung סמסונג,5999.0,טלפון סלולרי Apple iPhone 15 256GB,2498.0,6034,1207020,smartphones,False,hard_negative
+טלפון סלולרי Apple iPhone 15 128GB,2016.0,טלפון סלולרי Apple iPhone 15 256GB,2498.0,1207018,1207020,smartphones,False,hard_negative
+טלפון סלולרי Apple iPhone 15 128GB,2016.0,טלפון סלולרי Samsung Galaxy S24 SM-S921B/DS 256GB 8GB RAM,1849.0,1207018,1215643,smartphones,False,hard_negative
+טלפון סלולרי Apple iPhone 15 256GB,2498.0,טלפון סלולרי Samsung Galaxy S24 SM-S921B/DS 256GB 8GB RAM,1849.0,1207020,1215643,smartphones,False,hard_negative
+טלפון סלולרי Apple iPhone 15 256GB,2498.0,טלפון סלולרי Apple iPhone 16 Pro Max 256GB,3899.0,1207020,1233992,smartphones,False,hard_negative
+טלפון סלולרי Samsung Galaxy S24 SM-S921B/DS 256GB 8GB RAM,1849.0,טלפון סלולרי Apple iPhone 16 Pro Max 256GB,3899.0,1215643,1233992,smartphones,False,hard_negative
+טלפון סלולרי Samsung Galaxy S24 SM-S921B/DS 256GB 8GB RAM,1849.0,טלפון סלולרי Apple iPhone 16 128GB,2371.0,1215643,1234002,smartphones,False,hard_negative
+טלפון סלולרי Apple iPhone 16 Pro Max 256GB,3899.0,טלפון סלולרי Apple iPhone 16 128GB,2371.0,1233992,1234002,smartphones,False,hard_negative
+טלפון סלולרי Apple iPhone 16 Pro Max 256GB,3899.0,טלפון סלולרי Xiaomi Poco X7 Pro 512GB 12GB RAM,1172.0,1233992,1240775,smartphones,False,hard_negative
+טלפון סלולרי Apple iPhone 16 128GB,2371.0,טלפון סלולרי Xiaomi Poco X7 Pro 512GB 12GB RAM,1172.0,1234002,1240775,smartphones,False,hard_negative
+טלפון סלולרי Apple iPhone 16 128GB,2371.0,טלפון סלולרי Samsung Galaxy S25 Plus SM-S936B/DS 256GB 12GB RAM,2625.0,1234002,1241793,smartphones,False,hard_negative
+טלפון סלולרי Xiaomi Poco X7 Pro 512GB 12GB RAM,1172.0,טלפון סלולרי Samsung Galaxy S25 Plus SM-S936B/DS 256GB 12GB RAM,2625.0,1240775,1241793,smartphones,False,hard_negative
+טלפון סלולרי Xiaomi Poco X7 Pro 512GB 12GB RAM,1172.0,טלפון סלולרי Samsung Galaxy S25 SM-S931B/DS 256GB 12GB RAM,2337.0,1240775,1242015,smartphones,False,hard_negative
+טלפון סלולרי Samsung Galaxy S25 Plus SM-S936B/DS 256GB 12GB RAM,2625.0,טלפון סלולרי Samsung Galaxy S25 SM-S931B/DS 256GB 12GB RAM,2337.0,1241793,1242015,smartphones,False,hard_negative
+טלפון סלולרי Samsung Galaxy S25 Plus SM-S936B/DS 256GB 12GB RAM,2625.0,טלפון סלולרי Samsung Galaxy S25 Ultra SM-S938B/DS 512GB 12GB RAM,3532.0,1241793,1242276,smartphones,False,hard_negative
+טלפון סלולרי Samsung Galaxy S25 SM-S931B/DS 256GB 12GB RAM,2337.0,טלפון סלולרי Samsung Galaxy S25 Ultra SM-S938B/DS 512GB 12GB RAM,3532.0,1242015,1242276,smartphones,False,hard_negative
+טלפון סלולרי Samsung Galaxy S25 SM-S931B/DS 256GB 12GB RAM,2337.0,טלפון סלולרי Samsung Galaxy S25 Ultra SM-S938B/DS 256GB 12GB RAM,3190.0,1242015,1242277,smartphones,False,hard_negative
+טלפון סלולרי Samsung Galaxy S25 Ultra SM-S938B/DS 512GB 12GB RAM,3532.0,טלפון סלולרי Samsung Galaxy S25 Ultra SM-S938B/DS 256GB 12GB RAM,3190.0,1242276,1242277,smartphones,False,hard_negative
+טלפון סלולרי Samsung Galaxy S25 Ultra SM-S938B/DS 512GB 12GB RAM,3532.0,טלפון סלולרי Samsung Galaxy A56 SM-A566B/DS 256GB 8GB RAM,1167.0,1242276,1244496,smartphones,False,hard_negative
+טלפון סלולרי Samsung Galaxy S25 Ultra SM-S938B/DS 256GB 12GB RAM,3190.0,טלפון סלולרי Samsung Galaxy A56 SM-A566B/DS 256GB 8GB RAM,1167.0,1242277,1244496,smartphones,False,hard_negative
+טלפון סלולרי Samsung Galaxy S25 Ultra SM-S938B/DS 256GB 12GB RAM,3190.0,טלפון סלולרי Apple iPhone 17 256GB,2948.0,1242277,1253558,smartphones,False,hard_negative
+טלפון סלולרי Samsung Galaxy A56 SM-A566B/DS 256GB 8GB RAM,1167.0,טלפון סלולרי Apple iPhone 17 256GB,2948.0,1244496,1253558,smartphones,False,hard_negative
+טלפון סלולרי Samsung Galaxy A56 SM-A566B/DS 256GB 8GB RAM,1167.0,טלפון סלולרי Apple iPhone 17 Pro Max 256GB,4895.0,1244496,1253615,smartphones,False,hard_negative
+טלפון סלולרי Apple iPhone 17 256GB,2948.0,טלפון סלולרי Apple iPhone 17 Pro Max 256GB,4895.0,1253558,1253615,smartphones,False,hard_negative
+טלפון סלולרי Apple iPhone 17 256GB,2948.0,טלפון סלולרי Apple iPhone 17 Pro 512GB,5155.0,1253558,1253617,smartphones,False,hard_negative
+טלפון סלולרי Apple iPhone 17 Pro Max 256GB,4895.0,טלפון סלולרי Apple iPhone 17 Pro 512GB,5155.0,1253615,1253617,smartphones,False,hard_negative
+טלפון סלולרי Apple iPhone 17 Pro Max 256GB,4895.0,טלפון סלולרי Apple iPhone 17 Pro Max 512GB,5825.0,1253615,1253618,smartphones,False,hard_negative
+טלפון סלולרי Apple iPhone 17 Pro 512GB,5155.0,טלפון סלולרי Apple iPhone 17 Pro Max 512GB,5825.0,1253617,1253618,smartphones,False,hard_negative
+טלפון סלולרי Apple iPhone 17 Pro 512GB,5155.0,טלפון סלולרי Apple iPhone 17 Pro 256GB,4494.0,1253617,1253628,smartphones,False,hard_negative
+טלפון סלולרי Apple iPhone 17 Pro Max 512GB,5825.0,טלפון סלולרי Apple iPhone 17 Pro 256GB,4494.0,1253618,1253628,smartphones,False,hard_negative
+טלפון סלולרי Apple iPhone 17 Pro Max 512GB,5825.0,טלפון סלולרי Samsung Galaxy S25 FE SM-S731B/DS 256GB 8GB RAM,1825.0,1253618,1253631,smartphones,False,hard_negative
+טלפון סלולרי Apple iPhone 17 Pro 256GB,4494.0,טלפון סלולרי Samsung Galaxy S25 FE SM-S731B/DS 256GB 8GB RAM,1825.0,1253628,1253631,smartphones,False,hard_negative
+טלפון סלולרי Apple iPhone 17 Pro 256GB,4494.0,טלפון סלולרי OnePlus 15 512GB 16GB RAM,3174.0,1253628,1256028,smartphones,False,hard_negative
+טלפון סלולרי Samsung Galaxy S25 FE SM-S731B/DS 256GB 8GB RAM,1825.0,טלפון סלולרי OnePlus 15 512GB 16GB RAM,3174.0,1253631,1256028,smartphones,False,hard_negative
+טלפון סלולרי Samsung Galaxy S25 FE SM-S731B/DS 256GB 8GB RAM,1825.0,טלפון סלולרי Xiaomi Redmi Note 15 Pro Plus 512GB 12GB RAM,1585.0,1253631,1260243,smartphones,False,hard_negative
+טלפון סלולרי OnePlus 15 512GB 16GB RAM,3174.0,טלפון סלולרי Xiaomi Redmi Note 15 Pro Plus 512GB 12GB RAM,1585.0,1256028,1260243,smartphones,False,hard_negative
+טלפון סלולרי OnePlus 15 512GB 16GB RAM,3174.0,טלפון סלולרי Samsung Galaxy S26 Ultra SM-S948B/DS 512GB 12GB RAM,4397.0,1256028,1262747,smartphones,False,hard_negative
+טלפון סלולרי Xiaomi Redmi Note 15 Pro Plus 512GB 12GB RAM,1585.0,טלפון סלולרי Samsung Galaxy S26 Ultra SM-S948B/DS 512GB 12GB RAM,4397.0,1260243,1262747,smartphones,False,hard_negative
+טלפון סלולרי Xiaomi Redmi Note 15 Pro Plus 512GB 12GB RAM,1585.0,טלפון סלולרי Samsung Galaxy S26 Ultra SM-S948B/DS 1TB 16GB RAM,5419.0,1260243,1262748,smartphones,False,hard_negative
+טלפון סלולרי Samsung Galaxy S26 Ultra SM-S948B/DS 512GB 12GB RAM,4397.0,טלפון סלולרי Samsung Galaxy S26 Ultra SM-S948B/DS 1TB 16GB RAM,5419.0,1262747,1262748,smartphones,False,hard_negative
+טלפון סלולרי Samsung Galaxy S26 Ultra SM-S948B/DS 512GB 12GB RAM,4397.0,טלפון סלולרי Samsung Galaxy S26 Ultra SM-S948B/DS 256GB 12GB RAM,3888.0,1262747,1262749,smartphones,False,hard_negative
+טלפון סלולרי Samsung Galaxy S26 Ultra SM-S948B/DS 1TB 16GB RAM,5419.0,טלפון סלולרי Samsung Galaxy S26 Ultra SM-S948B/DS 256GB 12GB RAM,3888.0,1262748,1262749,smartphones,False,hard_negative
+טלפון סלולרי Samsung Galaxy S26 Ultra SM-S948B/DS 1TB 16GB RAM,5419.0,טלפון סלולרי Samsung Galaxy S26 SM-S942B/DS 256GB 12GB RAM,2685.0,1262748,1262750,smartphones,False,hard_negative
+טלפון סלולרי Samsung Galaxy S26 Ultra SM-S948B/DS 256GB 12GB RAM,3888.0,טלפון סלולרי Samsung Galaxy S26 SM-S942B/DS 256GB 12GB RAM,2685.0,1262749,1262750,smartphones,False,hard_negative
+טלפון סלולרי Samsung Galaxy S26 Ultra SM-S948B/DS 256GB 12GB RAM,3888.0,טלפון סלולרי Samsung Galaxy S26 Plus SM-S947B/DS 256GB 12GB RAM,3328.0,1262749,1262751,smartphones,False,hard_negative
+טלפון סלולרי Samsung Galaxy S26 SM-S942B/DS 256GB 12GB RAM,2685.0,טלפון סלולרי Samsung Galaxy S26 Plus SM-S947B/DS 256GB 12GB RAM,3328.0,1262750,1262751,smartphones,False,hard_negative
+"טלוויזיה חכמה 65"" Samsung QLED סמסונג QE65Q60D",3499.0,טלוויזיה Samsung QE75Q7F QLED 4K  ‏75 ‏אינטש,3035.0,3838,940986,tvs,False,hard_negative
+"טלוויזיה חכמה 65"" Samsung QLED סמסונג QE65Q60D",3499.0,טלוויזיה Samsung QE65Q7F QLED 4K  ‏65 ‏אינטש,2170.0,3838,940990,tvs,False,hard_negative
+טלוויזיה Samsung QE75Q7F QLED 4K  ‏75 ‏אינטש,3035.0,טלוויזיה Samsung QE65Q7F QLED 4K  ‏65 ‏אינטש,2170.0,940986,940990,tvs,False,hard_negative
+טלוויזיה Samsung QE75Q7F QLED 4K  ‏75 ‏אינטש,3035.0,טלוויזיה Samsung QE55Q7F 4K  ‏55 ‏אינטש,1884.0,940986,940993,tvs,False,hard_negative
+טלוויזיה Samsung QE65Q7F QLED 4K  ‏65 ‏אינטש,2170.0,טלוויזיה Samsung QE55Q7F 4K  ‏55 ‏אינטש,1884.0,940990,940993,tvs,False,hard_negative
+טלוויזיה Samsung QE65Q7F QLED 4K  ‏65 ‏אינטש,2170.0,טלוויזיה Xiaomi A Pro L32M8-A2ME  ‏32 ‏אינטש,549.0,940990,1216736,tvs,False,hard_negative
+טלוויזיה Samsung QE55Q7F 4K  ‏55 ‏אינטש,1884.0,טלוויזיה Xiaomi A Pro L32M8-A2ME  ‏32 ‏אינטש,549.0,940993,1216736,tvs,False,hard_negative
+טלוויזיה Samsung QE55Q7F 4K  ‏55 ‏אינטש,1884.0,טלוויזיה MAG CR32E HD Ready  ‏32 ‏אינטש,345.0,940993,1219131,tvs,False,hard_negative
+טלוויזיה Xiaomi A Pro L32M8-A2ME  ‏32 ‏אינטש,549.0,טלוויזיה MAG CR32E HD Ready  ‏32 ‏אינטש,345.0,1216736,1219131,tvs,False,hard_negative
+טלוויזיה Xiaomi A Pro L32M8-A2ME  ‏32 ‏אינטש,549.0,"טלוויזיה 55"" Samsung NEO QLED דגם QE55QN85D",4250.0,1216736,1226223,tvs,False,hard_negative
+טלוויזיה MAG CR32E HD Ready  ‏32 ‏אינטש,345.0,"טלוויזיה 55"" Samsung NEO QLED דגם QE55QN85D",4250.0,1219131,1226223,tvs,False,hard_negative
+טלוויזיה MAG CR32E HD Ready  ‏32 ‏אינטש,345.0,טלוויזיה Samsung QE65Q80D 4K  ‏65 ‏אינטש,2685.0,1219131,1226333,tvs,False,hard_negative
+"טלוויזיה 55"" Samsung NEO QLED דגם QE55QN85D",4250.0,טלוויזיה Samsung QE65Q80D 4K  ‏65 ‏אינטש,2685.0,1226223,1226333,tvs,False,hard_negative
+"טלוויזיה 55"" Samsung NEO QLED דגם QE55QN85D",4250.0,טלוויזיה Samsung UE98DU9000 4K  ‏98 ‏אינטש,5385.0,1226223,1227963,tvs,False,hard_negative
+טלוויזיה Samsung QE65Q80D 4K  ‏65 ‏אינטש,2685.0,טלוויזיה Samsung UE98DU9000 4K  ‏98 ‏אינטש,5385.0,1226333,1227963,tvs,False,hard_negative
+טלוויזיה Samsung QE65Q80D 4K  ‏65 ‏אינטש,2685.0,טלוויזיה TCL C6K 65C6K 4K  ‏65 ‏אינטש,2527.0,1226333,1247491,tvs,False,hard_negative
+טלוויזיה Samsung UE98DU9000 4K  ‏98 ‏אינטש,5385.0,טלוויזיה TCL C6K 65C6K 4K  ‏65 ‏אינטש,2527.0,1227963,1247491,tvs,False,hard_negative
+טלוויזיה Samsung UE98DU9000 4K  ‏98 ‏אינטש,5385.0,טלוויזיה TCL 65C7K 4K  ‏65 ‏אינטש,3369.0,1227963,1248992,tvs,False,hard_negative
+טלוויזיה TCL C6K 65C6K 4K  ‏65 ‏אינטש,2527.0,טלוויזיה TCL 65C7K 4K  ‏65 ‏אינטש,3369.0,1247491,1248992,tvs,False,hard_negative
+טלוויזיה TCL C6K 65C6K 4K  ‏65 ‏אינטש,2527.0,טלוויזיה LG OLED77B56LA 4K  ‏77 ‏אינטש,6812.0,1247491,1250748,tvs,False,hard_negative
+טלוויזיה TCL 65C7K 4K  ‏65 ‏אינטש,3369.0,טלוויזיה LG OLED77B56LA 4K  ‏77 ‏אינטש,6812.0,1248992,1250748,tvs,False,hard_negative
+טלוויזיה TCL 65C7K 4K  ‏65 ‏אינטש,3369.0,טלוויזיה LG OLED65G56LA 4K  ‏65 ‏אינטש,8490.0,1248992,1251127,tvs,False,hard_negative
+טלוויזיה LG OLED77B56LA 4K  ‏77 ‏אינטש,6812.0,טלוויזיה LG OLED65G56LA 4K  ‏65 ‏אינטש,8490.0,1250748,1251127,tvs,False,hard_negative
+טלוויזיה LG OLED77B56LA 4K  ‏77 ‏אינטש,6812.0,טלוויזיה LG OLED55C56LA 4K  ‏55 ‏אינטש,5186.0,1250748,1252317,tvs,False,hard_negative
+טלוויזיה LG OLED65G56LA 4K  ‏65 ‏אינטש,8490.0,טלוויזיה LG OLED55C56LA 4K  ‏55 ‏אינטש,5186.0,1251127,1252317,tvs,False,hard_negative
+טלוויזיה LG OLED65G56LA 4K  ‏65 ‏אינטש,8490.0,טלוויזיה LG OLED65C56LA 4K  ‏65 ‏אינטש,6190.0,1251127,1252339,tvs,False,hard_negative
+טלוויזיה LG OLED55C56LA 4K  ‏55 ‏אינטש,5186.0,טלוויזיה LG OLED65C56LA 4K  ‏65 ‏אינטש,6190.0,1252317,1252339,tvs,False,hard_negative
+טלוויזיה LG OLED55C56LA 4K  ‏55 ‏אינטש,5186.0,טלוויזיה LG OLED77C56LA 4K  ‏77 ‏אינטש,9290.0,1252317,1252343,tvs,False,hard_negative
+טלוויזיה LG OLED65C56LA 4K  ‏65 ‏אינטש,6190.0,טלוויזיה LG OLED77C56LA 4K  ‏77 ‏אינטש,9290.0,1252339,1252343,tvs,False,hard_negative
+טלוויזיה LG OLED65C56LA 4K  ‏65 ‏אינטש,6190.0,טלוויזיה Samsung UE43U8000F 4K  ‏43 ‏אינטש,1162.0,1252339,1252737,tvs,False,hard_negative
+טלוויזיה LG OLED77C56LA 4K  ‏77 ‏אינטש,9290.0,טלוויזיה Samsung UE43U8000F 4K  ‏43 ‏אינטש,1162.0,1252343,1252737,tvs,False,hard_negative
+טלוויזיה LG OLED77C56LA 4K  ‏77 ‏אינטש,9290.0,טלוויזיה Samsung UE55U8000F 4K  ‏55 ‏אינטש,1475.0,1252343,1252739,tvs,False,hard_negative
+טלוויזיה Samsung UE43U8000F 4K  ‏43 ‏אינטש,1162.0,טלוויזיה Samsung UE55U8000F 4K  ‏55 ‏אינטש,1475.0,1252737,1252739,tvs,False,hard_negative
+טלוויזיה Samsung UE43U8000F 4K  ‏43 ‏אינטש,1162.0,טלוויזיה Samsung UE75U8000F 4K  ‏75 ‏אינטש,2594.0,1252737,1252741,tvs,False,hard_negative
+טלוויזיה Samsung UE55U8000F 4K  ‏55 ‏אינטש,1475.0,טלוויזיה Samsung UE75U8000F 4K  ‏75 ‏אינטש,2594.0,1252739,1252741,tvs,False,hard_negative
+טלוויזיה Samsung UE55U8000F 4K  ‏55 ‏אינטש,1475.0,טלוויזיה Samsung QE55Q8F 4K  ‏55 ‏אינטש,2238.0,1252739,1252750,tvs,False,hard_negative
+טלוויזיה Samsung UE75U8000F 4K  ‏75 ‏אינטש,2594.0,טלוויזיה Samsung QE55Q8F 4K  ‏55 ‏אינטש,2238.0,1252741,1252750,tvs,False,hard_negative
+טלוויזיה Samsung UE75U8000F 4K  ‏75 ‏אינטש,2594.0,טלוויזיה Samsung QE65Q8F 4K  ‏65 ‏אינטש,2569.0,1252741,1252935,tvs,False,hard_negative
+טלוויזיה Samsung QE55Q8F 4K  ‏55 ‏אינטש,2238.0,טלוויזיה Samsung QE65Q8F 4K  ‏65 ‏אינטש,2569.0,1252750,1252935,tvs,False,hard_negative
+טלוויזיה Samsung QE55Q8F 4K  ‏55 ‏אינטש,2238.0,טלוויזיה LG 75QNED93A6A 4K  ‏75 ‏אינטש,5279.0,1252750,1253612,tvs,False,hard_negative
+טלוויזיה Samsung QE65Q8F 4K  ‏65 ‏אינטש,2569.0,טלוויזיה LG 75QNED93A6A 4K  ‏75 ‏אינטש,5279.0,1252935,1253612,tvs,False,hard_negative
+טלוויזיה Samsung QE65Q8F 4K  ‏65 ‏אינטש,2569.0,טלוויזיה Samsung QE43Q7F 4K  ‏43 ‏אינטש,1430.0,1252935,1254524,tvs,False,hard_negative
+טלוויזיה LG 75QNED93A6A 4K  ‏75 ‏אינטש,5279.0,טלוויזיה Samsung QE43Q7F 4K  ‏43 ‏אינטש,1430.0,1253612,1254524,tvs,False,hard_negative
+טלוויזיה LG 75QNED93A6A 4K  ‏75 ‏אינטש,5279.0,טלוויזיה LG 43UA73006LA 4K  ‏43 ‏אינטש,1278.0,1253612,1254945,tvs,False,hard_negative
+טלוויזיה Samsung QE43Q7F 4K  ‏43 ‏אינטש,1430.0,טלוויזיה LG 43UA73006LA 4K  ‏43 ‏אינטש,1278.0,1254524,1254945,tvs,False,hard_negative
+טלוויזיה Samsung QE43Q7F 4K  ‏43 ‏אינטש,1430.0,טלוויזיה LG 55UA73006LA 4K  ‏55 ‏אינטש,1690.0,1254524,1254949,tvs,False,hard_negative
+טלוויזיה LG 43UA73006LA 4K  ‏43 ‏אינטש,1278.0,טלוויזיה LG 55UA73006LA 4K  ‏55 ‏אינטש,1690.0,1254945,1254949,tvs,False,hard_negative
+טלוויזיה LG 43UA73006LA 4K  ‏43 ‏אינטש,1278.0,טלוויזיה LG OLED65CS5VA 4K  ‏65 ‏אינטש,5149.0,1254945,1254951,tvs,False,hard_negative
+טלוויזיה LG 55UA73006LA 4K  ‏55 ‏אינטש,1690.0,טלוויזיה LG OLED65CS5VA 4K  ‏65 ‏אינטש,5149.0,1254949,1254951,tvs,False,hard_negative

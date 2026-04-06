@@ -1,0 +1,1202 @@
+[
+  {
+    "idx_a": "1",
+    "idx_b": "114",
+    "reason": "tfidf_similarity",
+    "candidate_confidence": 0.9
+  },
+  {
+    "idx_a": "1",
+    "idx_b": "115",
+    "reason": "tfidf_similarity",
+    "candidate_confidence": 0.9
+  },
+  {
+    "idx_a": "1",
+    "idx_b": "182",
+    "reason": "tfidf_similarity",
+    "candidate_confidence": 0.9
+  },
+  {
+    "idx_a": "1",
+    "idx_b": "183",
+    "reason": "tfidf_similarity",
+    "candidate_confidence": 0.9
+  },
+  {
+    "idx_a": "1",
+    "idx_b": "184",
+    "reason": "tfidf_similarity",
+    "candidate_confidence": 0.9
+  },
+  {
+    "idx_a": "1",
+    "idx_b": "364",
+    "reason": "tfidf_similarity",
+    "candidate_confidence": 0.9
+  },
+  {
+    "idx_a": "2",
+    "idx_b": "91",
+    "reason": "tfidf_similarity",
+    "candidate_confidence": 0.9
+  },
+  {
+    "idx_a": "2",
+    "idx_b": "322",
+    "reason": "tfidf_similarity",
+    "candidate_confidence": 0.9
+  },
+  {
+    "idx_a": "2",
+    "idx_b": "323",
+    "reason": "tfidf_similarity",
+    "candidate_confidence": 0.9
+  },
+  {
+    "idx_a": "9",
+    "idx_b": "194",
+    "reason": "tfidf_similarity",
+    "candidate_confidence": 0.9
+  },
+  {
+    "idx_a": "25",
+    "idx_b": "218",
+    "reason": "tfidf_similarity",
+    "candidate_confidence": 0.9
+  },
+  {
+    "idx_a": "25",
+    "idx_b": "219",
+    "reason": "tfidf_similarity",
+    "candidate_confidence": 0.9
+  },
+  {
+    "idx_a": "30",
+    "idx_b": "225",
+    "reason": "tfidf_similarity",
+    "candidate_confidence": 0.9
+  },
+  {
+    "idx_a": "30",
+    "idx_b": "226",
+    "reason": "tfidf_similarity",
+    "candidate_confidence": 0.9
+  },
+  {
+    "idx_a": "53",
+    "idx_b": "259",
+    "reason": "tfidf_similarity",
+    "candidate_confidence": 0.9
+  },
+  {
+    "idx_a": "53",
+    "idx_b": "260",
+    "reason": "tfidf_similarity",
+    "candidate_confidence": 0.9
+  },
+  {
+    "idx_a": "53",
+    "idx_b": "261",
+    "reason": "tfidf_similarity",
+    "candidate_confidence": 0.9
+  },
+  {
+    "idx_a": "64",
+    "idx_b": "276",
+    "reason": "tfidf_similarity",
+    "candidate_confidence": 0.9
+  },
+  {
+    "idx_a": "64",
+    "idx_b": "277",
+    "reason": "tfidf_similarity",
+    "candidate_confidence": 0.9
+  },
+  {
+    "idx_a": "114",
+    "idx_b": "115",
+    "reason": "tfidf_similarity",
+    "candidate_confidence": 0.9
+  },
+  {
+    "idx_a": "114",
+    "idx_b": "182",
+    "reason": "tfidf_similarity",
+    "candidate_confidence": 0.9
+  },
+  {
+    "idx_a": "114",
+    "idx_b": "183",
+    "reason": "tfidf_similarity",
+    "candidate_confidence": 0.9
+  },
+  {
+    "idx_a": "115",
+    "idx_b": "182",
+    "reason": "tfidf_similarity",
+    "candidate_confidence": 0.9
+  },
+  {
+    "idx_a": "115",
+    "idx_b": "183",
+    "reason": "tfidf_similarity",
+    "candidate_confidence": 0.9
+  },
+  {
+    "idx_a": "115",
+    "idx_b": "184",
+    "reason": "tfidf_similarity",
+    "candidate_confidence": 0.9
+  },
+  {
+    "idx_a": "115",
+    "idx_b": "364",
+    "reason": "tfidf_similarity",
+    "candidate_confidence": 0.9
+  },
+  {
+    "idx_a": "182",
+    "idx_b": "183",
+    "reason": "tfidf_similarity",
+    "candidate_confidence": 0.9
+  },
+  {
+    "idx_a": "182",
+    "idx_b": "184",
+    "reason": "tfidf_similarity",
+    "candidate_confidence": 0.9
+  },
+  {
+    "idx_a": "182",
+    "idx_b": "364",
+    "reason": "tfidf_similarity",
+    "candidate_confidence": 0.9
+  },
+  {
+    "idx_a": "183",
+    "idx_b": "184",
+    "reason": "tfidf_similarity",
+    "candidate_confidence": 0.9
+  },
+  {
+    "idx_a": "183",
+    "idx_b": "364",
+    "reason": "tfidf_similarity",
+    "candidate_confidence": 0.9
+  },
+  {
+    "idx_a": "218",
+    "idx_b": "219",
+    "reason": "tfidf_similarity",
+    "candidate_confidence": 0.9
+  },
+  {
+    "idx_a": "225",
+    "idx_b": "226",
+    "reason": "tfidf_similarity",
+    "candidate_confidence": 0.9
+  },
+  {
+    "idx_a": "259",
+    "idx_b": "260",
+    "reason": "tfidf_similarity",
+    "candidate_confidence": 0.9
+  },
+  {
+    "idx_a": "259",
+    "idx_b": "261",
+    "reason": "tfidf_similarity",
+    "candidate_confidence": 0.9
+  },
+  {
+    "idx_a": "260",
+    "idx_b": "261",
+    "reason": "tfidf_similarity",
+    "candidate_confidence": 0.9
+  },
+  {
+    "idx_a": "276",
+    "idx_b": "277",
+    "reason": "tfidf_similarity",
+    "candidate_confidence": 0.9
+  },
+  {
+    "idx_a": "151",
+    "idx_b": "425",
+    "reason": "tfidf_similarity",
+    "candidate_confidence": 0.8868796931089138
+  },
+  {
+    "idx_a": "425",
+    "idx_b": "426",
+    "reason": "tfidf_similarity",
+    "candidate_confidence": 0.8868796931089138
+  },
+  {
+    "idx_a": "425",
+    "idx_b": "427",
+    "reason": "tfidf_similarity",
+    "candidate_confidence": 0.8868796931089138
+  },
+  {
+    "idx_a": "30",
+    "idx_b": "53",
+    "reason": "tfidf_similarity",
+    "candidate_confidence": 0.8222927299458371
+  },
+  {
+    "idx_a": "30",
+    "idx_b": "259",
+    "reason": "tfidf_similarity",
+    "candidate_confidence": 0.8222927299458371
+  },
+  {
+    "idx_a": "30",
+    "idx_b": "260",
+    "reason": "tfidf_similarity",
+    "candidate_confidence": 0.8222927299458371
+  },
+  {
+    "idx_a": "30",
+    "idx_b": "261",
+    "reason": "tfidf_similarity",
+    "candidate_confidence": 0.8222927299458371
+  },
+  {
+    "idx_a": "53",
+    "idx_b": "225",
+    "reason": "tfidf_similarity",
+    "candidate_confidence": 0.8222927299458371
+  },
+  {
+    "idx_a": "53",
+    "idx_b": "226",
+    "reason": "tfidf_similarity",
+    "candidate_confidence": 0.8222927299458371
+  },
+  {
+    "idx_a": "225",
+    "idx_b": "259",
+    "reason": "tfidf_similarity",
+    "candidate_confidence": 0.8222927299458371
+  },
+  {
+    "idx_a": "225",
+    "idx_b": "260",
+    "reason": "tfidf_similarity",
+    "candidate_confidence": 0.8222927299458371
+  },
+  {
+    "idx_a": "225",
+    "idx_b": "261",
+    "reason": "tfidf_similarity",
+    "candidate_confidence": 0.8222927299458371
+  },
+  {
+    "idx_a": "226",
+    "idx_b": "259",
+    "reason": "tfidf_similarity",
+    "candidate_confidence": 0.8222927299458371
+  },
+  {
+    "idx_a": "226",
+    "idx_b": "260",
+    "reason": "tfidf_similarity",
+    "candidate_confidence": 0.8222927299458371
+  },
+  {
+    "idx_a": "226",
+    "idx_b": "261",
+    "reason": "tfidf_similarity",
+    "candidate_confidence": 0.8222927299458371
+  },
+  {
+    "idx_a": "141",
+    "idx_b": "406",
+    "reason": "tfidf_similarity",
+    "candidate_confidence": 0.8054015419480139
+  },
+  {
+    "idx_a": 41,
+    "idx_b": 241,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 99,
+    "idx_b": 335,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 99,
+    "idx_b": 336,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 100,
+    "idx_b": 337,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 160,
+    "idx_b": 438,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 160,
+    "idx_b": 439,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 162,
+    "idx_b": 443,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 335,
+    "idx_b": 336,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 438,
+    "idx_b": 439,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 97,
+    "idx_b": 98,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 97,
+    "idx_b": 333,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 97,
+    "idx_b": 334,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 98,
+    "idx_b": 333,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 98,
+    "idx_b": 334,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 333,
+    "idx_b": 334,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 87,
+    "idx_b": 317,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 125,
+    "idx_b": 126,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 125,
+    "idx_b": 376,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 125,
+    "idx_b": 377,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 125,
+    "idx_b": 379,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 126,
+    "idx_b": 376,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 126,
+    "idx_b": 377,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 126,
+    "idx_b": 379,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 376,
+    "idx_b": 377,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 376,
+    "idx_b": 379,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 377,
+    "idx_b": 379,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 5,
+    "idx_b": 188,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 5,
+    "idx_b": 189,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 26,
+    "idx_b": 220,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 51,
+    "idx_b": 253,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 51,
+    "idx_b": 254,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 51,
+    "idx_b": 255,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 51,
+    "idx_b": 256,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 52,
+    "idx_b": 257,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 52,
+    "idx_b": 258,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 54,
+    "idx_b": 55,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 54,
+    "idx_b": 264,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 55,
+    "idx_b": 264,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 76,
+    "idx_b": 295,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 76,
+    "idx_b": 296,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 76,
+    "idx_b": 297,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 77,
+    "idx_b": 298,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 77,
+    "idx_b": 299,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 78,
+    "idx_b": 300,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 78,
+    "idx_b": 302,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 80,
+    "idx_b": 304,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 80,
+    "idx_b": 305,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 82,
+    "idx_b": 306,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 82,
+    "idx_b": 308,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 86,
+    "idx_b": 315,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 101,
+    "idx_b": 338,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 101,
+    "idx_b": 339,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 102,
+    "idx_b": 340,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 102,
+    "idx_b": 341,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 103,
+    "idx_b": 342,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 103,
+    "idx_b": 343,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 139,
+    "idx_b": 405,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 142,
+    "idx_b": 409,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 142,
+    "idx_b": 410,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 143,
+    "idx_b": 411,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 144,
+    "idx_b": 412,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 144,
+    "idx_b": 413,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 145,
+    "idx_b": 415,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 148,
+    "idx_b": 421,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 148,
+    "idx_b": 422,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 176,
+    "idx_b": 466,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 176,
+    "idx_b": 468,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 177,
+    "idx_b": 469,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 178,
+    "idx_b": 470,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 188,
+    "idx_b": 189,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 253,
+    "idx_b": 254,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 253,
+    "idx_b": 255,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 253,
+    "idx_b": 256,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 254,
+    "idx_b": 255,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 254,
+    "idx_b": 256,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 255,
+    "idx_b": 256,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 257,
+    "idx_b": 258,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 295,
+    "idx_b": 296,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 295,
+    "idx_b": 297,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 296,
+    "idx_b": 297,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 298,
+    "idx_b": 299,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 300,
+    "idx_b": 302,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 304,
+    "idx_b": 305,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 306,
+    "idx_b": 308,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 338,
+    "idx_b": 339,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 340,
+    "idx_b": 341,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 342,
+    "idx_b": 343,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 409,
+    "idx_b": 410,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 412,
+    "idx_b": 413,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 421,
+    "idx_b": 422,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 466,
+    "idx_b": 468,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 10,
+    "idx_b": 195,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 10,
+    "idx_b": 196,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 195,
+    "idx_b": 196,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 56,
+    "idx_b": 57,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 56,
+    "idx_b": 267,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 57,
+    "idx_b": 267,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 21,
+    "idx_b": 22,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 21,
+    "idx_b": 213,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 21,
+    "idx_b": 214,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 21,
+    "idx_b": 215,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 22,
+    "idx_b": 213,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 22,
+    "idx_b": 214,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 22,
+    "idx_b": 215,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 29,
+    "idx_b": 224,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 31,
+    "idx_b": 227,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 31,
+    "idx_b": 228,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 31,
+    "idx_b": 229,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 213,
+    "idx_b": 214,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 213,
+    "idx_b": 215,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 214,
+    "idx_b": 215,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 227,
+    "idx_b": 228,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 227,
+    "idx_b": 229,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 228,
+    "idx_b": 229,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 19,
+    "idx_b": 210,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 19,
+    "idx_b": 211,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 27,
+    "idx_b": 221,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 35,
+    "idx_b": 232,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 36,
+    "idx_b": 37,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 36,
+    "idx_b": 233,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 37,
+    "idx_b": 233,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 44,
+    "idx_b": 244,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 67,
+    "idx_b": 282,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 68,
+    "idx_b": 283,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 75,
+    "idx_b": 293,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 75,
+    "idx_b": 294,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 210,
+    "idx_b": 211,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 293,
+    "idx_b": 294,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 161,
+    "idx_b": 440,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 161,
+    "idx_b": 441,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 163,
+    "idx_b": 164,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 163,
+    "idx_b": 444,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 163,
+    "idx_b": 445,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 164,
+    "idx_b": 444,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 164,
+    "idx_b": 445,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 440,
+    "idx_b": 441,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 444,
+    "idx_b": 445,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 109,
+    "idx_b": 354,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 111,
+    "idx_b": 356,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 112,
+    "idx_b": 359,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 113,
+    "idx_b": 360,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 113,
+    "idx_b": 361,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 113,
+    "idx_b": 362,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 137,
+    "idx_b": 403,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 137,
+    "idx_b": 404,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 151,
+    "idx_b": 426,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  },
+  {
+    "idx_a": 151,
+    "idx_b": 427,
+    "reason": "brand_block",
+    "candidate_confidence": 0.8
+  }
+]

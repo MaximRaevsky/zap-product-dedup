@@ -1,0 +1,206 @@
+[
+  {
+    "type": "false_negative",
+    "title_a": "טלפון סלולרי Apple iPhone 15 128GB אפל",
+    "title_b": "טלפון סלולרי Apple iPhone 15 256GB אפל",
+    "rule_confidence": 0.05,
+    "rule_fired": "conflicting_attributes",
+    "llm_confidence": 0.0,
+    "llm_rationale": "not_sent_to_llm",
+    "final_confidence": 0.95,
+    "is_duplicate_pred": false,
+    "decision_source": "rules_low",
+    "token_sort_ratio": 84.0,
+    "brand_a": "Apple",
+    "brand_b": "Apple",
+    "series_a": "iPhone 15",
+    "series_b": "iPhone 15",
+    "storage_a": "128GB",
+    "storage_b": "256GB",
+    "gt_difficulty": "real_variant",
+    "gt_is_duplicate": true
+  },
+  {
+    "type": "false_negative",
+    "title_a": "טלוויזיה Samsung QE65Q80D 4K  ‏65 ‏אינטש",
+    "title_b": "טלוויזיה סמסונג QE65Q80D 4K  ‏65 ‏אינטש",
+    "rule_confidence": 0.5,
+    "rule_fired": "medium_token_sort",
+    "llm_confidence": 0.0,
+    "llm_rationale": "not_sent_to_llm",
+    "final_confidence": 0.5,
+    "is_duplicate_pred": false,
+    "decision_source": "rules_fallback",
+    "token_sort_ratio": 75.47169811320755,
+    "brand_a": "Samsung",
+    "brand_b": "Samsung",
+    "series_a": null,
+    "series_b": null,
+    "storage_a": null,
+    "storage_b": null,
+    "gt_difficulty": "brand_swap",
+    "gt_is_duplicate": true
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "‏מכונת אספרסו Nespresso Essenza Mini C30",
+    "title_b": "‏מכונת אספרסו נספרסו Essenza Mini C30",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "טלפון סלולרי Apple iPhone 15 256GB אפל",
+    "title_b": "סמארטפון Apple iPhone 16 128GB אפל",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "מכונת קפה DeLonghi EC9155.W",
+    "title_b": "‏מכונת אספרסו Delonghi La Specialista Arte EC9155",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "Delonghi מכונת קפה DeLonghi EC9155.W",
+    "title_b": "מכונת קפה DeLonghi EC9155.W",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "Delonghi מכונת קפה DeLonghi EC9155.W",
+    "title_b": "‏מכונת אספרסו Delonghi La Specialista Arte EC9155",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "מחשב נייד Lenovo V15 G4 AMN 82YU0044IV",
+    "title_b": "מחשב נייד Lenovo V15 G4 AMN | מעבד AMD Athlon 7120U | זיכרון 8GB | אחסון 256GB | מסך 15.6'' FHD | ללא מערכת הפעלה | דגם 82YU0044IV | שנה אחריות",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "אוזניות JBL Tune 770NC Bluetooth",
+    "title_b": "אוזניות ‏אלחוטיות JBL Tune 770NC בצבע שחור",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "אוזניות Apple AirPods Pro 2 MagSafe USB-C True Wireless",
+    "title_b": "אוזניות Apple AirPods Pro 2 MagSafe USB-C True Wireless אפל",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "אוזניות  ‏אלחוטיות Bose QuietComfort Ultra",
+    "title_b": "אוזניות Bose Qc Ultra Diamond היבואן הרשמי",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "Xiaomi טלוויזיה \"32 שיאומי דגם XIAOMI PRO L32M8-A2ME LED",
+    "title_b": "טלוויזיה Xiaomi A Pro L32M8-A2ME  ‏32 ‏אינטש",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "אוזניות Sennheiser Momentum True Wireless 4 True Wireless",
+    "title_b": "אוזניות Sennheiser Momentum True Wireless 4 יבואן רשמי",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "אוזניות  ‏אלחוטיות Apple AirPods 4 MXP63ZM/A MXP63LL/A MXP63HN/A",
+    "title_b": "אוזניות ‏אלחוטיות Apple AirPods 4 MXP63ZM/A אפל",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "אוזניות Apple AirPods 4 MXP93ZM/A True Wireless יבואן רשמי",
+    "title_b": "אוזניות Apple AirPods 4 with Active Noise Cancellation MXP93ZM/A True Wireless",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "Xiaomi סמארטפון XIAOMI POCO X7 Pro 5G גרסה 12GB/512GB בצבע ירוק",
+    "title_b": "טלפון סלולרי Xiaomi Poco X7 Pro 512GB 12GB RAM",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "טלפון סלולרי Samsung Galaxy S25 SM-S931B/DS 256GB 12GB RAM",
+    "title_b": "סמארטפון (Samsung Galaxy S25 12GB+256GB (SM-S931B/DS - צבע כחול יבואן רשמי",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "מחשב נייד Acer Nitro V15 NH.QSGEC.002",
+    "title_b": "מחשב נייד לגיימרים Acer Nitro V15 ANV15-41-R6DF NH.QSGEC.002 בצבע שחור",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "מחשב נייד Lenovo IdeaPad Slim 3 15IRH10 83K100KPIV",
+    "title_b": "מחשב נייד Lenovo IdeaPad Slim 3 15IRH10 83K100KPIV צבע Luna Grey",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "אוזניות  ‏אלחוטיות Sony WH-1000XM6",
+    "title_b": "אוזניות אלחוטיות Sony WH-1000XM6 עם ביטול רעשים – צבע שחור",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "טלוויזיה ''77 LG OLED77B56LA 4K יבואן רשמי",
+    "title_b": "טלוויזיה LG OLED77B56LA 4K  ‏77 ‏אינטש",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "טלוויזיה \"77 חכמה LG OLED B5 ברזולוציית 4K דגם OLED77B56LA",
+    "title_b": "טלוויזיה ''77 LG OLED77B56LA 4K יבואן רשמי",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "טלוויזיה \"77 חכמה LG OLED B5 ברזולוציית 4K דגם OLED77B56LA",
+    "title_b": "טלוויזיה LG OLED77B56LA 4K  ‏77 ‏אינטש",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "טלוויזיה LG OLED55C56LA 4K  ‏55 ‏אינטש",
+    "title_b": "טלוויזיה LG OLED55C56LA 4K ‏55 ‏אינטש",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "טלוויזיה LG 75QNED93A6A 4K  ‏75 ‏אינטש",
+    "title_b": "טלוויזיה LG 75QNED93A6A יבואן רשמי",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "אוזניות  ‏אלחוטיות Apple AirPods Pro 3 MagSafe USB-C MFHP4ZM/A",
+    "title_b": "אוזניות Apple AirPods Pro 3 בצבע לבן",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "טלוויזיה \"43 חכמה LG UHD ברזולוציית 4K דגם 43UA73006LA",
+    "title_b": "טלוויזיה LG 43UA73006LA 4K  ‏43 ‏אינטש",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "טלוויזיה LG OLED65CS5VA 4K  ‏65 ‏אינטש",
+    "title_b": "טלוויזיה LG OLED65CS5VA 4K יבואן רשמי",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "מחשב נייד Dell Pro 15 ESSENTIAL PV15250 PV15250-5118",
+    "title_b": "מחשב נייד Dell Pro 15 Essential PV15250-5118",
+    "note": "Pair not generated as candidate"
+  }
+]
