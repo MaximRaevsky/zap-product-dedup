@@ -1,52 +1,1522 @@
 [
   {
-    "title_a": "‏מכונת אספרסו נספרסו Delonghi Essenza Mini D30 EN85",
-    "title_b": "‏מכונת אספרסו נספרסו Essenza Mini C30",
-    "user_message": "Compare these two product listings:\n\nProduct A: ‏מכונת אספרסו נספרסו Delonghi Essenza Mini D30 EN85\nProduct B: ‏מכונת אספרסו נספרסו Essenza Mini C30\n\nCategory: Essenza\n\nExtracted attributes:\nA - Brand: Nespresso, Series: Essenza, Model: None, Storage: None\nB - Brand: Nespresso, Series: Essenza, Model: None, Storage: None\n\nAre these the same product? Respond with JSON only."
+    "title_a": "‎ מקרר מקפיא עליון 528 ליטר Amcor דגם HR574SS מהדרין שבת אמקור",
+    "title_b": "Amcor דגם HR574SS מהדרין שבת אמקור ‎ מקרר מקפיא עליון 528 ליטר",
+    "prompt": "Product A: ‎ מקרר מקפיא עליון 528 ליטר Amcor דגם HR574SS מהדרין שבת אמקור\nProduct B: Amcor דגם HR574SS מהדרין שבת אמקור ‎ מקרר מקפיא עליון 528 ליטר\n\nCategory: \nAttributes A: brand=None, model=HR574SS, storage=None\nAttributes B: brand=None, model=HR574SS, storage=None\n\nSame product? JSON only."
   },
   {
-    "title_a": "אוזניות  ‏אלחוטיות Apple AirPods Pro 3 MagSafe USB-C MFHP4ZM/A",
-    "title_b": "אוזניות Apple AirPods Pro 2 MagSafe USB-C TW",
-    "user_message": "Compare these two product listings:\n\nProduct A: אוזניות  ‏אלחוטיות Apple AirPods Pro 3 MagSafe USB-C MFHP4ZM/A\nProduct B: אוזניות Apple AirPods Pro 2 MagSafe USB-C TW\n\nCategory: AirPods Pro 3\n\nExtracted attributes:\nA - Brand: Apple, Series: AirPods Pro 3, Model: MFHP4ZM/A, Storage: None\nB - Brand: Apple, Series: AirPods Pro 2, Model: None, Storage: None\n\nAre these the same product? Respond with JSON only."
+    "title_a": "‏3.5 ‏אינטש Rockford P132",
+    "title_b": "Rockford P132 ‏3.5 ‏אינטש",
+    "prompt": "Product A: ‏3.5 ‏אינטש Rockford P132\nProduct B: Rockford P132 ‏3.5 ‏אינטש\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
   },
   {
-    "title_a": "אוזניות Apple AirPods Pro 2 MagSafe USB-C TW",
-    "title_b": "אוזניות  ‏אלחוטיות Apple AirPods Pro 3 MagSafe USB-C MFHP4ZM/A בצבע שחור",
-    "user_message": "Compare these two product listings:\n\nProduct A: אוזניות Apple AirPods Pro 2 MagSafe USB-C TW\nProduct B: אוזניות  ‏אלחוטיות Apple AirPods Pro 3 MagSafe USB-C MFHP4ZM/A בצבע שחור\n\nCategory: AirPods Pro 2\n\nExtracted attributes:\nA - Brand: Apple, Series: AirPods Pro 2, Model: None, Storage: None\nB - Brand: Apple, Series: AirPods Pro 3, Model: MFHP4ZM/A, Storage: None\n\nAre these the same product? Respond with JSON only."
+    "title_a": "‏3.5 ‏אינטש Rockford P132",
+    "title_b": "‏3.5 ‏\" Rockford P132",
+    "prompt": "Product A: ‏3.5 ‏אינטש Rockford P132\nProduct B: ‏3.5 ‏\" Rockford P132\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
   },
   {
-    "title_a": "אוזניות Apple AirPods Pro 2 MagSafe USB-C TW",
-    "title_b": "אוזניות  ‏אלחוטיות Apple AirPods Pro 3 MagSafe USB-C MFHP4ZM/A יבואן מורשה",
-    "user_message": "Compare these two product listings:\n\nProduct A: אוזניות Apple AirPods Pro 2 MagSafe USB-C TW\nProduct B: אוזניות  ‏אלחוטיות Apple AirPods Pro 3 MagSafe USB-C MFHP4ZM/A יבואן מורשה\n\nCategory: AirPods Pro 2\n\nExtracted attributes:\nA - Brand: Apple, Series: AirPods Pro 2, Model: None, Storage: None\nB - Brand: Apple, Series: AirPods Pro 3, Model: MFHP4ZM/A, Storage: None\n\nAre these the same product? Respond with JSON only."
+    "title_a": "‏טונר  ‏שחור Brother TN2220",
+    "title_b": "Brother TN2220 ‏טונר ‏שחור",
+    "prompt": "Product A: ‏טונר  ‏שחור Brother TN2220\nProduct B: Brother TN2220 ‏טונר ‏שחור\n\nCategory: \nAttributes A: brand=None, model=TN2220, storage=None\nAttributes B: brand=None, model=TN2220, storage=None\n\nSame product? JSON only."
   },
   {
-    "title_a": "מחשב נייד Apple MacBook Air 13 MGN63HB/A MGN93HB/A MGND3HB/A",
-    "title_b": "מחשב נייד Apple MacBook Air 15 M4 MW1G3HB/A MC7A4HB/A MW1J3HB/A MW1L3HB/A",
-    "user_message": "Compare these two product listings:\n\nProduct A: מחשב נייד Apple MacBook Air 13 MGN63HB/A MGN93HB/A MGND3HB/A\nProduct B: מחשב נייד Apple MacBook Air 15 M4 MW1G3HB/A MC7A4HB/A MW1J3HB/A MW1L3HB/A\n\nCategory: MacBook Air 13\n\nExtracted attributes:\nA - Brand: Apple, Series: MacBook Air 13, Model: None, Storage: None\nB - Brand: Apple, Series: MacBook Air 15, Model: None, Storage: None\n\nAre these the same product? Respond with JSON only."
+    "title_a": "טרמפולינה TRITUR TRITUR2.4",
+    "title_b": "טרמפולינה TRITUR TRITUR 3.6",
+    "prompt": "Product A: טרמפולינה TRITUR TRITUR2.4\nProduct B: טרמפולינה TRITUR TRITUR 3.6\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
   },
   {
-    "title_a": "מחשב נייד Apple MacBook Air 13 MGN63HB/A MGN93HB/A MGND3HB/A",
-    "title_b": "מחשב נייד Apple MacBook Air 15 M4 MW1G3HB/A MC7A4HB/A MW1J3HB/A MW1L3HB/A אחריות יבואן רשמי",
-    "user_message": "Compare these two product listings:\n\nProduct A: מחשב נייד Apple MacBook Air 13 MGN63HB/A MGN93HB/A MGND3HB/A\nProduct B: מחשב נייד Apple MacBook Air 15 M4 MW1G3HB/A MC7A4HB/A MW1J3HB/A MW1L3HB/A אחריות יבואן רשמי\n\nCategory: MacBook Air 13\n\nExtracted attributes:\nA - Brand: Apple, Series: MacBook Air 13, Model: None, Storage: None\nB - Brand: Apple, Series: MacBook Air 15, Model: None, Storage: None\n\nAre these the same product? Respond with JSON only."
+    "title_a": "טרמפולינה TRITUR TRITUR2.4",
+    "title_b": "טרמפולינה TRITUR TRITUR 3.6 Black",
+    "prompt": "Product A: טרמפולינה TRITUR TRITUR2.4\nProduct B: טרמפולינה TRITUR TRITUR 3.6 Black\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
   },
   {
-    "title_a": "מחשב נייד Apple MacBook Air 13 MGN63HB/A MGN93HB/A MGND3HB/A",
-    "title_b": "מחשב נייד Apple MacBook Air 15 M4 MW1G3HB/A MC7A4HB/A MW1J3HB/A MW1L3HB/A White",
-    "user_message": "Compare these two product listings:\n\nProduct A: מחשב נייד Apple MacBook Air 13 MGN63HB/A MGN93HB/A MGND3HB/A\nProduct B: מחשב נייד Apple MacBook Air 15 M4 MW1G3HB/A MC7A4HB/A MW1J3HB/A MW1L3HB/A White\n\nCategory: MacBook Air 13\n\nExtracted attributes:\nA - Brand: Apple, Series: MacBook Air 13, Model: None, Storage: None\nB - Brand: Apple, Series: MacBook Air 15, Model: None, Storage: None\n\nAre these the same product? Respond with JSON only."
+    "title_a": "טרמפולינה TRITUR TRITUR2.4",
+    "title_b": "TRITUR 3.6 טרמפולינה TRITUR",
+    "prompt": "Product A: טרמפולינה TRITUR TRITUR2.4\nProduct B: TRITUR 3.6 טרמפולינה TRITUR\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
   },
   {
-    "title_a": "מחשב נייד Apple MacBook Air 15 M4 MW1G3HB/A MC7A4HB/A MW1J3HB/A MW1L3HB/A",
-    "title_b": "Apple MacBook Air 13 MGN63HB/A MGN93HB/A MGND3HB/A",
-    "user_message": "Compare these two product listings:\n\nProduct A: מחשב נייד Apple MacBook Air 15 M4 MW1G3HB/A MC7A4HB/A MW1J3HB/A MW1L3HB/A\nProduct B: Apple MacBook Air 13 MGN63HB/A MGN93HB/A MGND3HB/A\n\nCategory: MacBook Air 15\n\nExtracted attributes:\nA - Brand: Apple, Series: MacBook Air 15, Model: None, Storage: None\nB - Brand: Apple, Series: MacBook Air 13, Model: None, Storage: None\n\nAre these the same product? Respond with JSON only."
+    "title_a": "‏4 ‏אינטש Morel Maximo Coax 4",
+    "title_b": "‏4 ‏\" Morel Maximo Coax 4",
+    "prompt": "Product A: ‏4 ‏אינטש Morel Maximo Coax 4\nProduct B: ‏4 ‏\" Morel Maximo Coax 4\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
   },
   {
-    "title_a": "Apple MacBook Air 13 MGN63HB/A MGN93HB/A MGND3HB/A",
-    "title_b": "מחשב נייד Apple MacBook Air 15 M4 MW1G3HB/A MC7A4HB/A MW1J3HB/A MW1L3HB/A אחריות יבואן רשמי",
-    "user_message": "Compare these two product listings:\n\nProduct A: Apple MacBook Air 13 MGN63HB/A MGN93HB/A MGND3HB/A\nProduct B: מחשב נייד Apple MacBook Air 15 M4 MW1G3HB/A MC7A4HB/A MW1J3HB/A MW1L3HB/A אחריות יבואן רשמי\n\nCategory: MacBook Air 13\n\nExtracted attributes:\nA - Brand: Apple, Series: MacBook Air 13, Model: None, Storage: None\nB - Brand: Apple, Series: MacBook Air 15, Model: None, Storage: None\n\nAre these the same product? Respond with JSON only."
+    "title_a": "טרמפולינה TRITUR TRITUR 3.6",
+    "title_b": "טרמפולינה TRITUR TRITUR2.4 אחריות יבואן רשמי",
+    "prompt": "Product A: טרמפולינה TRITUR TRITUR 3.6\nProduct B: טרמפולינה TRITUR TRITUR2.4 אחריות יבואן רשמי\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
   },
   {
-    "title_a": "Apple MacBook Air 13 MGN63HB/A MGN93HB/A MGND3HB/A",
-    "title_b": "מחשב נייד Apple MacBook Air 15 M4 MW1G3HB/A MC7A4HB/A MW1J3HB/A MW1L3HB/A White",
-    "user_message": "Compare these two product listings:\n\nProduct A: Apple MacBook Air 13 MGN63HB/A MGN93HB/A MGND3HB/A\nProduct B: מחשב נייד Apple MacBook Air 15 M4 MW1G3HB/A MC7A4HB/A MW1J3HB/A MW1L3HB/A White\n\nCategory: MacBook Air 13\n\nExtracted attributes:\nA - Brand: Apple, Series: MacBook Air 13, Model: None, Storage: None\nB - Brand: Apple, Series: MacBook Air 15, Model: None, Storage: None\n\nAre these the same product? Respond with JSON only."
+    "title_a": "טרמפולינה TRITUR TRITUR 3.6",
+    "title_b": "TRITUR 3.6 טרמפולינה TRITUR",
+    "prompt": "Product A: טרמפולינה TRITUR TRITUR 3.6\nProduct B: TRITUR 3.6 טרמפולינה TRITUR\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏5.25 ‏אינטש Alpine SXE1325S",
+    "title_b": "Alpine SXE1325S ‏5.25 ‏אינטש",
+    "prompt": "Product A: ‏5.25 ‏אינטש Alpine SXE1325S\nProduct B: Alpine SXE1325S ‏5.25 ‏אינטש\n\nCategory: \nAttributes A: brand=None, model=SXE1325S, storage=None\nAttributes B: brand=None, model=SXE1325S, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "סט רמקולים 5.25 אינטש 200W ALPINE SXE-1325S",
+    "title_b": "סט רמקולים 5.25 אינטש ALPINE SXE-1325S",
+    "prompt": "Product A: סט רמקולים 5.25 אינטש 200W ALPINE SXE-1325S\nProduct B: סט רמקולים 5.25 אינטש ALPINE SXE-1325S\n\nCategory: \nAttributes A: brand=None, model=SXE-1325S, storage=None\nAttributes B: brand=None, model=SXE-1325S, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏5.25 ‏אינטש Alpine SXE1350S",
+    "title_b": "Alpine SXE1350S ‏5.25 ‏אינטש",
+    "prompt": "Product A: ‏5.25 ‏אינטש Alpine SXE1350S\nProduct B: Alpine SXE1350S ‏5.25 ‏אינטש\n\nCategory: \nAttributes A: brand=None, model=SXE1350S, storage=None\nAttributes B: brand=None, model=SXE1350S, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏5.25 ‏אינטש Alpine SXE1350S",
+    "title_b": "‏5.25 ‏\" Alpine SXE1350S",
+    "prompt": "Product A: ‏5.25 ‏אינטש Alpine SXE1350S\nProduct B: ‏5.25 ‏\" Alpine SXE1350S\n\nCategory: \nAttributes A: brand=None, model=SXE1350S, storage=None\nAttributes B: brand=None, model=SXE1350S, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏ראש דיו  ‏שחור Canon PG545XL",
+    "title_b": "‏שחור Canon PG545XL ‏ראש דיו",
+    "prompt": "Product A: ‏ראש דיו  ‏שחור Canon PG545XL\nProduct B: ‏שחור Canon PG545XL ‏ראש דיו\n\nCategory: \nAttributes A: brand=None, model=PG545XL, storage=None\nAttributes B: brand=None, model=PG545XL, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏טונר  ‏שחור Brother TN1050",
+    "title_b": "Brother TN1050 ‏טונר ‏שחור",
+    "prompt": "Product A: ‏טונר  ‏שחור Brother TN1050\nProduct B: Brother TN1050 ‏טונר ‏שחור\n\nCategory: \nAttributes A: brand=None, model=TN1050, storage=None\nAttributes B: brand=None, model=TN1050, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "טרמפולינה TRITUR TRITUR2.4",
+    "title_b": "טרמפולינה TRITUR TRITUR 3.6 White",
+    "prompt": "Product A: טרמפולינה TRITUR TRITUR2.4\nProduct B: טרמפולינה TRITUR TRITUR 3.6 White\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "טרמפולינה TRITUR TRITUR 3.6",
+    "title_b": "טרמפולינה TRITUR TRITUR2.4 Silver",
+    "prompt": "Product A: טרמפולינה TRITUR TRITUR 3.6\nProduct B: טרמפולינה TRITUR TRITUR2.4 Silver\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "מוצרים נוספים של HP בזאפ",
+    "title_b": "מוצרים נוספים של Bosch בזאפ",
+    "prompt": "Product A: מוצרים נוספים של HP בזאפ\nProduct B: מוצרים נוספים של Bosch בזאפ\n\nCategory: \nAttributes A: brand=HP, model=None, storage=None\nAttributes B: brand=Bosch, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "מוצרים נוספים של HP בזאפ",
+    "title_b": "מוצרים נוספים של LG בזאפ",
+    "prompt": "Product A: מוצרים נוספים של HP בזאפ\nProduct B: מוצרים נוספים של LG בזאפ\n\nCategory: \nAttributes A: brand=HP, model=None, storage=None\nAttributes B: brand=LG, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏טרמפולינה VO2 jump pro 6",
+    "title_b": "‏טרמפולינה VO2 Jump Pro 8",
+    "prompt": "Product A: ‏טרמפולינה VO2 jump pro 6\nProduct B: ‏טרמפולינה VO2 Jump Pro 8\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏טרמפולינה VO2 jump pro 6",
+    "title_b": "‏טרמפולינה VO2 Jump Pro 8 משלוח חינם",
+    "prompt": "Product A: ‏טרמפולינה VO2 jump pro 6\nProduct B: ‏טרמפולינה VO2 Jump Pro 8 משלוח חינם\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏טרמפולינה VO2 Jump Pro 8",
+    "title_b": "‏טרמפולינה VO2 jump pro 6 יבואן מורשה",
+    "prompt": "Product A: ‏טרמפולינה VO2 Jump Pro 8\nProduct B: ‏טרמפולינה VO2 jump pro 6 יבואן מורשה\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏טרמפולינה טרמפולינה 3.0 מטר 10 פיט Urban Jump",
+    "title_b": "‏טרמפולינה טרמפולינה 3.66 מטר 12 פיט Urban Jump",
+    "prompt": "Product A: ‏טרמפולינה טרמפולינה 3.0 מטר 10 פיט Urban Jump\nProduct B: ‏טרמפולינה טרמפולינה 3.66 מטר 12 פיט Urban Jump\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏טרמפולינה טרמפולינה 3.0 מטר 10 פיט Urban Jump",
+    "title_b": "‏טרמפולינה טרמפולינה 3.66 מטר 12 פיט Urban Jump White",
+    "prompt": "Product A: ‏טרמפולינה טרמפולינה 3.0 מטר 10 פיט Urban Jump\nProduct B: ‏טרמפולינה טרמפולינה 3.66 מטר 12 פיט Urban Jump White\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "Urban Jump כיסוי קפיצים לטרמפולינה 3.6 מטר 12 פיט URBAN JUMP",
+    "title_b": "Urban Jump כיסוי קפיצים לטרמפולינה 4.2 מטר 14 פיט URBAN JUMP",
+    "prompt": "Product A: Urban Jump כיסוי קפיצים לטרמפולינה 3.6 מטר 12 פיט URBAN JUMP\nProduct B: Urban Jump כיסוי קפיצים לטרמפולינה 4.2 מטר 14 פיט URBAN JUMP\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏טרמפולינה טרמפולינה 10 פיט Canada Top",
+    "title_b": "‏טרמפולינה טרמפולינה 12 פיט Canada Top",
+    "prompt": "Product A: ‏טרמפולינה טרמפולינה 10 פיט Canada Top\nProduct B: ‏טרמפולינה טרמפולינה 12 פיט Canada Top\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏טרמפולינה טרמפולינה 10 פיט Canada Top",
+    "title_b": "‏טרמפולינה 12 פיט Canada Top",
+    "prompt": "Product A: ‏טרמפולינה טרמפולינה 10 פיט Canada Top\nProduct B: ‏טרמפולינה 12 פיט Canada Top\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏טרמפולינה טרמפולינה 10 פיט Canada Top",
+    "title_b": "‏טרמפולינה טרמפולינה 14 פיט Canada Top",
+    "prompt": "Product A: ‏טרמפולינה טרמפולינה 10 פיט Canada Top\nProduct B: ‏טרמפולינה טרמפולינה 14 פיט Canada Top\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏טרמפולינה טרמפולינה 10 פיט Canada Top",
+    "title_b": "‏טרמפולינה טרמפולינה 8 פיט Canada Top",
+    "prompt": "Product A: ‏טרמפולינה טרמפולינה 10 פיט Canada Top\nProduct B: ‏טרמפולינה טרמפולינה 8 פיט Canada Top\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏טרמפולינה טרמפולינה 10 פיט Canada Top",
+    "title_b": "‏טרמפולינה טרמפולינה 12 פיט Canada Top יבואן מורשה",
+    "prompt": "Product A: ‏טרמפולינה טרמפולינה 10 פיט Canada Top\nProduct B: ‏טרמפולינה טרמפולינה 12 פיט Canada Top יבואן מורשה\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏טרמפולינה טרמפולינה 10 פיט Canada Top",
+    "title_b": "‏טרמפולינה טרמפולינה 12 פיט Canada Top בצבע לבן",
+    "prompt": "Product A: ‏טרמפולינה טרמפולינה 10 פיט Canada Top\nProduct B: ‏טרמפולינה טרמפולינה 12 פיט Canada Top בצבע לבן\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏טרמפולינה טרמפולינה 10 פיט Canada Top",
+    "title_b": "פיט Canada Top ‏טרמפולינה טרמפולינה 14",
+    "prompt": "Product A: ‏טרמפולינה טרמפולינה 10 פיט Canada Top\nProduct B: פיט Canada Top ‏טרמפולינה טרמפולינה 14\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏טרמפולינה טרמפולינה 10 פיט Canada Top",
+    "title_b": "‏טרמפולינה טרמפולינה 8 פיט Canada Top בצבע לבן",
+    "prompt": "Product A: ‏טרמפולינה טרמפולינה 10 פיט Canada Top\nProduct B: ‏טרמפולינה טרמפולינה 8 פיט Canada Top בצבע לבן\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏טרמפולינה טרמפולינה 10 פיט Canada Top",
+    "title_b": "פיט Canada Top ‏טרמפולינה טרמפולינה 8",
+    "prompt": "Product A: ‏טרמפולינה טרמפולינה 10 פיט Canada Top\nProduct B: פיט Canada Top ‏טרמפולינה טרמפולינה 8\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏טרמפולינה טרמפולינה 12 פיט Canada Top",
+    "title_b": "‏טרמפולינה טרמפולינה 14 פיט Canada Top",
+    "prompt": "Product A: ‏טרמפולינה טרמפולינה 12 פיט Canada Top\nProduct B: ‏טרמפולינה טרמפולינה 14 פיט Canada Top\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏טרמפולינה טרמפולינה 12 פיט Canada Top",
+    "title_b": "‏טרמפולינה טרמפולינה 8 פיט Canada Top",
+    "prompt": "Product A: ‏טרמפולינה טרמפולינה 12 פיט Canada Top\nProduct B: ‏טרמפולינה טרמפולינה 8 פיט Canada Top\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏טרמפולינה טרמפולינה 12 פיט Canada Top",
+    "title_b": "‏טרמפולינה טרמפולינה 10 פיט Canada Top יבואן רשמי",
+    "prompt": "Product A: ‏טרמפולינה טרמפולינה 12 פיט Canada Top\nProduct B: ‏טרמפולינה טרמפולינה 10 פיט Canada Top יבואן רשמי\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏טרמפולינה טרמפולינה 12 פיט Canada Top",
+    "title_b": "‏טרמפולינה טרמפולינה 10 פיט Canada Top בצבע לבן",
+    "prompt": "Product A: ‏טרמפולינה טרמפולינה 12 פיט Canada Top\nProduct B: ‏טרמפולינה טרמפולינה 10 פיט Canada Top בצבע לבן\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏טרמפולינה טרמפולינה 12 פיט Canada Top",
+    "title_b": "פיט Canada Top ‏טרמפולינה טרמפולינה 14",
+    "prompt": "Product A: ‏טרמפולינה טרמפולינה 12 פיט Canada Top\nProduct B: פיט Canada Top ‏טרמפולינה טרמפולינה 14\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏טרמפולינה טרמפולינה 12 פיט Canada Top",
+    "title_b": "‏טרמפולינה טרמפולינה 8 פיט Canada Top בצבע לבן",
+    "prompt": "Product A: ‏טרמפולינה טרמפולינה 12 פיט Canada Top\nProduct B: ‏טרמפולינה טרמפולינה 8 פיט Canada Top בצבע לבן\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏טרמפולינה טרמפולינה 12 פיט Canada Top",
+    "title_b": "פיט Canada Top ‏טרמפולינה טרמפולינה 8",
+    "prompt": "Product A: ‏טרמפולינה טרמפולינה 12 פיט Canada Top\nProduct B: פיט Canada Top ‏טרמפולינה טרמפולינה 8\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏טרמפולינה 12 פיט Canada Top",
+    "title_b": "‏טרמפולינה טרמפולינה 8 פיט Canada Top",
+    "prompt": "Product A: ‏טרמפולינה 12 פיט Canada Top\nProduct B: ‏טרמפולינה טרמפולינה 8 פיט Canada Top\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏טרמפולינה 12 פיט Canada Top",
+    "title_b": "‏טרמפולינה טרמפולינה 10 פיט Canada Top יבואן רשמי",
+    "prompt": "Product A: ‏טרמפולינה 12 פיט Canada Top\nProduct B: ‏טרמפולינה טרמפולינה 10 פיט Canada Top יבואן רשמי\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏טרמפולינה 12 פיט Canada Top",
+    "title_b": "‏טרמפולינה טרמפולינה 10 פיט Canada Top בצבע לבן",
+    "prompt": "Product A: ‏טרמפולינה 12 פיט Canada Top\nProduct B: ‏טרמפולינה טרמפולינה 10 פיט Canada Top בצבע לבן\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏טרמפולינה 12 פיט Canada Top",
+    "title_b": "‏טרמפולינה טרמפולינה 8 פיט Canada Top בצבע לבן",
+    "prompt": "Product A: ‏טרמפולינה 12 פיט Canada Top\nProduct B: ‏טרמפולינה טרמפולינה 8 פיט Canada Top בצבע לבן\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏טרמפולינה 12 פיט Canada Top",
+    "title_b": "פיט Canada Top ‏טרמפולינה טרמפולינה 8",
+    "prompt": "Product A: ‏טרמפולינה 12 פיט Canada Top\nProduct B: פיט Canada Top ‏טרמפולינה טרמפולינה 8\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏טרמפולינה טרמפולינה 14 פיט Canada Top",
+    "title_b": "‏טרמפולינה טרמפולינה 8 פיט Canada Top",
+    "prompt": "Product A: ‏טרמפולינה טרמפולינה 14 פיט Canada Top\nProduct B: ‏טרמפולינה טרמפולינה 8 פיט Canada Top\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏טרמפולינה טרמפולינה 14 פיט Canada Top",
+    "title_b": "‏טרמפולינה טרמפולינה 10 פיט Canada Top יבואן רשמי",
+    "prompt": "Product A: ‏טרמפולינה טרמפולינה 14 פיט Canada Top\nProduct B: ‏טרמפולינה טרמפולינה 10 פיט Canada Top יבואן רשמי\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏טרמפולינה טרמפולינה 14 פיט Canada Top",
+    "title_b": "‏טרמפולינה טרמפולינה 10 פיט Canada Top בצבע לבן",
+    "prompt": "Product A: ‏טרמפולינה טרמפולינה 14 פיט Canada Top\nProduct B: ‏טרמפולינה טרמפולינה 10 פיט Canada Top בצבע לבן\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏טרמפולינה טרמפולינה 14 פיט Canada Top",
+    "title_b": "‏טרמפולינה טרמפולינה 12 פיט Canada Top יבואן מורשה",
+    "prompt": "Product A: ‏טרמפולינה טרמפולינה 14 פיט Canada Top\nProduct B: ‏טרמפולינה טרמפולינה 12 פיט Canada Top יבואן מורשה\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏טרמפולינה טרמפולינה 14 פיט Canada Top",
+    "title_b": "‏טרמפולינה טרמפולינה 12 פיט Canada Top בצבע לבן",
+    "prompt": "Product A: ‏טרמפולינה טרמפולינה 14 פיט Canada Top\nProduct B: ‏טרמפולינה טרמפולינה 12 פיט Canada Top בצבע לבן\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏טרמפולינה טרמפולינה 14 פיט Canada Top",
+    "title_b": "‏טרמפולינה טרמפולינה 8 פיט Canada Top בצבע לבן",
+    "prompt": "Product A: ‏טרמפולינה טרמפולינה 14 פיט Canada Top\nProduct B: ‏טרמפולינה טרמפולינה 8 פיט Canada Top בצבע לבן\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏טרמפולינה טרמפולינה 14 פיט Canada Top",
+    "title_b": "פיט Canada Top ‏טרמפולינה טרמפולינה 8",
+    "prompt": "Product A: ‏טרמפולינה טרמפולינה 14 פיט Canada Top\nProduct B: פיט Canada Top ‏טרמפולינה טרמפולינה 8\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏טרמפולינה טרמפולינה 8 פיט Canada Top",
+    "title_b": "‏טרמפולינה טרמפולינה 10 פיט Canada Top יבואן רשמי",
+    "prompt": "Product A: ‏טרמפולינה טרמפולינה 8 פיט Canada Top\nProduct B: ‏טרמפולינה טרמפולינה 10 פיט Canada Top יבואן רשמי\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏טרמפולינה טרמפולינה 8 פיט Canada Top",
+    "title_b": "‏טרמפולינה טרמפולינה 10 פיט Canada Top בצבע לבן",
+    "prompt": "Product A: ‏טרמפולינה טרמפולינה 8 פיט Canada Top\nProduct B: ‏טרמפולינה טרמפולינה 10 פיט Canada Top בצבע לבן\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏טרמפולינה טרמפולינה 8 פיט Canada Top",
+    "title_b": "‏טרמפולינה טרמפולינה 12 פיט Canada Top יבואן מורשה",
+    "prompt": "Product A: ‏טרמפולינה טרמפולינה 8 פיט Canada Top\nProduct B: ‏טרמפולינה טרמפולינה 12 פיט Canada Top יבואן מורשה\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏טרמפולינה טרמפולינה 8 פיט Canada Top",
+    "title_b": "‏טרמפולינה טרמפולינה 12 פיט Canada Top בצבע לבן",
+    "prompt": "Product A: ‏טרמפולינה טרמפולינה 8 פיט Canada Top\nProduct B: ‏טרמפולינה טרמפולינה 12 פיט Canada Top בצבע לבן\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏טרמפולינה טרמפולינה 8 פיט Canada Top",
+    "title_b": "פיט Canada Top ‏טרמפולינה טרמפולינה 14",
+    "prompt": "Product A: ‏טרמפולינה טרמפולינה 8 פיט Canada Top\nProduct B: פיט Canada Top ‏טרמפולינה טרמפולינה 14\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏טרמפולינה 6 פיט Canada Jumping",
+    "title_b": "טרמפולינה 8 פיט Canada Jumping",
+    "prompt": "Product A: ‏טרמפולינה 6 פיט Canada Jumping\nProduct B: טרמפולינה 8 פיט Canada Jumping\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏טרמפולינה 6 פיט Canada Jumping",
+    "title_b": "‏טרמפולינה 10 פיט Canada Jumping",
+    "prompt": "Product A: ‏טרמפולינה 6 פיט Canada Jumping\nProduct B: ‏טרמפולינה 10 פיט Canada Jumping\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏טרמפולינה 6 פיט Canada Jumping",
+    "title_b": "‏טרמפולינה 12 פיט Canada Jumping",
+    "prompt": "Product A: ‏טרמפולינה 6 פיט Canada Jumping\nProduct B: ‏טרמפולינה 12 פיט Canada Jumping\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏טרמפולינה 6 פיט Canada Jumping",
+    "title_b": "‏טרמפולינה 10 פיט Canada Jumping Black",
+    "prompt": "Product A: ‏טרמפולינה 6 פיט Canada Jumping\nProduct B: ‏טרמפולינה 10 פיט Canada Jumping Black\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏טרמפולינה 6 פיט Canada Jumping",
+    "title_b": "‏טרמפולינה 10 פיט Canada Jumping יבואן מורשה",
+    "prompt": "Product A: ‏טרמפולינה 6 פיט Canada Jumping\nProduct B: ‏טרמפולינה 10 פיט Canada Jumping יבואן מורשה\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏טרמפולינה 6 פיט Canada Jumping",
+    "title_b": "‏טרמפולינה 12 פיט Canada Jumping White",
+    "prompt": "Product A: ‏טרמפולינה 6 פיט Canada Jumping\nProduct B: ‏טרמפולינה 12 פיט Canada Jumping White\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏טרמפולינה 6 פיט Canada Jumping",
+    "title_b": "פיט Canada Jumping ‏טרמפולינה 12",
+    "prompt": "Product A: ‏טרמפולינה 6 פיט Canada Jumping\nProduct B: פיט Canada Jumping ‏טרמפולינה 12\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "טרמפולינה 8 פיט Canada Jumping",
+    "title_b": "‏טרמפולינה 10 פיט Canada Jumping",
+    "prompt": "Product A: טרמפולינה 8 פיט Canada Jumping\nProduct B: ‏טרמפולינה 10 פיט Canada Jumping\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "טרמפולינה 8 פיט Canada Jumping",
+    "title_b": "‏טרמפולינה 12 פיט Canada Jumping",
+    "prompt": "Product A: טרמפולינה 8 פיט Canada Jumping\nProduct B: ‏טרמפולינה 12 פיט Canada Jumping\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "טרמפולינה 8 פיט Canada Jumping",
+    "title_b": "פיט Canada Jumping ‏טרמפולינה 6",
+    "prompt": "Product A: טרמפולינה 8 פיט Canada Jumping\nProduct B: פיט Canada Jumping ‏טרמפולינה 6\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "טרמפולינה 8 פיט Canada Jumping",
+    "title_b": "‏טרמפולינה 6 פיט Canada Jumping White",
+    "prompt": "Product A: טרמפולינה 8 פיט Canada Jumping\nProduct B: ‏טרמפולינה 6 פיט Canada Jumping White\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "טרמפולינה 8 פיט Canada Jumping",
+    "title_b": "‏טרמפולינה 10 פיט Canada Jumping Black",
+    "prompt": "Product A: טרמפולינה 8 פיט Canada Jumping\nProduct B: ‏טרמפולינה 10 פיט Canada Jumping Black\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "טרמפולינה 8 פיט Canada Jumping",
+    "title_b": "‏טרמפולינה 10 פיט Canada Jumping יבואן מורשה",
+    "prompt": "Product A: טרמפולינה 8 פיט Canada Jumping\nProduct B: ‏טרמפולינה 10 פיט Canada Jumping יבואן מורשה\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "טרמפולינה 8 פיט Canada Jumping",
+    "title_b": "‏טרמפולינה 12 פיט Canada Jumping White",
+    "prompt": "Product A: טרמפולינה 8 פיט Canada Jumping\nProduct B: ‏טרמפולינה 12 פיט Canada Jumping White\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "טרמפולינה 8 פיט Canada Jumping",
+    "title_b": "פיט Canada Jumping ‏טרמפולינה 12",
+    "prompt": "Product A: טרמפולינה 8 פיט Canada Jumping\nProduct B: פיט Canada Jumping ‏טרמפולינה 12\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏טרמפולינה 10 פיט Canada Jumping",
+    "title_b": "‏טרמפולינה 12 פיט Canada Jumping",
+    "prompt": "Product A: ‏טרמפולינה 10 פיט Canada Jumping\nProduct B: ‏טרמפולינה 12 פיט Canada Jumping\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏טרמפולינה 10 פיט Canada Jumping",
+    "title_b": "פיט Canada Jumping ‏טרמפולינה 6",
+    "prompt": "Product A: ‏טרמפולינה 10 פיט Canada Jumping\nProduct B: פיט Canada Jumping ‏טרמפולינה 6\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏טרמפולינה 10 פיט Canada Jumping",
+    "title_b": "‏טרמפולינה 6 פיט Canada Jumping White",
+    "prompt": "Product A: ‏טרמפולינה 10 פיט Canada Jumping\nProduct B: ‏טרמפולינה 6 פיט Canada Jumping White\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏טרמפולינה 10 פיט Canada Jumping",
+    "title_b": "‏טרמפולינה 12 פיט Canada Jumping White",
+    "prompt": "Product A: ‏טרמפולינה 10 פיט Canada Jumping\nProduct B: ‏טרמפולינה 12 פיט Canada Jumping White\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏טרמפולינה 10 פיט Canada Jumping",
+    "title_b": "פיט Canada Jumping ‏טרמפולינה 12",
+    "prompt": "Product A: ‏טרמפולינה 10 פיט Canada Jumping\nProduct B: פיט Canada Jumping ‏טרמפולינה 12\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏טרמפולינה 12 פיט Canada Jumping",
+    "title_b": "פיט Canada Jumping ‏טרמפולינה 6",
+    "prompt": "Product A: ‏טרמפולינה 12 פיט Canada Jumping\nProduct B: פיט Canada Jumping ‏טרמפולינה 6\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏טרמפולינה 12 פיט Canada Jumping",
+    "title_b": "‏טרמפולינה 6 פיט Canada Jumping White",
+    "prompt": "Product A: ‏טרמפולינה 12 פיט Canada Jumping\nProduct B: ‏טרמפולינה 6 פיט Canada Jumping White\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏טרמפולינה 12 פיט Canada Jumping",
+    "title_b": "‏טרמפולינה 10 פיט Canada Jumping Black",
+    "prompt": "Product A: ‏טרמפולינה 12 פיט Canada Jumping\nProduct B: ‏טרמפולינה 10 פיט Canada Jumping Black\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏טרמפולינה 12 פיט Canada Jumping",
+    "title_b": "‏טרמפולינה 10 פיט Canada Jumping יבואן מורשה",
+    "prompt": "Product A: ‏טרמפולינה 12 פיט Canada Jumping\nProduct B: ‏טרמפולינה 10 פיט Canada Jumping יבואן מורשה\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏טרמפולינה טרמפולינה 3.66 מטר 12 פיט Urban Jump",
+    "title_b": "10 פיט Urban Jump ‏טרמפולינה טרמפולינה 3.0 מטר",
+    "prompt": "Product A: ‏טרמפולינה טרמפולינה 3.66 מטר 12 פיט Urban Jump\nProduct B: 10 פיט Urban Jump ‏טרמפולינה טרמפולינה 3.0 מטר\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 6 פיט Urban Jump",
+    "title_b": "כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 8 פיט Urban Jump",
+    "prompt": "Product A: כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 6 פיט Urban Jump\nProduct B: כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 8 פיט Urban Jump\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 6 פיט Urban Jump",
+    "title_b": "כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 15 פיט Urban Jump",
+    "prompt": "Product A: כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 6 פיט Urban Jump\nProduct B: כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 15 פיט Urban Jump\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 6 פיט Urban Jump",
+    "title_b": "כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 14 פיט Urban Jump",
+    "prompt": "Product A: כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 6 פיט Urban Jump\nProduct B: כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 14 פיט Urban Jump\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 6 פיט Urban Jump",
+    "title_b": "כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 8 פיט Urban Jump יבואן מורשה",
+    "prompt": "Product A: כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 6 פיט Urban Jump\nProduct B: כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 8 פיט Urban Jump יבואן מורשה\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 6 פיט Urban Jump",
+    "title_b": "קפיצים לטרמפולינה 8 פיט Urban Jump כיסוי / מגן קפיצים ‏ כיסוי",
+    "prompt": "Product A: כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 6 פיט Urban Jump\nProduct B: קפיצים לטרמפולינה 8 פיט Urban Jump כיסוי / מגן קפיצים ‏ כיסוי\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 6 פיט Urban Jump",
+    "title_b": "כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 14 פיט Urban Jump Silver",
+    "prompt": "Product A: כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 6 פיט Urban Jump\nProduct B: כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 14 פיט Urban Jump Silver\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 6 פיט Urban Jump",
+    "title_b": "קפיצים לטרמפולינה 14 פיט Urban Jump כיסוי / מגן קפיצים ‏ כיסוי",
+    "prompt": "Product A: כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 6 פיט Urban Jump\nProduct B: קפיצים לטרמפולינה 14 פיט Urban Jump כיסוי / מגן קפיצים ‏ כיסוי\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 8 פיט Urban Jump",
+    "title_b": "כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 15 פיט Urban Jump",
+    "prompt": "Product A: כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 8 פיט Urban Jump\nProduct B: כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 15 פיט Urban Jump\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 8 פיט Urban Jump",
+    "title_b": "כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 14 פיט Urban Jump",
+    "prompt": "Product A: כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 8 פיט Urban Jump\nProduct B: כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 14 פיט Urban Jump\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 8 פיט Urban Jump",
+    "title_b": "קפיצים לטרמפולינה 6 פיט Urban Jump כיסוי / מגן קפיצים ‏ כיסוי",
+    "prompt": "Product A: כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 8 פיט Urban Jump\nProduct B: קפיצים לטרמפולינה 6 פיט Urban Jump כיסוי / מגן קפיצים ‏ כיסוי\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 8 פיט Urban Jump",
+    "title_b": "כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 14 פיט Urban Jump Silver",
+    "prompt": "Product A: כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 8 פיט Urban Jump\nProduct B: כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 14 פיט Urban Jump Silver\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 8 פיט Urban Jump",
+    "title_b": "קפיצים לטרמפולינה 14 פיט Urban Jump כיסוי / מגן קפיצים ‏ כיסוי",
+    "prompt": "Product A: כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 8 פיט Urban Jump\nProduct B: קפיצים לטרמפולינה 14 פיט Urban Jump כיסוי / מגן קפיצים ‏ כיסוי\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 15 פיט Urban Jump",
+    "title_b": "כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 14 פיט Urban Jump",
+    "prompt": "Product A: כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 15 פיט Urban Jump\nProduct B: כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 14 פיט Urban Jump\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 15 פיט Urban Jump",
+    "title_b": "קפיצים לטרמפולינה 6 פיט Urban Jump כיסוי / מגן קפיצים ‏ כיסוי",
+    "prompt": "Product A: כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 15 פיט Urban Jump\nProduct B: קפיצים לטרמפולינה 6 פיט Urban Jump כיסוי / מגן קפיצים ‏ כיסוי\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 15 פיט Urban Jump",
+    "title_b": "כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 8 פיט Urban Jump יבואן מורשה",
+    "prompt": "Product A: כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 15 פיט Urban Jump\nProduct B: כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 8 פיט Urban Jump יבואן מורשה\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 15 פיט Urban Jump",
+    "title_b": "קפיצים לטרמפולינה 8 פיט Urban Jump כיסוי / מגן קפיצים ‏ כיסוי",
+    "prompt": "Product A: כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 15 פיט Urban Jump\nProduct B: קפיצים לטרמפולינה 8 פיט Urban Jump כיסוי / מגן קפיצים ‏ כיסוי\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 15 פיט Urban Jump",
+    "title_b": "כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 14 פיט Urban Jump Silver",
+    "prompt": "Product A: כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 15 פיט Urban Jump\nProduct B: כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 14 פיט Urban Jump Silver\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 15 פיט Urban Jump",
+    "title_b": "קפיצים לטרמפולינה 14 פיט Urban Jump כיסוי / מגן קפיצים ‏ כיסוי",
+    "prompt": "Product A: כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 15 פיט Urban Jump\nProduct B: קפיצים לטרמפולינה 14 פיט Urban Jump כיסוי / מגן קפיצים ‏ כיסוי\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 14 פיט Urban Jump",
+    "title_b": "קפיצים לטרמפולינה 6 פיט Urban Jump כיסוי / מגן קפיצים ‏ כיסוי",
+    "prompt": "Product A: כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 14 פיט Urban Jump\nProduct B: קפיצים לטרמפולינה 6 פיט Urban Jump כיסוי / מגן קפיצים ‏ כיסוי\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 14 פיט Urban Jump",
+    "title_b": "כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 8 פיט Urban Jump יבואן מורשה",
+    "prompt": "Product A: כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 14 פיט Urban Jump\nProduct B: כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 8 פיט Urban Jump יבואן מורשה\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 14 פיט Urban Jump",
+    "title_b": "קפיצים לטרמפולינה 8 פיט Urban Jump כיסוי / מגן קפיצים ‏ כיסוי",
+    "prompt": "Product A: כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 14 פיט Urban Jump\nProduct B: קפיצים לטרמפולינה 8 פיט Urban Jump כיסוי / מגן קפיצים ‏ כיסוי\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "Urban Jump כיסוי קפיצים לטרמפולינה 4.2 מטר 14 פיט URBAN JUMP",
+    "title_b": "Urban Jump כיסוי קפיצים לטרמפולינה 3.6 מטר 12 פיט URBAN JUMP Black",
+    "prompt": "Product A: Urban Jump כיסוי קפיצים לטרמפולינה 4.2 מטר 14 פיט URBAN JUMP\nProduct B: Urban Jump כיסוי קפיצים לטרמפולינה 3.6 מטר 12 פיט URBAN JUMP Black\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "Urban Jump כיסוי קפיצים לטרמפולינה 4.2 מטר 14 פיט URBAN JUMP",
+    "title_b": "3.6 מטר 12 פיט URBAN JUMP Urban Jump כיסוי קפיצים לטרמפולינה",
+    "prompt": "Product A: Urban Jump כיסוי קפיצים לטרמפולינה 4.2 מטר 14 פיט URBAN JUMP\nProduct B: 3.6 מטר 12 פיט URBAN JUMP Urban Jump כיסוי קפיצים לטרמפולינה\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "Urban Jump כיסוי קפיצים לטרמפולינה 4.2 מטר 14 פיט URBAN JUMP",
+    "title_b": "Urban Jump כיסוי קפיצים לטרמפולינה 3.6 מטר 12 פיט  JUMP",
+    "prompt": "Product A: Urban Jump כיסוי קפיצים לטרמפולינה 4.2 מטר 14 פיט URBAN JUMP\nProduct B: Urban Jump כיסוי קפיצים לטרמפולינה 3.6 מטר 12 פיט  JUMP\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏רשת הגנה רשת הגנה לטרמפולינה 3.6 מטר 12 פיט Urban Jump",
+    "title_b": "‏רשת הגנה רשת הגנה לטרמפולינה 1.8 מטר 6 פיט Urban Jump",
+    "prompt": "Product A: ‏רשת הגנה רשת הגנה לטרמפולינה 3.6 מטר 12 פיט Urban Jump\nProduct B: ‏רשת הגנה רשת הגנה לטרמפולינה 1.8 מטר 6 פיט Urban Jump\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏רשת הגנה רשת הגנה לטרמפולינה 3.6 מטר 12 פיט Urban Jump",
+    "title_b": "1.8 מטר 6 פיט Urban Jump ‏רשת הגנה רשת הגנה לטרמפולינה",
+    "prompt": "Product A: ‏רשת הגנה רשת הגנה לטרמפולינה 3.6 מטר 12 פיט Urban Jump\nProduct B: 1.8 מטר 6 פיט Urban Jump ‏רשת הגנה רשת הגנה לטרמפולינה\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "טרמפולינה טרמפולינה דגם 10 K-Top",
+    "title_b": "טרמפולינה טרמפולינה דגם 12 K-Top",
+    "prompt": "Product A: טרמפולינה טרמפולינה דגם 10 K-Top\nProduct B: טרמפולינה טרמפולינה דגם 12 K-Top\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "טרמפולינה טרמפולינה דגם 10 K-Top",
+    "title_b": "דגם 12 K-Top טרמפולינה טרמפולינה",
+    "prompt": "Product A: טרמפולינה טרמפולינה דגם 10 K-Top\nProduct B: דגם 12 K-Top טרמפולינה טרמפולינה\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "טרמפולינה טרמפולינה דגם 10 K-Top",
+    "title_b": "טרמפולינה טרמפולינה דגם 12 K-Top בצבע שחור",
+    "prompt": "Product A: טרמפולינה טרמפולינה דגם 10 K-Top\nProduct B: טרמפולינה טרמפולינה דגם 12 K-Top בצבע שחור\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "טרמפולינה טרמפולינה דגם 12 K-Top",
+    "title_b": "טרמפולינה טרמפולינה דגם 10 K-Top בצבע שחור",
+    "prompt": "Product A: טרמפולינה טרמפולינה דגם 12 K-Top\nProduct B: טרמפולינה טרמפולינה דגם 10 K-Top בצבע שחור\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "טרמפולינה טרמפולינה דגם 12 K-Top",
+    "title_b": "דגם 10 K-Top טרמפולינה טרמפולינה",
+    "prompt": "Product A: טרמפולינה טרמפולינה דגם 12 K-Top\nProduct B: דגם 10 K-Top טרמפולינה טרמפולינה\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏רשת הגנה רשת הגנה לטרמפולינה 1.8 מטר 6 פיט Urban Jump",
+    "title_b": "‏רשת הגנה רשת הגנה לטרמפולינה 3.6 מטר 12 פיט Urban Jump יבואן מורשה",
+    "prompt": "Product A: ‏רשת הגנה רשת הגנה לטרמפולינה 1.8 מטר 6 פיט Urban Jump\nProduct B: ‏רשת הגנה רשת הגנה לטרמפולינה 3.6 מטר 12 פיט Urban Jump יבואן מורשה\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏רשת הגנה רשת הגנה לטרמפולינה 1.8 מטר 6 פיט Urban Jump",
+    "title_b": "‏רשת הגנה רשת הגנה לטרמפולינה 3.6 מטר 12 פיט Urban Jump בצבע לבן",
+    "prompt": "Product A: ‏רשת הגנה רשת הגנה לטרמפולינה 1.8 מטר 6 פיט Urban Jump\nProduct B: ‏רשת הגנה רשת הגנה לטרמפולינה 3.6 מטר 12 פיט Urban Jump בצבע לבן\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏טרמפולינה VO2 Jump Pro 8",
+    "title_b": "jump pro 6 ‏טרמפולינה VO2",
+    "prompt": "Product A: ‏טרמפולינה VO2 Jump Pro 8\nProduct B: jump pro 6 ‏טרמפולינה VO2\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏טרמפולינה טרמפולינה 3.0 מטר 10 פיט Urban Jump",
+    "title_b": "‏טרמפולינה טרמפולינה 3.66 מטר 12 פיט Urban Jump בצבע שחור",
+    "prompt": "Product A: ‏טרמפולינה טרמפולינה 3.0 מטר 10 פיט Urban Jump\nProduct B: ‏טרמפולינה טרמפולינה 3.66 מטר 12 פיט Urban Jump בצבע שחור\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏טרמפולינה טרמפולינה 3.0 מטר 10 פיט Urban Jump",
+    "title_b": "‏טרמפולינה טרמפולינה 3.66 מטר 12 פיט Urban Jump יבואן מורשה",
+    "prompt": "Product A: ‏טרמפולינה טרמפולינה 3.0 מטר 10 פיט Urban Jump\nProduct B: ‏טרמפולינה טרמפולינה 3.66 מטר 12 פיט Urban Jump יבואן מורשה\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏טרמפולינה טרמפולינה 10 פיט Canada Top",
+    "title_b": "‏טרמפולינה טרמפולינה 12 פיט Canada Top יבואן רשמי",
+    "prompt": "Product A: ‏טרמפולינה טרמפולינה 10 פיט Canada Top\nProduct B: ‏טרמפולינה טרמפולינה 12 פיט Canada Top יבואן רשמי\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏טרמפולינה טרמפולינה 10 פיט Canada Top",
+    "title_b": "‏טרמפולינה טרמפולינה 8 פיט Canada Top יבואן רשמי",
+    "prompt": "Product A: ‏טרמפולינה טרמפולינה 10 פיט Canada Top\nProduct B: ‏טרמפולינה טרמפולינה 8 פיט Canada Top יבואן רשמי\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏טרמפולינה טרמפולינה 12 פיט Canada Top",
+    "title_b": "‏טרמפולינה טרמפולינה 10 פיט Canada Top Silver",
+    "prompt": "Product A: ‏טרמפולינה טרמפולינה 12 פיט Canada Top\nProduct B: ‏טרמפולינה טרמפולינה 10 פיט Canada Top Silver\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏טרמפולינה טרמפולינה 12 פיט Canada Top",
+    "title_b": "פיט Canada Top ‏טרמפולינה טרמפולינה 10",
+    "prompt": "Product A: ‏טרמפולינה טרמפולינה 12 פיט Canada Top\nProduct B: פיט Canada Top ‏טרמפולינה טרמפולינה 10\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏טרמפולינה טרמפולינה 12 פיט Canada Top",
+    "title_b": "‏טרמפולינה טרמפולינה 8 פיט Canada Top יבואן רשמי",
+    "prompt": "Product A: ‏טרמפולינה טרמפולינה 12 פיט Canada Top\nProduct B: ‏טרמפולינה טרמפולינה 8 פיט Canada Top יבואן רשמי\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏טרמפולינה 12 פיט Canada Top",
+    "title_b": "‏טרמפולינה טרמפולינה 10 פיט Canada Top Silver",
+    "prompt": "Product A: ‏טרמפולינה 12 פיט Canada Top\nProduct B: ‏טרמפולינה טרמפולינה 10 פיט Canada Top Silver\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏טרמפולינה 12 פיט Canada Top",
+    "title_b": "פיט Canada Top ‏טרמפולינה טרמפולינה 10",
+    "prompt": "Product A: ‏טרמפולינה 12 פיט Canada Top\nProduct B: פיט Canada Top ‏טרמפולינה טרמפולינה 10\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏טרמפולינה 12 פיט Canada Top",
+    "title_b": "‏טרמפולינה טרמפולינה 8 פיט Canada Top יבואן רשמי",
+    "prompt": "Product A: ‏טרמפולינה 12 פיט Canada Top\nProduct B: ‏טרמפולינה טרמפולינה 8 פיט Canada Top יבואן רשמי\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏טרמפולינה טרמפולינה 14 פיט Canada Top",
+    "title_b": "‏טרמפולינה טרמפולינה 10 פיט Canada Top Silver",
+    "prompt": "Product A: ‏טרמפולינה טרמפולינה 14 פיט Canada Top\nProduct B: ‏טרמפולינה טרמפולינה 10 פיט Canada Top Silver\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏טרמפולינה טרמפולינה 14 פיט Canada Top",
+    "title_b": "פיט Canada Top ‏טרמפולינה טרמפולינה 10",
+    "prompt": "Product A: ‏טרמפולינה טרמפולינה 14 פיט Canada Top\nProduct B: פיט Canada Top ‏טרמפולינה טרמפולינה 10\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏טרמפולינה טרמפולינה 14 פיט Canada Top",
+    "title_b": "‏טרמפולינה טרמפולינה 12 פיט Canada Top יבואן רשמי",
+    "prompt": "Product A: ‏טרמפולינה טרמפולינה 14 פיט Canada Top\nProduct B: ‏טרמפולינה טרמפולינה 12 פיט Canada Top יבואן רשמי\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏טרמפולינה טרמפולינה 14 פיט Canada Top",
+    "title_b": "‏טרמפולינה טרמפולינה 8 פיט Canada Top יבואן רשמי",
+    "prompt": "Product A: ‏טרמפולינה טרמפולינה 14 פיט Canada Top\nProduct B: ‏טרמפולינה טרמפולינה 8 פיט Canada Top יבואן רשמי\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏טרמפולינה טרמפולינה 8 פיט Canada Top",
+    "title_b": "‏טרמפולינה טרמפולינה 10 פיט Canada Top Silver",
+    "prompt": "Product A: ‏טרמפולינה טרמפולינה 8 פיט Canada Top\nProduct B: ‏טרמפולינה טרמפולינה 10 פיט Canada Top Silver\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏טרמפולינה טרמפולינה 8 פיט Canada Top",
+    "title_b": "פיט Canada Top ‏טרמפולינה טרמפולינה 10",
+    "prompt": "Product A: ‏טרמפולינה טרמפולינה 8 פיט Canada Top\nProduct B: פיט Canada Top ‏טרמפולינה טרמפולינה 10\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏טרמפולינה טרמפולינה 8 פיט Canada Top",
+    "title_b": "‏טרמפולינה טרמפולינה 12 פיט Canada Top יבואן רשמי",
+    "prompt": "Product A: ‏טרמפולינה טרמפולינה 8 פיט Canada Top\nProduct B: ‏טרמפולינה טרמפולינה 12 פיט Canada Top יבואן רשמי\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏טרמפולינה 6 פיט Canada Jumping",
+    "title_b": "פיט Canada Jumping ‏טרמפולינה 10",
+    "prompt": "Product A: ‏טרמפולינה 6 פיט Canada Jumping\nProduct B: פיט Canada Jumping ‏טרמפולינה 10\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏טרמפולינה 6 פיט Canada Jumping",
+    "title_b": "‏טרמפולינה 10 פיט Canada Jumping בצבע לבן",
+    "prompt": "Product A: ‏טרמפולינה 6 פיט Canada Jumping\nProduct B: ‏טרמפולינה 10 פיט Canada Jumping בצבע לבן\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏טרמפולינה 6 פיט Canada Jumping",
+    "title_b": "‏טרמפולינה 12 פיט Canada Jumping יבואן מורשה",
+    "prompt": "Product A: ‏טרמפולינה 6 פיט Canada Jumping\nProduct B: ‏טרמפולינה 12 פיט Canada Jumping יבואן מורשה\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏טרמפולינה 10 פיט Canada Jumping",
+    "title_b": "‏טרמפולינה 6 פיט Canada Jumping Silver",
+    "prompt": "Product A: ‏טרמפולינה 10 פיט Canada Jumping\nProduct B: ‏טרמפולינה 6 פיט Canada Jumping Silver\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏טרמפולינה 10 פיט Canada Jumping",
+    "title_b": "‏טרמפולינה 6 פיט Canada Jumping משלוח חינם",
+    "prompt": "Product A: ‏טרמפולינה 10 פיט Canada Jumping\nProduct B: ‏טרמפולינה 6 פיט Canada Jumping משלוח חינם\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏טרמפולינה 10 פיט Canada Jumping",
+    "title_b": "‏טרמפולינה 12 פיט Canada Jumping יבואן מורשה",
+    "prompt": "Product A: ‏טרמפולינה 10 פיט Canada Jumping\nProduct B: ‏טרמפולינה 12 פיט Canada Jumping יבואן מורשה\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏טרמפולינה 12 פיט Canada Jumping",
+    "title_b": "‏טרמפולינה 6 פיט Canada Jumping Silver",
+    "prompt": "Product A: ‏טרמפולינה 12 פיט Canada Jumping\nProduct B: ‏טרמפולינה 6 פיט Canada Jumping Silver\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏טרמפולינה 12 פיט Canada Jumping",
+    "title_b": "‏טרמפולינה 6 פיט Canada Jumping משלוח חינם",
+    "prompt": "Product A: ‏טרמפולינה 12 פיט Canada Jumping\nProduct B: ‏טרמפולינה 6 פיט Canada Jumping משלוח חינם\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏טרמפולינה 12 פיט Canada Jumping",
+    "title_b": "פיט Canada Jumping ‏טרמפולינה 10",
+    "prompt": "Product A: ‏טרמפולינה 12 פיט Canada Jumping\nProduct B: פיט Canada Jumping ‏טרמפולינה 10\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏טרמפולינה 12 פיט Canada Jumping",
+    "title_b": "‏טרמפולינה 10 פיט Canada Jumping בצבע לבן",
+    "prompt": "Product A: ‏טרמפולינה 12 פיט Canada Jumping\nProduct B: ‏טרמפולינה 10 פיט Canada Jumping בצבע לבן\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏טרמפולינה טרמפולינה 3.66 מטר 12 פיט Urban Jump",
+    "title_b": "‏טרמפולינה טרמפולינה 3.0 מטר 10 פיט Urban Jump אחריות יבואן רשמי",
+    "prompt": "Product A: ‏טרמפולינה טרמפולינה 3.66 מטר 12 פיט Urban Jump\nProduct B: ‏טרמפולינה טרמפולינה 3.0 מטר 10 פיט Urban Jump אחריות יבואן רשמי\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 6 פיט Urban Jump",
+    "title_b": "כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 8 פיט Urban Jump בצבע לבן",
+    "prompt": "Product A: כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 6 פיט Urban Jump\nProduct B: כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 8 פיט Urban Jump בצבע לבן\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 6 פיט Urban Jump",
+    "title_b": "כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 15 פיט Urban Jump יבואן רשמי",
+    "prompt": "Product A: כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 6 פיט Urban Jump\nProduct B: כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 15 פיט Urban Jump יבואן רשמי\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 6 פיט Urban Jump",
+    "title_b": "כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 14 פיט Urban Jump White",
+    "prompt": "Product A: כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 6 פיט Urban Jump\nProduct B: כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 14 פיט Urban Jump White\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 8 פיט Urban Jump",
+    "title_b": "כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 6 פיט Urban Jump משלוח חינם",
+    "prompt": "Product A: כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 8 פיט Urban Jump\nProduct B: כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 6 פיט Urban Jump משלוח חינם\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 8 פיט Urban Jump",
+    "title_b": "כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 15 פיט Urban Jump יבואן רשמי",
+    "prompt": "Product A: כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 8 פיט Urban Jump\nProduct B: כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 15 פיט Urban Jump יבואן רשמי\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 8 פיט Urban Jump",
+    "title_b": "כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 14 פיט Urban Jump White",
+    "prompt": "Product A: כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 8 פיט Urban Jump\nProduct B: כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 14 פיט Urban Jump White\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 15 פיט Urban Jump",
+    "title_b": "כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 6 פיט Urban Jump משלוח חינם",
+    "prompt": "Product A: כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 15 פיט Urban Jump\nProduct B: כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 6 פיט Urban Jump משלוח חינם\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 15 פיט Urban Jump",
+    "title_b": "כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 8 פיט Urban Jump בצבע לבן",
+    "prompt": "Product A: כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 15 פיט Urban Jump\nProduct B: כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 8 פיט Urban Jump בצבע לבן\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 15 פיט Urban Jump",
+    "title_b": "כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 14 פיט Urban Jump White",
+    "prompt": "Product A: כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 15 פיט Urban Jump\nProduct B: כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 14 פיט Urban Jump White\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "כיסוי קפיצים לטרמפולינה 4.5 מטר 15 פיט URBAN JUMP",
+    "title_b": "Urban Jump כיסוי קפיצים לטרמפולינה 3.6 מטר 12 פיט  JUMP",
+    "prompt": "Product A: כיסוי קפיצים לטרמפולינה 4.5 מטר 15 פיט URBAN JUMP\nProduct B: Urban Jump כיסוי קפיצים לטרמפולינה 3.6 מטר 12 פיט  JUMP\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 14 פיט Urban Jump",
+    "title_b": "כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 6 פיט Urban Jump משלוח חינם",
+    "prompt": "Product A: כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 14 פיט Urban Jump\nProduct B: כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 6 פיט Urban Jump משלוח חינם\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 14 פיט Urban Jump",
+    "title_b": "כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 8 פיט Urban Jump בצבע לבן",
+    "prompt": "Product A: כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 14 פיט Urban Jump\nProduct B: כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 8 פיט Urban Jump בצבע לבן\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 14 פיט Urban Jump",
+    "title_b": "כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 15 פיט Urban Jump יבואן רשמי",
+    "prompt": "Product A: כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 14 פיט Urban Jump\nProduct B: כיסוי / מגן קפיצים ‏ כיסוי קפיצים לטרמפולינה 15 פיט Urban Jump יבואן רשמי\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "Urban Jump כיסוי קפיצים לטרמפולינה 4.2 מטר 14 פיט URBAN JUMP",
+    "title_b": "Urban Jump כיסוי קפיצים לטרמפולינה 3.6 מטר 12 פיט URBAN JUMP בצבע כסף",
+    "prompt": "Product A: Urban Jump כיסוי קפיצים לטרמפולינה 4.2 מטר 14 פיט URBAN JUMP\nProduct B: Urban Jump כיסוי קפיצים לטרמפולינה 3.6 מטר 12 פיט URBAN JUMP בצבע כסף\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏רשת הגנה רשת הגנה לטרמפולינה 3.6 מטר 12 פיט Urban Jump",
+    "title_b": "‏רשת הגנה רשת הגנה לטרמפולינה 1.8 מטר 6 פיט Urban Jump יבואן מורשה",
+    "prompt": "Product A: ‏רשת הגנה רשת הגנה לטרמפולינה 3.6 מטר 12 פיט Urban Jump\nProduct B: ‏רשת הגנה רשת הגנה לטרמפולינה 1.8 מטר 6 פיט Urban Jump יבואן מורשה\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "טרמפולינה טרמפולינה דגם 12 K-Top",
+    "title_b": "טרמפולינה טרמפולינה דגם 10 K-Top משלוח חינם",
+    "prompt": "Product A: טרמפולינה טרמפולינה דגם 12 K-Top\nProduct B: טרמפולינה טרמפולינה דגם 10 K-Top משלוח חינם\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "מוצרים נוספים של Bosch בזאפ",
+    "title_b": "מוצרים נוספים של LG בזאפ",
+    "prompt": "Product A: מוצרים נוספים של Bosch בזאפ\nProduct B: מוצרים נוספים של LG בזאפ\n\nCategory: \nAttributes A: brand=Bosch, model=None, storage=None\nAttributes B: brand=LG, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏רשת הגנה רשת הגנה לטרמפולינה 1.8 מטר 6 פיט Urban Jump",
+    "title_b": "3.6 מטר 12 פיט Urban Jump ‏רשת הגנה רשת הגנה לטרמפולינה",
+    "prompt": "Product A: ‏רשת הגנה רשת הגנה לטרמפולינה 1.8 מטר 6 פיט Urban Jump\nProduct B: 3.6 מטר 12 פיט Urban Jump ‏רשת הגנה רשת הגנה לטרמפולינה\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏רשת הגנה רשת הגנה לטרמפולינה 1.8 מטר 6 פיט Urban Jump",
+    "title_b": "‏רשת הגנה רשת הגנה לטרמפולינה 3.6 מטר 12 פיט Urban Jump אחריות יבואן רשמי",
+    "prompt": "Product A: ‏רשת הגנה רשת הגנה לטרמפולינה 1.8 מטר 6 פיט Urban Jump\nProduct B: ‏רשת הגנה רשת הגנה לטרמפולינה 3.6 מטר 12 פיט Urban Jump אחריות יבואן רשמי\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "Tadiran מזגן עילי תדיראן 3.5 כ\"ס דגם Alpha Pro Inv 370 NG",
+    "title_b": "מזגן עילי תדיראן 3.5 כ\"ס דגם Alpha Pro Inv 370 NG",
+    "prompt": "Product A: Tadiran מזגן עילי תדיראן 3.5 כ\"ס דגם Alpha Pro Inv 370 NG\nProduct B: מזגן עילי תדיראן 3.5 כ\"ס דגם Alpha Pro Inv 370 NG\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Tadiran Alpha Pro Inverter 340 NG ‏2.5 ‏כ''ס תדיראן | אחריות יבואן רשמי",
+    "title_b": "‏מזגן עילי Tadiran Alpha Pro Inverter 370 NG ‏3.5 ‏כ''ס תדיראן",
+    "prompt": "Product A: ‏מזגן עילי Tadiran Alpha Pro Inverter 340 NG ‏2.5 ‏כ''ס תדיראן | אחריות יבואן רשמי\nProduct B: ‏מזגן עילי Tadiran Alpha Pro Inverter 370 NG ‏3.5 ‏כ''ס תדיראן\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "מזגן עילי Tadiran Alpha Pro Inverter 340 NG ‏2.5 ‏כ''ס תדיראן",
+    "title_b": "‏מזגן עילי Tadiran Alpha Pro Inverter 370 NG ‏3.5 ‏כ''ס תדיראן",
+    "prompt": "Product A: מזגן עילי Tadiran Alpha Pro Inverter 340 NG ‏2.5 ‏כ''ס תדיראן\nProduct B: ‏מזגן עילי Tadiran Alpha Pro Inverter 370 NG ‏3.5 ‏כ''ס תדיראן\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Alpha Pro Inverter 340 NG שנת 2024 Tadiran ‏2.5 ‏כ\"ס תדיראן",
+    "title_b": "‏מזגן עילי Alpha Pro Inverter 370 NG שנת 2024 Tadiran ‏3.5 ‏כ\"ס תדיראן",
+    "prompt": "Product A: ‏מזגן עילי Alpha Pro Inverter 340 NG שנת 2024 Tadiran ‏2.5 ‏כ\"ס תדיראן\nProduct B: ‏מזגן עילי Alpha Pro Inverter 370 NG שנת 2024 Tadiran ‏3.5 ‏כ\"ס תדיראן\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "מזגן תדיראן אלפא פרו אינוורטר דגם TADIRAN ALPHA PRO INVERTER 340NG",
+    "title_b": "מזגן תדיראן אלפא פרו אינוורטר דגם TADIRAN ALPHA PRO INVERTER 370NG",
+    "prompt": "Product A: מזגן תדיראן אלפא פרו אינוורטר דגם TADIRAN ALPHA PRO INVERTER 340NG\nProduct B: מזגן תדיראן אלפא פרו אינוורטר דגם TADIRAN ALPHA PRO INVERTER 370NG\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Tadiran Sfera Inverter 10 NG  ‏1.0 ‏כ\"ס",
+    "title_b": "‏מזגן עילי Tadiran Sfera Inverter 18 NG  ‏1.5 ‏כ\"ס",
+    "prompt": "Product A: ‏מזגן עילי Tadiran Sfera Inverter 10 NG  ‏1.0 ‏כ\"ס\nProduct B: ‏מזגן עילי Tadiran Sfera Inverter 18 NG  ‏1.5 ‏כ\"ס\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Tadiran Sfera Inverter 10 NG  ‏1.0 ‏כ\"ס",
+    "title_b": "‏מזגן עילי Tadiran Sfera Inverter 21 NG  ‏2.0 ‏כ\"ס",
+    "prompt": "Product A: ‏מזגן עילי Tadiran Sfera Inverter 10 NG  ‏1.0 ‏כ\"ס\nProduct B: ‏מזגן עילי Tadiran Sfera Inverter 21 NG  ‏2.0 ‏כ\"ס\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Tadiran Sfera Inverter 10 NG  ‏1.0 ‏כ\"ס",
+    "title_b": "Inverter 18 NG ‏1.5 ‏כ\"ס ‏מזגן עילי Tadiran Sfera",
+    "prompt": "Product A: ‏מזגן עילי Tadiran Sfera Inverter 10 NG  ‏1.0 ‏כ\"ס\nProduct B: Inverter 18 NG ‏1.5 ‏כ\"ס ‏מזגן עילי Tadiran Sfera\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Tadiran Sfera Inverter 10 NG  ‏1.0 ‏כ\"ס",
+    "title_b": "‏מזגן עילי Tadiran Sfera Inverter 18 NG  ‏1.5 ‏כ\"ס White",
+    "prompt": "Product A: ‏מזגן עילי Tadiran Sfera Inverter 10 NG  ‏1.0 ‏כ\"ס\nProduct B: ‏מזגן עילי Tadiran Sfera Inverter 18 NG  ‏1.5 ‏כ\"ס White\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Tadiran Sfera Inverter 18 NG  ‏1.5 ‏כ\"ס",
+    "title_b": "‏מזגן עילי Tadiran Sfera Inverter 10 NG  ‏1.0 ‏כ\"ס משלוח חינם",
+    "prompt": "Product A: ‏מזגן עילי Tadiran Sfera Inverter 18 NG  ‏1.5 ‏כ\"ס\nProduct B: ‏מזגן עילי Tadiran Sfera Inverter 10 NG  ‏1.0 ‏כ\"ס משלוח חינם\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Tadiran Sfera Inverter 18 NG  ‏1.5 ‏כ\"ס",
+    "title_b": "‏מזגן עילי Tadiran Sfera Inverter 10 NG  ‏1.0 ‏כ\"ס Silver",
+    "prompt": "Product A: ‏מזגן עילי Tadiran Sfera Inverter 18 NG  ‏1.5 ‏כ\"ס\nProduct B: ‏מזגן עילי Tadiran Sfera Inverter 10 NG  ‏1.0 ‏כ\"ס Silver\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Tadiran Sfera Inverter 21 NG  ‏2.0 ‏כ\"ס",
+    "title_b": "‏מזגן עילי Tadiran Sfera Inverter 10 NG  ‏1.0 ‏כ\"ס משלוח חינם",
+    "prompt": "Product A: ‏מזגן עילי Tadiran Sfera Inverter 21 NG  ‏2.0 ‏כ\"ס\nProduct B: ‏מזגן עילי Tadiran Sfera Inverter 10 NG  ‏1.0 ‏כ\"ס משלוח חינם\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Tadiran Sfera Inverter 21 NG  ‏2.0 ‏כ\"ס",
+    "title_b": "‏מזגן עילי Tadiran Sfera Inverter 10 NG  ‏1.0 ‏כ\"ס Silver",
+    "prompt": "Product A: ‏מזגן עילי Tadiran Sfera Inverter 21 NG  ‏2.0 ‏כ\"ס\nProduct B: ‏מזגן עילי Tadiran Sfera Inverter 10 NG  ‏1.0 ‏כ\"ס Silver\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "מייבש כביסה Electrolux   ‏8 ‏ק\"ג",
+    "title_b": "מייבש כביסה Electrolux   ‏7 ‏ק\"ג",
+    "prompt": "Product A: מייבש כביסה Electrolux   ‏8 ‏ק\"ג\nProduct B: מייבש כביסה Electrolux   ‏7 ‏ק\"ג\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "מייבש כביסה AEG   ‏8 ‏ק\"ג",
+    "title_b": "מייבש כביסה AEG   ‏7.5 ‏ק\"ג",
+    "prompt": "Product A: מייבש כביסה AEG   ‏8 ‏ק\"ג\nProduct B: מייבש כביסה AEG   ‏7.5 ‏ק\"ג\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מקציף חלב Hemilton",
+    "title_b": "‏מקציף חלב Hemilton -264",
+    "prompt": "Product A: ‏מקציף חלב Hemilton\nProduct B: ‏מקציף חלב Hemilton -264\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Tadiran Sfera Inverter 10 NG  ‏1.0 ‏כ\"ס משלוח חינם",
+    "title_b": "Inverter 18 NG ‏1.5 ‏כ\"ס ‏מזגן עילי Tadiran Sfera",
+    "prompt": "Product A: ‏מזגן עילי Tadiran Sfera Inverter 10 NG  ‏1.0 ‏כ\"ס משלוח חינם\nProduct B: Inverter 18 NG ‏1.5 ‏כ\"ס ‏מזגן עילי Tadiran Sfera\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Tadiran Sfera Inverter 10 NG  ‏1.0 ‏כ\"ס משלוח חינם",
+    "title_b": "‏מזגן עילי Tadiran Sfera Inverter 18 NG  ‏1.5 ‏כ\"ס White",
+    "prompt": "Product A: ‏מזגן עילי Tadiran Sfera Inverter 10 NG  ‏1.0 ‏כ\"ס משלוח חינם\nProduct B: ‏מזגן עילי Tadiran Sfera Inverter 18 NG  ‏1.5 ‏כ\"ס White\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Tadiran Sfera Inverter 10 NG  ‏1.0 ‏כ\"ס Silver",
+    "title_b": "Inverter 18 NG ‏1.5 ‏כ\"ס ‏מזגן עילי Tadiran Sfera",
+    "prompt": "Product A: ‏מזגן עילי Tadiran Sfera Inverter 10 NG  ‏1.0 ‏כ\"ס Silver\nProduct B: Inverter 18 NG ‏1.5 ‏כ\"ס ‏מזגן עילי Tadiran Sfera\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Tadiran Sfera Inverter 10 NG  ‏1.0 ‏כ\"ס Silver",
+    "title_b": "‏מזגן עילי Tadiran Sfera Inverter 18 NG  ‏1.5 ‏כ\"ס White",
+    "prompt": "Product A: ‏מזגן עילי Tadiran Sfera Inverter 10 NG  ‏1.0 ‏כ\"ס Silver\nProduct B: ‏מזגן עילי Tadiran Sfera Inverter 18 NG  ‏1.5 ‏כ\"ס White\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Tadiran Alpha Pro Inverter 340 NG ‏2.5 ‏כ\"ס תדיראן",
+    "title_b": "‏מזגן עילי Alpha Pro Inverter 370 NG Tadiran ‏3.5 ‏כ\"ס תדיראן",
+    "prompt": "Product A: ‏מזגן עילי Tadiran Alpha Pro Inverter 340 NG ‏2.5 ‏כ\"ס תדיראן\nProduct B: ‏מזגן עילי Alpha Pro Inverter 370 NG Tadiran ‏3.5 ‏כ\"ס תדיראן\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Tadiran Alpha Pro Inverter 340 NG ‏2.5 ‏כ\"ס תדיראן",
+    "title_b": "‏מזגן עילי Tadiran Alpha Pro Inverter 370 NG ‏3.5 ‏כ\"ס תדיראן",
+    "prompt": "Product A: ‏מזגן עילי Tadiran Alpha Pro Inverter 340 NG ‏2.5 ‏כ\"ס תדיראן\nProduct B: ‏מזגן עילי Tadiran Alpha Pro Inverter 370 NG ‏3.5 ‏כ\"ס תדיראן\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Tadiran Alpha Pro Inverter 340 NG ‏2.5 ‏כ\"ס תדיראן / יבואן רשמי / משלוח חינם",
+    "title_b": "‏מזגן עילי Alpha Pro Inverter 370 NG Tadiran ‏3.5 ‏כ\"ס תדיראן",
+    "prompt": "Product A: ‏מזגן עילי Tadiran Alpha Pro Inverter 340 NG ‏2.5 ‏כ\"ס תדיראן / יבואן רשמי / משלוח חינם\nProduct B: ‏מזגן עילי Alpha Pro Inverter 370 NG Tadiran ‏3.5 ‏כ\"ס תדיראן\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Tadiran Alpha Pro Inverter 340 NG ‏2.5 ‏כ\"ס תדיראן / יבואן רשמי / משלוח חינם",
+    "title_b": "‏מזגן עילי Tadiran Alpha Pro Inverter 370 NG ‏3.5 ‏כ\"ס תדיראן",
+    "prompt": "Product A: ‏מזגן עילי Tadiran Alpha Pro Inverter 340 NG ‏2.5 ‏כ\"ס תדיראן / יבואן רשמי / משלוח חינם\nProduct B: ‏מזגן עילי Tadiran Alpha Pro Inverter 370 NG ‏3.5 ‏כ\"ס תדיראן\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Alpha Pro Inverter 340 NG Tadiran ‏2.5 ‏כ\"ס תדיראן",
+    "title_b": "‏מזגן עילי Alpha Pro Inverter 370 NG Tadiran ‏3.5 ‏כ\"ס תדיראן",
+    "prompt": "Product A: ‏מזגן עילי Alpha Pro Inverter 340 NG Tadiran ‏2.5 ‏כ\"ס תדיראן\nProduct B: ‏מזגן עילי Alpha Pro Inverter 370 NG Tadiran ‏3.5 ‏כ\"ס תדיראן\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Alpha Pro Inverter 340 NG Tadiran ‏2.5 ‏כ\"ס תדיראן",
+    "title_b": "‏מזגן עילי Tadiran Alpha Pro Inverter 370 NG ‏3.5 ‏כ\"ס תדיראן",
+    "prompt": "Product A: ‏מזגן עילי Alpha Pro Inverter 340 NG Tadiran ‏2.5 ‏כ\"ס תדיראן\nProduct B: ‏מזגן עילי Tadiran Alpha Pro Inverter 370 NG ‏3.5 ‏כ\"ס תדיראן\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Electra Classic Inverter 140  ‏1.0 ‏כ\"ס",
+    "title_b": "‏מזגן עילי Electra Classic Inverter 340  ‏2.5 ‏כ\"ס",
+    "prompt": "Product A: ‏מזגן עילי Electra Classic Inverter 140  ‏1.0 ‏כ\"ס\nProduct B: ‏מזגן עילי Electra Classic Inverter 340  ‏2.5 ‏כ\"ס\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Electra Classic Inverter 140  ‏1.0 ‏כ\"ס",
+    "title_b": "‏מזגן עילי Electra Classic Inverter 340  ‏2.5 ‏כ\"ס White",
+    "prompt": "Product A: ‏מזגן עילי Electra Classic Inverter 140  ‏1.0 ‏כ\"ס\nProduct B: ‏מזגן עילי Electra Classic Inverter 340  ‏2.5 ‏כ\"ס White\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Electra Classic Inverter 140  ‏1.0 ‏כ\"ס",
+    "title_b": "Inverter 340 ‏2.5 ‏כ\"ס ‏מזגן עילי Electra Classic",
+    "prompt": "Product A: ‏מזגן עילי Electra Classic Inverter 140  ‏1.0 ‏כ\"ס\nProduct B: Inverter 340 ‏2.5 ‏כ\"ס ‏מזגן עילי Electra Classic\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Electra Classic Inverter 340  ‏2.5 ‏כ\"ס",
+    "title_b": "‏מזגן עילי Electra Classic Inverter 140  ‏1.0 ‏כ\"ס יבואן מורשה",
+    "prompt": "Product A: ‏מזגן עילי Electra Classic Inverter 340  ‏2.5 ‏כ\"ס\nProduct B: ‏מזגן עילי Electra Classic Inverter 140  ‏1.0 ‏כ\"ס יבואן מורשה\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Electra Classic Inverter 340  ‏2.5 ‏כ\"ס",
+    "title_b": "‏מזגן עילי Electra Classic Inverter 140  ‏1.0 ‏כ\"ס Silver",
+    "prompt": "Product A: ‏מזגן עילי Electra Classic Inverter 340  ‏2.5 ‏כ\"ס\nProduct B: ‏מזגן עילי Electra Classic Inverter 140  ‏1.0 ‏כ\"ס Silver\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Electra Classic Inverter 340  ‏2.5 ‏כ\"ס",
+    "title_b": "Inverter 140 ‏1.0 ‏כ\"ס ‏מזגן עילי Electra Classic",
+    "prompt": "Product A: ‏מזגן עילי Electra Classic Inverter 340  ‏2.5 ‏כ\"ס\nProduct B: Inverter 140 ‏1.0 ‏כ\"ס ‏מזגן עילי Electra Classic\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Electra Classic Inverter 140  ‏1.0 ‏כ\"ס יבואן מורשה",
+    "title_b": "‏מזגן עילי Electra Classic Inverter 340  ‏2.5 ‏כ\"ס White",
+    "prompt": "Product A: ‏מזגן עילי Electra Classic Inverter 140  ‏1.0 ‏כ\"ס יבואן מורשה\nProduct B: ‏מזגן עילי Electra Classic Inverter 340  ‏2.5 ‏כ\"ס White\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Electra Classic Inverter 140  ‏1.0 ‏כ\"ס יבואן מורשה",
+    "title_b": "Inverter 340 ‏2.5 ‏כ\"ס ‏מזגן עילי Electra Classic",
+    "prompt": "Product A: ‏מזגן עילי Electra Classic Inverter 140  ‏1.0 ‏כ\"ס יבואן מורשה\nProduct B: Inverter 340 ‏2.5 ‏כ\"ס ‏מזגן עילי Electra Classic\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Electra Classic Inverter 140  ‏1.0 ‏כ\"ס Silver",
+    "title_b": "‏מזגן עילי Electra Classic Inverter 340  ‏2.5 ‏כ\"ס White",
+    "prompt": "Product A: ‏מזגן עילי Electra Classic Inverter 140  ‏1.0 ‏כ\"ס Silver\nProduct B: ‏מזגן עילי Electra Classic Inverter 340  ‏2.5 ‏כ\"ס White\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Electra Classic Inverter 140  ‏1.0 ‏כ\"ס Silver",
+    "title_b": "Inverter 340 ‏2.5 ‏כ\"ס ‏מזגן עילי Electra Classic",
+    "prompt": "Product A: ‏מזגן עילי Electra Classic Inverter 140  ‏1.0 ‏כ\"ס Silver\nProduct B: Inverter 340 ‏2.5 ‏כ\"ס ‏מזגן עילי Electra Classic\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "Inverter 140 ‏1.0 ‏כ\"ס ‏מזגן עילי Electra Classic",
+    "title_b": "‏מזגן עילי Electra Classic Inverter 340  ‏2.5 ‏כ\"ס White",
+    "prompt": "Product A: Inverter 140 ‏1.0 ‏כ\"ס ‏מזגן עילי Electra Classic\nProduct B: ‏מזגן עילי Electra Classic Inverter 340  ‏2.5 ‏כ\"ס White\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "Inverter 140 ‏1.0 ‏כ\"ס ‏מזגן עילי Electra Classic",
+    "title_b": "Inverter 340 ‏2.5 ‏כ\"ס ‏מזגן עילי Electra Classic",
+    "prompt": "Product A: Inverter 140 ‏1.0 ‏כ\"ס ‏מזגן עילי Electra Classic\nProduct B: Inverter 340 ‏2.5 ‏כ\"ס ‏מזגן עילי Electra Classic\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "מזגן עילי TADIRAN ALPHA PRO INV 340 NG 2024",
+    "title_b": "מזגן עילי TADIRAN ALPHA PRO INV 370 NG 2024",
+    "prompt": "Product A: מזגן עילי TADIRAN ALPHA PRO INV 340 NG 2024\nProduct B: מזגן עילי TADIRAN ALPHA PRO INV 370 NG 2024\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "מזגן עילי Tadiran Alpha Pro Inverter 340 NG ‏2.5 ‏כ''ס יבואן רשמי",
+    "title_b": "‏מזגן עילי Tadiran Alpha Pro Inverter 370 NG ‏3.5 ‏כ''ס יבואן רשמי",
+    "prompt": "Product A: מזגן עילי Tadiran Alpha Pro Inverter 340 NG ‏2.5 ‏כ''ס יבואן רשמי\nProduct B: ‏מזגן עילי Tadiran Alpha Pro Inverter 370 NG ‏3.5 ‏כ''ס יבואן רשמי\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Tadiran Sfera Inverter 10 NG  ‏1.0 ‏כ\"ס",
+    "title_b": "‏מזגן עילי Tadiran Sfera Inverter 15 NG  ‏1.25 ‏כ\"ס",
+    "prompt": "Product A: ‏מזגן עילי Tadiran Sfera Inverter 10 NG  ‏1.0 ‏כ\"ס\nProduct B: ‏מזגן עילי Tadiran Sfera Inverter 15 NG  ‏1.25 ‏כ\"ס\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Tadiran Sfera Inverter 10 NG  ‏1.0 ‏כ\"ס",
+    "title_b": "Inverter 15 NG ‏1.25 ‏כ\"ס ‏מזגן עילי Tadiran Sfera",
+    "prompt": "Product A: ‏מזגן עילי Tadiran Sfera Inverter 10 NG  ‏1.0 ‏כ\"ס\nProduct B: Inverter 15 NG ‏1.25 ‏כ\"ס ‏מזגן עילי Tadiran Sfera\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Tadiran Sfera Inverter 10 NG  ‏1.0 ‏כ\"ס",
+    "title_b": "‏מזגן עילי Tadiran Sfera Inverter 15 NG  ‏1.25 ‏כ\"ס White",
+    "prompt": "Product A: ‏מזגן עילי Tadiran Sfera Inverter 10 NG  ‏1.0 ‏כ\"ס\nProduct B: ‏מזגן עילי Tadiran Sfera Inverter 15 NG  ‏1.25 ‏כ\"ס White\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Tadiran Sfera Inverter 10 NG  ‏1.0 ‏כ\"ס",
+    "title_b": "‏מזגן עילי Tadiran Sfera Inverter 15 NG  ‏1.25 ‏כ\"ס יבואן רשמי",
+    "prompt": "Product A: ‏מזגן עילי Tadiran Sfera Inverter 10 NG  ‏1.0 ‏כ\"ס\nProduct B: ‏מזגן עילי Tadiran Sfera Inverter 15 NG  ‏1.25 ‏כ\"ס יבואן רשמי\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Tadiran Sfera Inverter 15 NG  ‏1.25 ‏כ\"ס",
+    "title_b": "‏מזגן עילי Tadiran Sfera Inverter 10 NG  ‏1.0 ‏כ\"ס משלוח חינם",
+    "prompt": "Product A: ‏מזגן עילי Tadiran Sfera Inverter 15 NG  ‏1.25 ‏כ\"ס\nProduct B: ‏מזגן עילי Tadiran Sfera Inverter 10 NG  ‏1.0 ‏כ\"ס משלוח חינם\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Tadiran Sfera Inverter 15 NG  ‏1.25 ‏כ\"ס",
+    "title_b": "‏מזגן עילי Tadiran Sfera Inverter 10 NG  ‏1.0 ‏כ\"ס Silver",
+    "prompt": "Product A: ‏מזגן עילי Tadiran Sfera Inverter 15 NG  ‏1.25 ‏כ\"ס\nProduct B: ‏מזגן עילי Tadiran Sfera Inverter 10 NG  ‏1.0 ‏כ\"ס Silver\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Tadiran Sfera Inverter 10 NG  ‏1.0 ‏כ\"ס משלוח חינם",
+    "title_b": "Inverter 15 NG ‏1.25 ‏כ\"ס ‏מזגן עילי Tadiran Sfera",
+    "prompt": "Product A: ‏מזגן עילי Tadiran Sfera Inverter 10 NG  ‏1.0 ‏כ\"ס משלוח חינם\nProduct B: Inverter 15 NG ‏1.25 ‏כ\"ס ‏מזגן עילי Tadiran Sfera\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Tadiran Sfera Inverter 10 NG  ‏1.0 ‏כ\"ס משלוח חינם",
+    "title_b": "‏מזגן עילי Tadiran Sfera Inverter 15 NG  ‏1.25 ‏כ\"ס White",
+    "prompt": "Product A: ‏מזגן עילי Tadiran Sfera Inverter 10 NG  ‏1.0 ‏כ\"ס משלוח חינם\nProduct B: ‏מזגן עילי Tadiran Sfera Inverter 15 NG  ‏1.25 ‏כ\"ס White\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Tadiran Sfera Inverter 10 NG  ‏1.0 ‏כ\"ס משלוח חינם",
+    "title_b": "‏מזגן עילי Tadiran Sfera Inverter 15 NG  ‏1.25 ‏כ\"ס יבואן רשמי",
+    "prompt": "Product A: ‏מזגן עילי Tadiran Sfera Inverter 10 NG  ‏1.0 ‏כ\"ס משלוח חינם\nProduct B: ‏מזגן עילי Tadiran Sfera Inverter 15 NG  ‏1.25 ‏כ\"ס יבואן רשמי\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Tadiran Sfera Inverter 10 NG  ‏1.0 ‏כ\"ס Silver",
+    "title_b": "Inverter 15 NG ‏1.25 ‏כ\"ס ‏מזגן עילי Tadiran Sfera",
+    "prompt": "Product A: ‏מזגן עילי Tadiran Sfera Inverter 10 NG  ‏1.0 ‏כ\"ס Silver\nProduct B: Inverter 15 NG ‏1.25 ‏כ\"ס ‏מזגן עילי Tadiran Sfera\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Tadiran Sfera Inverter 10 NG  ‏1.0 ‏כ\"ס Silver",
+    "title_b": "‏מזגן עילי Tadiran Sfera Inverter 15 NG  ‏1.25 ‏כ\"ס White",
+    "prompt": "Product A: ‏מזגן עילי Tadiran Sfera Inverter 10 NG  ‏1.0 ‏כ\"ס Silver\nProduct B: ‏מזגן עילי Tadiran Sfera Inverter 15 NG  ‏1.25 ‏כ\"ס White\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Tadiran Sfera Inverter 10 NG  ‏1.0 ‏כ\"ס Silver",
+    "title_b": "‏מזגן עילי Tadiran Sfera Inverter 15 NG  ‏1.25 ‏כ\"ס יבואן רשמי",
+    "prompt": "Product A: ‏מזגן עילי Tadiran Sfera Inverter 10 NG  ‏1.0 ‏כ\"ס Silver\nProduct B: ‏מזגן עילי Tadiran Sfera Inverter 15 NG  ‏1.25 ‏כ\"ס יבואן רשמי\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Tadiran Alpha Pro Inverter 140 NG  ‏1.0 ‏כ\"ס",
+    "title_b": "‏מזגן עילי Tadiran Alpha Pro Inverter 340 NG  ‏2.5 ‏כ\"ס",
+    "prompt": "Product A: ‏מזגן עילי Tadiran Alpha Pro Inverter 140 NG  ‏1.0 ‏כ\"ס\nProduct B: ‏מזגן עילי Tadiran Alpha Pro Inverter 340 NG  ‏2.5 ‏כ\"ס\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Tadiran Alpha Pro Inverter 140 NG  ‏1.0 ‏כ\"ס",
+    "title_b": "מזגן עילי Tadiran Alpha Pro Inverter 340 NG ‏2.5 ‏כ\"ס יבואן רשמי",
+    "prompt": "Product A: ‏מזגן עילי Tadiran Alpha Pro Inverter 140 NG  ‏1.0 ‏כ\"ס\nProduct B: מזגן עילי Tadiran Alpha Pro Inverter 340 NG ‏2.5 ‏כ\"ס יבואן רשמי\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Tadiran Alpha Pro Inverter 140 NG  ‏1.0 ‏כ\"ס",
+    "title_b": "‏מזגן עילי Tadiran Alpha Pro Inverter 340 NG  ‏2.5 ‏כ\"ס אחריות יבואן רשמי",
+    "prompt": "Product A: ‏מזגן עילי Tadiran Alpha Pro Inverter 140 NG  ‏1.0 ‏כ\"ס\nProduct B: ‏מזגן עילי Tadiran Alpha Pro Inverter 340 NG  ‏2.5 ‏כ\"ס אחריות יבואן רשמי\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Tadiran Alpha Pro Inverter 140 NG  ‏1.0 ‏כ\"ס",
+    "title_b": "‏מזגן עילי Tadiran Alpha Pro Inverter 340 NG  ‏2.5 ‏כ\"ס בצבע שחור",
+    "prompt": "Product A: ‏מזגן עילי Tadiran Alpha Pro Inverter 140 NG  ‏1.0 ‏כ\"ס\nProduct B: ‏מזגן עילי Tadiran Alpha Pro Inverter 340 NG  ‏2.5 ‏כ\"ס בצבע שחור\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Tadiran Alpha Pro Inverter 140 NG  ‏1.0 ‏כ\"ס",
+    "title_b": "Inverter 340 NG ‏2.5 ‏כ\"ס ‏מזגן עילי Tadiran Alpha Pro",
+    "prompt": "Product A: ‏מזגן עילי Tadiran Alpha Pro Inverter 140 NG  ‏1.0 ‏כ\"ס\nProduct B: Inverter 340 NG ‏2.5 ‏כ\"ס ‏מזגן עילי Tadiran Alpha Pro\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Tadiran Alpha Pro Inverter 340 NG  ‏2.5 ‏כ\"ס",
+    "title_b": "Inverter 140 NG ‏1.0 ‏כ\"ס ‏מזגן עילי Tadiran Alpha Pro",
+    "prompt": "Product A: ‏מזגן עילי Tadiran Alpha Pro Inverter 340 NG  ‏2.5 ‏כ\"ס\nProduct B: Inverter 140 NG ‏1.0 ‏כ\"ס ‏מזגן עילי Tadiran Alpha Pro\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "מזגן עילי Tadiran Alpha Pro Inverter 340 NG ‏2.5 ‏כ\"ס יבואן רשמי",
+    "title_b": "Inverter 140 NG ‏1.0 ‏כ\"ס ‏מזגן עילי Tadiran Alpha Pro",
+    "prompt": "Product A: מזגן עילי Tadiran Alpha Pro Inverter 340 NG ‏2.5 ‏כ\"ס יבואן רשמי\nProduct B: Inverter 140 NG ‏1.0 ‏כ\"ס ‏מזגן עילי Tadiran Alpha Pro\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "Inverter 140 NG ‏1.0 ‏כ\"ס ‏מזגן עילי Tadiran Alpha Pro",
+    "title_b": "‏מזגן עילי Tadiran Alpha Pro Inverter 340 NG  ‏2.5 ‏כ\"ס אחריות יבואן רשמי",
+    "prompt": "Product A: Inverter 140 NG ‏1.0 ‏כ\"ס ‏מזגן עילי Tadiran Alpha Pro\nProduct B: ‏מזגן עילי Tadiran Alpha Pro Inverter 340 NG  ‏2.5 ‏כ\"ס אחריות יבואן רשמי\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "Inverter 140 NG ‏1.0 ‏כ\"ס ‏מזגן עילי Tadiran Alpha Pro",
+    "title_b": "‏מזגן עילי Tadiran Alpha Pro Inverter 340 NG  ‏2.5 ‏כ\"ס בצבע שחור",
+    "prompt": "Product A: Inverter 140 NG ‏1.0 ‏כ\"ס ‏מזגן עילי Tadiran Alpha Pro\nProduct B: ‏מזגן עילי Tadiran Alpha Pro Inverter 340 NG  ‏2.5 ‏כ\"ס בצבע שחור\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "Inverter 140 NG ‏1.0 ‏כ\"ס ‏מזגן עילי Tadiran Alpha Pro",
+    "title_b": "Inverter 340 NG ‏2.5 ‏כ\"ס ‏מזגן עילי Tadiran Alpha Pro",
+    "prompt": "Product A: Inverter 140 NG ‏1.0 ‏כ\"ס ‏מזגן עילי Tadiran Alpha Pro\nProduct B: Inverter 340 NG ‏2.5 ‏כ\"ס ‏מזגן עילי Tadiran Alpha Pro\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Tadiran Alpha Pro Inverter 240 NG  ‏2.0 ‏כ\"ס",
+    "title_b": "‏מזגן עילי Tadiran Alpha Pro Inverter 340 NG  ‏2.5 ‏כ\"ס",
+    "prompt": "Product A: ‏מזגן עילי Tadiran Alpha Pro Inverter 240 NG  ‏2.0 ‏כ\"ס\nProduct B: ‏מזגן עילי Tadiran Alpha Pro Inverter 340 NG  ‏2.5 ‏כ\"ס\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Tadiran Alpha Pro Inverter 240 NG  ‏2.0 ‏כ\"ס",
+    "title_b": "מזגן עילי Tadiran Alpha Pro Inverter 340 NG ‏2.5 ‏כ\"ס יבואן רשמי",
+    "prompt": "Product A: ‏מזגן עילי Tadiran Alpha Pro Inverter 240 NG  ‏2.0 ‏כ\"ס\nProduct B: מזגן עילי Tadiran Alpha Pro Inverter 340 NG ‏2.5 ‏כ\"ס יבואן רשמי\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Tadiran Alpha Pro Inverter 240 NG  ‏2.0 ‏כ\"ס",
+    "title_b": "‏מזגן עילי Tadiran Alpha Pro Inverter 340 NG  ‏2.5 ‏כ\"ס אחריות יבואן רשמי",
+    "prompt": "Product A: ‏מזגן עילי Tadiran Alpha Pro Inverter 240 NG  ‏2.0 ‏כ\"ס\nProduct B: ‏מזגן עילי Tadiran Alpha Pro Inverter 340 NG  ‏2.5 ‏כ\"ס אחריות יבואן רשמי\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Tadiran Alpha Pro Inverter 240 NG  ‏2.0 ‏כ\"ס",
+    "title_b": "‏מזגן עילי Tadiran Alpha Pro Inverter 340 NG  ‏2.5 ‏כ\"ס בצבע שחור",
+    "prompt": "Product A: ‏מזגן עילי Tadiran Alpha Pro Inverter 240 NG  ‏2.0 ‏כ\"ס\nProduct B: ‏מזגן עילי Tadiran Alpha Pro Inverter 340 NG  ‏2.5 ‏כ\"ס בצבע שחור\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Tadiran Alpha Pro Inverter 240 NG  ‏2.0 ‏כ\"ס",
+    "title_b": "Inverter 340 NG ‏2.5 ‏כ\"ס ‏מזגן עילי Tadiran Alpha Pro",
+    "prompt": "Product A: ‏מזגן עילי Tadiran Alpha Pro Inverter 240 NG  ‏2.0 ‏כ\"ס\nProduct B: Inverter 340 NG ‏2.5 ‏כ\"ס ‏מזגן עילי Tadiran Alpha Pro\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Tadiran Alpha Pro Inverter 340 NG  ‏2.5 ‏כ\"ס",
+    "title_b": "‏מזגן עילי Tadiran Alpha Pro Inverter 240 NG  ‏2.0 ‏כ\"ס משלוח חינם",
+    "prompt": "Product A: ‏מזגן עילי Tadiran Alpha Pro Inverter 340 NG  ‏2.5 ‏כ\"ס\nProduct B: ‏מזגן עילי Tadiran Alpha Pro Inverter 240 NG  ‏2.0 ‏כ\"ס משלוח חינם\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Tadiran Alpha Pro Inverter 340 NG  ‏2.5 ‏כ\"ס",
+    "title_b": "‏מזגן עילי Tadiran Alpha Pro Inverter 240 NG  ‏2.0 ‏כ\"ס בצבע לבן",
+    "prompt": "Product A: ‏מזגן עילי Tadiran Alpha Pro Inverter 340 NG  ‏2.5 ‏כ\"ס\nProduct B: ‏מזגן עילי Tadiran Alpha Pro Inverter 240 NG  ‏2.0 ‏כ\"ס בצבע לבן\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "מזגן עילי Tadiran Alpha Pro Inverter 340 NG ‏2.5 ‏כ\"ס יבואן רשמי",
+    "title_b": "‏מזגן עילי Tadiran Alpha Pro Inverter 240 NG  ‏2.0 ‏כ\"ס משלוח חינם",
+    "prompt": "Product A: מזגן עילי Tadiran Alpha Pro Inverter 340 NG ‏2.5 ‏כ\"ס יבואן רשמי\nProduct B: ‏מזגן עילי Tadiran Alpha Pro Inverter 240 NG  ‏2.0 ‏כ\"ס משלוח חינם\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "מזגן עילי Tadiran Alpha Pro Inverter 340 NG ‏2.5 ‏כ\"ס יבואן רשמי",
+    "title_b": "‏מזגן עילי Tadiran Alpha Pro Inverter 240 NG  ‏2.0 ‏כ\"ס בצבע לבן",
+    "prompt": "Product A: מזגן עילי Tadiran Alpha Pro Inverter 340 NG ‏2.5 ‏כ\"ס יבואן רשמי\nProduct B: ‏מזגן עילי Tadiran Alpha Pro Inverter 240 NG  ‏2.0 ‏כ\"ס בצבע לבן\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Tadiran Alpha Pro Inverter 240 NG  ‏2.0 ‏כ\"ס משלוח חינם",
+    "title_b": "‏מזגן עילי Tadiran Alpha Pro Inverter 340 NG  ‏2.5 ‏כ\"ס אחריות יבואן רשמי",
+    "prompt": "Product A: ‏מזגן עילי Tadiran Alpha Pro Inverter 240 NG  ‏2.0 ‏כ\"ס משלוח חינם\nProduct B: ‏מזגן עילי Tadiran Alpha Pro Inverter 340 NG  ‏2.5 ‏כ\"ס אחריות יבואן רשמי\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Tadiran Alpha Pro Inverter 240 NG  ‏2.0 ‏כ\"ס משלוח חינם",
+    "title_b": "‏מזגן עילי Tadiran Alpha Pro Inverter 340 NG  ‏2.5 ‏כ\"ס בצבע שחור",
+    "prompt": "Product A: ‏מזגן עילי Tadiran Alpha Pro Inverter 240 NG  ‏2.0 ‏כ\"ס משלוח חינם\nProduct B: ‏מזגן עילי Tadiran Alpha Pro Inverter 340 NG  ‏2.5 ‏כ\"ס בצבע שחור\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Tadiran Alpha Pro Inverter 240 NG  ‏2.0 ‏כ\"ס משלוח חינם",
+    "title_b": "Inverter 340 NG ‏2.5 ‏כ\"ס ‏מזגן עילי Tadiran Alpha Pro",
+    "prompt": "Product A: ‏מזגן עילי Tadiran Alpha Pro Inverter 240 NG  ‏2.0 ‏כ\"ס משלוח חינם\nProduct B: Inverter 340 NG ‏2.5 ‏כ\"ס ‏מזגן עילי Tadiran Alpha Pro\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Tadiran Alpha Pro Inverter 240 NG  ‏2.0 ‏כ\"ס בצבע לבן",
+    "title_b": "‏מזגן עילי Tadiran Alpha Pro Inverter 340 NG  ‏2.5 ‏כ\"ס אחריות יבואן רשמי",
+    "prompt": "Product A: ‏מזגן עילי Tadiran Alpha Pro Inverter 240 NG  ‏2.0 ‏כ\"ס בצבע לבן\nProduct B: ‏מזגן עילי Tadiran Alpha Pro Inverter 340 NG  ‏2.5 ‏כ\"ס אחריות יבואן רשמי\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Tadiran Alpha Pro Inverter 240 NG  ‏2.0 ‏כ\"ס בצבע לבן",
+    "title_b": "‏מזגן עילי Tadiran Alpha Pro Inverter 340 NG  ‏2.5 ‏כ\"ס בצבע שחור",
+    "prompt": "Product A: ‏מזגן עילי Tadiran Alpha Pro Inverter 240 NG  ‏2.0 ‏כ\"ס בצבע לבן\nProduct B: ‏מזגן עילי Tadiran Alpha Pro Inverter 340 NG  ‏2.5 ‏כ\"ס בצבע שחור\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Tadiran Alpha Pro Inverter 240 NG  ‏2.0 ‏כ\"ס בצבע לבן",
+    "title_b": "Inverter 340 NG ‏2.5 ‏כ\"ס ‏מזגן עילי Tadiran Alpha Pro",
+    "prompt": "Product A: ‏מזגן עילי Tadiran Alpha Pro Inverter 240 NG  ‏2.0 ‏כ\"ס בצבע לבן\nProduct B: Inverter 340 NG ‏2.5 ‏כ\"ס ‏מזגן עילי Tadiran Alpha Pro\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Tadiran Alpha Pro Inverter 140 NG  ‏1.0 ‏כ\"ס",
+    "title_b": "‏מזגן עילי Tadiran Alpha Pro Inverter 240 NG  ‏2.0 ‏כ\"ס",
+    "prompt": "Product A: ‏מזגן עילי Tadiran Alpha Pro Inverter 140 NG  ‏1.0 ‏כ\"ס\nProduct B: ‏מזגן עילי Tadiran Alpha Pro Inverter 240 NG  ‏2.0 ‏כ\"ס\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Tadiran Alpha Pro Inverter 140 NG  ‏1.0 ‏כ\"ס",
+    "title_b": "‏מזגן עילי Tadiran Alpha Pro Inverter 240 NG  ‏2.0 ‏כ\"ס משלוח חינם",
+    "prompt": "Product A: ‏מזגן עילי Tadiran Alpha Pro Inverter 140 NG  ‏1.0 ‏כ\"ס\nProduct B: ‏מזגן עילי Tadiran Alpha Pro Inverter 240 NG  ‏2.0 ‏כ\"ס משלוח חינם\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Tadiran Alpha Pro Inverter 140 NG  ‏1.0 ‏כ\"ס",
+    "title_b": "‏מזגן עילי Tadiran Alpha Pro Inverter 240 NG  ‏2.0 ‏כ\"ס בצבע לבן",
+    "prompt": "Product A: ‏מזגן עילי Tadiran Alpha Pro Inverter 140 NG  ‏1.0 ‏כ\"ס\nProduct B: ‏מזגן עילי Tadiran Alpha Pro Inverter 240 NG  ‏2.0 ‏כ\"ס בצבע לבן\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Tadiran Alpha Pro Inverter 240 NG  ‏2.0 ‏כ\"ס",
+    "title_b": "Inverter 140 NG ‏1.0 ‏כ\"ס ‏מזגן עילי Tadiran Alpha Pro",
+    "prompt": "Product A: ‏מזגן עילי Tadiran Alpha Pro Inverter 240 NG  ‏2.0 ‏כ\"ס\nProduct B: Inverter 140 NG ‏1.0 ‏כ\"ס ‏מזגן עילי Tadiran Alpha Pro\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "Inverter 140 NG ‏1.0 ‏כ\"ס ‏מזגן עילי Tadiran Alpha Pro",
+    "title_b": "‏מזגן עילי Tadiran Alpha Pro Inverter 240 NG  ‏2.0 ‏כ\"ס משלוח חינם",
+    "prompt": "Product A: Inverter 140 NG ‏1.0 ‏כ\"ס ‏מזגן עילי Tadiran Alpha Pro\nProduct B: ‏מזגן עילי Tadiran Alpha Pro Inverter 240 NG  ‏2.0 ‏כ\"ס משלוח חינם\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "Inverter 140 NG ‏1.0 ‏כ\"ס ‏מזגן עילי Tadiran Alpha Pro",
+    "title_b": "‏מזגן עילי Tadiran Alpha Pro Inverter 240 NG  ‏2.0 ‏כ\"ס בצבע לבן",
+    "prompt": "Product A: Inverter 140 NG ‏1.0 ‏כ\"ס ‏מזגן עילי Tadiran Alpha Pro\nProduct B: ‏מזגן עילי Tadiran Alpha Pro Inverter 240 NG  ‏2.0 ‏כ\"ס בצבע לבן\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Tadiran Solo Inverter 140 NG  ‏1.0 ‏כ\"ס",
+    "title_b": "‏מזגן עילי Tadiran Solo Inverter 340 NG  ‏2.5 ‏כ\"ס",
+    "prompt": "Product A: ‏מזגן עילי Tadiran Solo Inverter 140 NG  ‏1.0 ‏כ\"ס\nProduct B: ‏מזגן עילי Tadiran Solo Inverter 340 NG  ‏2.5 ‏כ\"ס\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Tadiran Solo Inverter 140 NG  ‏1.0 ‏כ\"ס",
+    "title_b": "‏מזגן עילי Tadiran Solo Inverter 340 NG  ‏2.5 ‏כ\"ס בצבע כסף",
+    "prompt": "Product A: ‏מזגן עילי Tadiran Solo Inverter 140 NG  ‏1.0 ‏כ\"ס\nProduct B: ‏מזגן עילי Tadiran Solo Inverter 340 NG  ‏2.5 ‏כ\"ס בצבע כסף\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Tadiran Solo Inverter 140 NG  ‏1.0 ‏כ\"ס",
+    "title_b": "Inverter 340 NG ‏2.5 ‏כ\"ס ‏מזגן עילי Tadiran Solo",
+    "prompt": "Product A: ‏מזגן עילי Tadiran Solo Inverter 140 NG  ‏1.0 ‏כ\"ס\nProduct B: Inverter 340 NG ‏2.5 ‏כ\"ס ‏מזגן עילי Tadiran Solo\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Tadiran Sfera Inverter 15 NG  ‏1.25 ‏כ\"ס",
+    "title_b": "‏מזגן עילי Tadiran Sfera Inverter 18 NG  ‏1.5 ‏כ\"ס",
+    "prompt": "Product A: ‏מזגן עילי Tadiran Sfera Inverter 15 NG  ‏1.25 ‏כ\"ס\nProduct B: ‏מזגן עילי Tadiran Sfera Inverter 18 NG  ‏1.5 ‏כ\"ס\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Tadiran Sfera Inverter 15 NG  ‏1.25 ‏כ\"ס",
+    "title_b": "Inverter 18 NG ‏1.5 ‏כ\"ס ‏מזגן עילי Tadiran Sfera",
+    "prompt": "Product A: ‏מזגן עילי Tadiran Sfera Inverter 15 NG  ‏1.25 ‏כ\"ס\nProduct B: Inverter 18 NG ‏1.5 ‏כ\"ס ‏מזגן עילי Tadiran Sfera\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Tadiran Sfera Inverter 15 NG  ‏1.25 ‏כ\"ס",
+    "title_b": "‏מזגן עילי Tadiran Sfera Inverter 18 NG  ‏1.5 ‏כ\"ס White",
+    "prompt": "Product A: ‏מזגן עילי Tadiran Sfera Inverter 15 NG  ‏1.25 ‏כ\"ס\nProduct B: ‏מזגן עילי Tadiran Sfera Inverter 18 NG  ‏1.5 ‏כ\"ס White\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Tadiran Sfera Inverter 18 NG  ‏1.5 ‏כ\"ס",
+    "title_b": "Inverter 15 NG ‏1.25 ‏כ\"ס ‏מזגן עילי Tadiran Sfera",
+    "prompt": "Product A: ‏מזגן עילי Tadiran Sfera Inverter 18 NG  ‏1.5 ‏כ\"ס\nProduct B: Inverter 15 NG ‏1.25 ‏כ\"ס ‏מזגן עילי Tadiran Sfera\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Tadiran Sfera Inverter 18 NG  ‏1.5 ‏כ\"ס",
+    "title_b": "‏מזגן עילי Tadiran Sfera Inverter 15 NG  ‏1.25 ‏כ\"ס White",
+    "prompt": "Product A: ‏מזגן עילי Tadiran Sfera Inverter 18 NG  ‏1.5 ‏כ\"ס\nProduct B: ‏מזגן עילי Tadiran Sfera Inverter 15 NG  ‏1.25 ‏כ\"ס White\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Tadiran Sfera Inverter 18 NG  ‏1.5 ‏כ\"ס",
+    "title_b": "‏מזגן עילי Tadiran Sfera Inverter 15 NG  ‏1.25 ‏כ\"ס יבואן רשמי",
+    "prompt": "Product A: ‏מזגן עילי Tadiran Sfera Inverter 18 NG  ‏1.5 ‏כ\"ס\nProduct B: ‏מזגן עילי Tadiran Sfera Inverter 15 NG  ‏1.25 ‏כ\"ס יבואן רשמי\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "Inverter 15 NG ‏1.25 ‏כ\"ס ‏מזגן עילי Tadiran Sfera",
+    "title_b": "Inverter 18 NG ‏1.5 ‏כ\"ס ‏מזגן עילי Tadiran Sfera",
+    "prompt": "Product A: Inverter 15 NG ‏1.25 ‏כ\"ס ‏מזגן עילי Tadiran Sfera\nProduct B: Inverter 18 NG ‏1.5 ‏כ\"ס ‏מזגן עילי Tadiran Sfera\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "Inverter 15 NG ‏1.25 ‏כ\"ס ‏מזגן עילי Tadiran Sfera",
+    "title_b": "‏מזגן עילי Tadiran Sfera Inverter 18 NG  ‏1.5 ‏כ\"ס White",
+    "prompt": "Product A: Inverter 15 NG ‏1.25 ‏כ\"ס ‏מזגן עילי Tadiran Sfera\nProduct B: ‏מזגן עילי Tadiran Sfera Inverter 18 NG  ‏1.5 ‏כ\"ס White\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Tadiran Sfera Inverter 15 NG  ‏1.25 ‏כ\"ס White",
+    "title_b": "Inverter 18 NG ‏1.5 ‏כ\"ס ‏מזגן עילי Tadiran Sfera",
+    "prompt": "Product A: ‏מזגן עילי Tadiran Sfera Inverter 15 NG  ‏1.25 ‏כ\"ס White\nProduct B: Inverter 18 NG ‏1.5 ‏כ\"ס ‏מזגן עילי Tadiran Sfera\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Tadiran Sfera Inverter 15 NG  ‏1.25 ‏כ\"ס White",
+    "title_b": "‏מזגן עילי Tadiran Sfera Inverter 18 NG  ‏1.5 ‏כ\"ס White",
+    "prompt": "Product A: ‏מזגן עילי Tadiran Sfera Inverter 15 NG  ‏1.25 ‏כ\"ס White\nProduct B: ‏מזגן עילי Tadiran Sfera Inverter 18 NG  ‏1.5 ‏כ\"ס White\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Tadiran Sfera Inverter 15 NG  ‏1.25 ‏כ\"ס יבואן רשמי",
+    "title_b": "Inverter 18 NG ‏1.5 ‏כ\"ס ‏מזגן עילי Tadiran Sfera",
+    "prompt": "Product A: ‏מזגן עילי Tadiran Sfera Inverter 15 NG  ‏1.25 ‏כ\"ס יבואן רשמי\nProduct B: Inverter 18 NG ‏1.5 ‏כ\"ס ‏מזגן עילי Tadiran Sfera\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Tadiran Sfera Inverter 15 NG  ‏1.25 ‏כ\"ס יבואן רשמי",
+    "title_b": "‏מזגן עילי Tadiran Sfera Inverter 18 NG  ‏1.5 ‏כ\"ס White",
+    "prompt": "Product A: ‏מזגן עילי Tadiran Sfera Inverter 15 NG  ‏1.25 ‏כ\"ס יבואן רשמי\nProduct B: ‏מזגן עילי Tadiran Sfera Inverter 18 NG  ‏1.5 ‏כ\"ס White\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Tadiran Sfera Inverter 18 NG  ‏1.5 ‏כ\"ס",
+    "title_b": "‏מזגן עילי Tadiran Sfera Inverter 21 NG  ‏2.0 ‏כ\"ס",
+    "prompt": "Product A: ‏מזגן עילי Tadiran Sfera Inverter 18 NG  ‏1.5 ‏כ\"ס\nProduct B: ‏מזגן עילי Tadiran Sfera Inverter 21 NG  ‏2.0 ‏כ\"ס\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Tadiran Sfera Inverter 21 NG  ‏2.0 ‏כ\"ס",
+    "title_b": "Inverter 18 NG ‏1.5 ‏כ\"ס ‏מזגן עילי Tadiran Sfera",
+    "prompt": "Product A: ‏מזגן עילי Tadiran Sfera Inverter 21 NG  ‏2.0 ‏כ\"ס\nProduct B: Inverter 18 NG ‏1.5 ‏כ\"ס ‏מזגן עילי Tadiran Sfera\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Tadiran Sfera Inverter 21 NG  ‏2.0 ‏כ\"ס",
+    "title_b": "‏מזגן עילי Tadiran Sfera Inverter 18 NG  ‏1.5 ‏כ\"ס White",
+    "prompt": "Product A: ‏מזגן עילי Tadiran Sfera Inverter 21 NG  ‏2.0 ‏כ\"ס\nProduct B: ‏מזגן עילי Tadiran Sfera Inverter 18 NG  ‏1.5 ‏כ\"ס White\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Tadiran Solo Inverter 240 NG  ‏2.0 ‏כ\"ס",
+    "title_b": "‏מזגן עילי Tadiran Solo Inverter 340 NG  ‏2.5 ‏כ\"ס",
+    "prompt": "Product A: ‏מזגן עילי Tadiran Solo Inverter 240 NG  ‏2.0 ‏כ\"ס\nProduct B: ‏מזגן עילי Tadiran Solo Inverter 340 NG  ‏2.5 ‏כ\"ס\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Tadiran Solo Inverter 240 NG  ‏2.0 ‏כ\"ס",
+    "title_b": "‏מזגן עילי Tadiran Solo Inverter 340 NG  ‏2.5 ‏כ\"ס בצבע כסף",
+    "prompt": "Product A: ‏מזגן עילי Tadiran Solo Inverter 240 NG  ‏2.0 ‏כ\"ס\nProduct B: ‏מזגן עילי Tadiran Solo Inverter 340 NG  ‏2.5 ‏כ\"ס בצבע כסף\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Tadiran Solo Inverter 240 NG  ‏2.0 ‏כ\"ס",
+    "title_b": "Inverter 340 NG ‏2.5 ‏כ\"ס ‏מזגן עילי Tadiran Solo",
+    "prompt": "Product A: ‏מזגן עילי Tadiran Solo Inverter 240 NG  ‏2.0 ‏כ\"ס\nProduct B: Inverter 340 NG ‏2.5 ‏כ\"ס ‏מזגן עילי Tadiran Solo\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Tadiran Solo Inverter 340 NG  ‏2.5 ‏כ\"ס",
+    "title_b": "‏מזגן עילי Tadiran Solo Inverter 240 NG  ‏2.0 ‏כ\"ס אחריות יבואן רשמי",
+    "prompt": "Product A: ‏מזגן עילי Tadiran Solo Inverter 340 NG  ‏2.5 ‏כ\"ס\nProduct B: ‏מזגן עילי Tadiran Solo Inverter 240 NG  ‏2.0 ‏כ\"ס אחריות יבואן רשמי\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Tadiran Solo Inverter 240 NG  ‏2.0 ‏כ\"ס אחריות יבואן רשמי",
+    "title_b": "‏מזגן עילי Tadiran Solo Inverter 340 NG  ‏2.5 ‏כ\"ס בצבע כסף",
+    "prompt": "Product A: ‏מזגן עילי Tadiran Solo Inverter 240 NG  ‏2.0 ‏כ\"ס אחריות יבואן רשמי\nProduct B: ‏מזגן עילי Tadiran Solo Inverter 340 NG  ‏2.5 ‏כ\"ס בצבע כסף\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Tadiran Solo Inverter 240 NG  ‏2.0 ‏כ\"ס אחריות יבואן רשמי",
+    "title_b": "Inverter 340 NG ‏2.5 ‏כ\"ס ‏מזגן עילי Tadiran Solo",
+    "prompt": "Product A: ‏מזגן עילי Tadiran Solo Inverter 240 NG  ‏2.0 ‏כ\"ס אחריות יבואן רשמי\nProduct B: Inverter 340 NG ‏2.5 ‏כ\"ס ‏מזגן עילי Tadiran Solo\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Tadiran Solo Inverter 140 NG  ‏1.0 ‏כ\"ס",
+    "title_b": "‏מזגן עילי Tadiran Solo Inverter 240 NG  ‏2.0 ‏כ\"ס",
+    "prompt": "Product A: ‏מזגן עילי Tadiran Solo Inverter 140 NG  ‏1.0 ‏כ\"ס\nProduct B: ‏מזגן עילי Tadiran Solo Inverter 240 NG  ‏2.0 ‏כ\"ס\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Tadiran Solo Inverter 140 NG  ‏1.0 ‏כ\"ס",
+    "title_b": "‏מזגן עילי Tadiran Solo Inverter 240 NG  ‏2.0 ‏כ\"ס אחריות יבואן רשמי",
+    "prompt": "Product A: ‏מזגן עילי Tadiran Solo Inverter 140 NG  ‏1.0 ‏כ\"ס\nProduct B: ‏מזגן עילי Tadiran Solo Inverter 240 NG  ‏2.0 ‏כ\"ס אחריות יבואן רשמי\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "Tadiran מזגן עילי תדיראן 3.5 כ\"ס דגם Alpha Pro Inv 370 NG",
+    "title_b": "‏מזגן עילי Alpha Pro Inverter 370 NG Tadiran ‏3.5 ‏כ\"ס תדיראן",
+    "prompt": "Product A: Tadiran מזגן עילי תדיראן 3.5 כ\"ס דגם Alpha Pro Inv 370 NG\nProduct B: ‏מזגן עילי Alpha Pro Inverter 370 NG Tadiran ‏3.5 ‏כ\"ס תדיראן\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "Tadiran מזגן עילי תדיראן 3.5 כ\"ס דגם Alpha Pro Inv 370 NG",
+    "title_b": "‏מזגן עילי Tadiran Alpha Pro Inverter 370 NG ‏3.5 ‏כ\"ס תדיראן",
+    "prompt": "Product A: Tadiran מזגן עילי תדיראן 3.5 כ\"ס דגם Alpha Pro Inv 370 NG\nProduct B: ‏מזגן עילי Tadiran Alpha Pro Inverter 370 NG ‏3.5 ‏כ\"ס תדיראן\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "מזגן עילי ELECTRA CLASSIC INVERTER 140",
+    "title_b": "‏מזגן עילי Electra Classic Inverter 340  ‏2.5 ‏כ\"ס",
+    "prompt": "Product A: מזגן עילי ELECTRA CLASSIC INVERTER 140\nProduct B: ‏מזגן עילי Electra Classic Inverter 340  ‏2.5 ‏כ\"ס\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "מזגן עילי ELECTRA CLASSIC INVERTER 140",
+    "title_b": "‏מזגן עילי Electra Classic Inverter 340  ‏2.5 ‏כ\"ס White",
+    "prompt": "Product A: מזגן עילי ELECTRA CLASSIC INVERTER 140\nProduct B: ‏מזגן עילי Electra Classic Inverter 340  ‏2.5 ‏כ\"ס White\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "מזגן עילי ELECTRA CLASSIC INVERTER 140",
+    "title_b": "Inverter 340 ‏2.5 ‏כ\"ס ‏מזגן עילי Electra Classic",
+    "prompt": "Product A: מזגן עילי ELECTRA CLASSIC INVERTER 140\nProduct B: Inverter 340 ‏2.5 ‏כ\"ס ‏מזגן עילי Electra Classic\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "מזגן עילי CLASSIC INVERTER 140 ELECTRA",
+    "title_b": "‏מזגן עילי Electra Classic Inverter 340  ‏2.5 ‏כ\"ס",
+    "prompt": "Product A: מזגן עילי CLASSIC INVERTER 140 ELECTRA\nProduct B: ‏מזגן עילי Electra Classic Inverter 340  ‏2.5 ‏כ\"ס\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "מזגן עילי CLASSIC INVERTER 140 ELECTRA",
+    "title_b": "‏מזגן עילי Electra Classic Inverter 340  ‏2.5 ‏כ\"ס White",
+    "prompt": "Product A: מזגן עילי CLASSIC INVERTER 140 ELECTRA\nProduct B: ‏מזגן עילי Electra Classic Inverter 340  ‏2.5 ‏כ\"ס White\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "מזגן עילי CLASSIC INVERTER 140 ELECTRA",
+    "title_b": "Inverter 340 ‏2.5 ‏כ\"ס ‏מזגן עילי Electra Classic",
+    "prompt": "Product A: מזגן עילי CLASSIC INVERTER 140 ELECTRA\nProduct B: Inverter 340 ‏2.5 ‏כ\"ס ‏מזגן עילי Electra Classic\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Tadiran Alpha Pro Inverter 340 NG  ‏2.5 ‏כ\"ס",
+    "title_b": "‏מזגן עילי Tadiran Alpha Pro Inverter 370 NG  ‏3.5 ‏כ\"ס",
+    "prompt": "Product A: ‏מזגן עילי Tadiran Alpha Pro Inverter 340 NG  ‏2.5 ‏כ\"ס\nProduct B: ‏מזגן עילי Tadiran Alpha Pro Inverter 370 NG  ‏3.5 ‏כ\"ס\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Tadiran Alpha Pro Inverter 340 NG  ‏2.5 ‏כ\"ס",
+    "title_b": "‏מזגן עילי Tadiran Alpha Pro Inverter 370 NG ‏3.5 ‏כ\"ס יבואן רשמי",
+    "prompt": "Product A: ‏מזגן עילי Tadiran Alpha Pro Inverter 340 NG  ‏2.5 ‏כ\"ס\nProduct B: ‏מזגן עילי Tadiran Alpha Pro Inverter 370 NG ‏3.5 ‏כ\"ס יבואן רשמי\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Tadiran Alpha Pro Inverter 340 NG  ‏2.5 ‏כ\"ס",
+    "title_b": "Inverter 370 NG ‏3.5 ‏כ\"ס ‏מזגן עילי Tadiran Alpha Pro",
+    "prompt": "Product A: ‏מזגן עילי Tadiran Alpha Pro Inverter 340 NG  ‏2.5 ‏כ\"ס\nProduct B: Inverter 370 NG ‏3.5 ‏כ\"ס ‏מזגן עילי Tadiran Alpha Pro\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "מזגן עילי Tadiran Alpha Pro Inverter 340 NG ‏2.5 ‏כ\"ס יבואן רשמי",
+    "title_b": "‏מזגן עילי Tadiran Alpha Pro Inverter 370 NG  ‏3.5 ‏כ\"ס",
+    "prompt": "Product A: מזגן עילי Tadiran Alpha Pro Inverter 340 NG ‏2.5 ‏כ\"ס יבואן רשמי\nProduct B: ‏מזגן עילי Tadiran Alpha Pro Inverter 370 NG  ‏3.5 ‏כ\"ס\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "מזגן עילי Tadiran Alpha Pro Inverter 340 NG ‏2.5 ‏כ\"ס יבואן רשמי",
+    "title_b": "‏מזגן עילי Tadiran Alpha Pro Inverter 370 NG ‏3.5 ‏כ\"ס יבואן רשמי",
+    "prompt": "Product A: מזגן עילי Tadiran Alpha Pro Inverter 340 NG ‏2.5 ‏כ\"ס יבואן רשמי\nProduct B: ‏מזגן עילי Tadiran Alpha Pro Inverter 370 NG ‏3.5 ‏כ\"ס יבואן רשמי\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "מזגן עילי Tadiran Alpha Pro Inverter 340 NG ‏2.5 ‏כ\"ס יבואן רשמי",
+    "title_b": "Inverter 370 NG ‏3.5 ‏כ\"ס ‏מזגן עילי Tadiran Alpha Pro",
+    "prompt": "Product A: מזגן עילי Tadiran Alpha Pro Inverter 340 NG ‏2.5 ‏כ\"ס יבואן רשמי\nProduct B: Inverter 370 NG ‏3.5 ‏כ\"ס ‏מזגן עילי Tadiran Alpha Pro\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Tadiran Alpha Pro Inverter 370 NG  ‏3.5 ‏כ\"ס",
+    "title_b": "‏מזגן עילי Tadiran Alpha Pro Inverter 340 NG  ‏2.5 ‏כ\"ס אחריות יבואן רשמי",
+    "prompt": "Product A: ‏מזגן עילי Tadiran Alpha Pro Inverter 370 NG  ‏3.5 ‏כ\"ס\nProduct B: ‏מזגן עילי Tadiran Alpha Pro Inverter 340 NG  ‏2.5 ‏כ\"ס אחריות יבואן רשמי\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Tadiran Alpha Pro Inverter 370 NG  ‏3.5 ‏כ\"ס",
+    "title_b": "‏מזגן עילי Tadiran Alpha Pro Inverter 340 NG  ‏2.5 ‏כ\"ס בצבע שחור",
+    "prompt": "Product A: ‏מזגן עילי Tadiran Alpha Pro Inverter 370 NG  ‏3.5 ‏כ\"ס\nProduct B: ‏מזגן עילי Tadiran Alpha Pro Inverter 340 NG  ‏2.5 ‏כ\"ס בצבע שחור\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Tadiran Alpha Pro Inverter 370 NG  ‏3.5 ‏כ\"ס",
+    "title_b": "Inverter 340 NG ‏2.5 ‏כ\"ס ‏מזגן עילי Tadiran Alpha Pro",
+    "prompt": "Product A: ‏מזגן עילי Tadiran Alpha Pro Inverter 370 NG  ‏3.5 ‏כ\"ס\nProduct B: Inverter 340 NG ‏2.5 ‏כ\"ס ‏מזגן עילי Tadiran Alpha Pro\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Tadiran Alpha Pro Inverter 370 NG ‏3.5 ‏כ\"ס יבואן רשמי",
+    "title_b": "‏מזגן עילי Tadiran Alpha Pro Inverter 340 NG  ‏2.5 ‏כ\"ס אחריות יבואן רשמי",
+    "prompt": "Product A: ‏מזגן עילי Tadiran Alpha Pro Inverter 370 NG ‏3.5 ‏כ\"ס יבואן רשמי\nProduct B: ‏מזגן עילי Tadiran Alpha Pro Inverter 340 NG  ‏2.5 ‏כ\"ס אחריות יבואן רשמי\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Tadiran Alpha Pro Inverter 370 NG ‏3.5 ‏כ\"ס יבואן רשמי",
+    "title_b": "‏מזגן עילי Tadiran Alpha Pro Inverter 340 NG  ‏2.5 ‏כ\"ס בצבע שחור",
+    "prompt": "Product A: ‏מזגן עילי Tadiran Alpha Pro Inverter 370 NG ‏3.5 ‏כ\"ס יבואן רשמי\nProduct B: ‏מזגן עילי Tadiran Alpha Pro Inverter 340 NG  ‏2.5 ‏כ\"ס בצבע שחור\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Tadiran Alpha Pro Inverter 370 NG ‏3.5 ‏כ\"ס יבואן רשמי",
+    "title_b": "Inverter 340 NG ‏2.5 ‏כ\"ס ‏מזגן עילי Tadiran Alpha Pro",
+    "prompt": "Product A: ‏מזגן עילי Tadiran Alpha Pro Inverter 370 NG ‏3.5 ‏כ\"ס יבואן רשמי\nProduct B: Inverter 340 NG ‏2.5 ‏כ\"ס ‏מזגן עילי Tadiran Alpha Pro\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Tadiran Alpha Pro Inverter 340 NG  ‏2.5 ‏כ\"ס אחריות יבואן רשמי",
+    "title_b": "Inverter 370 NG ‏3.5 ‏כ\"ס ‏מזגן עילי Tadiran Alpha Pro",
+    "prompt": "Product A: ‏מזגן עילי Tadiran Alpha Pro Inverter 340 NG  ‏2.5 ‏כ\"ס אחריות יבואן רשמי\nProduct B: Inverter 370 NG ‏3.5 ‏כ\"ס ‏מזגן עילי Tadiran Alpha Pro\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Tadiran Alpha Pro Inverter 340 NG  ‏2.5 ‏כ\"ס בצבע שחור",
+    "title_b": "Inverter 370 NG ‏3.5 ‏כ\"ס ‏מזגן עילי Tadiran Alpha Pro",
+    "prompt": "Product A: ‏מזגן עילי Tadiran Alpha Pro Inverter 340 NG  ‏2.5 ‏כ\"ס בצבע שחור\nProduct B: Inverter 370 NG ‏3.5 ‏כ\"ס ‏מזגן עילי Tadiran Alpha Pro\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "Inverter 340 NG ‏2.5 ‏כ\"ס ‏מזגן עילי Tadiran Alpha Pro",
+    "title_b": "Inverter 370 NG ‏3.5 ‏כ\"ס ‏מזגן עילי Tadiran Alpha Pro",
+    "prompt": "Product A: Inverter 340 NG ‏2.5 ‏כ\"ס ‏מזגן עילי Tadiran Alpha Pro\nProduct B: Inverter 370 NG ‏3.5 ‏כ\"ס ‏מזגן עילי Tadiran Alpha Pro\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "Tadiran מזגן עילי תדיראן 3.5 כ\"ס דגם Alpha Pro Inv 370 NG",
+    "title_b": "מזגן תדיראן עילי 3.5 כ\"ס Alpha Pro Inv 370 NG",
+    "prompt": "Product A: Tadiran מזגן עילי תדיראן 3.5 כ\"ס דגם Alpha Pro Inv 370 NG\nProduct B: מזגן תדיראן עילי 3.5 כ\"ס Alpha Pro Inv 370 NG\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "מזגן עילי תדיראן 2.5 כ\"ס דגם Alpha Pro Inv 340 NG",
+    "title_b": "מזגן עילי תדיראן 3.5 כ\"ס דגם Alpha Pro Inv 370 NG",
+    "prompt": "Product A: מזגן עילי תדיראן 2.5 כ\"ס דגם Alpha Pro Inv 340 NG\nProduct B: מזגן עילי תדיראן 3.5 כ\"ס דגם Alpha Pro Inv 370 NG\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Tadiran Solo Inverter 340 NG  ‏2.5 ‏כ\"ס",
+    "title_b": "‏מזגן עילי Tadiran Solo Inverter 370 NG  ‏3.5 ‏כ\"ס",
+    "prompt": "Product A: ‏מזגן עילי Tadiran Solo Inverter 340 NG  ‏2.5 ‏כ\"ס\nProduct B: ‏מזגן עילי Tadiran Solo Inverter 370 NG  ‏3.5 ‏כ\"ס\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Tadiran Solo Inverter 340 NG  ‏2.5 ‏כ\"ס",
+    "title_b": "‏מזגן עילי Tadiran Solo Inverter 370 NG  ‏3.5 ‏כ\"ס בצבע כסף",
+    "prompt": "Product A: ‏מזגן עילי Tadiran Solo Inverter 340 NG  ‏2.5 ‏כ\"ס\nProduct B: ‏מזגן עילי Tadiran Solo Inverter 370 NG  ‏3.5 ‏כ\"ס בצבע כסף\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Tadiran Solo Inverter 340 NG  ‏2.5 ‏כ\"ס",
+    "title_b": "‏מזגן עילי Tadiran Solo Inverter 370 NG  ‏3.5 ‏כ\"ס משלוח חינם",
+    "prompt": "Product A: ‏מזגן עילי Tadiran Solo Inverter 340 NG  ‏2.5 ‏כ\"ס\nProduct B: ‏מזגן עילי Tadiran Solo Inverter 370 NG  ‏3.5 ‏כ\"ס משלוח חינם\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Tadiran Solo Inverter 370 NG  ‏3.5 ‏כ\"ס",
+    "title_b": "‏מזגן עילי Tadiran Solo Inverter 340 NG  ‏2.5 ‏כ\"ס בצבע כסף",
+    "prompt": "Product A: ‏מזגן עילי Tadiran Solo Inverter 370 NG  ‏3.5 ‏כ\"ס\nProduct B: ‏מזגן עילי Tadiran Solo Inverter 340 NG  ‏2.5 ‏כ\"ס בצבע כסף\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
+  },
+  {
+    "title_a": "‏מזגן עילי Tadiran Solo Inverter 370 NG  ‏3.5 ‏כ\"ס",
+    "title_b": "Inverter 340 NG ‏2.5 ‏כ\"ס ‏מזגן עילי Tadiran Solo",
+    "prompt": "Product A: ‏מזגן עילי Tadiran Solo Inverter 370 NG  ‏3.5 ‏כ\"ס\nProduct B: Inverter 340 NG ‏2.5 ‏כ\"ס ‏מזגן עילי Tadiran Solo\n\nCategory: \nAttributes A: brand=None, model=None, storage=None\nAttributes B: brand=None, model=None, storage=None\n\nSame product? JSON only."
   }
 ]

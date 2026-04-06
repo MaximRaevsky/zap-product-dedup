@@ -1,162 +1,122 @@
 [
   {
-    "raw_title": "מכונת קפה Essenza Mini EN85L נספרסו Nespresso צבע ליים",
-    "normalized": "essenza mini en85l נספרסו nespresso צבע ליים",
-    "norm_compare": "essenza mini en85l נספרסו nespresso צבע ליים",
-    "brand": "Nespresso",
-    "series": "Essenza",
-    "storage": null
-  },
-  {
-    "raw_title": "מכונת קפה Ninja Luxe Essential ES601EU",
-    "normalized": "ninja luxe essential es601eu",
-    "norm_compare": "ninja luxe essential es601eu",
+    "raw_title": "I Am Toys סט 4 בובות תאטרון סיפורי אגדות - אלאדין",
+    "normalized": "i am toys סט 4 בובות תאטרון סיפורי אגדות - אלאדין",
     "brand": null,
-    "series": null,
     "storage": null
   },
   {
-    "raw_title": "מכונת קפה Ninja Luxe Essential ES501EU",
-    "normalized": "ninja luxe essential es501eu",
-    "norm_compare": "ninja luxe essential es501eu",
+    "raw_title": "Sylvanian Families משפ' סילבניאן - מרפאה",
+    "normalized": "sylvanian families משפ' סילבניאן - מרפאה",
     "brand": null,
-    "series": null,
     "storage": null
   },
   {
-    "raw_title": "טלפון סלולרי (Samsung Galaxy S25 PLUS 12GB+256GB (SM-S936B/DS",
-    "normalized": "samsung galaxy s25 plus 12gb+256gb sm-s936b ds",
-    "norm_compare": "samsung galaxy s25 plus 12gb+256gb sm s936b ds",
-    "brand": "Samsung",
-    "series": "Galaxy S25 PLUS",
-    "storage": "256GB"
-  },
-  {
-    "raw_title": "טלוויזיה חכמה 65\" Samsung QLED סמסונג QE65Q60D",
-    "normalized": "חכמה 65inch samsung qled סמסונג qe65q60d",
-    "norm_compare": "חכמה 65inch samsung qled סמסונג qe65q60d",
-    "brand": "Samsung",
-    "series": null,
-    "storage": null
-  },
-  {
-    "raw_title": "טלפון סלולרי Apple iPhone 15 128GB אפל",
-    "normalized": "apple iphone 15 128gb אפל",
-    "norm_compare": "apple iphone 15 128gb אפל",
-    "brand": "Apple",
-    "series": "iPhone 15",
-    "storage": "128GB"
-  },
-  {
-    "raw_title": "טלפון סלולרי Apple iPhone 15 256GB אפל",
-    "normalized": "apple iphone 15 256gb אפל",
-    "norm_compare": "apple iphone 15 256gb אפל",
-    "brand": "Apple",
-    "series": "iPhone 15",
-    "storage": "256GB"
-  },
-  {
-    "raw_title": "סמארטפון Apple iPhone 16 128GB אפל",
-    "normalized": "סמארטפון apple iphone 16 128gb אפל",
-    "norm_compare": "סמארטפון apple iphone 16 128gb אפל",
-    "brand": "Apple",
-    "series": "iPhone 16",
-    "storage": "128GB"
-  },
-  {
-    "raw_title": "טלפון סלולרי Galaxy S26 Ultra SM-S948B/DS 1TB 16GB RAM Samsung סמסונג",
-    "normalized": "galaxy s26 ultra sm-s948b ds 1tb 16gb ram samsung סמסונג",
-    "norm_compare": "galaxy s26 ultra sm s948b ds 1tb 16gb ram samsung סמסונג",
-    "brand": "Samsung",
-    "series": "Galaxy S26 Ultra",
-    "storage": "1TB"
-  },
-  {
-    "raw_title": "אוזניות  ‏חוטיות Logitech H390",
-    "normalized": "חוטיות logitech h390",
-    "norm_compare": "חוטיות logitech h390",
+    "raw_title": "Sylvanian Families משפ' סילבניאן - גן שעשועים טירה",
+    "normalized": "sylvanian families משפ' סילבניאן - גן שעשועים טירה",
     "brand": null,
-    "series": null,
     "storage": null
   },
   {
-    "raw_title": "אוזניות  ‏חוטיות Audio Technica ATH-M50x",
-    "normalized": "חוטיות audio technica ath-m50x",
-    "norm_compare": "חוטיות audio technica ath m50x",
-    "brand": "Audio Technica",
-    "series": null,
+    "raw_title": "Aquila ברז פרח קצר COLOMBA כרום ניקל AQUILA",
+    "normalized": "aquila ברז פרח קצר colomba כרום ניקל aquila",
+    "brand": null,
     "storage": null
   },
   {
-    "raw_title": "טלוויזיה Samsung QE75Q7F QLED 4K  ‏75 ‏אינטש",
-    "normalized": "samsung qe75q7f qled 4k 75 inch",
-    "norm_compare": "samsung qe75q7f qled 4k 75 inch",
-    "brand": "Samsung",
-    "series": null,
+    "raw_title": "‏ברז פרח 900142 רותם  ‏חמת",
+    "normalized": "ברז פרח 900142 רותם חמת",
+    "brand": null,
     "storage": null
   },
   {
-    "raw_title": "טלוויזיה Samsung QE75Q7F QLED 4K 75 אינטש",
-    "normalized": "samsung qe75q7f qled 4k 75 inch",
-    "norm_compare": "samsung qe75q7f qled 4k 75 inch",
-    "brand": "Samsung",
-    "series": null,
+    "raw_title": "‏ברז פרח 900153 רותם  ‏חמת",
+    "normalized": "ברז פרח 900153 רותם חמת",
+    "brand": null,
     "storage": null
   },
   {
-    "raw_title": "טלוויזיה Samsung QE65Q7F QLED 4K  ‏65 ‏אינטש",
-    "normalized": "samsung qe65q7f qled 4k 65 inch",
-    "norm_compare": "samsung qe65q7f qled 4k 65 inch",
-    "brand": "Samsung",
-    "series": null,
+    "raw_title": "כל הקטגוריות",
+    "normalized": "כל הקטגוריות",
+    "brand": null,
     "storage": null
   },
   {
-    "raw_title": "טלוויזיה Samsung QE55Q7F 4K  ‏55 ‏אינטש",
-    "normalized": "samsung qe55q7f 4k 55 inch",
-    "norm_compare": "samsung qe55q7f 4k 55 inch",
-    "brand": "Samsung",
-    "series": null,
+    "raw_title": "חשמל ואלקטרוניקה",
+    "normalized": "חשמל ואלקטרוניקה",
+    "brand": null,
     "storage": null
   },
   {
-    "raw_title": "‏מכונת אספרסו Nespresso Delonghi Essenza Mini D30 EN85",
-    "normalized": "nespresso delonghi essenza mini d30 en85",
-    "norm_compare": "nespresso delonghi essenza mini d30 en85",
-    "brand": "Nespresso",
-    "series": "Essenza",
+    "raw_title": "לבית ולגן",
+    "normalized": "לבית ולגן",
+    "brand": null,
     "storage": null
   },
   {
-    "raw_title": "‏מכונת אספרסו Nespresso Essenza Mini C30",
-    "normalized": "nespresso essenza mini c30",
-    "norm_compare": "nespresso essenza mini c30",
-    "brand": "Nespresso",
-    "series": "Essenza",
+    "raw_title": "פנאי וספורט",
+    "normalized": "פנאי וספורט",
+    "brand": null,
     "storage": null
   },
   {
-    "raw_title": "Nespresso מכונת קפה NESPRESSO CREATISTA PLUS נספרסו דגם J520-IL-ME-NE פלוס",
-    "normalized": "nespresso nespresso creatista plus נספרסו דגם j520-il-me-ne פלוס",
-    "norm_compare": "nespresso nespresso creatista plus נספרסו דגם j520 il me ne פלוס",
-    "brand": "Nespresso",
-    "series": "CREATISTA",
+    "raw_title": "בריאות ויופי",
+    "normalized": "בריאות ויופי",
+    "brand": null,
     "storage": null
   },
   {
-    "raw_title": "‏מכונת אספרסו Nespresso Lattissima One EN510",
-    "normalized": "nespresso lattissima one en510",
-    "norm_compare": "nespresso lattissima one en510",
-    "brand": "Nespresso",
-    "series": null,
+    "raw_title": "מבצעי פסח",
+    "normalized": "מבצעי פסח",
+    "brand": null,
     "storage": null
   },
   {
-    "raw_title": "‏מכונת אספרסו Delonghi ECAM21.117",
-    "normalized": "delonghi ecam21.117",
-    "norm_compare": "delonghi ecam21 117",
-    "brand": "DeLonghi",
-    "series": null,
+    "raw_title": "zap cars",
+    "normalized": "zap cars",
+    "brand": null,
+    "storage": null
+  },
+  {
+    "raw_title": "לבית לגן ולמשרד‏",
+    "normalized": "לבית לגן ולמשרד",
+    "brand": null,
+    "storage": null
+  },
+  {
+    "raw_title": "מפרט טכני",
+    "normalized": "מפרט טכני",
+    "brand": null,
+    "storage": null
+  },
+  {
+    "raw_title": "קנייה בחנות מקומית",
+    "normalized": "קנייה בחנות מקומית",
+    "brand": null,
+    "storage": null
+  },
+  {
+    "raw_title": "למפרט המלא >",
+    "normalized": "למפרט המלא >",
+    "brand": null,
+    "storage": null
+  },
+  {
+    "raw_title": "מוצרים דומים",
+    "normalized": "מוצרים דומים",
+    "brand": null,
+    "storage": null
+  },
+  {
+    "raw_title": "ברז פרח 900153 רותם חמת",
+    "normalized": "ברז פרח 900153 רותם חמת",
+    "brand": null,
+    "storage": null
+  },
+  {
+    "raw_title": "ברז למטבח פיה ארוכה 900153 חמת",
+    "normalized": "ברז למטבח פיה ארוכה 900153 חמת",
+    "brand": null,
     "storage": null
   }
 ]

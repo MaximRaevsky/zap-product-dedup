@@ -1,206 +1,854 @@
 [
   {
-    "type": "false_negative",
-    "title_a": "טלפון סלולרי Apple iPhone 15 128GB אפל",
-    "title_b": "טלפון סלולרי Apple iPhone 15 256GB אפל",
-    "rule_confidence": 0.05,
-    "rule_fired": "conflicting_attributes",
-    "llm_confidence": 0.0,
-    "llm_rationale": "not_sent_to_llm",
-    "final_confidence": 0.95,
-    "is_duplicate_pred": false,
-    "decision_source": "rules_low",
-    "token_sort_ratio": 84.0,
-    "brand_a": "Apple",
-    "brand_b": "Apple",
-    "series_a": "iPhone 15",
-    "series_b": "iPhone 15",
-    "storage_a": "128GB",
-    "storage_b": "256GB",
-    "gt_difficulty": "real_variant",
-    "gt_is_duplicate": true
-  },
-  {
-    "type": "false_negative",
-    "title_a": "טלוויזיה Samsung QE65Q80D 4K  ‏65 ‏אינטש",
-    "title_b": "טלוויזיה סמסונג QE65Q80D 4K  ‏65 ‏אינטש",
-    "rule_confidence": 0.5,
-    "rule_fired": "medium_token_sort",
-    "llm_confidence": 0.0,
-    "llm_rationale": "not_sent_to_llm",
-    "final_confidence": 0.5,
-    "is_duplicate_pred": false,
-    "decision_source": "rules_fallback",
-    "token_sort_ratio": 75.47169811320755,
-    "brand_a": "Samsung",
-    "brand_b": "Samsung",
-    "series_a": null,
-    "series_b": null,
-    "storage_a": null,
-    "storage_b": null,
-    "gt_difficulty": "brand_swap",
-    "gt_is_duplicate": true
-  },
-  {
     "type": "missed_pair",
-    "title_a": "‏מכונת אספרסו Nespresso Essenza Mini C30",
-    "title_b": "‏מכונת אספרסו נספרסו Essenza Mini C30",
+    "title_a": "טונר מקורי Brother HL-1110 TN-1050",
+    "title_b": "‏טונר  ‏שחור Brother TN1050",
     "note": "Pair not generated as candidate"
   },
   {
     "type": "missed_pair",
-    "title_a": "טלפון סלולרי Apple iPhone 15 256GB אפל",
-    "title_b": "סמארטפון Apple iPhone 16 128GB אפל",
+    "title_a": "טונר מקורי Brother HL-1110 TN-1050",
+    "title_b": "כל הקטגוריות",
     "note": "Pair not generated as candidate"
   },
   {
     "type": "missed_pair",
-    "title_a": "מכונת קפה DeLonghi EC9155.W",
-    "title_b": "‏מכונת אספרסו Delonghi La Specialista Arte EC9155",
+    "title_a": "חשמל ואלקטרוניקה",
+    "title_b": "טונר מקורי Brother HL-1110 TN-1050",
     "note": "Pair not generated as candidate"
   },
   {
     "type": "missed_pair",
-    "title_a": "Delonghi מכונת קפה DeLonghi EC9155.W",
-    "title_b": "מכונת קפה DeLonghi EC9155.W",
+    "title_a": "טונר מקורי Brother HL-1110 TN-1050",
+    "title_b": "לבית ולגן",
     "note": "Pair not generated as candidate"
   },
   {
     "type": "missed_pair",
-    "title_a": "Delonghi מכונת קפה DeLonghi EC9155.W",
-    "title_b": "‏מכונת אספרסו Delonghi La Specialista Arte EC9155",
+    "title_a": "טונר מקורי Brother HL-1110 TN-1050",
+    "title_b": "פנאי וספורט",
     "note": "Pair not generated as candidate"
   },
   {
     "type": "missed_pair",
-    "title_a": "מחשב נייד Lenovo V15 G4 AMN 82YU0044IV",
-    "title_b": "מחשב נייד Lenovo V15 G4 AMN | מעבד AMD Athlon 7120U | זיכרון 8GB | אחסון 256GB | מסך 15.6'' FHD | ללא מערכת הפעלה | דגם 82YU0044IV | שנה אחריות",
+    "title_a": "בריאות ויופי",
+    "title_b": "טונר מקורי Brother HL-1110 TN-1050",
     "note": "Pair not generated as candidate"
   },
   {
     "type": "missed_pair",
-    "title_a": "אוזניות JBL Tune 770NC Bluetooth",
-    "title_b": "אוזניות ‏אלחוטיות JBL Tune 770NC בצבע שחור",
+    "title_a": "טונר מקורי Brother HL-1110 TN-1050",
+    "title_b": "מבצעי פסח",
     "note": "Pair not generated as candidate"
   },
   {
     "type": "missed_pair",
-    "title_a": "אוזניות Apple AirPods Pro 2 MagSafe USB-C True Wireless",
-    "title_b": "אוזניות Apple AirPods Pro 2 MagSafe USB-C True Wireless אפל",
+    "title_a": "zap cars",
+    "title_b": "טונר מקורי Brother HL-1110 TN-1050",
     "note": "Pair not generated as candidate"
   },
   {
     "type": "missed_pair",
-    "title_a": "אוזניות  ‏אלחוטיות Bose QuietComfort Ultra",
-    "title_b": "אוזניות Bose Qc Ultra Diamond היבואן הרשמי",
+    "title_a": "טונר מקורי Brother HL-1110 TN-1050",
+    "title_b": "לבית לגן ולמשרד‏",
     "note": "Pair not generated as candidate"
   },
   {
     "type": "missed_pair",
-    "title_a": "Xiaomi טלוויזיה \"32 שיאומי דגם XIAOMI PRO L32M8-A2ME LED",
-    "title_b": "טלוויזיה Xiaomi A Pro L32M8-A2ME  ‏32 ‏אינטש",
+    "title_a": "טונר מקורי Brother HL-1110 TN-1050",
+    "title_b": "מפרט טכני",
     "note": "Pair not generated as candidate"
   },
   {
     "type": "missed_pair",
-    "title_a": "אוזניות Sennheiser Momentum True Wireless 4 True Wireless",
-    "title_b": "אוזניות Sennheiser Momentum True Wireless 4 יבואן רשמי",
+    "title_a": "טונר מקורי Brother HL-1110 TN-1050",
+    "title_b": "קנייה בחנות מקומית",
     "note": "Pair not generated as candidate"
   },
   {
     "type": "missed_pair",
-    "title_a": "אוזניות  ‏אלחוטיות Apple AirPods 4 MXP63ZM/A MXP63LL/A MXP63HN/A",
-    "title_b": "אוזניות ‏אלחוטיות Apple AirPods 4 MXP63ZM/A אפל",
+    "title_a": "טונר מקורי Brother HL-1110 TN-1050",
+    "title_b": "למפרט המלא >",
     "note": "Pair not generated as candidate"
   },
   {
     "type": "missed_pair",
-    "title_a": "אוזניות Apple AirPods 4 MXP93ZM/A True Wireless יבואן רשמי",
-    "title_b": "אוזניות Apple AirPods 4 with Active Noise Cancellation MXP93ZM/A True Wireless",
+    "title_a": "טונר מקורי Brother HL-1110 TN-1050",
+    "title_b": "מוצרים דומים",
     "note": "Pair not generated as candidate"
   },
   {
     "type": "missed_pair",
-    "title_a": "Xiaomi סמארטפון XIAOMI POCO X7 Pro 5G גרסה 12GB/512GB בצבע ירוק",
-    "title_b": "טלפון סלולרי Xiaomi Poco X7 Pro 512GB 12GB RAM",
+    "title_a": "טונר מקורי Brother HL-1110 TN-1050",
+    "title_b": "משלוח עם שליח חינם - טונר פרימיום תואם Brother TN-1050 שחור (1,000 דף)",
     "note": "Pair not generated as candidate"
   },
   {
     "type": "missed_pair",
-    "title_a": "טלפון סלולרי Samsung Galaxy S25 SM-S931B/DS 256GB 12GB RAM",
-    "title_b": "סמארטפון (Samsung Galaxy S25 12GB+256GB (SM-S931B/DS - צבע כחול יבואן רשמי",
+    "title_a": "טונר מקורי Brother HL-1110 TN-1050",
+    "title_b": "טונר תואם חדש 1000 דף Brother TN-1050",
     "note": "Pair not generated as candidate"
   },
   {
     "type": "missed_pair",
-    "title_a": "מחשב נייד Acer Nitro V15 NH.QSGEC.002",
-    "title_b": "מחשב נייד לגיימרים Acer Nitro V15 ANV15-41-R6DF NH.QSGEC.002 בצבע שחור",
+    "title_a": "טונר מקורי Brother HL-1110 TN-1050",
+    "title_b": "טונר שחור מקורי TN1050 BROTHER",
     "note": "Pair not generated as candidate"
   },
   {
     "type": "missed_pair",
-    "title_a": "מחשב נייד Lenovo IdeaPad Slim 3 15IRH10 83K100KPIV",
-    "title_b": "מחשב נייד Lenovo IdeaPad Slim 3 15IRH10 83K100KPIV צבע Luna Grey",
+    "title_a": "טונר מקורי Brother HL-1110 TN-1050",
+    "title_b": "טונר שחור מקורי Brother TN1050",
     "note": "Pair not generated as candidate"
   },
   {
     "type": "missed_pair",
-    "title_a": "אוזניות  ‏אלחוטיות Sony WH-1000XM6",
-    "title_b": "אוזניות אלחוטיות Sony WH-1000XM6 עם ביטול רעשים – צבע שחור",
+    "title_a": "טונר מקורי Brother HL-1110 TN-1050",
+    "title_b": "טונר מקורי שחור TN-1050 Brother",
     "note": "Pair not generated as candidate"
   },
   {
     "type": "missed_pair",
-    "title_a": "טלוויזיה ''77 LG OLED77B56LA 4K יבואן רשמי",
-    "title_b": "טלוויזיה LG OLED77B56LA 4K  ‏77 ‏אינטש",
+    "title_a": "טונר מקורי Brother HL-1110 TN-1050",
+    "title_b": "טונר שחור מקורי Brother TN-1050",
     "note": "Pair not generated as candidate"
   },
   {
     "type": "missed_pair",
-    "title_a": "טלוויזיה \"77 חכמה LG OLED B5 ברזולוציית 4K דגם OLED77B56LA",
-    "title_b": "טלוויזיה ''77 LG OLED77B56LA 4K יבואן רשמי",
+    "title_a": "טונר מקורי Brother HL-1110 TN-1050",
+    "title_b": "טונר מקורי Brother TN-1050 בראדר (1,000 דף)",
     "note": "Pair not generated as candidate"
   },
   {
     "type": "missed_pair",
-    "title_a": "טלוויזיה \"77 חכמה LG OLED B5 ברזולוציית 4K דגם OLED77B56LA",
-    "title_b": "טלוויזיה LG OLED77B56LA 4K  ‏77 ‏אינטש",
+    "title_a": "טונר לייזר שחור מקורי Brother TN-1050",
+    "title_b": "טונר מקורי Brother HL-1110 TN-1050",
     "note": "Pair not generated as candidate"
   },
   {
     "type": "missed_pair",
-    "title_a": "טלוויזיה LG OLED55C56LA 4K  ‏55 ‏אינטש",
-    "title_b": "טלוויזיה LG OLED55C56LA 4K ‏55 ‏אינטש",
+    "title_a": "טונר מקורי Brother HL-1110 TN-1050",
+    "title_b": "טונר מקורי שחור BROTHER TN1050",
     "note": "Pair not generated as candidate"
   },
   {
     "type": "missed_pair",
-    "title_a": "טלוויזיה LG 75QNED93A6A 4K  ‏75 ‏אינטש",
-    "title_b": "טלוויזיה LG 75QNED93A6A יבואן רשמי",
+    "title_a": "טונר מקורי Brother HL-1110 TN-1050",
+    "title_b": "‏טונר ‏שחור מקורי Brother TN1050",
     "note": "Pair not generated as candidate"
   },
   {
     "type": "missed_pair",
-    "title_a": "אוזניות  ‏אלחוטיות Apple AirPods Pro 3 MagSafe USB-C MFHP4ZM/A",
-    "title_b": "אוזניות Apple AirPods Pro 3 בצבע לבן",
+    "title_a": "טונר לייזר שחור מקורי Brother TN-1050 (1,000 דפים)",
+    "title_b": "טונר מקורי Brother HL-1110 TN-1050",
     "note": "Pair not generated as candidate"
   },
   {
     "type": "missed_pair",
-    "title_a": "טלוויזיה \"43 חכמה LG UHD ברזולוציית 4K דגם 43UA73006LA",
-    "title_b": "טלוויזיה LG 43UA73006LA 4K  ‏43 ‏אינטש",
+    "title_a": "טונר מקורי Brother HL-1110 TN-1050",
+    "title_b": "טונר מקורי Brother TN1050",
     "note": "Pair not generated as candidate"
   },
   {
     "type": "missed_pair",
-    "title_a": "טלוויזיה LG OLED65CS5VA 4K  ‏65 ‏אינטש",
-    "title_b": "טלוויזיה LG OLED65CS5VA 4K יבואן רשמי",
+    "title_a": "טונר מקורי 1000 דף Brother TN-1050",
+    "title_b": "טונר מקורי Brother HL-1110 TN-1050",
     "note": "Pair not generated as candidate"
   },
   {
     "type": "missed_pair",
-    "title_a": "מחשב נייד Dell Pro 15 ESSENTIAL PV15250 PV15250-5118",
-    "title_b": "מחשב נייד Dell Pro 15 Essential PV15250-5118",
+    "title_a": "טונר מקורי BROTHER TN-1050",
+    "title_b": "טונר מקורי Brother HL-1110 TN-1050",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "טונר מקורי Brother HL-1110 TN-1050",
+    "title_b": "טונר מקורי ברדר TN1050",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "טונר מקורי Brother HL-1110 TN-1050",
+    "title_b": "טונר מקורי Brother TN-1050",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "טונר מקורי Brother HL-1110 TN-1050",
+    "title_b": "טונר מקורי ברדר brother TN1050",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "טונר מקורי Brother HL-1110 TN-1050",
+    "title_b": "‏טונר ‏שחור Brother TN1050 מקורי",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "טונר ברדר‎ מקורי TN–1050",
+    "title_b": "טונר מקורי Brother HL-1110 TN-1050",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "טונר למדפסת ברדר Brother Toner Cartridge TN-1050 מקורי",
+    "title_b": "טונר מקורי Brother HL-1110 TN-1050",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "טונר ברדר שחור Brother Toner TN1050 - מקורי",
+    "title_b": "טונר מקורי Brother HL-1110 TN-1050",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "זוג טונרים מקוריים Brother TN1050",
+    "title_b": "טונר מקורי Brother HL-1110 TN-1050",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "טונר מקורי Brother HL-1110 TN-1050",
+    "title_b": "שלושה טונרים מקוריים Brother TN1050",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "טונר לייזר תואם BROTHER TN1050 (איכות פרימיום)",
+    "title_b": "טונר מקורי Brother HL-1110 TN-1050",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "טונר מקורי Brother HL-1110 TN-1050",
+    "title_b": "טונר שחור תואם (איכות פרמיום) TN1050 BROTHER",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "טונר מקורי Brother HL-1110 TN-1050",
+    "title_b": "‏טונר תואם BROTHER מבצע ל 4",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "טונר מקורי Brother HL-1110 TN-1050",
+    "title_b": "‏טונר תואם BROTHER",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "טונר מקורי Brother HL-1110 TN-1050",
+    "title_b": "טונר שחור תואם Brother TN1050",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "טונר לייזר Brother TN-1050 תואם",
+    "title_b": "טונר מקורי Brother HL-1110 TN-1050",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "טונר מקורי Brother HL-1110 TN-1050",
+    "title_b": "טונר תואם Brother TN-1050",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "טונר מקורי Brother HL-1110 TN-1050",
+    "title_b": "טונר תואם שחור BROTHER TN1050",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "טונר מקורי Brother HL-1110 TN-1050",
+    "title_b": "טונר תואם BROTHER TN-1050 TN-1000- צבע שחור",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "זוג טונרים תואמים Brother TN1050",
+    "title_b": "טונר מקורי Brother HL-1110 TN-1050",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "טונר לייזר שחור תואם Brother TN-1050 ברדר 1,000 דף לפי 5% כיסוי",
+    "title_b": "טונר מקורי Brother HL-1110 TN-1050",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "טונר מקורי Brother HL-1110 TN-1050",
+    "title_b": "‏טונר ‏שחור תואם Brother TN1050",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "טונר מקורי Brother HL-1110 TN-1050",
+    "title_b": "טונר שחור תואם Brother TN-1050",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "טונר חליפי Brother TN-1050",
+    "title_b": "טונר מקורי Brother HL-1110 TN-1050",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "טונר מקורי Brother HL-1110 TN-1050",
+    "title_b": "טונר תואם ברדר TN1050",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "טונר מקורי Brother HL-1110 TN-1050",
+    "title_b": "טונר תואם Brother TN1050",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "טונר מקורי Brother HL-1110 TN-1050",
+    "title_b": "‏טונר ‏שחור Brother TN1050 תואם",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "טונר מקורי Brother HL-1110 TN-1050",
+    "title_b": "רביעיית טונרים תואמים Brother TN1050",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "טונר מקורי Brother HL-1110 TN-1050",
+    "title_b": "טונר שחור תואם BROTHER TN-1050",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "טונר לייזר שחור תואם Brother TN-1050 (1,000 דפים)",
+    "title_b": "טונר מקורי Brother HL-1110 TN-1050",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "טונר מקורי Brother HL-1110 TN-1050",
+    "title_b": "טונר תואם BROTHER TN-1050",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "טונר לייזר שחור תואם Brother TN-1050",
+    "title_b": "טונר מקורי Brother HL-1110 TN-1050",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "טונר ברדר שחור Brother Toner TN1050 - פרימיום",
+    "title_b": "טונר מקורי Brother HL-1110 TN-1050",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "טונר למדפסת ברדר Brother Toner Cartridge TN-1050",
+    "title_b": "טונר מקורי Brother HL-1110 TN-1050",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "10 טונרים תואמים BROTHER TN1050",
+    "title_b": "טונר מקורי Brother HL-1110 TN-1050",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "טונר מקורי Brother HL-1110 TN-1050",
+    "title_b": "מארז 10 טונרים תואמים TN1050 BROTHER",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "טונר Brother TN-1050",
+    "title_b": "טונר מקורי Brother HL-1110 TN-1050",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "ארבעה טונרים תואמים Brother TN1050",
+    "title_b": "טונר מקורי Brother HL-1110 TN-1050",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "טונר מקורי Brother HL-1110 TN-1050",
+    "title_b": "מארז חסכון 3 טונרים תואמים Brother TN-1050 סה\"כ (3,000 דפים)",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "טונר מקורי Brother HL-1110 TN-1050",
+    "title_b": "מארז חסכון 5 טונרים תואמים Brother TN-1050 סה\"כ 5K דפים",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "טונר מקורי Brother HL-1110 TN-1050",
+    "title_b": "מתכלים למדפסות תלת מימד",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "טונר מקורי Brother HL-1110 TN-1050",
+    "title_b": "שרתי מדפסות",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "טונר מקורי Brother HL-1110 TN-1050",
+    "title_b": "מגרסות נייר",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "טונר מקורי Brother HL-1110 TN-1050",
+    "title_b": "כלי שירטוט",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "טונר מקורי Brother HL-1110 TN-1050",
+    "title_b": "פשרה בת\"צ אבנצ'יק נ' זאפ גרופ (ת\"צ 23008-08-20)",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "טונר מקורי Brother HL-1110 TN-1050",
+    "title_b": "פשרה בת\"צ כהנים נ' זאפ גרופ (ת\"צ 60371-12-19)",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "אודות zap.co.il",
+    "title_b": "טונר מקורי Brother HL-1110 TN-1050",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "טונר מקורי Brother HL-1110 TN-1050",
+    "title_b": "תנאי שימוש",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "טונר מקורי Brother HL-1110 TN-1050",
+    "title_b": "מדריך חנויות",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "טונר מקורי Brother HL-1110 TN-1050",
+    "title_b": "נפילת מחירים",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "הקנייה ב-zap",
+    "title_b": "טונר מקורי Brother HL-1110 TN-1050",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "ביטולים והחזרות",
+    "title_b": "טונר מקורי Brother HL-1110 TN-1050",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "טונר מקורי Brother HL-1110 TN-1050",
+    "title_b": "מרכז מידע ותמיכה",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "הצטרפות כחנות ל-zap",
+    "title_b": "טונר מקורי Brother HL-1110 TN-1050",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "טונר מקורי Brother HL-1110 TN-1050",
+    "title_b": "פרסום באתר",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "טונר מקורי Brother HL-1110 TN-1050",
+    "title_b": "ממשק חנויות / יבואנים",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "טונר מקורי Brother HL-1110 TN-1050",
+    "title_b": "סופרמרקטים",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "טונר מקורי Brother HL-1110 TN-1050",
+    "title_b": "מוצרים מבוקשים",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "טונר מקורי Brother HL-1110 TN-1050",
+    "title_b": "שיווק לעסקים",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "[email protected]",
+    "title_b": "טונר מקורי Brother HL-1110 TN-1050",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "טונר מקורי Brother HL-1110 TN-1050",
+    "title_b": "מדיניות פרטיות",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "Privacy Policy",
+    "title_b": "טונר מקורי Brother HL-1110 TN-1050",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "Terms of Service",
+    "title_b": "טונר מקורי Brother HL-1110 TN-1050",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "בושם לאישה DKNY Be Delicious E.D.P 100ml",
+    "title_b": "בושם לאשה DKNY Be Delicious E.D.P 100ml",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "בושם לאשה Narciso Rodriguez Narciso Poudree E.D.P 90ml",
+    "title_b": "נרסיסו פודרה אדפ לאישה 90 מ\"ל - נרסיסו רודריגז - Narciso Rodriguez - Narciso Poudree EDP...",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "Narciso Rodriguez Poudree EDP 90 ml נרסיסו רודריגז פודרה א.ד.פ 90 מ\"ל",
+    "title_b": "נרסיסו פודרה אדפ לאישה 90 מ\"ל - נרסיסו רודריגז - Narciso Rodriguez - Narciso Poudree EDP...",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "ראש דיו HP 903XL T6M15AE מקורי",
+    "title_b": "‏ראש דיו  ‏שחור HP 903XL BK T6M15AE",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "Bosch פטישון נטען 18V + סוללה 4.0AH",
+    "title_b": "‏פטישון Bosch GBH 180-LI",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "Yves Saint Laurent Libre Eau De Parfum 90 ML איב סאן לורן ליברה בושם לאישה אדפ 90 מ\"ל",
+    "title_b": "בושם לאשה Yves Saint Laurent Libre E.D.P 90ml",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "Yves Saint Laurent Libre Eau De Parfum 90 ML איב סאן לורן ליברה בושם לאישה אדפ 90 מ\"ל",
+    "title_b": "בושם לאישה Yves Saint Laurent Libre E.D.P 90ml",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "Yves Saint Laurent Libre Eau De Parfum 90 ML איב סאן לורן ליברה בושם לאישה אדפ 90 מ\"ל",
+    "title_b": "כל הקטגוריות",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "Yves Saint Laurent Libre Eau De Parfum 90 ML איב סאן לורן ליברה בושם לאישה אדפ 90 מ\"ל",
+    "title_b": "חשמל ואלקטרוניקה",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "Yves Saint Laurent Libre Eau De Parfum 90 ML איב סאן לורן ליברה בושם לאישה אדפ 90 מ\"ל",
+    "title_b": "לבית ולגן",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "Yves Saint Laurent Libre Eau De Parfum 90 ML איב סאן לורן ליברה בושם לאישה אדפ 90 מ\"ל",
+    "title_b": "פנאי וספורט",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "Yves Saint Laurent Libre Eau De Parfum 90 ML איב סאן לורן ליברה בושם לאישה אדפ 90 מ\"ל",
+    "title_b": "בריאות ויופי",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "Yves Saint Laurent Libre Eau De Parfum 90 ML איב סאן לורן ליברה בושם לאישה אדפ 90 מ\"ל",
+    "title_b": "מבצעי פסח",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "Yves Saint Laurent Libre Eau De Parfum 90 ML איב סאן לורן ליברה בושם לאישה אדפ 90 מ\"ל",
+    "title_b": "zap cars",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "Yves Saint Laurent Libre Eau De Parfum 90 ML איב סאן לורן ליברה בושם לאישה אדפ 90 מ\"ל",
+    "title_b": "טיפוח יופי ובריאות‏",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "Yves Saint Laurent Libre Eau De Parfum 90 ML איב סאן לורן ליברה בושם לאישה אדפ 90 מ\"ל",
+    "title_b": "מפרט טכני",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "Yves Saint Laurent Libre Eau De Parfum 90 ML איב סאן לורן ליברה בושם לאישה אדפ 90 מ\"ל",
+    "title_b": "קנייה בחנות מקומית",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "Yves Saint Laurent",
+    "title_b": "Yves Saint Laurent Libre Eau De Parfum 90 ML איב סאן לורן ליברה בושם לאישה אדפ 90 מ\"ל",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "Yves Saint Laurent Libre Eau De Parfum 90 ML איב סאן לורן ליברה בושם לאישה אדפ 90 מ\"ל",
+    "title_b": "למפרט המלא >",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "Yves Saint Laurent Libre Eau De Parfum 90 ML איב סאן לורן ליברה בושם לאישה אדפ 90 מ\"ל",
+    "title_b": "מוצרים דומים",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "Yves Saint Laurent Libre Eau De Parfum 90 ML איב סאן לורן ליברה בושם לאישה אדפ 90 מ\"ל",
+    "title_b": "בושם לאישה 90 מ''ל Yves Saint Laurent Libre או דה פרפיום E.D.P",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "Yves Saint Laurent Libre Eau De Parfum 90 ML איב סאן לורן ליברה בושם לאישה אדפ 90 מ\"ל",
+    "title_b": "בושם לאישה איב סאן לורן YVES SAINT LARENT LIBRE 90 ML E.D.P",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "LIBRE BY YVES SAINT LAURENT 90ML EDP",
+    "title_b": "Yves Saint Laurent Libre Eau De Parfum 90 ML איב סאן לורן ליברה בושם לאישה אדפ 90 מ\"ל",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "Yves Saint Laurent Libre Eau De Parfum 90 ML איב סאן לורן ליברה בושם לאישה אדפ 90 מ\"ל",
+    "title_b": "ליברה אדפ לאישה 90 מ\"ל - איב סאן לורן - YSL - Libre EDP For Women 90ML",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "Yves Saint Laurent Libre Eau De Parfum 90 ML איב סאן לורן ליברה בושם לאישה אדפ 90 מ\"ל",
+    "title_b": "בושם לאשה איב סאן לורן ליברה 90 מ\"ל Yves Saint Laurent LIBRE E.D.P 90ml",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "YSL - Libre EDP For Women 90ML",
+    "title_b": "Yves Saint Laurent Libre Eau De Parfum 90 ML איב סאן לורן ליברה בושם לאישה אדפ 90 מ\"ל",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "Yves Saint Laurent Libre Eau De Parfum 90 ML איב סאן לורן ליברה בושם לאישה אדפ 90 מ\"ל",
+    "title_b": "בושם לאישה איב סאן לורן ליברה א.ד.פ Yves Saint Laurent Libre e.d.p",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "Yves Saint Laurent Libre Eau De Parfum 90 ML איב סאן לורן ליברה בושם לאישה אדפ 90 מ\"ל",
+    "title_b": "בשמים לגבר",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "Yves Saint Laurent Libre Eau De Parfum 90 ML איב סאן לורן ליברה בושם לאישה אדפ 90 מ\"ל",
+    "title_b": "ערכות טיפוח",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "Yves Saint Laurent Libre Eau De Parfum 90 ML איב סאן לורן ליברה בושם לאישה אדפ 90 מ\"ל",
+    "title_b": "פשרה בת\"צ אבנצ'יק נ' זאפ גרופ (ת\"צ 23008-08-20)",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "Yves Saint Laurent Libre Eau De Parfum 90 ML איב סאן לורן ליברה בושם לאישה אדפ 90 מ\"ל",
+    "title_b": "פשרה בת\"צ כהנים נ' זאפ גרופ (ת\"צ 60371-12-19)",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "Yves Saint Laurent Libre Eau De Parfum 90 ML איב סאן לורן ליברה בושם לאישה אדפ 90 מ\"ל",
+    "title_b": "אודות zap.co.il",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "Yves Saint Laurent Libre Eau De Parfum 90 ML איב סאן לורן ליברה בושם לאישה אדפ 90 מ\"ל",
+    "title_b": "תנאי שימוש",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "Yves Saint Laurent Libre Eau De Parfum 90 ML איב סאן לורן ליברה בושם לאישה אדפ 90 מ\"ל",
+    "title_b": "מדריך חנויות",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "Yves Saint Laurent Libre Eau De Parfum 90 ML איב סאן לורן ליברה בושם לאישה אדפ 90 מ\"ל",
+    "title_b": "נפילת מחירים",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "Yves Saint Laurent Libre Eau De Parfum 90 ML איב סאן לורן ליברה בושם לאישה אדפ 90 מ\"ל",
+    "title_b": "הקנייה ב-zap",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "Yves Saint Laurent Libre Eau De Parfum 90 ML איב סאן לורן ליברה בושם לאישה אדפ 90 מ\"ל",
+    "title_b": "ביטולים והחזרות",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "Yves Saint Laurent Libre Eau De Parfum 90 ML איב סאן לורן ליברה בושם לאישה אדפ 90 מ\"ל",
+    "title_b": "מרכז מידע ותמיכה",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "Yves Saint Laurent Libre Eau De Parfum 90 ML איב סאן לורן ליברה בושם לאישה אדפ 90 מ\"ל",
+    "title_b": "הצטרפות כחנות ל-zap",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "Yves Saint Laurent Libre Eau De Parfum 90 ML איב סאן לורן ליברה בושם לאישה אדפ 90 מ\"ל",
+    "title_b": "פרסום באתר",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "Yves Saint Laurent Libre Eau De Parfum 90 ML איב סאן לורן ליברה בושם לאישה אדפ 90 מ\"ל",
+    "title_b": "ממשק חנויות / יבואנים",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "Yves Saint Laurent Libre Eau De Parfum 90 ML איב סאן לורן ליברה בושם לאישה אדפ 90 מ\"ל",
+    "title_b": "סופרמרקטים",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "Yves Saint Laurent Libre Eau De Parfum 90 ML איב סאן לורן ליברה בושם לאישה אדפ 90 מ\"ל",
+    "title_b": "מוצרים מבוקשים",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "Yves Saint Laurent Libre Eau De Parfum 90 ML איב סאן לורן ליברה בושם לאישה אדפ 90 מ\"ל",
+    "title_b": "שיווק לעסקים",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "Yves Saint Laurent Libre Eau De Parfum 90 ML איב סאן לורן ליברה בושם לאישה אדפ 90 מ\"ל",
+    "title_b": "[email protected]",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "Yves Saint Laurent Libre Eau De Parfum 90 ML איב סאן לורן ליברה בושם לאישה אדפ 90 מ\"ל",
+    "title_b": "מדיניות פרטיות",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "Privacy Policy",
+    "title_b": "Yves Saint Laurent Libre Eau De Parfum 90 ML איב סאן לורן ליברה בושם לאישה אדפ 90 מ\"ל",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "Terms of Service",
+    "title_b": "Yves Saint Laurent Libre Eau De Parfum 90 ML איב סאן לורן ליברה בושם לאישה אדפ 90 מ\"ל",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "Bosch מברגה/מקדחה רוטטת 18V (גוף בלבד)",
+    "title_b": "‏מקדחה/מברגה Bosch GSB 185 LI",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "Spin Master Purrfect Dollhouse",
+    "title_b": "בית הבובות של גבי - בית מסיבה Gabby's Dollhouse",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "Spin Master בית הבובות של גבי - בית מסיבה Gabby's Dollhouse",
+    "title_b": "בית הבובות של גבי - בית מסיבה Gabby's Dollhouse",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "Spark Toys פונץ הכלב – דובר עברית",
+    "title_b": "Spark Toys פונץ' הכלב - דובר עברית",
+    "note": "Pair not generated as candidate"
+  },
+  {
+    "type": "missed_pair",
+    "title_a": "מברשת שיניים חשמלית MOVA מובה דגם FRESH20 VISION",
+    "title_b": "‏מברשת שיניים חשמלית Mova Fresh20 Vision",
     "note": "Pair not generated as candidate"
   }
 ]

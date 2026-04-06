@@ -95,8 +95,8 @@ def _format_error(pair: dict, error_type: str, gt_info: dict = None) -> dict:
         "token_sort_ratio": pair.get("token_sort_ratio"),
         "brand_a": pair.get("brand_a"),
         "brand_b": pair.get("brand_b"),
-        "series_a": pair.get("series_a"),
-        "series_b": pair.get("series_b"),
+        "model_a": pair.get("model_a"),
+        "model_b": pair.get("model_b"),
         "storage_a": pair.get("storage_a"),
         "storage_b": pair.get("storage_b"),
     }

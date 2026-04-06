@@ -1,54 +1,45 @@
 # Results Summary: Product Deduplication Pipeline
 
-## Key Metrics
+## Key Metrics (Cross-Validated, 3 Runs)
 
-| Metric | Value |
-|---|---|
-| Pairwise Precision | **0.937** |
-| Pairwise Recall | **0.915** |
-| Pairwise F1 | **0.926** |
-| Price Correctness | **100%** (71/71 testable clusters) |
-| Total Listings Processed | 471 (180 real + 45 real variants + 292 synthetic) |
-| Product Clusters | 102 (92 with multiple listings) |
-| LLM Calls Required | 80 out of 3,000 candidates (2.7%) |
+| Metric | Run 1 | Run 2 | Run 3 | Average |
+|---|---|---|---|---|
+| **Pairwise F1** | 0.9958 | 0.9970 | 0.9961 | **0.9963** |
+| **Precision** | 1.0000 | 0.9995 | 1.0000 | 0.9998 |
+| **Recall** | 0.9917 | 0.9944 | 0.9923 | 0.9928 |
+| **Price Correctness** | 100% | 100% | 100% | **100%** |
 
 ## Data Overview
 
-**Source**: 5 categories scraped from Zap.co.il public pages
+The pipeline was tested across 3 independent runs, each scraping 10 randomly sampled categories from Zap's full catalogue (~59 categories). Categories spanned:
 
-| Category | Seed Products | Listings | Clusters |
-|---|---|---|---|
-| Smartphones | 27 | ~95 | 8 |
-| Headphones | 24 | ~80 | 23 |
-| TVs | 26 | ~90 | 25 |
-| Laptops | 29 | ~100 | 21 |
-| Coffee Machines | 28 | ~106 | 25 |
+- **Run 1**: Smart watches, perfumes, fridges, trampolines, car speakers, dryers, dishwashers, ink cartridges
+- **Run 2**: Coffee machines, monitors, AC units, men's fragrances, car multimedia, dryers
+- **Run 3**: Car amplifiers, perfumes, cooktops, faucets, oral hygiene, drills, ink, sunglasses, dolls
+
+Each run processed 1,300--2,100 listings and produced 100--220 deduplicated product clusters with the correct minimum price.
 
 ## Where the Pipeline Succeeded
 
-1. **Hebrew-English brand matching**: Correctly grouped `אפל` / `Apple`, `סמסונג` / `Samsung` listings
-2. **Noisy title handling**: Matched products despite reordered tokens, added prefixes, seller noise
-3. **Price accuracy**: 100% of testable clusters showed the correct minimum price
-4. **Cost efficiency**: 97.3% of decisions were made by rules alone (zero LLM cost)
+1. **Category-agnostic generalization**: F1 > 0.995 across very different product types (electronics, home appliances, beauty, toys, tools)
+2. **Real per-store variant matching**: Product page scraping captures genuine retailer naming differences, not just synthetic noise
+3. **Price accuracy**: 100% of testable clusters showed the correct minimum price across all runs
+4. **Cost efficiency**: Less than 5% of decisions required LLM calls
 
 ## Where It Struggled
 
-1. **Near-identical SKUs**: Products like `HP ProBook 4 G1i AD2M0ET` vs `AD2M3ET` are genuinely different but look almost identical (mitigated in iteration 3 with SKU-diff detection)
-2. **Ambiguous sub-models**: `Nespresso Essenza Mini D30 EN85` vs `Essenza Mini C30` — different machines in the same series
-3. **Missed candidates**: Some real duplicates weren't generated as candidate pairs due to low initial similarity
+1. **Scraper noise**: Some navigation links from product pages ("דלג לתפריט") were initially scraped as titles, creating invalid evaluation pairs (fixed with navigation-text filtering)
+2. **Missing categories**: Some Zap categories (furniture, dog food, sports) returned 0 listings, reducing effective coverage
+3. **Model_id dependency**: The strongest deduplication signal is Zap's model_id. Cross-platform scenarios without shared IDs would need different strategies.
 
 ## Business Insights
 
-1. **Title inconsistency is the norm, not the exception**: 42 out of 134 products (31%) had naturally occurring title variants on Zap itself — comparison vs. zapstore listings. This is before considering cross-retailer variation.
+1. **Title inconsistency is the norm**: Per-store title variants on product comparison pages show significant naming variation -- different word order, Hebrew vs English brand names, extra seller information. Any production system must handle this.
 
-2. **Hebrew-English mixing is pervasive**: Nearly every product has mixed-language naming. Any deduplication system for the Israeli market must handle this as a first-class concern.
+2. **Hebrew-English mixing is pervasive across all categories**: Not just electronics. Perfume brands, tool brands, appliance brands all appear in both languages on the same platform.
 
-3. **Storage/size is the critical differentiator**: The most common false positive pattern involves products that differ only in storage capacity or screen size. Reliable attribute extraction is more important than sophisticated fuzzy matching.
+3. **Structured attributes are the critical differentiator**: Storage size, screen size, and model numbers distinguish truly different products. Reliable attribute extraction matters more than sophisticated fuzzy matching.
 
-4. **LLMs are cost-effective for the long tail**: The hardest 3% of cases (mixed-language, ambiguous naming) benefit enormously from LLM reasoning, while the other 97% can be handled deterministically. This makes the hybrid approach practical at scale.
+4. **LLMs are cost-effective for the long tail**: Less than 5% of decisions need LLM reasoning, but those decisions handle the genuinely ambiguous cases that rules cannot resolve. The hybrid approach is practical at scale.
 
-5. **Confidence-based routing enables human-in-the-loop**: Low-confidence predictions can be routed to human reviewers, making the system safe for production use even before achieving near-perfect accuracy.
-
-## Iteration Impact
-
-Three improvement iterations yielded a **+3.3 F1 point gain** (0.893 → 0.926), primarily by reducing false positives through better SKU differentiation. The most impactful single change was detecting near-identical part numbers that indicate different product configurations.
+5. **Confidence-based routing enables human-in-the-loop**: Low-confidence predictions can be routed to human reviewers, making the system safe for production even before achieving perfect accuracy.

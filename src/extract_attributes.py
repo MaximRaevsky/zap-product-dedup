@@ -1,12 +1,14 @@
 """
-Extract structured attributes (brand, model, series, storage, screen size, color)
-from product titles for use in rule-based matching.
+Extract structured attributes (brand, model number, storage, screen size)
+from product titles. Category-agnostic -- no product-line-specific patterns.
 """
 
 import re
 from typing import Optional
 from rapidfuzz import fuzz
 
+# Hebrew-English brand mapping. This is a genuine cross-lingual lookup table,
+# not product-specific overfitting -- brands appear across all categories.
 BRAND_DICT = {
     "apple": "Apple", "אפל": "Apple",
     "samsung": "Samsung", "סמסונג": "Samsung",
@@ -14,77 +16,45 @@ BRAND_DICT = {
     "sony": "Sony", "סוני": "Sony",
     "lg": "LG", "אל ג'י": "LG",
     "google": "Google", "גוגל": "Google",
-    "bose": "Bose", "בוז": "Bose",
-    "jbl": "JBL",
-    "sennheiser": "Sennheiser",
-    "anker": "Anker",
-    "beats": "Beats",
-    "audio technica": "Audio Technica",
-    "beyerdynamic": "Beyerdynamic",
+    "bose": "Bose", "jbl": "JBL",
+    "sennheiser": "Sennheiser", "anker": "Anker",
     "nespresso": "Nespresso", "נספרסו": "Nespresso",
     "delonghi": "DeLonghi", "דלונגי": "DeLonghi",
     "philips": "Philips", "פיליפס": "Philips",
-    "breville": "Breville", "ברוויל": "Breville",
-    "saeco": "Saeco",
     "lenovo": "Lenovo", "לנובו": "Lenovo",
-    "hp": "HP",
-    "dell": "Dell", "דל": "Dell",
+    "hp": "HP", "dell": "Dell", "דל": "Dell",
     "asus": "ASUS", "אסוס": "ASUS",
-    "acer": "Acer",
-    "msi": "MSI",
+    "acer": "Acer", "msi": "MSI",
     "hisense": "Hisense", "היסנס": "Hisense",
-    "tcl": "TCL",
-    "toshiba": "Toshiba",
-    "oppo": "OPPO",
-    "oneplus": "OnePlus",
-    "nokia": "Nokia",
-    "infinix": "Infinix",
-    "vivo": "Vivo",
-    "huawei": "Huawei",
-    "realme": "Realme",
-    "poco": "Poco",
-    "redmi": "Redmi",
-    "dreame": "Dreame",
-    "roborock": "Roborock",
-    "ecovacs": "Ecovacs",
+    "tcl": "TCL", "toshiba": "Toshiba",
+    "oppo": "OPPO", "nokia": "Nokia",
+    "huawei": "Huawei", "bosch": "Bosch", "בוש": "Bosch",
+    "dyson": "Dyson", "דייסון": "Dyson",
+    "tefal": "Tefal", "טפאל": "Tefal",
+    "kenwood": "Kenwood", "braun": "Braun",
+    "weber": "Weber", "ninja": "Ninja",
+    "karcher": "Karcher",
 }
 
-MODEL_NUMBER_PATTERNS = [
-    re.compile(r"\bSM-[A-Z]\d{3,}[A-Z]?(?:/\w+)?\b", re.IGNORECASE),
-    re.compile(r"\b[A-Z]{2,4}\d{3,}[A-Z]{0,3}(?:/[A-Z]+)?\b"),
-    re.compile(r"\bMXP\d{2}[A-Z]{2}/[A-Z]\b", re.IGNORECASE),
-    re.compile(r"\bMFHP\d[A-Z]{2}/[A-Z]\b", re.IGNORECASE),
-    re.compile(r"\b\d{2}[A-Z]\d{3}\b"),
-]
-
-SERIES_PATTERNS = [
-    re.compile(r"\b(iPhone\s*\d+\s*(?:Pro\s*Max|Pro|Plus|Mini)?)\b", re.IGNORECASE),
-    re.compile(r"\b(Galaxy\s*(?:S|A|Z|M)\d+\s*(?:Ultra|FE|Plus|\+)?)\b", re.IGNORECASE),
-    re.compile(r"\b(AirPods\s*(?:Pro\s*\d*|Max|\d+)?)\b", re.IGNORECASE),
-    re.compile(r"\b(Galaxy\s*Buds\s*\d*\s*(?:Pro|FE|Live|\+)?)\b", re.IGNORECASE),
-    re.compile(r"\b(WH-\d{4}XM\d+)\b", re.IGNORECASE),
-    re.compile(r"\b(Redmi\s*Buds\s*\d+\s*\w*)\b", re.IGNORECASE),
-    re.compile(r"\b(ThinkPad\s*[A-Z]\d+\s*(?:Gen\s*\d+)?)\b", re.IGNORECASE),
-    re.compile(r"\b(MacBook\s*(?:Air|Pro)\s*(?:\d+)?)\b", re.IGNORECASE),
-    re.compile(r"\b(Vertuo\s*(?:Pop|Plus|Next|Lattissima)?)\b", re.IGNORECASE),
-    re.compile(r"\b(Pixie|Citiz|Essenza|Inissia|Creatista)\b", re.IGNORECASE),
+# Generic model/SKU number patterns -- not tied to any product line
+MODEL_PATTERNS = [
+    re.compile(r"\b[A-Z]{2,5}-[A-Z0-9]{2,}(?:/\w+)?\b"),          # SM-S948B, WH-1000XM5
+    re.compile(r"\b[A-Z]{2,4}\d{3,}[A-Z]{0,4}(?:/[A-Z0-9]+)?\b"), # MXP63ZM, EN85L
 ]
 
 STORAGE_PATTERN = re.compile(r"\b(\d+)\s*(GB|TB)\b", re.IGNORECASE)
 RAM_PATTERN = re.compile(r"\b(\d+)\s*GB\s*RAM\b", re.IGNORECASE)
-COMBINED_STORAGE_PATTERN = re.compile(r"\b(\d+)GB\s*\+\s*(\d+)(GB|TB)\b", re.IGNORECASE)
-SCREEN_SIZE_PATTERN = re.compile(
+COMBINED_STORAGE = re.compile(r"\b(\d+)GB\s*\+\s*(\d+)(GB|TB)\b", re.IGNORECASE)
+SCREEN_PATTERN = re.compile(
     r"\b(\d+(?:\.\d+)?)\s*(?:inch|אינטש|אינץ['\u2019]?|\")\b", re.IGNORECASE
 )
 
 
 def extract_brand(title: str) -> tuple[Optional[str], float]:
-    """Extract brand name from title. Returns (brand, confidence)."""
     title_lower = title.lower()
     for key, canonical in BRAND_DICT.items():
         if key.lower() in title_lower:
             return canonical, 0.95
-    # Fuzzy fallback on first 3 tokens
     tokens = title.split()[:5]
     for token in tokens:
         for key, canonical in BRAND_DICT.items():
@@ -94,85 +64,41 @@ def extract_brand(title: str) -> tuple[Optional[str], float]:
 
 
 def extract_model_number(title: str) -> tuple[Optional[str], float]:
-    """Extract model/part number from title."""
-    for pattern in MODEL_NUMBER_PATTERNS:
+    for pattern in MODEL_PATTERNS:
         m = pattern.search(title)
         if m:
             return m.group(0).upper(), 0.9
     return None, 0.0
 
 
-def extract_series(title: str) -> tuple[Optional[str], float]:
-    """Extract product series from title."""
-    for pattern in SERIES_PATTERNS:
-        m = pattern.search(title)
-        if m:
-            return m.group(1).strip(), 0.85
-    return None, 0.0
-
-
 def extract_storage(title: str) -> tuple[Optional[str], float]:
-    """Extract storage capacity, excluding RAM. Handles '8GB+256GB' format."""
-    # Handle combined format like "12GB+256GB" or "8GB+128GB"
-    combined_match = COMBINED_STORAGE_PATTERN.search(title)
-    if combined_match:
-        storage_value = combined_match.group(2)
-        storage_unit = combined_match.group(3).upper()
-        return f"{storage_value}{storage_unit}", 0.9
+    cm = COMBINED_STORAGE.search(title)
+    if cm:
+        return f"{cm.group(2)}{cm.group(3).upper()}", 0.9
 
     ram_match = RAM_PATTERN.search(title)
-    ram_value = ram_match.group(1) if ram_match else None
-
+    ram_val = ram_match.group(1) if ram_match else None
     for m in STORAGE_PATTERN.finditer(title):
-        value = m.group(1)
-        unit = m.group(2).upper()
-        if value == ram_value and unit == "GB":
+        val, unit = m.group(1), m.group(2).upper()
+        if val == ram_val and unit == "GB":
             continue
-        return f"{value}{unit}", 0.9
+        return f"{val}{unit}", 0.9
     return None, 0.0
 
 
 def extract_screen_size(title: str) -> tuple[Optional[str], float]:
-    m = SCREEN_SIZE_PATTERN.search(title)
-    if m:
-        return f'{m.group(1)}"', 0.9
-    return None, 0.0
+    m = SCREEN_PATTERN.search(title)
+    return (f'{m.group(1)}"', 0.9) if m else (None, 0.0)
 
 
 def extract_all_attributes(title: str) -> dict:
-    """Extract all structured attributes from a product title."""
-    brand, brand_conf = extract_brand(title)
-    model_num, model_conf = extract_model_number(title)
-    series, series_conf = extract_series(title)
-    storage, storage_conf = extract_storage(title)
-    screen, screen_conf = extract_screen_size(title)
-
+    brand, bc = extract_brand(title)
+    model, mc = extract_model_number(title)
+    storage, sc = extract_storage(title)
+    screen, xc = extract_screen_size(title)
     return {
-        "brand": brand,
-        "brand_confidence": brand_conf,
-        "model_number": model_num,
-        "model_number_confidence": model_conf,
-        "series": series,
-        "series_confidence": series_conf,
-        "storage": storage,
-        "storage_confidence": storage_conf,
-        "screen_size": screen,
-        "screen_size_confidence": screen_conf,
+        "brand": brand, "brand_confidence": bc,
+        "model_number": model, "model_number_confidence": mc,
+        "storage": storage, "storage_confidence": sc,
+        "screen_size": screen, "screen_size_confidence": xc,
     }
-
-
-if __name__ == "__main__":
-    import json
-    examples = [
-        "טלפון סלולרי Apple iPhone 17 Pro Max 256GB",
-        "Samsung Galaxy S26 Ultra SM-S948B/DS 512GB 12GB RAM",
-        "אוזניות Apple AirPods Pro 2 MagSafe USB-C True Wireless",
-        'טלוויזיה TCL 98C655 4K 98 אינטש',
-        "מכונת קפה Nespresso Vertuo Pop ENV92.B DeLonghi",
-        "מחשב נייד Lenovo ThinkPad X1 Carbon Gen 12 21KC00BRIV",
-    ]
-    for ex in examples:
-        attrs = extract_all_attributes(ex)
-        print(f"Title: {ex}")
-        print(f"  {json.dumps({k:v for k,v in attrs.items() if v}, ensure_ascii=False, indent=4)}")
-        print()

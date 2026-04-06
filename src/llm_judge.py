@@ -1,11 +1,12 @@
 """
 LLM judge for ambiguous product deduplication cases.
-Uses OpenAI GPT-4o with structured JSON output, caching, retries, and full logging.
+Uses GPT-4o with structured JSON output, caching, retries, and logging.
 """
 
 import os
 import json
 import hashlib
+import re
 import time
 from pathlib import Path
 from typing import Optional
@@ -18,242 +19,168 @@ load_dotenv()
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 CACHE_PATH = Path("data/processed/llm_cache.json")
-PROMPT_LOG_PATH = Path("results/debug/llm_prompts_sample.json")
-RESPONSE_LOG_PATH = Path("results/debug/llm_responses_sample.json")
+LOG_DIR = Path("results/debug")
 
-SYSTEM_PROMPT = """You are an expert product deduplication system for an Israeli e-commerce price comparison platform.
+SYSTEM_PROMPT = """You are a product deduplication system for an Israeli price comparison site.
 
-Your task: determine if two product listings refer to the SAME sellable product, even if their names differ in language, wording, or detail level.
+Determine if two product listings refer to the SAME sellable product, even if names differ in language or wording.
 
-Key rules:
-- Two listings are duplicates if they refer to the exact same sellable product (same brand, model, configuration).
-- Different storage sizes (e.g., 256GB vs 512GB) mean DIFFERENT products.
-- Different screen sizes mean DIFFERENT products.
-- Different colors of the same model ARE duplicates (color is a variant, not a different product for price comparison).
-- Hebrew and English names for the same product ARE duplicates.
-- Titles with extra seller info (e.g., "יבואן רשמי") but same product ARE duplicates.
-- Different generations (e.g., AirPods Pro 2 vs AirPods Pro 3) are DIFFERENT products.
+Rules:
+- Same brand + model + configuration = duplicate
+- Different storage (256GB vs 512GB) = DIFFERENT products
+- Different screen sizes = DIFFERENT products
+- Different colors of same model = duplicate (color is not a separate product)
+- Hebrew and English names for same product = duplicate
+- Extra seller info ("יבואן רשמי") = still duplicate
+- Different generations (v2 vs v3) = DIFFERENT products
 
-Respond ONLY with valid JSON in this exact format:
-{"is_duplicate": true/false, "confidence": 0.0-1.0, "rationale": "brief explanation"}"""
+Respond ONLY with JSON: {"is_duplicate": true/false, "confidence": 0.0-1.0, "rationale": "brief"}"""
 
-USER_TEMPLATE = """Compare these two product listings:
-
-Product A: {title_a}
+USER_TEMPLATE = """Product A: {title_a}
 Product B: {title_b}
 
 Category: {category}
+Attributes A: brand={brand_a}, model={model_a}, storage={storage_a}
+Attributes B: brand={brand_b}, model={model_b}, storage={storage_b}
 
-Extracted attributes:
-A - Brand: {brand_a}, Series: {series_a}, Model: {model_a}, Storage: {storage_a}
-B - Brand: {brand_b}, Series: {series_b}, Model: {model_b}, Storage: {storage_b}
-
-Are these the same product? Respond with JSON only."""
+Same product? JSON only."""
 
 
-def _cache_key(title_a: str, title_b: str) -> str:
-    key = f"{min(title_a, title_b)}|||{max(title_a, title_b)}"
+def _cache_key(a: str, b: str) -> str:
+    key = f"{min(a, b)}|||{max(a, b)}"
     return hashlib.sha256(key.encode()).hexdigest()
 
 
 def _load_cache() -> dict:
     if CACHE_PATH.exists():
-        with open(CACHE_PATH, "r", encoding="utf-8") as f:
-            return json.load(f)
+        try:
+            return json.load(open(CACHE_PATH, encoding="utf-8"))
+        except (json.JSONDecodeError, ValueError):
+            pass
     return {}
 
 
 def _save_cache(cache: dict):
     CACHE_PATH.parent.mkdir(parents=True, exist_ok=True)
-    with open(CACHE_PATH, "w", encoding="utf-8") as f:
-        json.dump(cache, f, ensure_ascii=False, indent=2)
+    json.dump(cache, open(CACHE_PATH, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
 
 
-def _append_to_log(path: Path, data: dict):
+def _log(filename: str, data: dict):
+    path = LOG_DIR / filename
     path.parent.mkdir(parents=True, exist_ok=True)
     logs = []
     if path.exists():
         try:
-            with open(path, "r", encoding="utf-8") as f:
-                logs = json.load(f)
+            logs = json.load(open(path, encoding="utf-8"))
         except (json.JSONDecodeError, ValueError):
             logs = []
     logs.append(data)
-    with open(path, "w", encoding="utf-8") as f:
-        json.dump(logs, f, ensure_ascii=False, indent=2)
+    json.dump(logs, open(path, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
 
 
-def _log_prompt(prompt_data: dict):
-    _append_to_log(PROMPT_LOG_PATH, prompt_data)
-
-
-def _log_response(response_data: dict):
-    _append_to_log(RESPONSE_LOG_PATH, response_data)
-
-
-def _parse_llm_response(text: str) -> Optional[dict]:
-    """Safely parse LLM JSON response with fallbacks."""
+def _parse_response(text: str) -> Optional[dict]:
     text = text.strip()
     if text.startswith("```"):
         text = text.split("\n", 1)[-1].rsplit("```", 1)[0].strip()
-
     try:
-        result = json.loads(text)
-        if "is_duplicate" in result and "confidence" in result:
-            return {
-                "is_duplicate": bool(result["is_duplicate"]),
-                "confidence": float(result["confidence"]),
-                "rationale": str(result.get("rationale", "")),
-            }
-    except (json.JSONDecodeError, KeyError, ValueError):
+        r = json.loads(text)
+        if "is_duplicate" in r:
+            return {"is_duplicate": bool(r["is_duplicate"]),
+                    "confidence": float(r.get("confidence", 0.5)),
+                    "rationale": str(r.get("rationale", ""))}
+    except (json.JSONDecodeError, ValueError):
         pass
-
-    # Fallback: try to find JSON object in text
-    import re
-    m = re.search(r'\{[^}]+\}', text)
+    m = re.search(r"\{[^}]+\}", text)
     if m:
         try:
-            result = json.loads(m.group(0))
-            return {
-                "is_duplicate": bool(result.get("is_duplicate", False)),
-                "confidence": float(result.get("confidence", 0.5)),
-                "rationale": str(result.get("rationale", "parsed from partial")),
-            }
-        except (json.JSONDecodeError, KeyError, ValueError):
+            r = json.loads(m.group(0))
+            return {"is_duplicate": bool(r.get("is_duplicate", False)),
+                    "confidence": float(r.get("confidence", 0.5)),
+                    "rationale": str(r.get("rationale", ""))}
+        except (json.JSONDecodeError, ValueError):
             pass
-
     return None
 
 
 def judge_pair(pair: dict, cache: Optional[dict] = None) -> dict:
-    """
-    Use LLM to judge if a candidate pair is a duplicate.
-    Returns the pair dict enriched with llm_* fields.
-    """
-    title_a = pair.get("title_a", "")
-    title_b = pair.get("title_b", "")
-
+    title_a, title_b = pair.get("title_a", ""), pair.get("title_b", "")
     ck = _cache_key(title_a, title_b)
 
     if cache and ck in cache:
-        cached = cache[ck]
-        return {
-            **pair,
-            "llm_is_duplicate": cached["is_duplicate"],
-            "llm_confidence": cached["confidence"],
-            "llm_rationale": cached["rationale"],
-            "llm_cached": True,
-        }
+        c = cache[ck]
+        return {**pair, "llm_is_duplicate": c["is_duplicate"],
+                "llm_confidence": c["confidence"], "llm_rationale": c["rationale"],
+                "llm_cached": True}
 
     user_msg = USER_TEMPLATE.format(
-        title_a=title_a,
-        title_b=title_b,
-        category=pair.get("category", pair.get("series_a", "")),
-        brand_a=pair.get("brand_a", "unknown"),
-        brand_b=pair.get("brand_b", "unknown"),
-        series_a=pair.get("series_a", "unknown"),
-        series_b=pair.get("series_b", "unknown"),
-        model_a=pair.get("model_a", "unknown"),
-        model_b=pair.get("model_b", "unknown"),
-        storage_a=pair.get("storage_a", "unknown"),
-        storage_b=pair.get("storage_b", "unknown"),
+        title_a=title_a, title_b=title_b,
+        category=pair.get("category", ""),
+        brand_a=pair.get("brand_a", "?"), brand_b=pair.get("brand_b", "?"),
+        model_a=pair.get("model_a", "?"), model_b=pair.get("model_b", "?"),
+        storage_a=pair.get("storage_a", "?"), storage_b=pair.get("storage_b", "?"),
     )
 
-    _log_prompt({
-        "title_a": title_a,
-        "title_b": title_b,
-        "user_message": user_msg,
-    })
+    _log("llm_prompts_sample.json", {"title_a": title_a, "title_b": title_b, "prompt": user_msg})
 
     for attempt in range(3):
         try:
-            response = client.chat.completions.create(
+            resp = client.chat.completions.create(
                 model="gpt-4o",
-                messages=[
-                    {"role": "system", "content": SYSTEM_PROMPT},
-                    {"role": "user", "content": user_msg},
-                ],
-                temperature=0.1,
-                max_tokens=200,
+                messages=[{"role": "system", "content": SYSTEM_PROMPT},
+                          {"role": "user", "content": user_msg}],
+                temperature=0.1, max_tokens=200,
             )
-            raw_text = response.choices[0].message.content
-            parsed = _parse_llm_response(raw_text)
-
-            _log_response({
-                "title_a": title_a,
-                "title_b": title_b,
-                "raw_response": raw_text,
-                "parsed": parsed,
-                "attempt": attempt + 1,
-            })
-
+            raw = resp.choices[0].message.content
+            parsed = _parse_response(raw)
+            _log("llm_responses_sample.json", {"title_a": title_a, "title_b": title_b,
+                                                "raw": raw, "parsed": parsed})
             if parsed:
                 if cache is not None:
                     cache[ck] = parsed
-                return {
-                    **pair,
-                    "llm_is_duplicate": parsed["is_duplicate"],
-                    "llm_confidence": parsed["confidence"],
-                    "llm_rationale": parsed["rationale"],
-                    "llm_cached": False,
-                }
-
+                return {**pair, "llm_is_duplicate": parsed["is_duplicate"],
+                        "llm_confidence": parsed["confidence"],
+                        "llm_rationale": parsed["rationale"], "llm_cached": False}
         except Exception as e:
             print(f"  LLM attempt {attempt+1} failed: {e}")
             if attempt < 2:
                 time.sleep(2 ** attempt)
 
-    return {
-        **pair,
-        "llm_is_duplicate": None,
-        "llm_confidence": 0.0,
-        "llm_rationale": "LLM failed after 3 attempts",
-        "llm_cached": False,
-    }
+    return {**pair, "llm_is_duplicate": None, "llm_confidence": 0.0,
+            "llm_rationale": "LLM failed", "llm_cached": False}
 
 
 def judge_ambiguous_pairs(
     pairs: list[dict],
-    low_threshold: float = 0.4,
-    high_threshold: float = 0.75,
-    max_llm_calls: int = 80,
+    low_threshold: float = 0.3,
+    high_threshold: float = 0.85,
+    max_llm_calls: int = 150,
 ) -> list[dict]:
-    """
-    Send ambiguous pairs (rule_confidence between thresholds) to LLM for judgment.
-    Non-ambiguous pairs pass through unchanged. Caps LLM calls for cost control.
-    """
     cache = _load_cache()
-    results = []
-    llm_count = 0
 
     ambiguous = [p for p in pairs if low_threshold <= p["rule_confidence"] < high_threshold]
-    non_ambiguous = [p for p in pairs if p["rule_confidence"] < low_threshold or p["rule_confidence"] >= high_threshold]
+    clear = [p for p in pairs if p["rule_confidence"] < low_threshold or p["rule_confidence"] >= high_threshold]
 
-    # Prioritize most ambiguous pairs (closest to 0.5)
-    ambiguous.sort(key=lambda p: abs(p["rule_confidence"] - 0.55))
+    ambiguous.sort(key=lambda p: abs(p["rule_confidence"] - 0.5))
     if len(ambiguous) > max_llm_calls:
-        overflow = ambiguous[max_llm_calls:]
+        clear.extend(ambiguous[max_llm_calls:])
         ambiguous = ambiguous[:max_llm_calls]
-        non_ambiguous.extend(overflow)
 
-    print(f"LLM judge: {len(ambiguous)} ambiguous pairs to evaluate (capped at {max_llm_calls})")
+    print(f"LLM judge: {len(ambiguous)} ambiguous pairs (cap {max_llm_calls})")
 
-    for p in ambiguous:
-        result = judge_pair(p, cache)
-        results.append(result)
-        llm_count += 1
-        if llm_count % 10 == 0:
-            print(f"  Processed {llm_count}/{len(ambiguous)} pairs")
+    results = []
+    for i, p in enumerate(ambiguous):
+        results.append(judge_pair(p, cache))
+        if (i + 1) % 10 == 0:
+            print(f"  {i+1}/{len(ambiguous)}")
             _save_cache(cache)
 
     _save_cache(cache)
-    print(f"  LLM judged {llm_count} pairs ({sum(1 for r in results if r.get('llm_cached'))} from cache)")
+    cached = sum(1 for r in results if r.get("llm_cached"))
+    print(f"  Done ({cached} from cache)")
 
-    for p in non_ambiguous:
-        p["llm_is_duplicate"] = None
-        p["llm_confidence"] = 0.0
-        p["llm_rationale"] = "not_sent_to_llm"
-        p["llm_cached"] = False
+    for p in clear:
+        p.update({"llm_is_duplicate": None, "llm_confidence": 0.0,
+                   "llm_rationale": "not_sent", "llm_cached": False})
         results.append(p)
 
     return results
