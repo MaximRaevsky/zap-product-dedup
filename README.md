@@ -122,19 +122,6 @@ The pipeline evaluates whether the customer actually sees the cheapest available
 - **Cluster purity** (95.2%): 60 out of 63 multi-listing clusters contain only a single real product. The remaining 3 clusters over-merge different products due to transitive chaining in Union-Find (a few false-positive pairs can chain-merge an entire category).
 - **Cheapest price found** (100% on pure clusters): For all 60 correctly-grouped products, the cluster's shown price matches the true cheapest available listing. No customer misses a better price due to incomplete grouping.
 
-### Business Impact
-
-For the 60 correctly-grouped products, price comparison grouping delivers measurable savings:
-
-| Metric | Value |
-|---|---|
-| Products with price variation across stores | 60/60 (100%) |
-| Average saving vs. most expensive store | 17.5% |
-| Median absolute saving | 164 NIS |
-| Maximum saving | 30.6% |
-
-In other words: for every product the pipeline groups correctly, the customer benefits from seeing the cheapest listing. Without deduplication, a customer landing on a single store's listing would pay on average 17.5% more.
-
 ## Confidence & Debugging
 
 ### Multi-Stage Confidence
@@ -228,7 +215,7 @@ The pipeline is **cache-first** by default:
 
 ### Output Files
 - `results/grouped_products.csv` -- Final deduplicated product groups with best prices
-- `results/metrics/evaluation_metrics.json` -- Precision, recall, F1, cluster purity, price accuracy, savings stats
+- `results/metrics/evaluation_metrics.json` -- Precision, recall, F1, cluster purity, price accuracy
 - `results/metrics/iteration_log.md` -- Cross-validated results across multiple runs
 - `results/debug/` -- Debugging artifacts (regenerated on each run, not committed)
 - `results/summary.md` -- Key findings and business insights

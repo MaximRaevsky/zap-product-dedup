@@ -153,20 +153,12 @@ def evaluate_price_correctness(
     price_acc = correct / total_pure if total_pure > 0 else 0.0
     purity = len(pure_multi) / len(multi_listing_cids) if multi_listing_cids else 0.0
 
-    savings = _compute_savings(clusters, pure_clusters)
-
     print(f"\nCluster Quality:")
     print(f"  Pure clusters (single product): {len(pure_multi)}/{len(multi_listing_cids)} ({purity:.1%})")
     print(f"  Over-merged clusters: {len(impure_multi)}")
     print(f"\nPrice Correctness (pure clusters only):")
     print(f"  Cheapest price found: {price_acc:.1%} ({correct}/{total_pure} products)")
     print(f"  Products in over-merged clusters (excluded): {total_impure}")
-    print(f"\nBusiness Impact (from correctly-grouped products):")
-    print(f"  Products with price variation: {savings['products_with_variation']}/{savings['products_evaluated']}")
-    if savings["products_with_variation"] > 0:
-        print(f"  Avg savings from grouping: {savings['avg_saving_pct']:.1f}%")
-        print(f"  Max savings from grouping: {savings['max_saving_pct']:.1f}%")
-        print(f"  Median saving per product: {savings['median_saving_abs']:.0f} NIS")
 
     return {
         "cluster_purity": round(purity, 4),
@@ -177,49 +169,6 @@ def evaluate_price_correctness(
         "price_evaluated": total_pure,
         "products_in_impure_clusters": total_impure,
         "price_errors": price_errors[:10],
-        "savings": savings,
-    }
-
-
-def _compute_savings(clusters: pd.DataFrame, pure_clusters: set) -> dict:
-    """
-    For pure multi-listing clusters, measure how much grouping saves
-    customers vs seeing a single store's price.
-    """
-    saving_pcts = []
-    saving_abs = []
-    products_evaluated = 0
-
-    for _, cluster in clusters[clusters["num_listings"] > 1].iterrows():
-        if cluster["cluster_id"] not in pure_clusters:
-            continue
-        price_str = cluster.get("all_prices", "")
-        if not price_str:
-            continue
-        prices = []
-        for p in str(price_str).split(","):
-            p = p.strip()
-            try:
-                prices.append(float(p))
-            except ValueError:
-                continue
-        if len(prices) < 2:
-            continue
-
-        products_evaluated += 1
-        lo, hi = min(prices), max(prices)
-        if hi > 0 and hi != lo:
-            saving_pcts.append((hi - lo) / hi * 100)
-            saving_abs.append(hi - lo)
-
-    n_var = len(saving_pcts)
-    return {
-        "products_evaluated": products_evaluated,
-        "products_with_variation": n_var,
-        "avg_saving_pct": round(sum(saving_pcts) / n_var, 1) if n_var else 0,
-        "max_saving_pct": round(max(saving_pcts), 1) if n_var else 0,
-        "median_saving_abs": round(sorted(saving_abs)[n_var // 2], 1) if n_var else 0,
-        "avg_saving_abs": round(sum(saving_abs) / n_var, 1) if n_var else 0,
     }
 
 
