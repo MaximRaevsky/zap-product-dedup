@@ -37,7 +37,7 @@ def save_debug_artifacts(rec_df, candidates, rule_results, final_pairs, clusters
 
     norm_examples = [
         {"raw_title": r["raw_title"], "normalized": r["normalized"],
-         "brand": r.get("brand"), "storage": r.get("storage")}
+         "model_number": r.get("model_number"), "storage": r.get("storage")}
         for _, r in rec_df.head(20).iterrows()
     ]
     _save_json(norm_examples, debug_dir / "normalization_examples.json")
@@ -48,15 +48,13 @@ def save_debug_artifacts(rec_df, candidates, rule_results, final_pairs, clusters
 
     rule_log = [{"title_a": r.get("title_a", "")[:80], "title_b": r.get("title_b", "")[:80],
                  "rule": r.get("rule_fired"), "conf": r.get("rule_confidence"),
-                 "brand": r.get("same_brand"), "model": r.get("same_model")}
+                 "model": r.get("same_model")}
                 for r in rule_results[:200]]
     _save_json(rule_log, debug_dir / "rule_decisions_log.json")
 
 
 def run_pipeline(
-    skip_scrape: bool = False,
-    skip_synthetic: bool = False,
-    debug: bool = True,
+    refresh: bool = False,
     confidence_threshold: float = 0.5,
     seed: int = None,
     n_categories: int = 10,
@@ -68,21 +66,23 @@ def run_pipeline(
         print(f"  Random seed: {seed}")
     print("=" * 60)
 
-    if not skip_scrape:
+    raw_path = Path("data/raw/zap_listings.csv")
+    if refresh or not raw_path.exists():
         print("\n[1/9] Scraping Zap data...")
         scrape_all(n_categories=n_categories, seed=seed)
     else:
-        print("\n[1/9] Skipping scrape (using existing data)")
+        print("\n[1/9] Using cached raw data")
 
     print("\n[2/9] Building seed dataset...")
     seed_df = build_seed_dataset()
 
-    if not skip_synthetic:
+    synthetic_path = Path("data/synthetic/all_listings.csv")
+    if refresh or not synthetic_path.exists():
         print("\n[3/9] Generating synthetic variants...")
         all_listings, eval_pairs = generate_all()
     else:
-        print("\n[3/9] Using existing synthetic data")
-        all_listings = pd.read_csv("data/synthetic/all_listings.csv")
+        print("\n[3/9] Using cached synthetic data")
+        all_listings = pd.read_csv(synthetic_path)
 
     print("\n[4/9] Generating candidate pairs...")
     candidates, rec_df = generate_candidates(all_listings)
@@ -121,8 +121,7 @@ def run_pipeline(
     }
     save_metrics(metrics)
 
-    if debug:
-        save_debug_artifacts(rec_df, candidates, rule_results, final_pairs, clusters)
+    save_debug_artifacts(rec_df, candidates, rule_results, final_pairs, clusters)
 
     elapsed = time.time() - start
     print(f"\n{'=' * 60}")
@@ -133,7 +132,6 @@ def run_pipeline(
 
 
 def run_multiple(n_runs: int = 3, n_categories: int = 10):
-    """Run pipeline multiple times with different random category samples."""
     log_path = Path("results/metrics/iteration_log.md")
     log_path.parent.mkdir(parents=True, exist_ok=True)
 
@@ -149,7 +147,7 @@ def run_multiple(n_runs: int = 3, n_categories: int = 10):
         print(f"# RUN {i+1}/{n_runs} (seed={seed})")
         print(f"{'#' * 60}")
 
-        metrics = run_pipeline(seed=seed, n_categories=n_categories)
+        metrics = run_pipeline(refresh=True, seed=seed, n_categories=n_categories)
         all_results.append(metrics)
 
         with open(log_path, "a", encoding="utf-8") as log:
@@ -157,7 +155,6 @@ def run_multiple(n_runs: int = 3, n_categories: int = 10):
             s = metrics["stats"]
             log.write(f"| {i+1} | {seed} | {p['f1']:.4f} | {p['precision']:.4f} | {p['recall']:.4f} | {s['total_listings']} | {s['clusters']} | {s['elapsed_s']}s |\n")
 
-    # Summary
     f1s = [m["pairwise"]["f1"] for m in all_results]
     with open(log_path, "a", encoding="utf-8") as log:
         log.write(f"\n**Average F1: {sum(f1s)/len(f1s):.4f}** (min={min(f1s):.4f}, max={max(f1s):.4f})\n")
@@ -170,12 +167,10 @@ def run_multiple(n_runs: int = 3, n_categories: int = 10):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Zap Product Deduplication")
-    parser.add_argument("--skip-scrape", action="store_true")
-    parser.add_argument("--skip-synthetic", action="store_true")
-    parser.add_argument("--debug", action="store_true", default=True)
+    parser.add_argument("--refresh", action="store_true", help="Force re-scrape and regenerate (default: reuse cached data)")
     parser.add_argument("--threshold", type=float, default=0.5)
-    parser.add_argument("--multi", type=int, default=0, help="Run N times with different seeds")
-    parser.add_argument("--seed", type=int, default=None, help="Random seed for category sampling")
+    parser.add_argument("--multi", type=int, default=0, help="Run N times with different seeds (always refreshes)")
+    parser.add_argument("--seed", type=int, default=None)
     parser.add_argument("--n-categories", type=int, default=10)
     args = parser.parse_args()
 
@@ -183,9 +178,7 @@ if __name__ == "__main__":
         run_multiple(n_runs=args.multi, n_categories=args.n_categories)
     else:
         run_pipeline(
-            skip_scrape=args.skip_scrape,
-            skip_synthetic=args.skip_synthetic,
-            debug=args.debug,
+            refresh=args.refresh,
             confidence_threshold=args.threshold,
             seed=args.seed,
             n_categories=args.n_categories,

@@ -27,15 +27,25 @@ Without deduplication, customers see fragmented results and miss the best price.
 
 ## Approach
 
+### Zero Hardcoded Dictionaries
+
+A deliberate design goal: the pipeline contains **no hardcoded brand dictionaries, noise phrase lists, or product-specific mappings**. Where earlier iterations relied on hand-maintained tables (brand Hebrew-English maps, seller noise phrases, navigation keyword filters), this version delegates all language-dependent reasoning to LLMs:
+
+- **Scraper noise filtering**: An LLM (`gpt-4o-mini`) classifies scraped text as product titles vs site UI noise, replacing a hardcoded list of Hebrew navigation keywords
+- **Synthetic variant generation**: An LLM generates realistic title variants (brand swaps, seller info, abbreviations) instead of hardcoded transform dictionaries
+- **Brand reasoning**: The LLM judge reads brands directly from raw titles instead of relying on a pre-built brand dictionary
+
+This makes the pipeline **category-agnostic** and generalizable to new product domains without code changes.
+
 ### Data Collection
 
 The scraper **dynamically discovers all available categories** from the Zap homepage (~59 categories) and **randomly samples 10 per run** for diversity. This ensures the pipeline is tested against a wide variety of product types -- not just electronics.
 
-Categories tested across multiple runs include: smart watches, perfumes, fridges, trampolines, car speakers, dryers, dishwashers, ink cartridges, coffee machines, monitors, AC units, faucets, dolls, drills, cooktops, sunglasses, and more.
+Categories tested across runs include: smart watches, perfumes, fridges, trampolines, car speakers, dryers, dishwashers, ink cartridges, coffee machines, monitors, AC units, and more.
 
-For each category, the scraper also visits **individual product comparison pages** to collect per-store title variants -- the real-world naming inconsistencies the assignment references (e.g., one store writes "Samsung 23S", another writes "סמסונג גלקסי 23").
+For each category, the scraper also visits **individual product comparison pages** to collect per-store title variants -- the real-world naming inconsistencies the assignment references (e.g., one store writes "Samsung 23S", another writes "סמסונג גלקסי 23"). An LLM filters these pages to retain only actual product titles.
 
-The dataset is augmented with synthetic noisy duplicates and hard negatives for robust evaluation.
+The dataset is augmented with LLM-generated synthetic noisy duplicates and hand-crafted hard negatives for robust evaluation.
 
 ### Why Hybrid (Deterministic + LLM)
 
@@ -58,14 +68,24 @@ Listings → Normalize → Extract Attributes → Candidate Generation (blocking
 
 **Stage details:**
 
-1. **Normalization** (`normalize.py`): Unicode NFC, RTL marker removal, unit standardization, generic noise removal. Deliberately minimal -- 5 noise phrases, no category-specific stripping.
-2. **Attribute Extraction** (`extract_attributes.py`): Brand (via Hebrew-English dictionary), generic model/SKU numbers, storage, screen size. No product-line-specific patterns.
-3. **Candidate Generation** (`candidate_generation.py`): Four blocking strategies -- Zap model_id matching (strongest), brand blocking, TF-IDF character n-gram similarity, shared extracted model numbers. Model_id pairs are uncapped; discovery pairs capped at 10K.
-4. **Rule-Based Matching** (`match_rules.py`): 7 clean rules with confidence bands. Same model_id → 0.98. Exact match → 0.99. Conflicting specs → 0.05. Everything ambiguous → send to LLM.
-5. **LLM Judge** (`llm_judge.py`): GPT-4o with structured JSON output for ambiguous pairs (confidence 0.3–0.85), with caching, retries, and logging. Up to 150 calls per run.
+1. **Normalization** (`normalize.py`): Unicode NFC, RTL marker removal, Hebrew-to-English unit translations. Purely structural cleanup -- no hardcoded noise phrases.
+2. **Attribute Extraction** (`extract_attributes.py`): Generic model/SKU number patterns, storage, screen size. No brand dictionary -- brand reasoning is delegated to the LLM judge.
+3. **Candidate Generation** (`candidate_generation.py`): Three blocking strategies -- Zap model_id matching (strongest), TF-IDF character n-gram similarity, shared extracted model numbers. Model_id pairs are uncapped; discovery pairs capped at 10K.
+4. **Rule-Based Matching** (`match_rules.py`): 7 clean rules with confidence bands. Same model_id → 0.98. Exact match (same model_id) → 0.99. Conflicting specs → 0.05. Cross-product exact matches → reject (likely scraper noise). Everything ambiguous → send to LLM.
+5. **LLM Judge** (`llm_judge.py`): GPT-4o with structured JSON output for ambiguous pairs (confidence 0.3--0.85), with caching, retries, and logging. Up to 150 calls per run.
 6. **Confidence** (`confidence.py`): Simple policy -- LLM verdict overrides rules when present; no hand-blended weights.
 7. **Clustering** (`cluster_products.py`): Union-Find grouping of confirmed duplicates.
 8. **Price Selection** (`select_best_price.py`): Minimum price per cluster.
+
+### LLM Usage
+
+| Component | Model | Purpose | Cost |
+|---|---|---|---|
+| Scraper noise filter | `gpt-4o-mini` | Classify scraped text as product vs UI noise | ~$0.01/run |
+| Variant generation | `gpt-4o-mini` | Generate realistic title variants for evaluation | ~$0.02/run |
+| Dedup judge | `gpt-4o` | Resolve ambiguous pairs | ~$0.25/run |
+
+Total LLM cost per run: **~$0.28**
 
 ### Language Handling
 
@@ -73,7 +93,7 @@ The system handles:
 - Hebrew-only titles
 - English-only titles
 - Mixed Hebrew-English titles
-- Brand transliteration (`אפל` ↔ `Apple`, `סמסונג` ↔ `Samsung`, `בוש` ↔ `Bosch`)
+- Brand transliteration (the LLM reasons about `אפל` ↔ `Apple`, `בוש` ↔ `Bosch`, etc.)
 - Token reordering across languages
 
 ## Evaluation
@@ -81,17 +101,16 @@ The system handles:
 ### Methodology
 Ground truth is built from:
 1. **Real Zap variants**: Same `model_id`, different titles scraped from product comparison pages (per-store naming)
-2. **Synthetic duplicates**: Brand swaps, token reordering, SKU dropping, seller noise, abbreviation
+2. **LLM-generated synthetic duplicates**: Brand swaps, seller noise, abbreviation, reordering (generated by `gpt-4o-mini`)
 3. **Hard negatives**: Same category, similar titles, but genuinely different products
 
-### Cross-Validated Results (3 runs, different random category samples)
+### Cross-Validated Results (2 runs, different random category samples)
 
-| Run | Categories | F1 | Precision | Recall | Listings |
-|---|---|---|---|---|---|
-| 1 | Watches, perfumes, fridges, trampolines... | 0.9958 | 1.0000 | 0.9917 | 2,077 |
-| 2 | Coffee, monitors, AC, dryers... | 0.9970 | 0.9995 | 0.9944 | 1,365 |
-| 3 | Faucets, dolls, drills, cooktops... | 0.9961 | 1.0000 | 0.9923 | 2,002 |
-| **Average** | | **0.9963** | **0.9998** | **0.9928** | |
+| Run | Categories | F1 | Precision | Recall | Listings | Clusters |
+|---|---|---|---|---|---|---|
+| 1 | Watches, perfumes, fridges, trampolines, ink, dishwashers... | 0.9837 | 0.9998 | 0.9680 | 1,854 | 151 |
+| 2 | Perfumes, coffee, monitors, AC, dryers... | 0.9895 | 0.9982 | 0.9810 | 1,162 | 63 |
+| **Average** | | **0.9866** | **0.9990** | **0.9745** | | |
 
 Price correctness: **100%** across all runs.
 
@@ -99,11 +118,11 @@ Price correctness: **100%** across all runs.
 
 ### Multi-Stage Confidence
 - **Candidate confidence**: How likely a pair merits comparison (from blocking scores)
-- **Rule confidence**: Deterministic match quality (0.0–1.0)
+- **Rule confidence**: Deterministic match quality (0.0--1.0)
 - **LLM confidence**: Model's self-assessed certainty (used directly as final confidence)
 - **Decision source**: Tracked per pair (rules_high, llm, rules_low, rules_fallback)
 
-### Debug Outputs (`results/debug/`)
+### Debug Outputs (`results/debug/`, regenerated on each run)
 - `normalization_examples.json`: Before/after title normalization
 - `candidate_pairs_log.json`: Generated pairs with blocking reasons
 - `rule_decisions_log.json`: Per-pair rule results
@@ -115,8 +134,9 @@ Price correctness: **100%** across all runs.
 ## Where LLMs Added Value vs. Where They Didn't
 
 **LLMs were essential for:**
-- Mixed Hebrew-English disambiguation
-- Cases where brand was expressed differently across languages
+- Scraper noise filtering (replacing a hardcoded Hebrew keyword list)
+- Generating realistic multilingual test data (brand swaps, seller noise)
+- Mixed Hebrew-English disambiguation in ambiguous pairs
 - Cross-store title variations with substantial rewording
 
 **Deterministic rules were better for:**
@@ -125,15 +145,15 @@ Price correctness: **100%** across all runs.
 - Clear attribute conflicts (different storage/screen size)
 - Speed: rules process in milliseconds, LLM takes ~1s per pair
 
-**The sweet spot**: Across all test runs, less than 5% of candidate pairs needed LLM judgment, keeping API costs under $0.30 per run while maintaining F1 > 0.99.
+**The sweet spot**: Across all test runs, less than 5% of candidate pairs needed LLM judgment, keeping API costs under $0.30 per run while maintaining F1 > 0.98.
 
 ## Limitations
 
 - **Single-page scraping**: Only the first page of each category is scraped. Pagination not implemented.
-- **Hebrew NLP**: Relies on dictionary-based brand mapping rather than full morphological analysis.
 - **Ground truth**: Partially synthetic. Real-world evaluation would need human-labeled pairs.
 - **No image matching**: Titles only; product images could provide additional signal.
 - **Model_id dependency**: The strongest signal comes from Zap's model_id. Cross-platform deduplication would need other strategies.
+- **LLM filter latency**: The noise filter adds ~1s per product page during scraping.
 
 ## What I Would Do Next in Production
 
@@ -150,7 +170,7 @@ Price correctness: **100%** across all runs.
 
 ### Prerequisites
 - Python 3.9+
-- OpenAI API key
+- OpenAI API key (only needed for `--refresh` or `--multi`)
 
 ### Installation
 ```bash
@@ -159,20 +179,36 @@ cp .env.example .env
 # Edit .env with your OPENAI_API_KEY
 ```
 
-### Run Full Pipeline
+### Quick Start (for reviewers)
+
+Cached data from a sample run is included in the repository. The default run reuses it, so **no internet or API key is needed** to inspect the pipeline:
+
 ```bash
-python src/main.py                    # Single run, scrapes 10 random categories
-python src/main.py --seed 42          # Reproducible category selection
-python src/main.py --multi 3          # 3 runs with different random categories
-python src/main.py --skip-scrape      # Re-run with existing data
-python src/main.py --n-categories 15  # Scrape more categories
+python src/main.py                    # Runs on cached data -- no scraping, no LLM calls
 ```
+
+### Full Pipeline (requires internet + API key)
+```bash
+python src/main.py --refresh          # Re-scrape Zap + regenerate synthetic data
+python src/main.py --refresh --seed 42  # Reproducible category selection
+python src/main.py --multi 3          # 3 runs with different random categories (always refreshes)
+python src/main.py --n-categories 15 --refresh  # Scrape more categories
+```
+
+### Caching Behavior
+
+The pipeline is **cache-first** by default:
+- If `data/raw/zap_listings.csv` exists, scraping is skipped
+- If `data/synthetic/all_listings.csv` exists, synthetic generation is skipped
+- The LLM judge caches its verdicts in `data/processed/llm_cache.json` across runs
+- Use `--refresh` to force re-scraping and regeneration
+- `--multi` always refreshes each run (different random categories per seed)
 
 ### Output Files
 - `results/grouped_products.csv` -- Final deduplicated product groups with best prices
 - `results/metrics/evaluation_metrics.json` -- Precision, recall, F1, price accuracy
 - `results/metrics/iteration_log.md` -- Cross-validated results across multiple runs
-- `results/debug/` -- Full debugging artifacts
+- `results/debug/` -- Debugging artifacts (regenerated on each run, not committed)
 - `results/summary.md` -- Key findings and business insights
 - `results/submission_email.md` -- Submission email draft
 
@@ -183,13 +219,13 @@ python src/main.py --n-categories 15  # Scrape more categories
 ├── .env.example
 ├── src/
 │   ├── main.py                  # Pipeline orchestrator (supports --multi for cross-validation)
-│   ├── collect_zap_data.py      # Zap scraper (dynamic category discovery + product pages)
+│   ├── collect_zap_data.py      # Zap scraper (dynamic categories + LLM noise filter)
 │   ├── collect_seed_data.py     # Seed dataset builder
-│   ├── generate_variants.py     # Synthetic data generator (category-agnostic)
-│   ├── normalize.py             # Title normalization (minimal, generic)
-│   ├── extract_attributes.py    # Attribute extraction (brand, model, storage, screen)
-│   ├── candidate_generation.py  # Blocking strategies (model_id, brand, TF-IDF, model#)
-│   ├── match_rules.py           # 7 deterministic rules
+│   ├── generate_variants.py     # LLM-generated synthetic variants (no hardcoded transforms)
+│   ├── normalize.py             # Title normalization (structural only, no phrase lists)
+│   ├── extract_attributes.py    # Attribute extraction (model number, storage, screen)
+│   ├── candidate_generation.py  # Blocking strategies (model_id, TF-IDF, model number)
+│   ├── match_rules.py           # 7 deterministic rules (no brand dictionary)
 │   ├── llm_judge.py             # GPT-4o LLM judge with caching
 │   ├── confidence.py            # Simple LLM-overrides-rules policy
 │   ├── cluster_products.py      # Union-Find clustering
@@ -205,6 +241,5 @@ python src/main.py --n-categories 15  # Scrape more categories
     ├── summary.md               # Key findings
     ├── submission_email.md      # Email draft
     ├── metrics/                 # Evaluation metrics & iteration log
-    ├── debug/                   # Debug artifacts
-    └── examples/                # Sample outputs
+    └── debug/                   # Debug artifacts (gitignored, regenerated on run)
 ```

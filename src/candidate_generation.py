@@ -1,6 +1,7 @@
 """
 Generate candidate pairs for deduplication using blocking strategies:
-brand match, TF-IDF character similarity, shared model number.
+model_id matching, TF-IDF character similarity, shared extracted model number.
+No hardcoded brand dictionaries.
 """
 
 from itertools import combinations
@@ -8,7 +9,6 @@ from itertools import combinations
 import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
-from rapidfuzz import fuzz
 
 from normalize import normalize_title, normalize_for_comparison
 from extract_attributes import extract_all_attributes
@@ -17,7 +17,6 @@ from extract_attributes import extract_all_attributes
 def generate_candidates(
     listings: pd.DataFrame,
     tfidf_threshold: float = 0.30,
-    fuzzy_threshold: float = 60,
     max_candidates: int = 10000,
 ) -> tuple[list[dict], pd.DataFrame]:
     print("Extracting attributes and normalizing...")
@@ -38,7 +37,7 @@ def generate_candidates(
     rec_df = pd.DataFrame(records)
     candidates = {}
 
-    # Strategy 0: model_id blocking (strongest signal -- same product on Zap)
+    # Strategy 1: model_id blocking (strongest signal -- same product on Zap)
     if "model_id" in rec_df.columns:
         print("  Model ID blocking...")
         for mid, group in rec_df[rec_df["model_id"].notna() & (rec_df["model_id"] != "")].groupby("model_id"):
@@ -51,22 +50,7 @@ def generate_candidates(
                     candidates[key] = {"idx_a": key[0], "idx_b": key[1],
                                        "reason": "model_id_block", "candidate_confidence": 0.90}
 
-    # Brand blocking + fuzzy filter
-    print("  Brand blocking...")
-    for _, group in rec_df[rec_df["brand"].notna()].groupby("brand"):
-        if len(group) < 2:
-            continue
-        idxs = group["idx"].tolist()
-        for i, j in combinations(range(len(idxs)), 2):
-            ratio = fuzz.token_sort_ratio(group.iloc[i]["norm_compare"], group.iloc[j]["norm_compare"])
-            if ratio > fuzzy_threshold:
-                key = (min(idxs[i], idxs[j]), max(idxs[i], idxs[j]))
-                if key not in candidates:
-                    candidates[key] = {"idx_a": key[0], "idx_b": key[1],
-                                       "reason": "brand_block",
-                                       "candidate_confidence": min(0.3 + ratio / 200, 0.8)}
-
-    # TF-IDF similarity
+    # Strategy 2: TF-IDF character similarity
     print("  TF-IDF similarity...")
     titles = rec_df["norm_compare"].tolist()
     if len(titles) > 1:
@@ -81,7 +65,7 @@ def generate_candidates(
                         candidates[key] = {"idx_a": key[0], "idx_b": key[1],
                                            "reason": "tfidf", "candidate_confidence": min(sim[i, j], 0.9)}
 
-    # Shared model number
+    # Strategy 3: shared extracted model number
     print("  Model number matching...")
     model_groups: dict[str, list] = {}
     for _, row in rec_df[rec_df["model_number"].notna()].iterrows():
@@ -95,7 +79,7 @@ def generate_candidates(
                 candidates[key] = {"idx_a": key[0], "idx_b": key[1],
                                    "reason": "model_match", "candidate_confidence": 0.85}
 
-    # Model_id pairs are known-good; only cap discovery-based pairs
+    # model_id pairs are known-good; only cap discovery-based pairs
     model_id_pairs = [c for c in candidates.values() if c["reason"] == "model_id_block"]
     discovery_pairs = [c for c in candidates.values() if c["reason"] != "model_id_block"]
     if len(discovery_pairs) > max_candidates:

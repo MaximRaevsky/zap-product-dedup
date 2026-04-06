@@ -4,6 +4,4 @@ rapidfuzz
 requests
 beautifulsoup4
 python-dotenv
-tiktoken
-tqdm
 scikit-learn

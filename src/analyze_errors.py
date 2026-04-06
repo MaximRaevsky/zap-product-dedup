@@ -93,8 +93,6 @@ def _format_error(pair: dict, error_type: str, gt_info: dict = None) -> dict:
         "is_duplicate_pred": pair.get("is_duplicate_pred"),
         "decision_source": pair.get("decision_source"),
         "token_sort_ratio": pair.get("token_sort_ratio"),
-        "brand_a": pair.get("brand_a"),
-        "brand_b": pair.get("brand_b"),
         "model_a": pair.get("model_a"),
         "model_b": pair.get("model_b"),
         "storage_a": pair.get("storage_a"),

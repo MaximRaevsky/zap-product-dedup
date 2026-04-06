@@ -3,6 +3,7 @@ __pycache__/
 *.pyc
 .DS_Store
 data/processed/llm_cache.json
+results/debug/
 *.egg-info/
 dist/
 build/

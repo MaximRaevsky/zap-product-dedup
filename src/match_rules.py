@@ -1,6 +1,6 @@
 """
 Deterministic rule-based matching for candidate pairs.
-Deliberately simple: only handle the obvious cases.
+No brand dictionaries -- only structural signals (model_id, model number, specs, fuzzy).
 Everything ambiguous goes to the LLM judge.
 """
 
@@ -16,31 +16,25 @@ def apply_rules(candidate: dict, rec_df: pd.DataFrame) -> dict:
     token_sort = fuzz.token_sort_ratio(cmp_a, cmp_b)
     token_set = fuzz.token_set_ratio(cmp_a, cmp_b)
 
-    same_brand = a["brand"] and b["brand"] and a["brand"] == b["brand"]
     same_model = a["model_number"] and b["model_number"] and a["model_number"] == b["model_number"]
     same_model_id = a["model_id"] and b["model_id"] and str(a["model_id"]) == str(b["model_id"]) and str(a["model_id"]) != ""
     conflict_storage = a["storage"] and b["storage"] and a["storage"] != b["storage"]
     conflict_screen = a["screen_size"] and b["screen_size"] and a["screen_size"] != b["screen_size"]
 
-    # Rule 1: same Zap model_id (strongest signal -- same product page)
+    exact_norm = a["normalized"] == b["normalized"]
+
     if same_model_id and not (conflict_storage or conflict_screen):
         conf, rule = 0.98, "same_model_id"
-    # Rule 2: exact normalized match
-    elif a["normalized"] == b["normalized"]:
-        conf, rule = 0.99, "exact_match"
-    # Rule 3: conflicting specs -> not duplicate
+    elif exact_norm:
+        conf, rule = 0.10, "exact_cross_product"
     elif conflict_storage or conflict_screen:
         conf, rule = 0.05, "conflicting_specs"
-    # Rule 4: same brand + same model number
-    elif same_brand and same_model:
-        conf, rule = 0.95, "brand_model_match"
-    # Rule 5: same brand + high fuzzy -> probably, let LLM confirm
-    elif same_brand and token_sort > 85:
-        conf, rule = 0.70, "brand_high_fuzzy"
-    # Rule 6: decent fuzzy -> maybe, let LLM decide
-    elif token_sort > 70 or (token_set > 85 and same_brand):
-        conf, rule = 0.50, "moderate_fuzzy"
-    # Rule 7: low similarity
+    elif same_model:
+        conf, rule = 0.90, "same_model_number"
+    elif token_sort > 85:
+        conf, rule = 0.65, "high_fuzzy"
+    elif token_sort > 65 or token_set > 85:
+        conf, rule = 0.45, "moderate_fuzzy"
     else:
         conf, rule = 0.15, "low_similarity"
 
@@ -50,12 +44,9 @@ def apply_rules(candidate: dict, rec_df: pd.DataFrame) -> dict:
         "rule_fired": rule,
         "token_sort_ratio": token_sort,
         "token_set_ratio": token_set,
-        "same_brand": same_brand,
         "same_model": same_model,
         "title_a": a["raw_title"],
         "title_b": b["raw_title"],
-        "brand_a": a["brand"],
-        "brand_b": b["brand"],
         "model_a": a.get("model_number"),
         "model_b": b.get("model_number"),
         "storage_a": a.get("storage"),

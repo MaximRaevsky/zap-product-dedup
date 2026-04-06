@@ -1,6 +1,7 @@
 """
 LLM judge for ambiguous product deduplication cases.
 Uses GPT-4o with structured JSON output, caching, retries, and logging.
+No pre-extracted brand info -- the LLM reads brands directly from the raw titles.
 """
 
 import os
@@ -21,7 +22,7 @@ client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 CACHE_PATH = Path("data/processed/llm_cache.json")
 LOG_DIR = Path("results/debug")
 
-SYSTEM_PROMPT = """You are a product deduplication system for an Israeli price comparison site.
+SYSTEM_PROMPT = """You are a product deduplication system for a price comparison site.
 
 Determine if two product listings refer to the SAME sellable product, even if names differ in language or wording.
 
@@ -30,8 +31,8 @@ Rules:
 - Different storage (256GB vs 512GB) = DIFFERENT products
 - Different screen sizes = DIFFERENT products
 - Different colors of same model = duplicate (color is not a separate product)
-- Hebrew and English names for same product = duplicate
-- Extra seller info ("יבואן רשמי") = still duplicate
+- Hebrew and English names for same product = duplicate (e.g. "בוש" = "Bosch")
+- Extra seller info = still duplicate
 - Different generations (v2 vs v3) = DIFFERENT products
 
 Respond ONLY with JSON: {"is_duplicate": true/false, "confidence": 0.0-1.0, "rationale": "brief"}"""
@@ -40,8 +41,8 @@ USER_TEMPLATE = """Product A: {title_a}
 Product B: {title_b}
 
 Category: {category}
-Attributes A: brand={brand_a}, model={model_a}, storage={storage_a}
-Attributes B: brand={brand_b}, model={model_b}, storage={storage_b}
+Extracted specs A: model={model_a}, storage={storage_a}
+Extracted specs B: model={model_b}, storage={storage_b}
 
 Same product? JSON only."""
 
@@ -115,7 +116,6 @@ def judge_pair(pair: dict, cache: Optional[dict] = None) -> dict:
     user_msg = USER_TEMPLATE.format(
         title_a=title_a, title_b=title_b,
         category=pair.get("category", ""),
-        brand_a=pair.get("brand_a", "?"), brand_b=pair.get("brand_b", "?"),
         model_a=pair.get("model_a", "?"), model_b=pair.get("model_b", "?"),
         storage_a=pair.get("storage_a", "?"), storage_b=pair.get("storage_b", "?"),
     )

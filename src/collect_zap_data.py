@@ -2,9 +2,12 @@
 Scrape product listings from Zap public pages.
 Discovers all categories dynamically and samples randomly for diversity.
 Also scrapes individual product comparison pages for real per-store title variants.
+Uses LLM to classify scraped text as product titles vs site noise.
 """
 
+import os
 import re
+import json
 import random
 import time
 import requests
@@ -12,6 +15,21 @@ import pandas as pd
 from pathlib import Path
 from bs4 import BeautifulSoup
 from typing import Optional
+
+from openai import OpenAI
+from dotenv import load_dotenv
+
+load_dotenv()
+
+_client = None
+
+
+def _get_client() -> OpenAI:
+    global _client
+    if _client is None:
+        _client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+    return _client
+
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
@@ -43,13 +61,48 @@ def _model_id_from_url(url: str) -> Optional[str]:
     return m.group(1) if m else None
 
 
+def _llm_filter_product_titles(texts: list[str]) -> list[int]:
+    """
+    Use gpt-4o-mini to classify which scraped strings are actual product titles
+    vs site navigation/footer/UI noise. Returns indices of product titles.
+    """
+    if not texts:
+        return []
+
+    numbered = "\n".join(f"{i}: {t}" for i, t in enumerate(texts))
+    prompt = f"""Below are strings scraped from an Israeli e-commerce product page.
+Some are actual product listing titles (brand + model + specs).
+Others are site navigation, footer links, category names, legal text, or UI elements.
+
+Return a JSON object with key "indices" containing an array of indices that are actual product titles.
+Example: {{"indices": [0, 3, 7]}}
+
+Strings:
+{numbered}"""
+
+    try:
+        resp = _get_client().chat.completions.create(
+            model="gpt-4o-mini",
+            messages=[{"role": "user", "content": prompt}],
+            temperature=0, max_tokens=500,
+            response_format={"type": "json_object"},
+        )
+        raw = resp.choices[0].message.content.strip()
+        result = json.loads(raw)
+        indices = result.get("indices", result.get("product_indices", []))
+        if isinstance(indices, list):
+            return [i for i in indices if isinstance(i, int) and 0 <= i < len(texts)]
+    except Exception as e:
+        print(f"    LLM filter failed: {e}")
+    return list(range(len(texts)))
+
+
 def discover_categories() -> dict[str, str]:
-    """Parse all available category sog codes from the Zap homepage."""
     try:
         resp = requests.get("https://www.zap.co.il", headers=HEADERS, timeout=20)
         resp.raise_for_status()
     except requests.RequestException as e:
-        print(f"  WARNING: Could not fetch homepage for category discovery: {e}")
+        print(f"  WARNING: Could not fetch homepage: {e}")
         return {}
 
     soup = BeautifulSoup(resp.text, "html.parser")
@@ -65,17 +118,14 @@ def discover_categories() -> dict[str, str]:
 
 
 def sample_categories(all_cats: dict[str, str], n: int = 10, seed: Optional[int] = None) -> dict[str, str]:
-    """Randomly sample n categories for diversity."""
     if seed is not None:
         random.seed(seed)
     keys = list(all_cats.keys())
     random.shuffle(keys)
-    selected = keys[:min(n, len(keys))]
-    return {k: all_cats[k] for k in selected}
+    return {k: all_cats[k] for k in keys[:min(n, len(keys))]}
 
 
 def scrape_category_page(sog: str, category_name: str) -> list[dict]:
-    """Scrape a single Zap category listing page."""
     url = f"https://www.zap.co.il/models.aspx?sog={sog}"
     print(f"  Fetching {category_name}: {url}")
 
@@ -101,8 +151,6 @@ def scrape_category_page(sog: str, category_name: str) -> list[dict]:
             model_id = _model_id_from_url(href)
             if not model_id:
                 continue
-            if any(kw in text for kw in ["השוואת מחירים", "השוואה ב", "חוות דעת", "לפרטים", "ציון"]):
-                continue
             if re.fullmatch(r"[\d.\s()]+", text):
                 continue
             records.append({
@@ -118,8 +166,6 @@ def scrape_category_page(sog: str, category_name: str) -> list[dict]:
         elif "shop.zap.co.il" in href and "modelid=" in href:
             model_id = _model_id_from_url(href)
             if not model_id:
-                continue
-            if any(kw in text for kw in ["קנו עכשיו", "לפרטים", "קנו ב"]):
                 continue
             price = None
             pm = re.search(r"(\d[\d,]*(?:\.\d+)?)\s*₪", text)
@@ -153,7 +199,7 @@ def scrape_category_page(sog: str, category_name: str) -> list[dict]:
 
 
 def scrape_product_page(model_id: str, category_name: str) -> list[dict]:
-    """Scrape an individual product comparison page for per-store title variants."""
+    """Scrape product comparison page for per-store title variants, using LLM to filter noise."""
     url = f"https://www.zap.co.il/model.aspx?modelid={model_id}"
     try:
         resp = requests.get(url, headers=HEADERS, timeout=20)
@@ -162,9 +208,9 @@ def scrape_product_page(model_id: str, category_name: str) -> list[dict]:
         return []
 
     soup = BeautifulSoup(resp.text, "html.parser")
-    records = []
 
-    nav_noise = ["דלג ל", "תפריט", "חזור ל", "כל הזכויות", "copyright", "שאלות"]
+    raw_texts = []
+    raw_meta = []
     for a in soup.find_all("a", href=True):
         href = a["href"]
         text = a.get_text(strip=True)
@@ -172,11 +218,9 @@ def scrape_product_page(model_id: str, category_name: str) -> list[dict]:
             continue
         if "clientcard" in href or "ratemodel" in href:
             continue
-        if any(kw in text for kw in ["השוואת", "חוות דעת", "קנו עכשיו", "לפרטים", "ציון"]):
-            continue
-        if any(text.startswith(n) for n in nav_noise):
-            continue
         if re.fullmatch(r"[\d.,\s₪()]+", text):
+            continue
+        if text.startswith("http"):
             continue
 
         price = None
@@ -190,26 +234,36 @@ def scrape_product_page(model_id: str, category_name: str) -> list[dict]:
         if not price:
             price = _find_price_near(a)
 
-        if len(text) < 8 or text.startswith("http"):
+        if len(text) < 8:
             continue
 
+        raw_texts.append(text)
+        raw_meta.append({"text": text, "price": price})
+
+    if not raw_texts:
+        return []
+
+    # Use LLM to filter: which of these are actual product titles?
+    product_indices = _llm_filter_product_titles(raw_texts)
+    print(f"    model {model_id}: {len(raw_texts)} scraped -> {len(product_indices)} product titles (LLM filtered)")
+
+    records = []
+    seen = set()
+    for idx in product_indices:
+        meta = raw_meta[idx]
+        if meta["text"] in seen:
+            continue
+        seen.add(meta["text"])
         records.append({
-            "raw_title": text,
-            "price": price,
+            "raw_title": meta["text"],
+            "price": meta["price"],
             "model_id": model_id,
             "category": category_name,
             "sog": "",
             "source_url": url,
             "source_type": "store_variant",
         })
-
-    seen = set()
-    unique = []
-    for r in records:
-        if r["raw_title"] not in seen:
-            seen.add(r["raw_title"])
-            unique.append(r)
-    return unique
+    return records
 
 
 def scrape_all(
@@ -218,11 +272,6 @@ def scrape_all(
     seed: Optional[int] = None,
     output_dir: str = "data/raw",
 ) -> pd.DataFrame:
-    """
-    Scrape Zap: discover all categories, randomly sample n_categories,
-    and for each category also scrape n_product_pages individual product pages
-    to get real per-store title variants.
-    """
     output_path = Path(output_dir)
     output_path.mkdir(parents=True, exist_ok=True)
 
@@ -241,7 +290,6 @@ def scrape_all(
         records = scrape_category_page(sog, name)
         all_records.extend(records)
 
-        # Pick a few model_ids from this category to scrape per-store variants
         model_ids = list({r["model_id"] for r in records if r["source_type"] == "comparison"})
         random.shuffle(model_ids)
         for mid in model_ids[:n_product_pages]:

@@ -1,35 +1,35 @@
 {
   "pairwise": {
-    "true_positives": 18367,
-    "false_positives": 0,
-    "false_negatives": 142,
-    "true_negatives": 457,
-    "precision": 1.0,
-    "recall": 0.9923,
-    "f1": 0.9961,
-    "total_gt_pairs": 18966,
-    "total_pred_pairs": 21051,
-    "overlapping_pairs": 18367
+    "true_positives": 3254,
+    "false_positives": 6,
+    "false_negatives": 63,
+    "true_negatives": 264,
+    "precision": 0.9982,
+    "recall": 0.981,
+    "f1": 0.9895,
+    "total_gt_pairs": 3587,
+    "total_pred_pairs": 5658,
+    "overlapping_pairs": 3262
   },
   "price": {
     "price_accuracy": 1.0,
-    "correct": 203,
-    "total": 203,
+    "correct": 60,
+    "total": 60,
     "errors": []
   },
   "errors": {
-    "false_positives": 0,
-    "false_negatives": 142,
+    "false_positives": 7,
+    "false_negatives": 63,
     "low_confidence": 0,
-    "llm_disagreements": 6
+    "llm_disagreements": 140
   },
   "stats": {
-    "total_listings": 2002,
-    "candidates": 45604,
-    "dup_predictions": 45598,
-    "clusters": 216,
-    "grouped_clusters": 204,
-    "elapsed_s": 67.5,
-    "seed": 174
+    "total_listings": 1162,
+    "candidates": 15744,
+    "dup_predictions": 6149,
+    "clusters": 63,
+    "grouped_clusters": 63,
+    "elapsed_s": 6.2,
+    "seed": null
   }
 }
